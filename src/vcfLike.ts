@@ -1,6 +1,6 @@
 import fs from 'fs'
-import readline from 'readline'
 import zlib from 'zlib'
+import readline from 'readline'
 import { getColNames } from './utils/getColNames.js'
 import { parseTableLine } from './utils/parseTableLine.js'
 
@@ -28,7 +28,7 @@ for await (const line of rl) {
     cdsEnd,
     exonEnds,
   } = parseTableLine(line, cols.colNames)
-  const sizes = []
+  const sizes = [] as number[]
   const s = exonStarts
     .split(',')
     .filter(f => !!f)
