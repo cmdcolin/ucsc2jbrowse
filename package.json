@@ -6,9 +6,11 @@
     "typescript": "^5.4.3"
   },
   "scripts": {
+    "clean": "rimraf dist",
     "build": "tsc"
   },
   "devDependencies": {
-    "@types/node": "^20.11.30"
+    "@types/node": "^20.11.30",
+    "rimraf": "^5.0.5"
   }
 }
