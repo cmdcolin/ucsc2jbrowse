@@ -36,7 +36,7 @@ export async function genBed12(sql: string, txtGz: string) {
     for (let i = 0; i < s.length; i++) {
       sizes.push(e[i] - s[i])
     }
-    console.log(
+    process.stdout.write(
       [
         chrom,
         txStart,
@@ -50,7 +50,7 @@ export async function genBed12(sql: string, txtGz: string) {
         s.length,
         sizes.join(','),
         s.join(','),
-      ].join('\t'),
+      ].join('\t') + '\n',
     )
   }
 }

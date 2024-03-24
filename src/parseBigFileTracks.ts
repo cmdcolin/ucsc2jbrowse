@@ -1,10 +1,7 @@
 import fs from 'fs'
-import path from 'path'
-import { exec } from 'child_process'
-import { promisify } from 'util'
-const e = promisify(exec)
+
 if (!process.argv[2]) {
-  throw new Error('usage: node parseGeneTracks.js <tracks.json>')
+  throw new Error(`usage: ${process.argv[0]} ${process.argv[1]} <tracks.json>`)
 }
 type Track = Record<string, string>
 

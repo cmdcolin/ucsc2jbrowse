@@ -3,7 +3,7 @@ import path from 'path'
 import { exec } from 'child_process'
 import { promisify } from 'util'
 
-const e = promisify(exec)
+const pexec = promisify(exec)
 
 if (process.argv.length < 5) {
   throw new Error(
@@ -20,18 +20,15 @@ const tracks = JSON.parse(fs.readFileSync(process.argv[2], 'utf8')) as Record<
 for (const [key, val] of Object.entries(tracks).filter(
   ([key, val]) => val.type === 'genePred',
 )) {
-  const l = path.join(process.argv[3], key)
-  const j = path.join(process.argv[4], key)
-  if (!fs.existsSync(`${j}.complete`)) {
-    try {
-      const { stderr } = await e(
-        `node dist/geneLike.js ${l}.sql ${l}.txt.gz | sort -k1,1 -k2,2n | bgzip > ${j}.bed.gz; tabix ${j}.bed.gz; touch ${j}.complete`,
-      )
-      if (stderr) {
-        console.error(stderr)
-      }
-    } catch (e) {
-      console.error(e)
-    }
+  const infile = path.join(process.argv[3], key)
+  const outfile = path.join(process.argv[4], key)
+  try {
+    console.log('processing', key)
+    await pexec(
+      `node dist/geneLike.js ${infile}.sql ${infile}.txt.gz | sort -k1,1 -k2,2n | bgzip > ${outfile}.bed.gz; tabix ${outfile}.bed.gz`,
+    )
+  } catch (e) {
+    console.error(e)
+    await pexec(`echo ${key} >> ${outfile}.errors`)
   }
 }
