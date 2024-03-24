@@ -23,10 +23,14 @@ for (const [key, val] of Object.entries(tracks).filter(
   const infile = path.join(process.argv[3], key)
   const outfile = path.join(process.argv[4], key)
   try {
-    console.log('processing', key)
-    await pexec(
-      `node dist/geneLike.js ${infile}.sql ${infile}.txt.gz | sort -k1,1 -k2,2n | bgzip > ${outfile}.bed.gz; tabix ${outfile}.bed.gz`,
-    )
+    if (fs.existsSync(`${infile}.sql`)) {
+      console.log('processing', key)
+      await pexec(
+        `node dist/geneLike.js ${infile}.sql ${infile}.txt.gz | sort -k1,1 -k2,2n | bgzip > ${outfile}.bed.gz; tabix ${outfile}.bed.gz`,
+      )
+    } else {
+      console.error('no sql file for ' + key)
+    }
   } catch (e) {
     console.error(e)
     await pexec(`echo ${key} >> ${outfile}.errors`)

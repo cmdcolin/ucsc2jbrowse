@@ -19,7 +19,8 @@ let ret = {} as Record<string, unknown>
 let l = ''
 for await (const line of rl) {
   if (line.endsWith('\\')) {
-    l += line
+    // the extra space is needed here to avoid the tabs in the html checker in parseTableLine
+    l += line + ' '
   } else if (l) {
     const r = parseTableLine(l, cols.colNames)
     ret[r.tableName] = r
