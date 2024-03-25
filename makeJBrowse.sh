@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cp template.json $OUTDIR/config.json
+cp $TEMPLATE $OUTDIR/config.json

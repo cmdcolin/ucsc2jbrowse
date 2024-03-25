@@ -1,6 +1,7 @@
 #!/bin/bash
 export INDIR=~/Downloads/hg19/
 export OUTDIR=~/ucscResults/hg19/
+export TEMPLATE=hg19.json
 export LC_ALL=C
 ./makeJBrowse.sh
 ./makeTracksDbJson.sh
