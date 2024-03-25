@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cp template.json ~/ucscResults2/config.json
+cp template.json $OUTDIR/config.json

@@ -9,7 +9,7 @@ Object.entries(bigDataEntries).map(([key, val]) => {
   } = val as any
   if (bigDataUrl) {
     console.log(
-      `jbrowse add-track --out ${process.argv[3]} --trackId ${tableName}  ${
+      `jbrowse add-track --out ${process.argv[3]} -a ${process.argv[4]} --trackId ${tableName}  ${
         bigDataUrl.startsWith('https://hgdownload.soe.ucsc.edu')
           ? bigDataUrl
           : `https://hgdownload.soe.ucsc.edu${bigDataUrl}`

@@ -1,3 +1,4 @@
 #!/bin/bash
 #
-node dist/removeEverythingButLatest.js $OUTDIR/config2.json > $OUTDIR/config3.json
+node dist/removeEverythingButLatest.js $OUTDIR/config.json > tmp.json
+mv tmp.json $OUTDIR/config.json
