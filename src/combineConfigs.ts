@@ -1,4 +1,4 @@
-const fs = require('fs')
+import fs from 'fs'
 
 interface Track {
   [key: string]: unknown
@@ -8,8 +8,10 @@ interface Config {
   assemblies: Record<string, unknown>[]
   aggregateTextSearchAdapters: Record<string, unknown>[]
 }
-const hg19 = JSON.parse(fs.readFileSync('hg19/config.json', 'utf8')) as Config
-const hg38 = JSON.parse(fs.readFileSync('hg38/config.json', 'utf8')) as Config
+
+const configs = process.argv
+  .slice(2)
+  .map(s => JSON.parse(fs.readFileSync(s, 'utf8')) as Config)
 
 function updateURL(config: Record<string, unknown>, add: string) {
   if (typeof config === 'object') {
@@ -23,24 +25,24 @@ function updateURL(config: Record<string, unknown>, add: string) {
   }
 }
 
+const asms = configs.map(c => c.assemblies[0].name as string)
 console.log(
   JSON.stringify(
     {
-      assemblies: [...hg19.assemblies, ...hg38.assemblies],
-      tracks: [
-        hg19.tracks.map(track => {
-          updateURL(track, 'hg19')
-          return track
-        }),
-        hg38.tracks.map(track => {
-          updateURL(track, 'hg38')
-          return track
-        }),
-      ],
-      aggregateTextSearchAdapters: [
-        ...hg19.aggregateTextSearchAdapters,
-        ...hg38.aggregateTextSearchAdapters,
-      ],
+      assemblies: configs.map(c => c.assemblies).flat(),
+      tracks: configs
+        .map((c, idx) =>
+          c.tracks.map(track => {
+            const asm = asms[idx]
+            updateURL(track, asm)
+            return { ...track, trackId: `${track.trackId}_${asm}` }
+          }),
+        )
+        .flat(),
+
+      aggregateTextSearchAdapters: configs
+        .map(c => c.aggregateTextSearchAdapters)
+        .flat(),
     },
     null,
     2,
