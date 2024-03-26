@@ -16,8 +16,8 @@ const tracks = JSON.parse(fs.readFileSync(process.argv[2], 'utf8')) as Record<
   Track
 >
 
-const types = ['bed', 'narrowPeak', 'broadPeak', 'pgSnp', 'peptideMapping'] // many narrow/broad peak tracks
-//const types = ['bed', 'pgSnp', 'peptideMapping'] less tracks
+// const types = ['bed', 'narrowPeak', 'broadPeak', 'pgSnp', 'peptideMapping'] // many narrow/broad peak tracks
+const types = ['bed', 'pgSnp', 'peptideMapping'] //less tracks
 
 for (const [key, val] of Object.entries(tracks).filter(([key, val]) =>
   types.some(t => val.type.startsWith(t)),
