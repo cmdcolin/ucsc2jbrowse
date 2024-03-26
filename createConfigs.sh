@@ -52,6 +52,8 @@ for i in hg19 hg38 mm39; do
 	# remove older copies of tracks, e.g. older dbSnp, older GENCODE, etc.
 	node dist/removeEverythingButLatest.js $OUTDIR/config.json > tmp.json
 	mv tmp.json $OUTDIR/config.json
+
+	parallel tabix -f {} ::: $OUTDIR/*.bed.gz
 done;
 
 # compute missing tracks

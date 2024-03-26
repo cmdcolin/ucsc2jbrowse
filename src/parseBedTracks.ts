@@ -37,17 +37,11 @@ for (const [key, val] of Object.entries(tracks).filter(([key, val]) =>
       )
       if (stderr.trim() === 'no_bin') {
         console.log(
-          [
-            `(echo "${stdout.trim()}" && pigz -dc ${infile}.txt.gz)   |bgzip -@8  > ${outfile}.bed.gz`,
-            `tabix -f ${outfile}.bed.gz;`,
-          ].join('\n'),
+          `(echo "${stdout.trim()}" && pigz -dc ${infile}.txt.gz)   |bgzip -@8  > ${outfile}.bed.gz`,
         )
       } else {
         console.log(
-          [
-            `(echo "${stdout.trim()}" && pigz -dc ${infile}.txt.gz | hck -Ld$'\\t' -f2- )   |bgzip -@8  > ${outfile}.bed.gz`,
-            `tabix -f ${outfile}.bed.gz;`,
-          ].join('\n'),
+          `(echo "${stdout.trim()}" && pigz -dc ${infile}.txt.gz | hck -Ld$'\\t' -f2- )   |bgzip -@8  > ${outfile}.bed.gz`,
         )
       }
     }
