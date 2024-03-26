@@ -30,7 +30,6 @@ for i in hg19 hg38 mm39; do
 	# zcat rmsk.bed.gz|head -n1 > $OUTDIR/rmsk.header
 	# for i in $OUTDIR/rmsk_*; do
 	# 	cat $OUTDIR/rmsk.header $i |bgzip -@8 > $i.gz;
-	# 	tabix -f $i.gz.tbi; 
 	# 	rm $i;
 	# done;
 
@@ -56,6 +55,16 @@ for i in hg19 hg38 mm39; do
 	parallel tabix -f {} ::: $OUTDIR/*.bed.gz
 done;
 
+## hs1 is just bigfiles
+export BASE=~/ucscResults/
+for i in hs1; do
+	export INDIR=~/Downloads/$i
+	export OUTDIR=$BASE/$i
+	mkdir -p $OUTDIR
+	cp $i.json $OUTDIR/config.json
+	node dist/parseTrackHub.js $INDIR/trackDb.txt $OUTDIR/config.json;
+done;
+
 # compute missing tracks
 for i in hg19 hg38 mm39; do
 	export OUTDIR=$BASE/$i
@@ -63,6 +72,8 @@ for i in hg19 hg38 mm39; do
 	node dist/checkTracks.js $OUTDIR/tracks.json $OUTDIR/config.json > $BASE/missing/$i.json
 done;
 
-node dist/combineConfigs.js $BASE/hg19/config.json $BASE/hg38/config.json $BASE/mm39/config.json > $BASE/config.json
+./syntenyTracks.sh
+
+node dist/combineConfigs.js $BASE/hg19/config.json $BASE/hg38/config.json $BASE/mm39/config.json $BASE/hs1/config.json > $BASE/config.json
 npx prettier --write $BASE/config.json
 

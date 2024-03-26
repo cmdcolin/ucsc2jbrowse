@@ -1,0 +1,29 @@
+{
+  "assemblies": [
+    {
+      "name": "hs1",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "hs1-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "TwoBitAdapter",
+          "twoBitLocation": {
+            "uri": "https://hgdownload.soe.ucsc.edu/goldenPath/hs1/bigZips/hs1.2bit"
+          },
+          "chromSizesLocation": {
+            "uri": "https://hgdownload.soe.ucsc.edu/goldenPath/hs1/bigZips/hs1.chrom.sizes.txt"
+          }
+        }
+      },
+      "refNameAliases": {
+        "adapter": {
+          "type": "RefNameAliasAdapter",
+          "location": {
+            "uri": "https://hgdownload.soe.ucsc.edu/goldenPath/hs1/bigZips/hs1.chromAlias.txt",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    }
+  ]
+}

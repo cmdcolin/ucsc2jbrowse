@@ -2,6 +2,7 @@
   "type": "module",
   "license": "MIT",
   "dependencies": {
+    "@gmod/ucsc-hub": "^0.3.0",
     "node-sql-parser": "^4.18.0"
   },
   "scripts": {

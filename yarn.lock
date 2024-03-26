@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@gmod/ucsc-hub@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@gmod/ucsc-hub/-/ucsc-hub-0.3.0.tgz#375eeab1c515605510c706f6e2d76d6b42454f8c"
+  integrity sha512-M8r1rpmNOVH6UHwUTSOR5Z86upWEhvI3BKbyYVq8imTS+nZAq8Gr9RJTBsGlL0sgX7fmLSXms8/pTyp7e3YAQA==
+
 "@isaacs/cliui@^8.0.2":
   version "8.0.2"
   resolved "https://registry.yarnpkg.com/@isaacs/cliui/-/cliui-8.0.2.tgz#b37667b7bc181c168782259bab42474fbf52b550"

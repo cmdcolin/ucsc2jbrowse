@@ -24,7 +24,9 @@ for (const [key, val] of Object.entries(tracks).filter(([key, val]) =>
 )) {
   const infile = path.join(process.argv[3], key)
   const outfile = path.join(process.argv[4], key)
-  if (key.startsWith('snp')) {
+
+  // these are large (snp) and numerous (wgEncode)
+  if (key.startsWith('snp') || key.startsWith('wgEncode')) {
     continue
   }
   if (fs.existsSync(`${infile}.sql`)) {

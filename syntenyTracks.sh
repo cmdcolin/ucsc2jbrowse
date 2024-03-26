@@ -13,12 +13,19 @@ function pif() {
 }
 
 
-pif https://hgdownload.cse.ucsc.edu/goldenpath/hg19/liftOver/hg19ToHg38.over.chain.gz
-pif https://hgdownload.soe.ucsc.edu/goldenPath/hg38/liftOver/hg38ToHg19.over.chain.gz
-pif https://hgdownload.soe.ucsc.edu/goldenPath/hg38/liftOver/hg38ToMm39.over.chain.gz
-pif https://hgdownload.soe.ucsc.edu/goldenPath/mm39/liftOver/mm39ToHg38.over.chain.gz
+# pif https://hgdownload.cse.ucsc.edu/goldenpath/hg19/liftOver/hg19ToHg38.over.chain.gz
+# pif https://hgdownload.soe.ucsc.edu/goldenPath/hg38/liftOver/hg38ToHg19.over.chain.gz
+# pif https://hgdownload.soe.ucsc.edu/goldenPath/hg38/liftOver/hg38ToMm39.over.chain.gz
+# pif https://hgdownload.soe.ucsc.edu/goldenPath/mm39/liftOver/mm39ToHg38.over.chain.gz
+# pif https://hgdownload.soe.ucsc.edu/goldenPath/hs1/liftOver/hs1ToHg19.over.chain.gz
+# pif https://hgdownload.soe.ucsc.edu/goldenPath/hs1/liftOver/hs1ToHg38.over.chain.gz
+# pif https://hgdownload.soe.ucsc.edu/goldenPath/hs1/liftOver/hs1ToMm39.over.chain.gz
 
-# jbrowse add-track hg19ToHg38.over.pif.gz -a hg38,hg19 --out ~/ucscResults/hg19/
-# jbrowse add-track hg38ToHg19.over.pif.gz -a hg19,hg38 --out ~/ucscResults/hg38/
-# jbrowse add-track hg38ToMm39.over.pif.gz -a mm39,hg38 --out ~/ucscResults/hg38/
-# jbrowse add-track mm39ToHg38.over.pif.gz -a hg38,mm39 --out ~/ucscResults/mm39
+jbrowse add-track hg19ToHg38.over.pif.gz -a hg38,hg19 --out ~/ucscResults/hg19/ --load copy --force
+jbrowse add-track hg38ToHg19.over.pif.gz -a hg19,hg38 --out ~/ucscResults/hg38/ --load copy --force
+jbrowse add-track hg38ToMm39.over.pif.gz -a mm39,hg38 --out ~/ucscResults/hg38/ --load copy --force
+jbrowse add-track mm39ToHg38.over.pif.gz -a hg38,mm39 --out ~/ucscResults/mm39/ --load copy --force
+jbrowse add-track hs1ToHg19.over.pif.gz -a hg19,hs1 --out ~/ucscResults/hs1/ --load copy --force
+jbrowse add-track hs1ToHg38.over.pif.gz -a hg38,hs1 --out ~/ucscResults/hs1/ --load copy --force
+jbrowse add-track hs1ToMm39.over.pif.gz -a mm39,hs1 --out ~/ucscResults/hs1/ --load copy --force
+

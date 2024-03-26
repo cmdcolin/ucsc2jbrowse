@@ -12,7 +12,7 @@ const config = JSON.parse(fs.readFileSync(process.argv[2], 'utf8')) as {
   assemblies: { name: string }[]
 }
 
-const arg = process.argv[3]
+const arg = path.basename(process.argv[3])
 const base = path.basename(arg, '.bed.gz')
 if (config.tracks.find(f => f.trackId === base)) {
   throw new Error('already there')
