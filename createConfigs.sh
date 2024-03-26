@@ -1,4 +1,5 @@
 #!/bin/bash
+set -v
 export LC_ALL=C
 export BASE=~/ucscResults/
 
@@ -40,7 +41,7 @@ for i in hg19 hg38 mm39; do
 
 	for i in $OUTDIR/*.bed.gz; do 
 		echo $i;
-		jbrowse add-track `basename $i` --load inPlace --trackId `basename $i .bed.gz` --out $OUTDIR --force; 
+		node dist/addBedTabixTrackToConfig.js $OUTDIR/config.json $i
 	done;
 
 	# add metadata from the tracksDb.sql to the config.json
@@ -51,10 +52,9 @@ for i in hg19 hg38 mm39; do
 	# remove older copies of tracks, e.g. older dbSnp, older GENCODE, etc.
 	node dist/removeEverythingButLatest.js $OUTDIR/config.json > tmp.json
 	mv tmp.json $OUTDIR/config.json
-
-	# add missing tracks
 done;
 
+# compute missing tracks
 for i in hg19 hg38 mm39; do
 	export OUTDIR=$BASE/$i
 	mkdir -p $BASE/missing
