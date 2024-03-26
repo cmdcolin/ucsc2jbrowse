@@ -17,8 +17,8 @@ const tracks = JSON.parse(fs.readFileSync(process.argv[2], 'utf8')) as Record<
   Track
 >
 
-for (const [key, val] of Object.entries(tracks).filter(
-  ([key, val]) => val.type === 'genePred',
+for (const [key, val] of Object.entries(tracks).filter(([key, val]) =>
+  val.type.startsWith('genePred'),
 )) {
   const infile = path.join(process.argv[3], key)
   const outfile = path.join(process.argv[4], key)

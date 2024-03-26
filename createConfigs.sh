@@ -1,12 +1,11 @@
 #!/bin/bash
 export LC_ALL=C
+export BASE=$BASE
 
 for i in hg19 hg38 mm39; do
 	export INDIR=~/Downloads/$i
-	export OUTDIR=~/ucscResults/$i
-	export TEMPLATE=$i.json
+	export OUTDIR=$BASE/$i
 	mkdir -p $OUTDIR
-
 
 
 	## copy template to config.json
@@ -41,7 +40,16 @@ for i in hg19 hg38 mm39; do
 	# remove older copies of tracks, e.g. older dbSnp, older GENCODE, etc.
 	node dist/removeEverythingButLatest.js $OUTDIR/config.json > tmp.json
 	mv tmp.json $OUTDIR/config.json
+
+	# add missing tracks
 done;
 
-node dist/combineConfigs.js ~/ucscResults/hg19/config.json ~/ucscResults/hg38/config.json ~/ucscResults/mm39/config.json > ~/ucscResults/config.json
-npx prettier --write ~/ucscResults/config.json
+for i in hg19 hg38 mm39; do
+	export OUTDIR=$BASE/$i
+	mkdir -p $BASE/missing
+	node dist/checkTracks.js $OUTDIR/tracks.json $OUTDIR/config.json > $BASE/missing/$i.json
+done;
+
+node dist/combineConfigs.js $BASE/hg19/config.json $BASE/hg38/config.json $BASE/mm39/config.json > $BASE/config.json
+npx prettier --write $BASE/config.json
+

@@ -15,13 +15,10 @@ function splitOnce(s: string, s2: string) {
   return [s.slice(0, i), s.slice(i + 1)]
 }
 
-let s = new Set()
 let tracks2 = {} as Record<string, unknown>
 for (const [key, val] of Object.entries(tracks).filter(([key, val]) =>
   val.type.startsWith('big'),
 )) {
-  s.add(val.type)
-  // console.log(val.settings)
   const settings = Object.fromEntries(
     val.settings
       .split('\n')
