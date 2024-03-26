@@ -20,6 +20,7 @@ Object.entries(bigDataEntries).map(([key, val]) => {
       throw new Error(`${tableName} already exists`)
     }
 
+    console.log(`adding ${tableName}`)
     config.tracks.push({
       trackId: tableName,
       name: tableName,
@@ -32,3 +33,5 @@ Object.entries(bigDataEntries).map(([key, val]) => {
     })
   }
 })
+
+fs.writeFileSync(process.argv[3], JSON.stringify(config, null, 2))

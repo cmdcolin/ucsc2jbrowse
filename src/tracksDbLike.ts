@@ -20,7 +20,7 @@ let l = ''
 for await (const line of rl) {
   if (line.endsWith('\\')) {
     // the extra space is needed here to avoid the tabs in the html checker in parseTableLine
-    l += line + ' '
+    l += line.slice(0, -1) + '\n'
   } else if (l) {
     const r = parseTableLine(l, cols.colNames)
     ret[r.tableName] = r
@@ -28,5 +28,3 @@ for await (const line of rl) {
   }
 }
 console.log(JSON.stringify(ret, null, 2))
-
-export {}

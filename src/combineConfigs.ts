@@ -19,7 +19,10 @@ function updateURL(config: Record<string, unknown>, add: string) {
       if (typeof config[key] === 'object') {
         updateURL(config[key] as Record<string, unknown>, add)
       } else if (key === 'uri') {
-        config.uri = add + '/' + config.uri
+        // @ts-expect-error
+        config.uri = config.uri.startsWith('http')
+          ? config.uri
+          : `${add}/${config.uri}`
       }
     }
   }

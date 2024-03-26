@@ -21,9 +21,10 @@ for (const [key, val] of Object.entries(tracks).filter(([key, val]) =>
   val.type.startsWith('big'),
 )) {
   s.add(val.type)
+  // console.log(val.settings)
   const settings = Object.fromEntries(
     val.settings
-      .split('\\')
+      .split('\n')
       .map(s => splitOnce(s, ' '))
       .filter(f => !!f[0]),
   )
