@@ -1,6 +1,6 @@
 #!/bin/bash
 export LC_ALL=C
-export BASE=$BASE
+export BASE=~/ucscResults/
 
 for i in hg19 hg38 mm39; do
 	export INDIR=~/Downloads/$i

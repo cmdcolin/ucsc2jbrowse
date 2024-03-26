@@ -1,15 +1,21 @@
 import fs from 'fs'
 
-const bigDataEntries = JSON.parse(fs.readFileSync(process.argv[2], 'utf8'))
-const config = JSON.parse(fs.readFileSync(process.argv[3], 'utf8'))
+const bigDataEntries = JSON.parse(
+  fs.readFileSync(process.argv[2], 'utf8'),
+) as Record<string, { tableName: string; settings: { bigDataUrl?: string } }>
 
-const s = new Set(config.tracks.map((t: { trackId: string }) => t.trackId))
+const config = JSON.parse(fs.readFileSync(process.argv[3], 'utf8')) as {
+  assemblies: { name: string }[]
+  tracks: { trackId: string; [key: string]: unknown }[]
+}
+
+const s = new Set(config.tracks.map(t => t.trackId))
 
 Object.entries(bigDataEntries).map(([key, val]) => {
   const {
     settings: { bigDataUrl },
     tableName,
-  } = val as any
+  } = val
   if (bigDataUrl && !bigDataUrl.includes('fantom')) {
     const uri = bigDataUrl.startsWith('https://hgdownload.soe.ucsc.edu')
       ? bigDataUrl
@@ -31,6 +37,7 @@ Object.entries(bigDataEntries).map(([key, val]) => {
           ? { type: 'BigBedAdapter', bigBedLocation: { uri } }
           : { type: 'BigWigAdapter', bigWigLocation: { uri } },
     })
+  } else {
   }
 })
 

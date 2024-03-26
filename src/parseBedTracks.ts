@@ -16,14 +16,13 @@ const tracks = JSON.parse(fs.readFileSync(process.argv[2], 'utf8')) as Record<
   Track
 >
 
+const types = ['bed', 'narrowPeak', 'broadPeak', 'pgSnp']
+
 for (const [key, val] of Object.entries(tracks).filter(([key, val]) =>
-  val.type.startsWith('bed'),
+  types.some(t => val.type.startsWith(t)),
 )) {
   const infile = path.join(process.argv[3], key)
   const outfile = path.join(process.argv[4], key)
-  if (key.startsWith('snp')) {
-    continue
-  }
   if (fs.existsSync(`${infile}.sql`)) {
     console.log(`echo "processing ${key} ${val.type}"`)
     const { stdout, stderr } = await pexec(`node dist/bedLike.js ${infile}.sql`)
