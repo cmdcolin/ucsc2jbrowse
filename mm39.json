@@ -1,0 +1,22 @@
+{
+  "assemblies": [
+    {
+      "name": "mm39",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "mm39-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "TwoBitAdapter",
+          "twoBitLocation": {
+            "uri": "https://hgdownload.soe.ucsc.edu/goldenPath/mm39/bigZips/mm39.2bit"
+          },
+          "chromSizesLocation": {
+            "uri": "https://hgdownload.soe.ucsc.edu/goldenPath/mm39/bigZips/mm39.chrom.sizes"
+          }
+        }
+      }
+    }
+  ],
+  "tracks": [],
+  "aggregateTextSearchAdapters": []
+}
