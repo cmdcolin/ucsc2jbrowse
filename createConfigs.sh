@@ -21,6 +21,17 @@ for i in hg19 hg38 mm39; do
 
 	# make bed.gz files from "genePred" type sql db tracks
 	node dist/parseGeneTracks.js $OUTDIR/tracks.json $INDIR $OUTDIR
+	# make repeatmasker tracks
+	node dist/parseRmskTracks.js $OUTDIR/tracks.json $INDIR $OUTDIR
+
+	## future todo: split up rmsk track
+	# zcat rmsk.bed.gz|awk -F$'\t' '{print > ("rmsk_" $6 ".bed")}'
+	# zcat rmsk.bed.gz|head -n1 > $OUTDIR/rmsk.header
+	# for i in $OUTDIR/rmsk_*; do
+	# 	cat $OUTDIR/rmsk.header $i |bgzip -@8 > $i.gz;
+	# 	tabix -f $i.gz.tbi; 
+	# 	rm $i;
+	# done;
 
 	# make bed.gz files from "regular bed" sql db tracks
 	node dist/parseBedTracks.js $OUTDIR/tracks.json $INDIR $OUTDIR > bed.sh
