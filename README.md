@@ -21,3 +21,9 @@ rsync -cavzP rsync://hgdownload.cse.ucsc.edu/goldenPath/hg38/database/ hg38
 ./createHg38.sh
 ./createHg19.sh
 ```
+
+Loading synteny tracks is a somewhat manual process
+
+## Live instance
+
+http://s3.amazonaws.com/jbrowse.org/code/jb2/main/index.html?config=%2Fjbrowse.org%2Fdemos%2Fucsc%2Fconfig.json
