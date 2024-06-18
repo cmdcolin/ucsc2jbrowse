@@ -12,14 +12,14 @@ this
 git clone git@github.com:cmdcolin/ucsc2jbrowse
 cd ucsc2jbrowse
 yarn
-yarn build
 mkdir ~/ucscResults/
 mkdir ~/ucscResults/hg19
 mkdir ~/ucscResults/hg38
+mkdir ~/ucscResults/mm39
 rsync -cavzP rsync://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/ hg19
 rsync -cavzP rsync://hgdownload.cse.ucsc.edu/goldenPath/hg38/database/ hg38
-./createHg38.sh
-./createHg19.sh
+rsync -cavzP rsync://hgdownload.cse.ucsc.edu/goldenPath/mm39/database/ mm39
+./createConfigs.sh
 ```
 
 Loading synteny tracks is a somewhat manual process
