@@ -1,10 +1,25 @@
-const fs = require('fs')
-const config = JSON.parse(fs.readFileSync('config.json', 'utf8'))
+import fs from 'fs'
+const config = JSON.parse(fs.readFileSync(process.argv[2], 'utf8'))
 
 console.log(
   JSON.stringify(
     {
       ...config,
+      plugins: [
+        ...config.plugins,
+        {
+          name: 'MsaView',
+          umdLoc: {
+            uri: 'jbrowse-plugin-msaview.umd.production.min.js',
+          },
+        },
+        {
+          name: 'Protein3d',
+          umdLoc: {
+            uri: 'jbrowse-plugin-protein3d.umd.production.min.js',
+          },
+        },
+      ],
       tracks: [
         ...config.tracks.map(f => {
           if (f.trackId.startsWith('jaspar')) {
