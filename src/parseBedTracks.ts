@@ -16,7 +16,8 @@ const tracks = JSON.parse(fs.readFileSync(process.argv[2], 'utf8')) as Record<
   Track
 >
 
-// const types = ['bed', 'narrowPeak', 'broadPeak', 'pgSnp', 'peptideMapping'] // many narrow/broad peak tracks
+// const types = ['bed', 'narrowPeak', 'broadPeak', 'pgSnp', 'peptideMapping']
+// many narrow/broad peak tracks
 const types = ['bed', 'pgSnp', 'peptideMapping'] //less tracks
 
 for (const [key, val] of Object.entries(tracks).filter(([key, val]) =>
@@ -34,9 +35,7 @@ for (const [key, val] of Object.entries(tracks).filter(([key, val]) =>
       console.log(`echo "already processed ${outfile}"`)
     } else {
       console.log(`echo "processing ${key} ${val.type}"`)
-      const { stdout, stderr } = await pexec(
-        `node dist/bedLike.js ${infile}.sql`,
-      )
+      const { stdout, stderr } = await pexec(`tsx src/bedLike.ts ${infile}.sql`)
       if (stderr.trim() === 'no_bin') {
         console.log(
           `(echo "${stdout.trim()}" && pigz -dc ${infile}.txt.gz)   |bgzip -@8  > ${outfile}.bed.gz`,

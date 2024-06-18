@@ -26,7 +26,7 @@ for (const [key, val] of Object.entries(tracks).filter(([key, val]) =>
     if (fs.existsSync(`${infile}.sql`)) {
       console.log('processing', key)
       await pexec(
-        `node dist/rmskLike.js ${infile}.sql ${infile}.txt.gz | bgzip -@8 > ${outfile}.bed.gz`,
+        `tsx src/rmskLike.ts ${infile}.sql ${infile}.txt.gz | bgzip -@8 > ${outfile}.bed.gz`,
       )
     } else {
       console.error('no sql file for ' + key)

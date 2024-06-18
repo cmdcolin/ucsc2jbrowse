@@ -3,17 +3,13 @@
   "license": "MIT",
   "dependencies": {
     "@gmod/ucsc-hub": "^0.3.0",
-    "node-sql-parser": "^4.18.0"
-  },
-  "scripts": {
-    "clean": "rimraf dist",
-    "prebuild": "npm run clean",
-    "build": "tsc"
+    "node-sql-parser": "^5.2.0"
   },
   "devDependencies": {
     "@types/node": "^20.11.30",
     "prettier": "^3.2.5",
     "rimraf": "^5.0.5",
+    "tsx": "^4.15.6",
     "typescript": "^5.4.3"
   }
 }
