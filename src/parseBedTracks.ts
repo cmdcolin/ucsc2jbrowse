@@ -34,7 +34,7 @@ for (const [key, val] of Object.entries(tracks).filter(([key, val]) =>
     if (fs.existsSync(`${outfile}.bed.gz.tbi`)) {
       console.log(`echo "already processed ${outfile}"`)
     } else {
-      console.log(`echo "processing ${key} ${val.type}"`)
+      console.log(`echo " ${process.argv[1]} processing ${key} ${val.type}"`)
       const { stdout, stderr } = await pexec(`tsx src/bedLike.ts ${infile}.sql`)
       if (stderr.trim() === 'no_bin') {
         console.log(

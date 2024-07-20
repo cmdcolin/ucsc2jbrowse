@@ -6,10 +6,10 @@ const bigDataEntries = JSON.parse(
 
 const config = JSON.parse(fs.readFileSync(process.argv[3], 'utf8')) as {
   assemblies: { name: string }[]
-  tracks: { trackId: string; [key: string]: unknown }[]
+  tracks?: { trackId: string; [key: string]: unknown }[]
 }
 
-const s = new Set(config.tracks.map(t => t.trackId))
+const s = new Set(config.tracks?.map(t => t.trackId) || [])
 
 Object.entries(bigDataEntries).map(([key, val]) => {
   const {

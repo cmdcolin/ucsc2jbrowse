@@ -28,22 +28,23 @@ function updateURL(config: Record<string, unknown>, add: string) {
   }
 }
 
-const asms = configs.map(config => config.assemblies[0].name as string)
+const asms2 = configs.map(config => config.assemblies[0] as { name: string })
 
 console.log(
   JSON.stringify(
     {
-      assemblies: configs.map(config => config.assemblies).flat(),
-      tracks: configs
-        .map(
-          (config, idx) =>
-            config.tracks?.map(track => {
-              const asm = asms[idx]
-              updateURL(track, asm)
-              return { ...track, trackId: `${track.trackId}_${asm}` }
-            }) || [],
-        )
-        .flat(),
+      assemblies: asms2.map(assembly => {
+        updateURL(assembly, assembly.name)
+        return { ...assembly }
+      }),
+      tracks: configs.flatMap(
+        (config, idx) =>
+          config.tracks?.map(track => {
+            const asm = asms2[idx].name
+            updateURL(track, asm)
+            return { ...track, trackId: `${track.trackId}_${asm}` }
+          }) || [],
+      ),
 
       aggregateTextSearchAdapters: configs
         .map(config => config.aggregateTextSearchAdapters || [])

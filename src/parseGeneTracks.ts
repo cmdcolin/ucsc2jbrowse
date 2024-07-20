@@ -22,9 +22,14 @@ for (const [key, val] of Object.entries(tracks).filter(([key, val]) =>
 )) {
   const infile = path.join(process.argv[3], key)
   const outfile = path.join(process.argv[4], key)
+
+  // skip numerous (wgEncode) gene tracks
+  if (key.startsWith('wgEncode')) {
+    continue
+  }
   try {
     if (fs.existsSync(`${infile}.sql`)) {
-      console.log('processing', key)
+      console.log(process.argv[1], 'processing', key)
       await pexec(
         `tsx src/geneLike.ts ${infile}.sql ${infile}.txt.gz | sort -k1,1 -k2,2n | bgzip -@8 > ${outfile}.bed.gz`,
       )

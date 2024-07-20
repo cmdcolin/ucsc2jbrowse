@@ -24,7 +24,7 @@ for (const [key, val] of Object.entries(tracks).filter(([key, val]) =>
   const outfile = path.join(process.argv[4], key)
   try {
     if (fs.existsSync(`${infile}.sql`)) {
-      console.log('processing', key)
+      console.log(process.argv[1], 'processing', key)
       await pexec(
         `tsx src/rmskLike.ts ${infile}.sql ${infile}.txt.gz | bgzip -@8 > ${outfile}.bed.gz`,
       )

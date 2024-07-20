@@ -5,3 +5,6 @@ bed.sh
 node_modules
 dist
 bigbed.sh
+config.json
+out
+chain2paf
