@@ -35,7 +35,9 @@ for (const [key, val] of Object.entries(tracks).filter(([key, val]) =>
       console.log(`echo "already processed ${outfile}"`)
     } else {
       console.log(`echo " ${process.argv[1]} processing ${key} ${val.type}"`)
-      const { stdout, stderr } = await pexec(`tsx src/bedLike.ts ${infile}.sql`)
+      const { stdout, stderr } = await pexec(
+        `node src/bedLike.ts ${infile}.sql`,
+      )
       if (stderr.trim() === 'no_bin') {
         console.log(
           `(echo "${stdout.trim()}" && pigz -dc ${infile}.txt.gz)   |bgzip -@8  > ${outfile}.bed.gz`,
