@@ -1,4 +1,7 @@
 const name = process.argv[2]
+const f = (j: string) =>
+  `https://hgdownload.soe.ucsc.edu/goldenPath/${name}/bigZips/${j}`
+
 console.log(
   JSON.stringify(
     {
@@ -10,12 +13,14 @@ console.log(
             trackId: `${name}-refseq`,
             adapter: {
               type: 'TwoBitAdapter',
-              twoBitLocation: {
-                uri: `${name}.2bit`,
-              },
-              chromSizesLocation: {
-                uri: `${name}.chrom.sizes`,
-              },
+              uri: f(`${name}.2bit`),
+              chromSizes: f(`${name}.chrom.sizes`),
+            },
+          },
+          refNameAliases: {
+            adapter: {
+              type: 'RefNameAliasAdapter',
+              uri: f(`${name}.chromAlias.txt`),
             },
           },
         },

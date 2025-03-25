@@ -1,8 +1,8 @@
 import fs from 'fs'
 import zlib from 'zlib'
 import readline from 'readline'
-import { getColNames } from './utils/getColNames.js'
-import { parseTableLine } from './utils/parseTableLine.js'
+import { getColNames } from './utils/getColNames.ts'
+import { parseTableLine } from './utils/parseTableLine.ts'
 
 if (!process.argv[2]) {
   throw new Error('usage: node parser.js <sql file>')

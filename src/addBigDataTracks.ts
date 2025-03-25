@@ -27,15 +27,15 @@ Object.entries(bigDataEntries).map(([key, val]) => {
     }
 
     console.log(`adding ${tableName}`)
-    config.tracks.push({
+    config.tracks?.push({
       trackId: tableName,
       name: tableName,
       type: bb ? 'FeatureTrack' : 'QuantitativeTrack',
       assemblyNames: [config.assemblies[0].name],
       adapter:
         bigDataUrl.endsWith('.bb') || bigDataUrl.endsWith('.bigBed')
-          ? { type: 'BigBedAdapter', bigBedLocation: { uri } }
-          : { type: 'BigWigAdapter', bigWigLocation: { uri } },
+          ? { type: 'BigBedAdapter', uri }
+          : { type: 'BigWigAdapter', uri },
     })
   } else {
   }

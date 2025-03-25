@@ -25,7 +25,7 @@ mkdir ~/ucscResults/mm39
 rsync -cavzP rsync://hgdownload.cse.ucsc.edu/goldenPath/hg19/ ucsc/hg19
 rsync -cavzP rsync://hgdownload.cse.ucsc.edu/goldenPath/hg38/ ucsc/hg38
 rsync -cavzP rsync://hgdownload.cse.ucsc.edu/goldenPath/mm39/ ucsc/mm39
-OUT=~/ucscResults ./createConfigs.sh ucsc/*
+OUT=~/ucscResults ./createAssemblies.sh ~/ucsc/*
 ```
 
 Loading synteny tracks is a somewhat manual process

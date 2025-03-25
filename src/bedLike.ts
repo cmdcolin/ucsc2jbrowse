@@ -1,5 +1,5 @@
 import fs from 'fs'
-import { getColNames } from './utils/getColNames.js'
+import { getColNames } from './utils/getColNames.ts'
 
 export async function genBed(sql: string) {
   const txt = fs.readFileSync(sql, 'utf8')
