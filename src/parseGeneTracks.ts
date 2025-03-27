@@ -31,7 +31,7 @@ for (const [key, val] of Object.entries(tracks).filter(([key, val]) =>
     if (fs.existsSync(`${infile}.sql`)) {
       console.log(process.argv[1], 'processing', key)
       await pexec(
-        `node src/geneLike.ts ${infile}.sql ${infile}.txt.gz | sort -k1,1 -k2,2n | bgzip -@8 > ${outfile}.bed.gz`,
+        `node src/geneLike.ts ${infile}.sql ${infile}.txt.gz | sort -k1,1 -k2,2n | bgzip > ${outfile}.bed.gz`,
       )
     } else {
       console.error('no sql file for ' + key)

@@ -1,6 +1,9 @@
 #!/bin/bash
 export LC_ALL=C
 
+# Set default value for OUT if not already set
+: ${OUT:=~/ucscResults}
+
 for INDIR in $@; do
   ASM=$(basename $INDIR)
   OUTDIR=$OUT/$ASM
