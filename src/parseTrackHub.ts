@@ -34,7 +34,7 @@ fs.writeFileSync(
                 trackId: track,
                 adapter: {
                   type: 'BigBedAdapter',
-                  bigBedLocation: { uri },
+                  uri,
                 },
               }
             } else if (bigDataUrl.endsWith('.vcf.gz')) {
@@ -46,8 +46,7 @@ fs.writeFileSync(
                 trackId: track,
                 adapter: {
                   type: 'VcfTabixAdapter',
-                  vcfGzLocation: { uri },
-                  index: { location: { uri: uri + '.tbi' } },
+                  uri,
                 },
               }
             } else {
@@ -59,7 +58,7 @@ fs.writeFileSync(
                 trackId: track,
                 adapter: {
                   type: 'BigWigAdapter',
-                  bigWigLocation: { uri },
+                  uri,
                 },
               }
             }

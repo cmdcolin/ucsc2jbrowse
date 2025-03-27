@@ -31,7 +31,7 @@ for (const [key, val] of Object.entries(tracks).filter(([key, val]) =>
     continue
   }
   if (fs.existsSync(`${infile}.sql`)) {
-    if (fs.existsSync(`${outfile}.bed.gz.tbi`)) {
+    if (fs.existsSync(`${outfile}.bed.gz.csi`)) {
       console.log(`echo "already processed ${outfile}"`)
     } else {
       console.log(`echo " ${process.argv[1]} processing ${key} ${val.type}"`)

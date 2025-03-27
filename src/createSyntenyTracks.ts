@@ -10,7 +10,7 @@ console.log(
     'function pif() {\n' +
     '	pigz -dc $1 > `basename $1 .gz`\n' +
     '	chain2paf --input `basename $1 .gz` > `basename $1 .chain.gz`.paf\n' +
-    '	jbrowse make-pif `basename $1 .chain.gz`.paf  # generates pif.gz and pif.gz.tbi\n' +
+    '	jbrowse make-pif --csi `basename $1 .chain.gz`.paf  # generates pif.gz and pif.gz.csi\n' +
     '}\n',
 )
 const ret2 = []
