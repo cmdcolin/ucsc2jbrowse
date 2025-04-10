@@ -1,6 +1,6 @@
 import pkg from '@gmod/ucsc-hub'
 import fs from 'fs'
-const { TrackDbFile } = pkg
+const { SingleFileHub } = pkg
 
 function findCategory(obj: any, tracks: any) {
   while (obj.parent) {
@@ -9,22 +9,40 @@ function findCategory(obj: any, tracks: any) {
   return obj.group
 }
 
-const hub = fs.readFileSync(process.argv[2], 'utf8')
-const config = JSON.parse(fs.readFileSync(process.argv[3], 'utf8'))
-const tracks = new TrackDbFile(hub)
-const asm = config.assemblies[0].name
+const hub = new SingleFileHub(fs.readFileSync(process.argv[2], 'utf8'))
+const asm = 'hs1'
+const s = (s: string) => 'https://hgdownload.soe.ucsc.edu/' + s
 
 fs.writeFileSync(
   process.argv[3],
   JSON.stringify(
     {
-      ...config,
-      tracks: Object.entries(tracks.data)
-        .map(([key, val]) => {
+      assemblies: [
+        {
+          name: asm,
+          sequence: {
+            type: 'ReferenceSequenceTrack',
+            trackId: 'hs1-referenceSequenceTrack',
+            adapter: {
+              type: 'TwoBitAdapter',
+              uri: s(hub.genome.data.twoBit),
+              chromSizes: s(hub.genome.data.chromSizes),
+            },
+            refNameAliases: {
+              adapter: {
+                type: 'RefNameAliasAdapter',
+                uri: s(hub.genome.data.chromAliasBb.replace('.bb', '.txt')),
+              },
+            },
+          },
+        },
+      ],
+      tracks: Object.values(hub.tracks.data)
+        .map(val => {
           const { track, bigDataUrl, longLabel } = val!.data
-          const grp = findCategory(val!.data, tracks.data)
+          const grp = findCategory(val!.data, hub.tracks.data)
           if (bigDataUrl) {
-            const uri = 'https://hgdownload.soe.ucsc.edu/' + bigDataUrl
+            const uri = s(bigDataUrl)
             if (bigDataUrl.endsWith('.bb') || bigDataUrl.endsWith('.bigBed')) {
               return {
                 type: 'FeatureTrack',

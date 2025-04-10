@@ -1,4 +1,5 @@
 *.paf*
+*.err
 *.pif*
 *.chain*
 bed.sh

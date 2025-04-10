@@ -65,21 +65,3 @@ export OUT
 
 # Run the process_assembly function in parallel for each input directory
 parallel --will-cite process_assembly ::: "$@"
-
-## hs1 is just bigfiles
-# for i in hs1; do
-# 	export INDIR=$INOUT/$i
-# 	export OUTDIR=$OUT/$i
-# 	mkdir -p $OUTDIR
-# 	cp $i.json $OUTDIR/config.json
-# 	node src/parseTrackHub.ts $INDIR/trackDb.txt $OUTDIR/config.json;
-# done;
-
-# compute missing tracks
-# for i in $@; do
-# 	export OUTDIR=$OUT/$i
-# 	mkdir -p $OUT/missing
-# 	node src/checkTracks.ts $OUTDIR/tracks.json $OUTDIR/config.json > $OUT/missing/$i.json
-# done;
-#
-#
