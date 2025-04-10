@@ -1,5 +1,4 @@
 #!/bin/bash
-set -v
 export LC_ALL=C
 export NODE_OPTIONS="--no-warnings=ExperimentalWarning"
 
@@ -26,16 +25,6 @@ process_assembly() {
 
   # make bed.gz files from "genePred" type sql db tracks
   node src/parseGeneTracks.ts $OUTDIR/tracks.json $DB $OUTDIR
-  # make repeatmasker tracks
-  node src/parseRmskTracks.ts $OUTDIR/tracks.json $DB $OUTDIR
-
-  ## future todo: split up rmsk track
-  # zcat rmsk.bed.gz|awk -F$'\t' '{print > ("rmsk_" $6 ".bed")}'
-  # zcat rmsk.bed.gz|head -n1 > $OUTDIR/rmsk.header
-  # for i in $OUTDIR/rmsk_*; do
-  # 	cat $OUTDIR/rmsk.header $i |bgzip > $i.gz;
-  # 	rm $i;
-  # done;
 
   # make bed.gz files from "regular bed" sql db tracks
   node src/parseBedTracks.ts $OUTDIR/tracks.json $DB $OUTDIR >$OUTDIR/bed.sh
@@ -55,9 +44,6 @@ process_assembly() {
   # remove older copies of tracks, e.g. older dbSnp, older GENCODE, etc.
   node src/removeEverythingButLatest.ts $OUTDIR/config.json >$OUTDIR/tmp.json
   mv $OUTDIR/tmp.json $OUTDIR/config.json
-
-  # Index all bed.gz files
-  find $OUTDIR -name "*.bed.gz" | parallel "echo {}; tabix -C -f {}"
 }
 
 export -f process_assembly

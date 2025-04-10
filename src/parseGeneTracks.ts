@@ -17,7 +17,7 @@ const tracks = JSON.parse(fs.readFileSync(process.argv[2], 'utf8')) as Record<
   Track
 >
 
-for (const [key, val] of Object.entries(tracks).filter(([key, val]) =>
+for (const [key] of Object.entries(tracks).filter(([_key, val]) =>
   val.type.startsWith('genePred'),
 )) {
   const infile = path.join(process.argv[3], key)
@@ -29,7 +29,6 @@ for (const [key, val] of Object.entries(tracks).filter(([key, val]) =>
   }
   try {
     if (fs.existsSync(`${infile}.sql`)) {
-      console.log(process.argv[1], 'processing', key)
       await pexec(
         `node src/geneLike.ts ${infile}.sql ${infile}.txt.gz | sort -k1,1 -k2,2n | bgzip > ${outfile}.bed.gz`,
       )
