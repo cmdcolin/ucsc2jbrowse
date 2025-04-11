@@ -8,19 +8,26 @@ console.log(
     {
       ...config,
       tracks: config.tracks.map((t: Record<string, string>) => {
-        const { settings, html, longLabel, grp, ...rest } = tracksDb[t.trackId]
-        return {
-          ...t,
-          metadata: {
-            ...rest,
-            html: html
-              .replaceAll('\\', ' ')
-              .replaceAll('../../', 'https://genome.ucsc.edu/')
-              .replaceAll('../', 'https://genome.ucsc.edu/')
-              .replaceAll('"/cgi-bin', '"https://genome.ucsc.edu/cgi-bin'),
-          },
-          name: longLabel,
-          category: [grp],
+        const r = tracksDb[t.trackId]
+        if (r) {
+          const { settings, html, longLabel, grp, ...rest } =
+            tracksDb[t.trackId]
+          return {
+            ...t,
+            metadata: {
+              ...rest,
+              html: html
+                .replaceAll('\\', ' ')
+                .replaceAll('../../', 'https://genome.ucsc.edu/')
+                .replaceAll('../', 'https://genome.ucsc.edu/')
+                .replaceAll('"/cgi-bin', '"https://genome.ucsc.edu/cgi-bin'),
+            },
+            name: longLabel,
+            category: [grp],
+          }
+        } else {
+          console.error('track not found in trackDb', t.trackId)
+          return t
         }
       }),
     },

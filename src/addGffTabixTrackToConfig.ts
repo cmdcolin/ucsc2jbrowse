@@ -13,7 +13,7 @@ const config = JSON.parse(fs.readFileSync(process.argv[2], 'utf8')) as {
 }
 
 const arg = path.basename(process.argv[3])
-const base = path.basename(arg, '.bed.gz')
+const base = path.basename(arg, '.sorted.gff.gz')
 
 // Create the new track configuration
 const newTrack = {

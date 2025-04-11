@@ -8,4 +8,5 @@
 ./createCoreTracksForHs1.sh ~/ucsc/*
 ./createConfigsForGoldenPath.sh ~/ucsc/*
 ./createTabixIndexes.sh ~/ucscResults/
+./textIndexGoldenPath.sh ~/ucscResults/
 ./getFileListing.sh ~/ucscResults/
