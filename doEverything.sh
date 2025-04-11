@@ -6,6 +6,6 @@
 ./createRmskTracksForGoldenPath.sh ~/ucsc/*
 ./createGeneTracksForGoldenPath.sh ~/ucsc/*
 ./createCoreTracksForHs1.sh ~/ucsc/*
-./createTabixIndexes.sh ~/ucsc/*
 ./createConfigsForGoldenPath.sh ~/ucsc/*
-./getMd5.sh ~/ucsc/
+./createTabixIndexes.sh ~/ucscResults/
+./getFileListing.sh ~/ucscResults/

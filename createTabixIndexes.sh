@@ -1,3 +1,3 @@
 #!/bin/bash
 # Index all bed.gz files
-find $1 -name "*.bed.gz" | parallel "echo {}; tabix -C -f {}"
+fd ".bed.gz$" $1 | parallel "echo {}; tabix -C -f {}"
