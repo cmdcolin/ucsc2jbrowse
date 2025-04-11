@@ -4,4 +4,4 @@
 DIR="${1:-.}"
 
 # Run find on the specified directory
-find "$DIR" -type f | parallel md5sum | sort -k2,2 >md5sum.txt
+find "$DIR" -type f | parallel xxh128sum | sort -k2,2 >fileListing.txt
