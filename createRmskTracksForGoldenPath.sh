@@ -12,10 +12,10 @@ process_rmsk() {
   local OUTDIR=$OUT/$ASM
   local DB=$INDIR/$ASM/database
 
-  echo "Processing $OUTDIR"
   mkdir -p $OUTDIR
 
   # make repeatmasker tracks
+  echo node src/parseRmskTracks.ts $OUTDIR/tracks.json $DB $OUTDIR
   node src/parseRmskTracks.ts $OUTDIR/tracks.json $DB $OUTDIR
 }
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-## Run downloadGoldenpath.sh separately
+./downloadGoldenpath.sh ~/ucsc
 ./createAssemblies.sh ~/ucsc/*
 ./createTracksJsonForGoldenPath.sh ~/ucsc/*
 ./createBedTracksForGoldenPath.sh ~/ucsc/*

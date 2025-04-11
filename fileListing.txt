@@ -2,7 +2,7 @@
 03b3b31595f8c0456d5bf8114cae4ac7  /home/cdiesh/ucscResults/ailMel1/augustusGene.bed.gz.csi
 ace356cf9361604da7827e1023cb6600  /home/cdiesh/ucscResults/ailMel1/bed.sh
 31e6126656acc02769d774935fda1108  /home/cdiesh/ucscResults/ailMel1/bigTracks.json
-ae4a3bbe7e17424b9966786dc6c662c0  /home/cdiesh/ucscResults/ailMel1/config.json
+82d7022970d05cbc77573fdf8c87c8b9  /home/cdiesh/ucscResults/ailMel1/config.json
 26a53269d35e9b744dd5d0f30cd35336  /home/cdiesh/ucscResults/ailMel1/cytoBandIdeo.bed.gz
 039e24d769d7f6d9931c9b299af866a9  /home/cdiesh/ucscResults/ailMel1/cytoBandIdeo.bed.gz.csi
 23f62868028665618c80ff6b4641ce66  /home/cdiesh/ucscResults/ailMel1/ensGene.bed.gz
@@ -41,7 +41,7 @@ dc6d32dbf133edba130b5910b3d27d11  /home/cdiesh/ucscResults/allMis1/augustusGene.
 a669536a73076927e5f6e0e8876d0acb  /home/cdiesh/ucscResults/allMis1/augustusGene.errors
 6972f4ce5f118d72b4bf3d9a5ead16fc  /home/cdiesh/ucscResults/allMis1/bed.sh
 4c5727f63e51b07709d597d1ab968743  /home/cdiesh/ucscResults/allMis1/bigTracks.json
-3e38d63daab809e8a624f04a88b76ecd  /home/cdiesh/ucscResults/allMis1/config.json
+014964667cd5bc177dcf4a89d3d717de  /home/cdiesh/ucscResults/allMis1/config.json
 5bf06fa39521ab45deb96261bd635b8c  /home/cdiesh/ucscResults/allMis1/cpgIslandExt.bed.gz
 85caf2ca354de85c00445d03a07360fb  /home/cdiesh/ucscResults/allMis1/cpgIslandExt.bed.gz.csi
 f749ee7221011da94ba2c1c5304e3b83  /home/cdiesh/ucscResults/allMis1/cpgIslandExtUnmasked.bed.gz
@@ -83,7 +83,7 @@ ea8b56be56d943acfb0f73fbf9e067d1  /home/cdiesh/ucscResults/allMis1/xenoRefGene.b
 1144cf59195b128705a11dfaa39602f8  /home/cdiesh/ucscResults/anoCar1/augustusGene.bed.gz.csi
 ac2c13251963404d6bea492c05b362ae  /home/cdiesh/ucscResults/anoCar1/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/anoCar1/bigTracks.json
-cf776ace3ed969cc62e584ce5b6780f9  /home/cdiesh/ucscResults/anoCar1/config.json
+98557c373f106a520dc817ffadeb4834  /home/cdiesh/ucscResults/anoCar1/config.json
 b85094c2c6ec221ce0711fd7f2afef0a  /home/cdiesh/ucscResults/anoCar1/ensGene.bed.gz
 b9c07c3192e2a29797cfa8d62ecca789  /home/cdiesh/ucscResults/anoCar1/ensGene.bed.gz.csi
 b078ea8ab33361f0249d58516a7491c3  /home/cdiesh/ucscResults/anoCar1/gap.bed.gz
@@ -107,7 +107,7 @@ ef403850356705cb6847ff0a5828878f  /home/cdiesh/ucscResults/anoCar1/xenoRefGene.b
 6596408ccfcdc819126c8ee88e0844ec  /home/cdiesh/ucscResults/anoCar2/augustusGene.bed.gz.csi
 00f7e2f01cdcbcbbbb720e32be06927a  /home/cdiesh/ucscResults/anoCar2/bed.sh
 3d2790c01304fdd205dd24ae36371fb4  /home/cdiesh/ucscResults/anoCar2/bigTracks.json
-895b945ba0c7bcfaebe8356d510eaeda  /home/cdiesh/ucscResults/anoCar2/config.json
+4f2c25b30589a8c3f640e596db8f764e  /home/cdiesh/ucscResults/anoCar2/config.json
 08d92ccbbc66c1d337ae38a267af2a6d  /home/cdiesh/ucscResults/anoCar2/cpgIslandExt.bed.gz
 c1e63c82552d580f24ecddb7267f86d7  /home/cdiesh/ucscResults/anoCar2/cpgIslandExt.bed.gz.csi
 72d5d434d5f6e785fa1d4cb3c657985d  /home/cdiesh/ucscResults/anoCar2/cpgIslandExtUnmasked.bed.gz
@@ -155,7 +155,7 @@ bfeaa4ab893d1372513aee39e5513adf  /home/cdiesh/ucscResults/anoGam1/augustusGene.
 61896ab21fee23615b19b271efd4a9b2  /home/cdiesh/ucscResults/anoGam1/augustusGene.bed.gz.csi
 800db401efdb67b9a47df67640c6e9ae  /home/cdiesh/ucscResults/anoGam1/bed.sh
 4a0d4c37b7537a7aa7295345e4689181  /home/cdiesh/ucscResults/anoGam1/bigTracks.json
-58651c93caf2afa128169febbf1122b8  /home/cdiesh/ucscResults/anoGam1/config.json
+c8bccdba1289e6537a7087d381a6f7fe  /home/cdiesh/ucscResults/anoGam1/config.json
 03b6cb9cee3825acb01885697906530c  /home/cdiesh/ucscResults/anoGam1/ensGene.bed.gz
 53a42476bfd567411b6ef5ff8fe9ac1f  /home/cdiesh/ucscResults/anoGam1/ensGene.bed.gz.csi
 eedabbcd483a7c8d46c71cfec21523c9  /home/cdiesh/ucscResults/anoGam1/gcPercent.bed.gz
@@ -175,7 +175,7 @@ e6793b29fb00cfe5e6ac962210e86494  /home/cdiesh/ucscResults/anoGam3/augustusGene.
 b2008b95c6596f854e46ee8397f077cd  /home/cdiesh/ucscResults/anoGam3/augustusGene.bed.gz.csi
 028f75ce80059b84a49f17a6b48f9252  /home/cdiesh/ucscResults/anoGam3/bed.sh
 cec6d2ad9565e778af64556bac9098b5  /home/cdiesh/ucscResults/anoGam3/bigTracks.json
-e552b3d085e41a2ea02fe9d1fba7bc4d  /home/cdiesh/ucscResults/anoGam3/config.json
+4f3e40be1f4fce5f68dab6d7bbc01243  /home/cdiesh/ucscResults/anoGam3/config.json
 f75c76f517dc0660368395c5ea322f63  /home/cdiesh/ucscResults/anoGam3/cpgIslandExt.bed.gz
 eebc90db44c1fd856a1e324863c93012  /home/cdiesh/ucscResults/anoGam3/cpgIslandExt.bed.gz.csi
 191602f1b4c8fab65b3bdbfdd5e6423e  /home/cdiesh/ucscResults/anoGam3/cpgIslandExtUnmasked.bed.gz
@@ -213,7 +213,7 @@ a1e92b39b129f23a178ec7e80e54a5fd  /home/cdiesh/ucscResults/apiMel1/augustusGene.
 ed9955caadd57f9bfbf224c45b50fc64  /home/cdiesh/ucscResults/apiMel1/augustusGene.bed.gz.csi
 b63cff2a1e7c6b3ce04c8326cbbfdd27  /home/cdiesh/ucscResults/apiMel1/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/apiMel1/bigTracks.json
-24ad8edae7f72ed7cf80e07359985497  /home/cdiesh/ucscResults/apiMel1/config.json
+9d4a4dcfc50e20184efcce1109035889  /home/cdiesh/ucscResults/apiMel1/config.json
 4b2365b252de51e695aa0078e5029633  /home/cdiesh/ucscResults/apiMel1/gap.bed.gz
 bfb3c030dc3e8277efa0c3feaaf2c4d0  /home/cdiesh/ucscResults/apiMel1/gap.bed.gz.csi
 efb69d6510a27d0ab3762d356da6fb19  /home/cdiesh/ucscResults/apiMel1/gcPercent.bed.gz
@@ -237,7 +237,7 @@ acdee0d443eff702fa6122e122a76108  /home/cdiesh/ucscResults/apiMel2/bed.sh
 1ca2bf1c8beae51f1a70f0ae2335b316  /home/cdiesh/ucscResults/apiMel2/bigTracks.json
 6ee1551fbb0348f5102b4845912efa50  /home/cdiesh/ucscResults/apiMel2/brhInparalog.bed.gz
 5d8c719330c70100ea012c7923db25fc  /home/cdiesh/ucscResults/apiMel2/brhInparalog.bed.gz.csi
-b63af9df4bd62d2cea1c28a2a29cf1a9  /home/cdiesh/ucscResults/apiMel2/config.json
+74e8dee54db5df049ac772522a2a837c  /home/cdiesh/ucscResults/apiMel2/config.json
 3dfbf1242726ffdaa9374917eba4d668  /home/cdiesh/ucscResults/apiMel2/cpgIslandExt.bed.gz
 6bd4327fd5e923c77b939a13f804d327  /home/cdiesh/ucscResults/apiMel2/cpgIslandExt.bed.gz.csi
 b242b71f8336e5653b686c4fa9829f6d  /home/cdiesh/ucscResults/apiMel2/cpgIslandExtUnmasked.bed.gz
@@ -267,7 +267,7 @@ ee5b0254f4adfe6fcdefe3dfce31a582  /home/cdiesh/ucscResults/apiMel2/scaffolds.bed
 0960c892b2aec6c7c8a2a684e22f0ef7  /home/cdiesh/ucscResults/apiMel2/xenoRefGene.bed.gz.csi
 2b8addf876f9166297658c0a20516301  /home/cdiesh/ucscResults/aplCal1/bed.sh
 be2ed2e66c2ba18022a82defad3eb995  /home/cdiesh/ucscResults/aplCal1/bigTracks.json
-eaf0eb028e9b7493ff44c8e039a7861e  /home/cdiesh/ucscResults/aplCal1/config.json
+168b9a738766dfa08096366ebd592ae1  /home/cdiesh/ucscResults/aplCal1/config.json
 355fc62d82188eb6717d07d771ff2e64  /home/cdiesh/ucscResults/aplCal1/cpgIslandExt.bed.gz
 4f8920486cc2a644ca62c96c65081391  /home/cdiesh/ucscResults/aplCal1/cpgIslandExt.bed.gz.csi
 6baad15c214df0d2b4466863106b7f6d  /home/cdiesh/ucscResults/aplCal1/cpgIslandExtUnmasked.bed.gz
@@ -291,7 +291,7 @@ d219846784db6f67f76b05316ae35710  /home/cdiesh/ucscResults/aptMan1/augustusGene.
 8e8333fda2de53f51d3fe288de63b9bd  /home/cdiesh/ucscResults/aptMan1/augustusGene.bed.gz.csi
 49e00e0cf5643239862401bb58dc10c5  /home/cdiesh/ucscResults/aptMan1/bed.sh
 fde02d431633a2e5e2bbf0b3b5c21dfa  /home/cdiesh/ucscResults/aptMan1/bigTracks.json
-37f6bf186061aa0ddcf907a4c4dc927f  /home/cdiesh/ucscResults/aptMan1/config.json
+b385ec55d9a02187dab974106d7d9808  /home/cdiesh/ucscResults/aptMan1/config.json
 ed71b556de9d819b8f0e2d9f0d0e676e  /home/cdiesh/ucscResults/aptMan1/cpgIslandExt.bed.gz
 170c966c839f6b52cbd498d09b771565  /home/cdiesh/ucscResults/aptMan1/cpgIslandExt.bed.gz.csi
 da9f9c3b809c99d1d4c21d6bbe8163ae  /home/cdiesh/ucscResults/aptMan1/cpgIslandExtUnmasked.bed.gz
@@ -321,7 +321,7 @@ d70b39b141052874972d60e2cd35addf  /home/cdiesh/ucscResults/aptMan1/tracks.json
 323453ed087eca985d3f737e24bf9645  /home/cdiesh/ucscResults/aquChr2/augustusGene.bed.gz.csi
 ea1c87e5d98832865f0e7ccc05b03695  /home/cdiesh/ucscResults/aquChr2/bed.sh
 ae91d55cec5d30ead898b5eeefb14524  /home/cdiesh/ucscResults/aquChr2/bigTracks.json
-9ccfce7f9436b3d1568ae2c94653a59e  /home/cdiesh/ucscResults/aquChr2/config.json
+557177ddd1c2ecb532dc9547db0b47f7  /home/cdiesh/ucscResults/aquChr2/config.json
 91bfc86f9b4f8f7037d9af16f3b1e5d3  /home/cdiesh/ucscResults/aquChr2/cpgIslandExt.bed.gz
 37bd925d329c8343e5e384542009e84a  /home/cdiesh/ucscResults/aquChr2/cpgIslandExt.bed.gz.csi
 e5ad3bbee76e23567892cef5f52487e5  /home/cdiesh/ucscResults/aquChr2/cpgIslandExtUnmasked.bed.gz
@@ -355,7 +355,7 @@ cdf3155e6f8a697bcd9c9977fe533c5c  /home/cdiesh/ucscResults/aquChr2/windowmaskerS
 d6e5df3f30f1e74207758e656ec3b1ed  /home/cdiesh/ucscResults/balAcu1/augustusGene.bed.gz.csi
 27e6f2fbb42a53a638bad6938a776117  /home/cdiesh/ucscResults/balAcu1/bed.sh
 217b717cb2b178118d727239e3cfc997  /home/cdiesh/ucscResults/balAcu1/bigTracks.json
-6bf2c9df4936447bdc2b3509a68b9cde  /home/cdiesh/ucscResults/balAcu1/config.json
+489ef13c9ad746992535e9282e165c57  /home/cdiesh/ucscResults/balAcu1/config.json
 8cfdc6d22fbf5a4c3b09cd4476561f38  /home/cdiesh/ucscResults/balAcu1/cpgIslandExt.bed.gz
 f9edb992ac01fa666ea1d04f30bbec37  /home/cdiesh/ucscResults/balAcu1/cpgIslandExt.bed.gz.csi
 abd8461e19b673616ce2291b41b2d1ba  /home/cdiesh/ucscResults/balAcu1/cpgIslandExtUnmasked.bed.gz
@@ -395,7 +395,7 @@ d6b74ad4168a33f2a0df2d1f5bb0333f  /home/cdiesh/ucscResults/balAcu1/xenoRefGene.b
 c1c434c399c660611baf6fe0060a6590  /home/cdiesh/ucscResults/bisBis1/augustusGene.bed.gz.csi
 c0b147f3c9b461c93f6660109ae51dc0  /home/cdiesh/ucscResults/bisBis1/bed.sh
 84add5e5d845a1886b614ebbe470812e  /home/cdiesh/ucscResults/bisBis1/bigTracks.json
-76a03e7e2cb6ed7f7632becd31ea1b3b  /home/cdiesh/ucscResults/bisBis1/config.json
+41ab43d1514c32d0fef5c28e81679831  /home/cdiesh/ucscResults/bisBis1/config.json
 bbadfa6ee40c43f84a2b9524bc477cbd  /home/cdiesh/ucscResults/bisBis1/cpgIslandExt.bed.gz
 12d59ce892dab3f41c2564b4f5fce499  /home/cdiesh/ucscResults/bisBis1/cpgIslandExt.bed.gz.csi
 4b954affd52d5b97ae1ec128071c00e2  /home/cdiesh/ucscResults/bisBis1/cpgIslandExtUnmasked.bed.gz
@@ -433,7 +433,7 @@ e61b85292e9f72866fcf58a732b87d6f  /home/cdiesh/ucscResults/bosTau2/augustusGene.
 d080c5ee83b495add39a91f2a24a28c3  /home/cdiesh/ucscResults/bosTau2/augustusGene.bed.gz.csi
 c1384a9c5e998e63d342e29620600ea1  /home/cdiesh/ucscResults/bosTau2/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/bosTau2/bigTracks.json
-7db102c428a2082b4247681189681b53  /home/cdiesh/ucscResults/bosTau2/config.json
+5db12be30a11c6cef0b0f0d622d30a1a  /home/cdiesh/ucscResults/bosTau2/config.json
 e9f526a7ae338d80c071b371cd66ee7a  /home/cdiesh/ucscResults/bosTau2/contigOrient.bed.gz
 ac9476a16ef4aa3552d0210e8a67d98f  /home/cdiesh/ucscResults/bosTau2/contigOrient.bed.gz.csi
 c0ea32ba9d9dbb2794dc555610b707fc  /home/cdiesh/ucscResults/bosTau2/cpgIslandExt.bed.gz
@@ -461,9 +461,9 @@ af198a6ad2f9b82854330a10ac68e6eb  /home/cdiesh/ucscResults/bosTau2/simpleRepeat.
 632b76741d35fa3343a85c57c7972721  /home/cdiesh/ucscResults/bosTau2/xenoRefGene.bed.gz.csi
 3f779b0d8a54734fb442ab03ff7edc85  /home/cdiesh/ucscResults/bosTau3/augustusGene.bed.gz
 f558c0c565af4f6ec282525bdacfe4d4  /home/cdiesh/ucscResults/bosTau3/augustusGene.bed.gz.csi
-c0f57004955c1a4745bd1fca83051cce  /home/cdiesh/ucscResults/bosTau3/bed.sh
+e0f1efb0200a081b6ed536dad327d4df  /home/cdiesh/ucscResults/bosTau3/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/bosTau3/bigTracks.json
-489f4a9b155cf1778956c03faeacc58d  /home/cdiesh/ucscResults/bosTau3/config.json
+6e9a5763289108ca554cce111f0d21bd  /home/cdiesh/ucscResults/bosTau3/config.json
 a548ec381a1c012faea856ae365da0b9  /home/cdiesh/ucscResults/bosTau3/cpgIslandExt.bed.gz
 cd12d243dba260e3b66c143bb4a4a907  /home/cdiesh/ucscResults/bosTau3/cpgIslandExt.bed.gz.csi
 ea5fb66e0a032349ac1f5d2964d503c0  /home/cdiesh/ucscResults/bosTau3/cpgIslandExtUnmasked.bed.gz
@@ -493,7 +493,7 @@ e3ae20151fc28a6586e68476b49acf37  /home/cdiesh/ucscResults/bosTau3/xenoRefGene.b
 0d31ca59d10d6913f5a87e01204de18c  /home/cdiesh/ucscResults/bosTau4/augustusGene.bed.gz.csi
 1dae9890cddb745c429acdb1d6c0e385  /home/cdiesh/ucscResults/bosTau4/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/bosTau4/bigTracks.json
-f65355bce8608a47f2e027d856a8a4c7  /home/cdiesh/ucscResults/bosTau4/config.json
+e53cfb257adc89894a8c33f2154f058c  /home/cdiesh/ucscResults/bosTau4/config.json
 73a4fd2e147371ebd47672115ef32ab4  /home/cdiesh/ucscResults/bosTau4/cpgIslandExt.bed.gz
 f00858d8f8aa9d9d7f6b3508d6b4ea84  /home/cdiesh/ucscResults/bosTau4/cpgIslandExt.bed.gz.csi
 2884d22069c77b2198938a4a366e9385  /home/cdiesh/ucscResults/bosTau4/cpgIslandExtUnmasked.bed.gz
@@ -529,9 +529,9 @@ ad0089d11e5eca61226459e06604f2a6  /home/cdiesh/ucscResults/bosTau4/refGene.bed.g
 28b896d953689b98d1d6009e3179428f  /home/cdiesh/ucscResults/bosTau4/xenoRefGene.bed.gz.csi
 a48f59e74f7816d5b9fa74c44ea63601  /home/cdiesh/ucscResults/bosTau6/augustusGene.bed.gz
 11fd0d4a31640b9a65b9b844a1f0dd21  /home/cdiesh/ucscResults/bosTau6/augustusGene.bed.gz.csi
-6569972ad2bd69bee1c3b69d32e69493  /home/cdiesh/ucscResults/bosTau6/bed.sh
+3d47aceffc8489555cf64da786f4aa6e  /home/cdiesh/ucscResults/bosTau6/bed.sh
 2eadd7410952db504cb57fa9815dba18  /home/cdiesh/ucscResults/bosTau6/bigTracks.json
-4951b76bb2ba86ca13dc259d8fff8d34  /home/cdiesh/ucscResults/bosTau6/config.json
+088abfddfe16d08af68fb397d1522d16  /home/cdiesh/ucscResults/bosTau6/config.json
 ed7e6ecb7719bd5b5b355c5ef510f195  /home/cdiesh/ucscResults/bosTau6/cpgIslandExt.bed.gz
 d9623865bf5db8f3af016e5b6b90f39b  /home/cdiesh/ucscResults/bosTau6/cpgIslandExt.bed.gz.csi
 30e224f721ea6120f47c6113d2e65da0  /home/cdiesh/ucscResults/bosTau6/cpgIslandExtUnmasked.bed.gz
@@ -569,9 +569,9 @@ c79210c6b9779a4aa8705d0e437dfa7d  /home/cdiesh/ucscResults/bosTau6/tRNAs.bed.gz
 bb5fd9f3ff20215d0581e8848d0e2753  /home/cdiesh/ucscResults/bosTau7/animalQtl.bed.gz.csi
 58295cc88940d242c9f418536ec166d2  /home/cdiesh/ucscResults/bosTau7/augustusGene.bed.gz
 568b9b94038c25ab3ceff0d1b1dc108e  /home/cdiesh/ucscResults/bosTau7/augustusGene.bed.gz.csi
-a1fa54c1177c76fb32c5c6758ac3c10e  /home/cdiesh/ucscResults/bosTau7/bed.sh
+256433a4ec63e55b67be341b1d57f5aa  /home/cdiesh/ucscResults/bosTau7/bed.sh
 8a5ba3456fd3da73b6b0f89fe8898026  /home/cdiesh/ucscResults/bosTau7/bigTracks.json
-353ed01e4bf80d5e3f9bc0cf194968bd  /home/cdiesh/ucscResults/bosTau7/config.json
+4c6200151d655a28f709eaba1e7365cc  /home/cdiesh/ucscResults/bosTau7/config.json
 56fb72f68bffab18454a5ba9de2f8789  /home/cdiesh/ucscResults/bosTau7/cpgIslandExt.bed.gz
 1112c15dca53e6d1310f68a4fbf576cc  /home/cdiesh/ucscResults/bosTau7/cpgIslandExt.bed.gz.csi
 c8df02b957f108093602c6ac02659955  /home/cdiesh/ucscResults/bosTau7/cpgIslandExtUnmasked.bed.gz
@@ -607,7 +607,7 @@ c0efe7e6cda4c10a50b22c0e4d62e1c5  /home/cdiesh/ucscResults/bosTau7/windowmaskerS
 558bee9425cdc07d75ab34de344d67f3  /home/cdiesh/ucscResults/bosTau8/augustusGene.bed.gz.csi
 65d47fe0641a3c24ad073a2e90541f0b  /home/cdiesh/ucscResults/bosTau8/bed.sh
 b18c3e8e192ef9591dcd42ca19bef120  /home/cdiesh/ucscResults/bosTau8/bigTracks.json
-b4d3e7559aa2de36b2c8ee0cf3038307  /home/cdiesh/ucscResults/bosTau8/config.json
+7dafe9a46375f9e77313d4d39e0d4752  /home/cdiesh/ucscResults/bosTau8/config.json
 f93582e12e6e074a9b747e331b725f7f  /home/cdiesh/ucscResults/bosTau8/cpgIslandExt.bed.gz
 93517faf09fa5fe5100820d34cc84479  /home/cdiesh/ucscResults/bosTau8/cpgIslandExt.bed.gz.csi
 a1b33237dd3d2183eb80ec954f40f81e  /home/cdiesh/ucscResults/bosTau8/cpgIslandExtUnmasked.bed.gz
@@ -647,7 +647,7 @@ ff91ed79e059079591d37390f25861a3  /home/cdiesh/ucscResults/bosTau8/windowmaskerS
 01bf2d8220ec5757904611f5eceeb95b  /home/cdiesh/ucscResults/bosTau9/augustusGene.bed.gz.csi
 90389b154410e77703396bed4b523bb7  /home/cdiesh/ucscResults/bosTau9/bed.sh
 aaef054d7966e6b4a82c8ddab495c517  /home/cdiesh/ucscResults/bosTau9/bigTracks.json
-55b829b9ef15cea73718e799b21dc807  /home/cdiesh/ucscResults/bosTau9/config.json
+2b7659b1aa7f64c3727ee58d4f53a059  /home/cdiesh/ucscResults/bosTau9/config.json
 57806abce6755afe9b166563d63736ce  /home/cdiesh/ucscResults/bosTau9/cpgIslandExt.bed.gz
 70376fa7034a1b3a08ca3c6e844d2741  /home/cdiesh/ucscResults/bosTau9/cpgIslandExt.bed.gz.csi
 3193dd692b783433fb440138b87bf79b  /home/cdiesh/ucscResults/bosTau9/cpgIslandExtUnmasked.bed.gz
@@ -691,7 +691,7 @@ e784a58ec33dae0f716d9552714f7dfd  /home/cdiesh/ucscResults/bosTau9/windowmaskerS
 3abc97d0810bdde03e829570ee0f6c8e  /home/cdiesh/ucscResults/braFlo1/augustusGene.bed.gz.csi
 ec4ae21a08031a75610df30c460a2bf0  /home/cdiesh/ucscResults/braFlo1/bed.sh
 8b21f8102f19099a71e8e28362f6d3d5  /home/cdiesh/ucscResults/braFlo1/bigTracks.json
-5724c2b42351ee23db72be12dee830cd  /home/cdiesh/ucscResults/braFlo1/config.json
+8fcdd9f5ce9a95df49b7c7248e03bce6  /home/cdiesh/ucscResults/braFlo1/config.json
 4d1d9f75ea56ab07249016ad22eb37cb  /home/cdiesh/ucscResults/braFlo1/phastConsElements5way.bed.gz
 b56df588253a68790c88c27831cbf2b4  /home/cdiesh/ucscResults/braFlo1/phastConsElements5way.bed.gz.csi
 06d330ff535df971e1f5f18f7a471db8  /home/cdiesh/ucscResults/braFlo1/simpleRepeat.bed.gz
@@ -705,7 +705,7 @@ dcff532447ac18a23767f5623f6a7913  /home/cdiesh/ucscResults/caeJap1/augustusGene.
 612e8be4da3e6bbe9fd4241cf12b521a  /home/cdiesh/ucscResults/caeJap1/augustusGene.bed.gz.csi
 033f849821b403030fcc69097628dce1  /home/cdiesh/ucscResults/caeJap1/bed.sh
 7a855f03562db09066685890210ff159  /home/cdiesh/ucscResults/caeJap1/bigTracks.json
-5f713da416435623e51d7d73140af60c  /home/cdiesh/ucscResults/caeJap1/config.json
+c251a0de46d0d5de376752a9f8d1103d  /home/cdiesh/ucscResults/caeJap1/config.json
 b590f628482c3850937d696a7d087e91  /home/cdiesh/ucscResults/caeJap1/microsat.bed.gz
 deeb54aed7a9caadd735bca6801b97b7  /home/cdiesh/ucscResults/caeJap1/microsat.bed.gz.csi
 67a7024f90e08d88cbd45836a6a337d6  /home/cdiesh/ucscResults/caeJap1/simpleRepeat.bed.gz
@@ -721,7 +721,7 @@ bdeb6b943018e8ea63eea887535e6286  /home/cdiesh/ucscResults/caeJap1/xenoRefGene.b
 ee8a9d9487ad138fc9599887f0ab076e  /home/cdiesh/ucscResults/caePb1/augustusGene.bed.gz.csi
 4f15afc87523979155e7b31fc3c7152e  /home/cdiesh/ucscResults/caePb1/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/caePb1/bigTracks.json
-002558c239bb5b65c5083a425f372ccd  /home/cdiesh/ucscResults/caePb1/config.json
+aa96702932a5eeeb8c330366bb3b9ffe  /home/cdiesh/ucscResults/caePb1/config.json
 a11fb8c40fb8003efb7e999587facf44  /home/cdiesh/ucscResults/caePb1/microsat.bed.gz
 8956be930d7301799bee5d3b55f38d4b  /home/cdiesh/ucscResults/caePb1/microsat.bed.gz.csi
 da4dcc2bd1cd88f239a543345deffedc  /home/cdiesh/ucscResults/caePb1/simpleRepeat.bed.gz
@@ -737,7 +737,7 @@ f9dbe1a4de1c6c557706775e99433601  /home/cdiesh/ucscResults/caePb1/tRNAs.bed.gz
 9e7634a3e1b1d8851bd1f6f330f103f4  /home/cdiesh/ucscResults/caePb2/augustusGene.bed.gz.csi
 265057a4a152667afb64392670ff1303  /home/cdiesh/ucscResults/caePb2/bed.sh
 ddbc905efa880d04604b4eab308cd91f  /home/cdiesh/ucscResults/caePb2/bigTracks.json
-84413ec40040d2d69dd089eb6d7ae519  /home/cdiesh/ucscResults/caePb2/config.json
+20b575aecc7e1c0b65cac522f8f69f76  /home/cdiesh/ucscResults/caePb2/config.json
 f350d84be3ce5d96ec66984ae8e0f937  /home/cdiesh/ucscResults/caePb2/microsat.bed.gz
 c55dc7568887063278cd3c27ef37d13a  /home/cdiesh/ucscResults/caePb2/microsat.bed.gz.csi
 e1e661e7a8b97975f21d29c79a026659  /home/cdiesh/ucscResults/caePb2/simpleRepeat.bed.gz
@@ -753,7 +753,7 @@ e1ddc07dc0356aedb22b91553aa14a08  /home/cdiesh/ucscResults/caePb2/windowmaskerSd
 acc6f59f7b2b64af52721dca252d47ba  /home/cdiesh/ucscResults/caeRem2/augustusGene.bed.gz.csi
 76917e69a1dba380e23bffca1f053856  /home/cdiesh/ucscResults/caeRem2/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/caeRem2/bigTracks.json
-c5a5819f13df7127f11531a88ba1b4b7  /home/cdiesh/ucscResults/caeRem2/config.json
+f9d779e687027916c925a98aa9b1c500  /home/cdiesh/ucscResults/caeRem2/config.json
 a3e275e473e694a3ca721a8cce59e8d5  /home/cdiesh/ucscResults/caeRem2/microsat.bed.gz
 311449e3cfadb7391c572ac04f524f9b  /home/cdiesh/ucscResults/caeRem2/microsat.bed.gz.csi
 386f939fd7706da99a560272658b4f90  /home/cdiesh/ucscResults/caeRem2/simpleRepeat.bed.gz
@@ -769,7 +769,7 @@ bdd8b50f651b8bef7e0f27fd4517a818  /home/cdiesh/ucscResults/caeRem2/xenoRefGene.b
 7b77bb249c6c8cc6c95210fd22885801  /home/cdiesh/ucscResults/caeRem3/augustusGene.bed.gz.csi
 2894c40a8a986b32c061bc45b799ef17  /home/cdiesh/ucscResults/caeRem3/bed.sh
 8e9b8648fdd387d845cb13c7e148b978  /home/cdiesh/ucscResults/caeRem3/bigTracks.json
-fea0250bb4d42d5fc22ca1d644333c57  /home/cdiesh/ucscResults/caeRem3/config.json
+a794767af14e4ab13ab2e2e21c8e4bf7  /home/cdiesh/ucscResults/caeRem3/config.json
 c4694e73ed00222347e7267eb895d538  /home/cdiesh/ucscResults/caeRem3/microsat.bed.gz
 a7ed7447a29b075e796dd1057be91b13  /home/cdiesh/ucscResults/caeRem3/microsat.bed.gz.csi
 a50dd00bb61677bc6c75adca6af4d989  /home/cdiesh/ucscResults/caeRem3/simpleRepeat.bed.gz
@@ -785,7 +785,7 @@ aad86a861266a57f76972004c15557eb  /home/cdiesh/ucscResults/caeRem3/xenoRefGene.b
 e024dbf0caee6bc00435766ad5ee6813  /home/cdiesh/ucscResults/calJac1/augustusGene.bed.gz.csi
 2556356f1e1bdef15a7e2ac5acd705b9  /home/cdiesh/ucscResults/calJac1/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/calJac1/bigTracks.json
-8b0955f1a2809a8afa528f29bb77f9fb  /home/cdiesh/ucscResults/calJac1/config.json
+af51d36e93f2aa14129bef733b85a46e  /home/cdiesh/ucscResults/calJac1/config.json
 e64755069b46a9b50cdd9a5caf1b1550  /home/cdiesh/ucscResults/calJac1/gap.bed.gz
 1f6d0b6f42f47772449dc282f04baf44  /home/cdiesh/ucscResults/calJac1/gap.bed.gz.csi
 93c491d2a29e26711245e13574e5034b  /home/cdiesh/ucscResults/calJac1/genscan.bed.gz
@@ -815,7 +815,7 @@ b1ae7cec65558534017c1970dd272395  /home/cdiesh/ucscResults/calJac3/bacEnds.bed.g
 7d01c8fc8c4d34fa4e4794e23dff3ca0  /home/cdiesh/ucscResults/calJac3/bacEnds.bed.gz.csi
 46365b8d34cea2d9a100c612ccadc14d  /home/cdiesh/ucscResults/calJac3/bed.sh
 653469c9ebfbc35ca9655d5369839371  /home/cdiesh/ucscResults/calJac3/bigTracks.json
-48fb2ebe53cc0d3eedb2f162131151dc  /home/cdiesh/ucscResults/calJac3/config.json
+ccea6d77d307d89c4b2a53f75601cefe  /home/cdiesh/ucscResults/calJac3/config.json
 d7d40907ff74b9babd7f181db59a4660  /home/cdiesh/ucscResults/calJac3/cpgIslandExt.bed.gz
 f8b26f58a34a8d52712f32627bd8bad5  /home/cdiesh/ucscResults/calJac3/cpgIslandExt.bed.gz.csi
 1556a15142a4f9184dd5aece768e7572  /home/cdiesh/ucscResults/calJac3/cpgIslandExtUnmasked.bed.gz
@@ -863,7 +863,7 @@ cbfdb05a2d5d7e7fa425fd15a2c4a1e3  /home/cdiesh/ucscResults/calJac4/augustusGene.
 23dd6587530bf28387365fcdfab61ec6  /home/cdiesh/ucscResults/calJac4/augustusGene.bed.gz.csi
 7702917faa91b17af72ad6d5ddf928e8  /home/cdiesh/ucscResults/calJac4/bed.sh
 591e584ab981a576354a2284e44312d5  /home/cdiesh/ucscResults/calJac4/bigTracks.json
-98dccb1f6f078797b1fae3ebec0b1a83  /home/cdiesh/ucscResults/calJac4/config.json
+40f4b3f69dbe81f28661ef40883a37e1  /home/cdiesh/ucscResults/calJac4/config.json
 910a630abb6ee959276a9c7fe89bc8a3  /home/cdiesh/ucscResults/calJac4/cpgIslandExt.bed.gz
 670919842f47f026c2d31ca78281604d  /home/cdiesh/ucscResults/calJac4/cpgIslandExt.bed.gz.csi
 75e909d25c345b7af83be71b6dc233b9  /home/cdiesh/ucscResults/calJac4/cpgIslandExtUnmasked.bed.gz
@@ -905,7 +905,7 @@ d74d06ce34d4e61de637314edd1921a0  /home/cdiesh/ucscResults/calJac4/ucscToINSDC.b
 7c254a0a2d18bc3a5d2c4419d90328b6  /home/cdiesh/ucscResults/calMil1/augustusGene.bed.gz.csi
 951838670c8ba7087371dc7fabfa8b4e  /home/cdiesh/ucscResults/calMil1/bed.sh
 c4814dc62d70388757ec1ed4d26a9d6d  /home/cdiesh/ucscResults/calMil1/bigTracks.json
-d1ae6d0a704adec387705cd4919c049c  /home/cdiesh/ucscResults/calMil1/config.json
+f821749e88c0e4ed777bd2d9c9737f21  /home/cdiesh/ucscResults/calMil1/config.json
 15036c6b8ae75c254d2f5e7d38237775  /home/cdiesh/ucscResults/calMil1/cpgIslandExt.bed.gz
 b0851a835994a3d85296b2c93e5ce5e5  /home/cdiesh/ucscResults/calMil1/cpgIslandExt.bed.gz.csi
 a22f791baef4858cf5081605219f5ae6  /home/cdiesh/ucscResults/calMil1/cpgIslandExtUnmasked.bed.gz
@@ -949,7 +949,7 @@ f280b0abc058c55ddc220d2769d85f9c  /home/cdiesh/ucscResults/canFam1/bacEndPairs.b
 95aa1043b63fc97abae6b7e2a94d81e6  /home/cdiesh/ucscResults/canFam1/bacEndPairs.bed.gz.csi
 849b4ed6458d49cadc057e1d38a037c7  /home/cdiesh/ucscResults/canFam1/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/canFam1/bigTracks.json
-d85e8daf723f55b50d9144beb9207ae9  /home/cdiesh/ucscResults/canFam1/config.json
+13f1cf8f9487812ee9e454b7e9b61e63  /home/cdiesh/ucscResults/canFam1/config.json
 6290d4e3bd3f3b7645114b5bfcab015d  /home/cdiesh/ucscResults/canFam1/ensGene.bed.gz
 3ddfaaa13a6c67620b50e849c3d61941  /home/cdiesh/ucscResults/canFam1/ensGene.bed.gz.csi
 e3c6451bc42e283bbb6120c3aa3722fc  /home/cdiesh/ucscResults/canFam1/genomicSuperDups.bed.gz
@@ -975,7 +975,7 @@ e93839b56a5e8024dae47ffd90a8b833  /home/cdiesh/ucscResults/canFam2/bacEndPairs.b
 70b8637b905f0b0373ff711ca247f177  /home/cdiesh/ucscResults/canFam2/bacEndPairs.bed.gz.csi
 5f5950f9878eaeeef8d7544025247c14  /home/cdiesh/ucscResults/canFam2/bed.sh
 f2f6203561d2a0e4efbde58aaad6c7e6  /home/cdiesh/ucscResults/canFam2/bigTracks.json
-2b2741b55b72e0894fad0bc306352104  /home/cdiesh/ucscResults/canFam2/config.json
+49639511568fa4d29ffe8ea013167013  /home/cdiesh/ucscResults/canFam2/config.json
 5aa25c9ce11256a48d42f14e91670ef0  /home/cdiesh/ucscResults/canFam2/cpgIslandExt.bed.gz
 7dae5f6ab01c8743b55521277ca2f018  /home/cdiesh/ucscResults/canFam2/cpgIslandExt.bed.gz.csi
 79f97edc9f3ce31c28eccab67d956fb8  /home/cdiesh/ucscResults/canFam2/cpgIslandExtUnmasked.bed.gz
@@ -1003,9 +1003,9 @@ d840dd82fd2a6d560e40d51bff87aacb  /home/cdiesh/ucscResults/canFam2/xenoRefGene.b
 75d2f6b327ff7acc36f9769d2255cd27  /home/cdiesh/ucscResults/canFam2/xenoRefGene.bed.gz.csi
 d538505e677df118bdc6c16852f669ef  /home/cdiesh/ucscResults/canFam3/augustusGene.bed.gz
 8b075a826caa9ac6147e40aaf198e8fd  /home/cdiesh/ucscResults/canFam3/augustusGene.bed.gz.csi
-db24793f9161f0acc51b993c5c2d6cb6  /home/cdiesh/ucscResults/canFam3/bed.sh
+40db88cd9eba7f184f8712a5c2e792ab  /home/cdiesh/ucscResults/canFam3/bed.sh
 d0b19af9b29290279daaaa7770efce0a  /home/cdiesh/ucscResults/canFam3/bigTracks.json
-2aec37155e612f91348945b67bfa071c  /home/cdiesh/ucscResults/canFam3/config.json
+1b0cd9e556238c5fed1f93479cda0b77  /home/cdiesh/ucscResults/canFam3/config.json
 ba18c6a79132d0b25e81b04d6f456f5f  /home/cdiesh/ucscResults/canFam3/cpgIslandExt.bed.gz
 62732ceca6bd512c63aa560bf1862faf  /home/cdiesh/ucscResults/canFam3/cpgIslandExt.bed.gz.csi
 4a38f20736f278a93119e15273b250b9  /home/cdiesh/ucscResults/canFam3/cpgIslandExtUnmasked.bed.gz
@@ -1053,7 +1053,7 @@ cf42ce288123aca883594ed388b5e563  /home/cdiesh/ucscResults/canFam4/augustusGene.
 7994f48e964d03f2fb49a596c29700ef  /home/cdiesh/ucscResults/canFam4/augustusGene.bed.gz.csi
 60dda4b3b533e9227ff32208f4c9d016  /home/cdiesh/ucscResults/canFam4/bed.sh
 924c1ba4b76382af09a20895b09fa6c9  /home/cdiesh/ucscResults/canFam4/bigTracks.json
-8add0a1067c5776e09b0eab62fe09130  /home/cdiesh/ucscResults/canFam4/config.json
+d6c0c959a51664d38c62d20eb85e5528  /home/cdiesh/ucscResults/canFam4/config.json
 915f8e019d2f954c1980a03a4be852e4  /home/cdiesh/ucscResults/canFam4/cpgIslandExt.bed.gz
 1d4d725435f1b430383d7e323c7443cf  /home/cdiesh/ucscResults/canFam4/cpgIslandExt.bed.gz.csi
 586e7550fc2d326fcea9b10c4bf6cdc8  /home/cdiesh/ucscResults/canFam4/cpgIslandExtUnmasked.bed.gz
@@ -1099,7 +1099,7 @@ c383c182c261a17caa04ab3158eb6927  /home/cdiesh/ucscResults/canFam5/augustusGene.
 77dcbe01b0f567565f91d9f0f23927a0  /home/cdiesh/ucscResults/canFam5/augustusGene.bed.gz.csi
 bfec41685bffa951e5d2af305cd72955  /home/cdiesh/ucscResults/canFam5/bed.sh
 89a17f65c856c09fb3b67b39f27bd755  /home/cdiesh/ucscResults/canFam5/bigTracks.json
-0ebd9e62ca5ea05d45b1774e941fdaff  /home/cdiesh/ucscResults/canFam5/config.json
+d24c2b5e73bbb466ad2071a534b1a232  /home/cdiesh/ucscResults/canFam5/config.json
 4310282fe29d7aa94a8e5e3101f1e268  /home/cdiesh/ucscResults/canFam5/cpgIslandExt.bed.gz
 ca4a85f8148adc7ff624cf930f17d51e  /home/cdiesh/ucscResults/canFam5/cpgIslandExt.bed.gz.csi
 0865b24878447f96b0295363a000d35f  /home/cdiesh/ucscResults/canFam5/cpgIslandExtUnmasked.bed.gz
@@ -1135,7 +1135,7 @@ fde73b6ada52738c7575614a69a8471c  /home/cdiesh/ucscResults/canFam6/augustusGene.
 ecf27f5b0a734158c810016f6da2568f  /home/cdiesh/ucscResults/canFam6/augustusGene.bed.gz.csi
 c21831fdf47c558c6fc0cd47365fc9b5  /home/cdiesh/ucscResults/canFam6/bed.sh
 841fb614a50713fbafd8998481983e41  /home/cdiesh/ucscResults/canFam6/bigTracks.json
-08c4865047dcbc325f945f712b7019ff  /home/cdiesh/ucscResults/canFam6/config.json
+bdf047edfa0436d7e17e4db6246523de  /home/cdiesh/ucscResults/canFam6/config.json
 6c36b51a4df3d5d1b40ef7020ca84d18  /home/cdiesh/ucscResults/canFam6/cpgIslandExt.bed.gz
 ed7a0ec0ad0ebf1e98cbffe1168e4b81  /home/cdiesh/ucscResults/canFam6/cpgIslandExt.bed.gz.csi
 775d1edd37f87f538874c373ce13c915  /home/cdiesh/ucscResults/canFam6/cpgIslandExtUnmasked.bed.gz
@@ -1177,7 +1177,7 @@ d55a8419e1711c425e1841496d474e96  /home/cdiesh/ucscResults/canFam6/windowmaskerS
 45c3f7f1cc33ae8397fa690615382534  /home/cdiesh/ucscResults/cavPor3/augustusGene.bed.gz.csi
 3a2b99d0cf69eb07734d942f0b1ce791  /home/cdiesh/ucscResults/cavPor3/bed.sh
 f57828d330051d26d7ff391588d08a3b  /home/cdiesh/ucscResults/cavPor3/bigTracks.json
-906ded89f1eb0446128f86453b1a77a8  /home/cdiesh/ucscResults/cavPor3/config.json
+41cfbe8805e0112d87475ff591a68073  /home/cdiesh/ucscResults/cavPor3/config.json
 6cbd2a6b7f00b9e0e82852fb1b1f38c6  /home/cdiesh/ucscResults/cavPor3/cpgIslandExt.bed.gz
 6110d0c8a588434364bc4fa891bb8a0f  /home/cdiesh/ucscResults/cavPor3/cpgIslandExt.bed.gz.csi
 5448ba6df46285b83dfb3f23e7c43fea  /home/cdiesh/ucscResults/cavPor3/cpgIslandExtUnmasked.bed.gz
@@ -1221,13 +1221,13 @@ fe629a6ed386bf290cf1e3a1fe622630  /home/cdiesh/ucscResults/cavPor3/windowmaskerS
 4398ca17e6a3665b468806262658131b  /home/cdiesh/ucscResults/cavPor3/xenoRefGene.bed.gz.csi
 99aa06d3014798d86001c324468d497f  /home/cdiesh/ucscResults/cb1/bed.sh
 99aa06d3014798d86001c324468d497f  /home/cdiesh/ucscResults/cb1/bigTracks.json
-f56152c0f9d07ea5f0067983e95d1a98  /home/cdiesh/ucscResults/cb1/config.json
+99aa06d3014798d86001c324468d497f  /home/cdiesh/ucscResults/cb1/config.json
 99aa06d3014798d86001c324468d497f  /home/cdiesh/ucscResults/cb1/tracks.json
 49b408cefd49f4be1c6c65b599c51e08  /home/cdiesh/ucscResults/cb3/augustusGene.bed.gz
 56d20657d2b801bce73ac6d3fa83b940  /home/cdiesh/ucscResults/cb3/augustusGene.bed.gz.csi
 791e1fb05e8af8543ca038e60a6e5a5c  /home/cdiesh/ucscResults/cb3/bed.sh
 94a432c576297667958612cdd5f8607a  /home/cdiesh/ucscResults/cb3/bigTracks.json
-f67a744caac631cc572d433175c2bd2e  /home/cdiesh/ucscResults/cb3/config.json
+d7780283a4b0daa2e6e90f009c3c59cf  /home/cdiesh/ucscResults/cb3/config.json
 8699eafcf47c8f65630b9c12f98e3d81  /home/cdiesh/ucscResults/cb3/microsat.bed.gz
 b28c6af1cc195420ad523af304dc91ac  /home/cdiesh/ucscResults/cb3/microsat.bed.gz.csi
 d15c3951f746c1c653784a70069c5788  /home/cdiesh/ucscResults/cb3/simpleRepeat.bed.gz
@@ -1243,7 +1243,7 @@ a9b7910e73fd4e31b7c792361d6014be  /home/cdiesh/ucscResults/ce10/augustusGene.bed
 c0532959698ed6b9abdcf10d186cc56e  /home/cdiesh/ucscResults/ce10/augustusGene.bed.gz.csi
 45130190e2c2d317a1286ad222c4970b  /home/cdiesh/ucscResults/ce10/bed.sh
 52564ce6fe6a3d758ceddc6e1368d62f  /home/cdiesh/ucscResults/ce10/bigTracks.json
-f4955bddf4cda5d8e2abc2a3c76654e5  /home/cdiesh/ucscResults/ce10/config.json
+a6ecabcb1d823f5b29118ef6aaf4e40b  /home/cdiesh/ucscResults/ce10/config.json
 6bc9fbbbfcd2f00a031c6223929eb827  /home/cdiesh/ucscResults/ce10/crisprRanges.bed.gz
 2c025205e68be3dc2352b5ee79d1cdfd  /home/cdiesh/ucscResults/ce10/crisprRanges.bed.gz.csi
 b6d716793c314d260c4066637ea04ff7  /home/cdiesh/ucscResults/ce10/ensGene.bed.gz
@@ -1273,7 +1273,7 @@ f50263adf79572f9cf47858b7ec53c62  /home/cdiesh/ucscResults/ce10/xenoRefGene.bed.
 2da92d51611fa2dec21d3419dff35c83  /home/cdiesh/ucscResults/ce11/augustusGene.bed.gz.csi
 c25392805643cc9fe6c61ee48fb52e4c  /home/cdiesh/ucscResults/ce11/bed.sh
 c76dda62fc3813c3f9387dbcc1088e0b  /home/cdiesh/ucscResults/ce11/bigTracks.json
-7efdf1c0daf568da9878ac26d9bbf061  /home/cdiesh/ucscResults/ce11/config.json
+ba746798e21f82d66a3d9fbdbb64152b  /home/cdiesh/ucscResults/ce11/config.json
 2a3dcc40734833bcc1565cd85d02d326  /home/cdiesh/ucscResults/ce11/cpgIslandExt.bed.gz
 60d69e46995d5ec55afeb3582e259db8  /home/cdiesh/ucscResults/ce11/cpgIslandExt.bed.gz.csi
 c56a59cfad8cd4c65fa62f8b079af021  /home/cdiesh/ucscResults/ce11/cpgIslandExtUnmasked.bed.gz
@@ -1321,7 +1321,7 @@ d7fe9236ce8acfb3e4c109eca833f0f0  /home/cdiesh/ucscResults/ce2/augustusGene.bed.
 0d2247d329df5b0e4d273eb0bad8fffe  /home/cdiesh/ucscResults/ce2/augustusGene.bed.gz.csi
 e091f4b085e0e7d98a6234d27f7d6f87  /home/cdiesh/ucscResults/ce2/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/ce2/bigTracks.json
-dd92a8432762f33eb1f4b578123de044  /home/cdiesh/ucscResults/ce2/config.json
+8c7ccec3a9e16aa0ed391aac03116df9  /home/cdiesh/ucscResults/ce2/config.json
 9f2ea18badd86efc4d36826156ff74b7  /home/cdiesh/ucscResults/ce2/geneid.bed.gz
 49be984f2c2c56374f5f76e5723f3934  /home/cdiesh/ucscResults/ce2/geneid.bed.gz.csi
 c92873cad6d354c8d1f3099d70ea96b4  /home/cdiesh/ucscResults/ce2/microsat.bed.gz
@@ -1353,7 +1353,7 @@ eeddef51df04840fa36ece435637cf03  /home/cdiesh/ucscResults/ce2/xenoRefGene.bed.g
 cd411f3ee535d9b6b75cef180624a783  /home/cdiesh/ucscResults/ce4/augustusGene.bed.gz.csi
 20e0b6098a7df6877eb45ae9f0b93a0d  /home/cdiesh/ucscResults/ce4/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/ce4/bigTracks.json
-8d36566b0c1cad113754b51358b37b81  /home/cdiesh/ucscResults/ce4/config.json
+676806f046abf7b307ae23a6f0775849  /home/cdiesh/ucscResults/ce4/config.json
 f5f0cfe9c802fd1bb9a98bda3532b5b6  /home/cdiesh/ucscResults/ce4/cytoBandIdeo.bed.gz
 f4f1fe85826cb4de6f1e542d7d00574c  /home/cdiesh/ucscResults/ce4/cytoBandIdeo.bed.gz.csi
 a6249722703522b481b5d9547f40a566  /home/cdiesh/ucscResults/ce4/microsat.bed.gz
@@ -1393,9 +1393,9 @@ c3d71b4cfa00ac8daa583ce2eb4382e7  /home/cdiesh/ucscResults/ce6/25mersRepeats.bed
 a4d871ecbddbb53621495e14c9bd53bd  /home/cdiesh/ucscResults/ce6/algBindSites.bed.gz.csi
 5bd8d3b301b022acd5e93345311ccdc7  /home/cdiesh/ucscResults/ce6/augustusGene.bed.gz
 be851feac73efb7630e2ce5eca675419  /home/cdiesh/ucscResults/ce6/augustusGene.bed.gz.csi
-82e2e97e8758e71d4c9f6fa3fcb57e88  /home/cdiesh/ucscResults/ce6/bed.sh
+5a6f88f3ceb3030a3185c42d9fefb925  /home/cdiesh/ucscResults/ce6/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/ce6/bigTracks.json
-5df06137774822be47397058c0813d70  /home/cdiesh/ucscResults/ce6/config.json
+e16b7e9d823b32180e7e8883ced594b8  /home/cdiesh/ucscResults/ce6/config.json
 bfad634627b95949537462c3c5f5e9d2  /home/cdiesh/ucscResults/ce6/ensGene.bed.gz
 1ea6233a1ffbf760b59ce8c936a7e1ae  /home/cdiesh/ucscResults/ce6/ensGene.bed.gz.csi
 779eb3d497fcbbe29c83b45687651cca  /home/cdiesh/ucscResults/ce6/microsat.bed.gz
@@ -1431,7 +1431,7 @@ c5becdf26deb1b4d085f1519b6691bcd  /home/cdiesh/ucscResults/ce6/tRNAs.bed.gz.csi
 af59f01161043c1de57d8ee511790c8f  /home/cdiesh/ucscResults/cerSim1/augustusGene.bed.gz.csi
 f7491cac68f67ea731fafa7cb848f042  /home/cdiesh/ucscResults/cerSim1/bed.sh
 ccdcbb1b5a6af6aa30cb91b82f427640  /home/cdiesh/ucscResults/cerSim1/bigTracks.json
-0e643c626c0a343873c095e686471971  /home/cdiesh/ucscResults/cerSim1/config.json
+00bed285d7e1b9b5c01191c5cfecc2cb  /home/cdiesh/ucscResults/cerSim1/config.json
 9c3438c1c7bf8730f70de6357f3017ef  /home/cdiesh/ucscResults/cerSim1/cpgIslandExt.bed.gz
 b2308869cac07ea21f7db7d54574478a  /home/cdiesh/ucscResults/cerSim1/cpgIslandExt.bed.gz.csi
 03e6bd0b659569da22c0fd99d59e3b19  /home/cdiesh/ucscResults/cerSim1/cpgIslandExtUnmasked.bed.gz
@@ -1471,7 +1471,7 @@ e375de7627160ce8b83da4cbf8299fee  /home/cdiesh/ucscResults/cerSim1/xenoRefGene.b
 f81651a4cc5948a53a5a434aad9e4359  /home/cdiesh/ucscResults/chlSab2/augustusGene.bed.gz.csi
 eaa443438bce0c8e81410e078719db44  /home/cdiesh/ucscResults/chlSab2/bed.sh
 bbc69535b66cc8c119a387a059206d2f  /home/cdiesh/ucscResults/chlSab2/bigTracks.json
-24c7924f80b906326d1ce75ab85784d0  /home/cdiesh/ucscResults/chlSab2/config.json
+f2edf473e96a1a7770d85d71d2c56990  /home/cdiesh/ucscResults/chlSab2/config.json
 1faa158b8534c3d4bea4f8ffd67b0912  /home/cdiesh/ucscResults/chlSab2/cpgIslandExt.bed.gz
 66b9d82d92a5ed38c8c09d4c741e5931  /home/cdiesh/ucscResults/chlSab2/cpgIslandExt.bed.gz.csi
 7bd8c7a8851d3d5e8383d2e2e2ff6eed  /home/cdiesh/ucscResults/chlSab2/cpgIslandExtUnmasked.bed.gz
@@ -1513,7 +1513,7 @@ de121a4aab24a8d68493e5d1129f7e52  /home/cdiesh/ucscResults/chlSab2/xenoRefGene.b
 4d7d5464253d05b8a0fed2f13d70e37b  /home/cdiesh/ucscResults/choHof1/augustusGene.bed.gz.csi
 da1f124076c4490f65427b8f9948f047  /home/cdiesh/ucscResults/choHof1/bed.sh
 42cb2462f3d6d18bc65dcf25d267ffb1  /home/cdiesh/ucscResults/choHof1/bigTracks.json
-2a93f1731c5ff47c8edb040a829598b4  /home/cdiesh/ucscResults/choHof1/config.json
+1ba45d14b65bac8a8679e26018790d91  /home/cdiesh/ucscResults/choHof1/config.json
 33d04dff19ddfc9e13b07749e8570e4b  /home/cdiesh/ucscResults/choHof1/cpgIslandExt.bed.gz
 9111436418e1163a1bd64f95d981de01  /home/cdiesh/ucscResults/choHof1/cpgIslandExt.bed.gz.csi
 dda5fdcb54fb54223e21f871a1825eb1  /home/cdiesh/ucscResults/choHof1/cpgIslandExtUnmasked.bed.gz
@@ -1545,9 +1545,9 @@ c891249dd420dd13a7dfb14999f9411a  /home/cdiesh/ucscResults/choHof1/tracks.json
 cad0b7379b9fcf9f0e5c7e6604f21ae6  /home/cdiesh/ucscResults/choHof1/xenoRefGene.bed.gz.csi
 3f0dc8323d727ba8112896d85b0bb424  /home/cdiesh/ucscResults/chrPic1/augustusGene.bed.gz
 49847a9a4f103765ce7cae5550886b36  /home/cdiesh/ucscResults/chrPic1/augustusGene.bed.gz.csi
-a41fa5822c77b22f0d06d1fa978579ac  /home/cdiesh/ucscResults/chrPic1/bed.sh
+555d03f01e18612770b1fdd5d5d08b01  /home/cdiesh/ucscResults/chrPic1/bed.sh
 8cb0a9bfbf6162b879a304730c2d0561  /home/cdiesh/ucscResults/chrPic1/bigTracks.json
-ee8a09072f9b9d8bc884358d0e10fb45  /home/cdiesh/ucscResults/chrPic1/config.json
+abdb052c64f3cdee4e992c38cb8da437  /home/cdiesh/ucscResults/chrPic1/config.json
 70ef75055ebabca5bc09425e05cefa1e  /home/cdiesh/ucscResults/chrPic1/cpgIslandExt.bed.gz
 b2ac9a835acafedf0b513d605aecd3c9  /home/cdiesh/ucscResults/chrPic1/cpgIslandExt.bed.gz.csi
 d5af8ab8ae70af42f0b43bab2ffc8e07  /home/cdiesh/ucscResults/chrPic1/cpgIslandExtUnmasked.bed.gz
@@ -1577,7 +1577,7 @@ f77c7d1f883583f015b5de9256e5a469  /home/cdiesh/ucscResults/chrPic1/ucscToINSDC.b
 1873cf43d1059c36a48402ba6dc8d9f3  /home/cdiesh/ucscResults/chrPic1/xenoRefGene.bed.gz.csi
 3801331872c3911e9a9024450927dd19  /home/cdiesh/ucscResults/ci1/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/ci1/bigTracks.json
-bf647edcb7e876bc8627ef452914bb32  /home/cdiesh/ucscResults/ci1/config.json
+07cdfe29942e99b359ec74b7463752d3  /home/cdiesh/ucscResults/ci1/config.json
 78a1904037490f264cace7b4f357d922  /home/cdiesh/ucscResults/ci1/gap.bed.gz
 0249642746d07128eab65aee6794e20a  /home/cdiesh/ucscResults/ci1/gap.bed.gz.csi
 6030c03f6f5105992a726e700504596c  /home/cdiesh/ucscResults/ci1/jgiGene.bed.gz
@@ -1595,9 +1595,9 @@ a0d18631c53657b2cade48d389a67c7c  /home/cdiesh/ucscResults/ci1/simpleRepeat.bed.
 df7a850598c6a8d920d6a43e166f2bb7  /home/cdiesh/ucscResults/ci1/tracks.json
 9aac01cbb64b2c8acf6767fbb889dedc  /home/cdiesh/ucscResults/ci1/xenoRefGene.bed.gz
 91a5e50c28dffddcecd6081f30a1add6  /home/cdiesh/ucscResults/ci1/xenoRefGene.bed.gz.csi
-53ce0e61f8eacf5bbbffb808d1cd4b30  /home/cdiesh/ucscResults/ci2/bed.sh
+e1b05f9fcf150254807ced6b9884def6  /home/cdiesh/ucscResults/ci2/bed.sh
 3bcc6cce1056c917e98e15c39b157069  /home/cdiesh/ucscResults/ci2/bigTracks.json
-a7015b7be708e86fb47d711d9bc91c3c  /home/cdiesh/ucscResults/ci2/config.json
+b183654248458eedfa378e7744092692  /home/cdiesh/ucscResults/ci2/config.json
 2a1e926abbc65bb626da9da158505c0f  /home/cdiesh/ucscResults/ci2/crisprRanges.bed.gz
 bb023cbd34d48308b30ca5bf9c7bb0a5  /home/cdiesh/ucscResults/ci2/crisprRanges.bed.gz.csi
 6bdffee5260717e89130119e6d88a614  /home/cdiesh/ucscResults/ci2/ensGene.bed.gz
@@ -1621,7 +1621,7 @@ b2c6ef4aa4ccadf7de0a0991937bbfeb  /home/cdiesh/ucscResults/ci2/rmsk.bed.gz.csi
 3eff2f9608e2424ff0995db675ea1bbe  /home/cdiesh/ucscResults/ci2/xenoRefGene.bed.gz.csi
 3d49c997fd54919d9b4bab2191b94868  /home/cdiesh/ucscResults/ci3/bed.sh
 565321ead43b1ff37421ce4ff9143a82  /home/cdiesh/ucscResults/ci3/bigTracks.json
-138963decbd2400fca830683773d7a93  /home/cdiesh/ucscResults/ci3/config.json
+55d7135abdd20ae390dd4c83ecef1ebd  /home/cdiesh/ucscResults/ci3/config.json
 0622d9776c5fa5b032c12231569badb8  /home/cdiesh/ucscResults/ci3/cpgIslandExt.bed.gz
 c910ccccac1053433f49873cf561768e  /home/cdiesh/ucscResults/ci3/cpgIslandExt.bed.gz.csi
 ea6d5c8fe09842ce732ebca4478eb3ac  /home/cdiesh/ucscResults/ci3/cpgIslandExtUnmasked.bed.gz
@@ -1659,7 +1659,7 @@ b3b89bba9538474e560207592371d900  /home/cdiesh/ucscResults/ci3/ucscToINSDC.bed.g
 dad20f78cc96004811c6688f7cfda242  /home/cdiesh/ucscResults/criGri1/augustusGene.bed.gz.csi
 6151ddb63ee62b6df53b0a2f209bc831  /home/cdiesh/ucscResults/criGri1/bed.sh
 40d918c06277271478fc71a55d9f181b  /home/cdiesh/ucscResults/criGri1/bigTracks.json
-523d93c91f1e3ad693fb93153f883e57  /home/cdiesh/ucscResults/criGri1/config.json
+b1594b372372504f67d17ac97993ef02  /home/cdiesh/ucscResults/criGri1/config.json
 fbc2ac63e59aae18a8c647a4d422ae06  /home/cdiesh/ucscResults/criGri1/cpgIslandExt.bed.gz
 9c56d3e03610f615f29e2dfbc2bd01ec  /home/cdiesh/ucscResults/criGri1/cpgIslandExt.bed.gz.csi
 1078d8041aacabe605661f50caea564c  /home/cdiesh/ucscResults/criGri1/cpgIslandExtUnmasked.bed.gz
@@ -1695,7 +1695,7 @@ b41c3aca0ff93b3062733242e5dc1db0  /home/cdiesh/ucscResults/criGri1/xenoRefGene.b
 6d45ed14b9441dd876cc311284f26f80  /home/cdiesh/ucscResults/criGriChoV1/augustusGene.bed.gz.csi
 9b674aa5f874e10a6b2f12dcad22dbe7  /home/cdiesh/ucscResults/criGriChoV1/bed.sh
 ff56dacbe16aefd367a6c8c3fcf78831  /home/cdiesh/ucscResults/criGriChoV1/bigTracks.json
-6f21ed301955745da170b501e66c7283  /home/cdiesh/ucscResults/criGriChoV1/config.json
+74c44d1a4cb107bee46016a565e4be12  /home/cdiesh/ucscResults/criGriChoV1/config.json
 cf96ead2ef60df01b8da35c487327c73  /home/cdiesh/ucscResults/criGriChoV1/cpgIslandExt.bed.gz
 6c4265207bb48bb066a78a8ddfeb3052  /home/cdiesh/ucscResults/criGriChoV1/cpgIslandExt.bed.gz.csi
 890f39a988188d1931fed0564bf68d05  /home/cdiesh/ucscResults/criGriChoV1/cpgIslandExtUnmasked.bed.gz
@@ -1745,7 +1745,7 @@ cad979cb30b12a44f6f17cb5caed2d89  /home/cdiesh/ucscResults/criGriChoV1/xenoRefGe
 453b3ee16adfcee798ee3960e8c09e83  /home/cdiesh/ucscResults/criGriChoV2/augustusGene.bed.gz.csi
 7291d2bc685de81a177e1f0348776825  /home/cdiesh/ucscResults/criGriChoV2/bed.sh
 11804ef7f0c6763bb9f3d24c30696ae9  /home/cdiesh/ucscResults/criGriChoV2/bigTracks.json
-0db8f45e531da3275fe813f6e5e56a1e  /home/cdiesh/ucscResults/criGriChoV2/config.json
+e2e14f7a53f6ad00f53561f6de1ebf1f  /home/cdiesh/ucscResults/criGriChoV2/config.json
 e8b8facb6ff20808c102bc39d7fedff3  /home/cdiesh/ucscResults/criGriChoV2/cpgIslandExt.bed.gz
 88f5804e76d4a2fe71de1c32af1bce1a  /home/cdiesh/ucscResults/criGriChoV2/cpgIslandExt.bed.gz.csi
 2f5404cb92d40214f076f95b61de32eb  /home/cdiesh/ucscResults/criGriChoV2/cpgIslandExtUnmasked.bed.gz
@@ -1787,7 +1787,7 @@ bb95a4db81d6bfdec16f63b0e8ca30e0  /home/cdiesh/ucscResults/criGriChoV2/xenoRefGe
 15725df52c976a58167d4ef1736e2901  /home/cdiesh/ucscResults/danRer10/augustusGene.bed.gz.csi
 0fa444f4b4ad416048ee3b85cb008229  /home/cdiesh/ucscResults/danRer10/bed.sh
 9cc0d7ca970d64cdbdb043d514a117b8  /home/cdiesh/ucscResults/danRer10/bigTracks.json
-83a7be124616cd2aa1bcbd45884eaa2f  /home/cdiesh/ucscResults/danRer10/config.json
+f266cf10729d892253adeebe41ed6400  /home/cdiesh/ucscResults/danRer10/config.json
 fc6e585e3647ccb10ffd41bf17143c6e  /home/cdiesh/ucscResults/danRer10/cpgIslandExt.bed.gz
 2f430b6b3ef2c1b359070a21e6d317f9  /home/cdiesh/ucscResults/danRer10/cpgIslandExt.bed.gz.csi
 a8453d8c3779822f1c075e3c222f83f8  /home/cdiesh/ucscResults/danRer10/cpgIslandExtUnmasked.bed.gz
@@ -1831,7 +1831,7 @@ c5df5f79fe56783412575c5a5ba81be5  /home/cdiesh/ucscResults/danRer11/augustusGene
 dd2dcc5ab45874d9cffce39b8f84434b  /home/cdiesh/ucscResults/danRer11/augustusGene.bed.gz.csi
 09bf47e14015a7077541998eeb30dfd2  /home/cdiesh/ucscResults/danRer11/bed.sh
 fbca51795c18d98f11127074d1954ddd  /home/cdiesh/ucscResults/danRer11/bigTracks.json
-57171d1db473c073ceac389e6b994dbb  /home/cdiesh/ucscResults/danRer11/config.json
+3da5536b4c9dc864a3c2a54f931e59c7  /home/cdiesh/ucscResults/danRer11/config.json
 69472c15cf1ec98b0a2a4d59ddb56d4f  /home/cdiesh/ucscResults/danRer11/cpgIslandExt.bed.gz
 9a6954b58a0a30fb5c5bf3763f7d84a6  /home/cdiesh/ucscResults/danRer11/cpgIslandExt.bed.gz.csi
 8ab266ae4d672ad513df27ede0b00f8f  /home/cdiesh/ucscResults/danRer11/cpgIslandExtUnmasked.bed.gz
@@ -1879,7 +1879,7 @@ a1b8c962b12b9be8f5714374bfc7a371  /home/cdiesh/ucscResults/danRer3/bacEndPairs.b
 0053cbf6c0b74c3e77bc13743411f3b3  /home/cdiesh/ucscResults/danRer3/bacEndSingles.bed.gz.csi
 c6c92d3d653cb4700a9abe4a1dc48071  /home/cdiesh/ucscResults/danRer3/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/danRer3/bigTracks.json
-981537dd4dd1a0a4063c60c7b7c704f3  /home/cdiesh/ucscResults/danRer3/config.json
+56877cf1bb2259b22dca6770a1e9ea97  /home/cdiesh/ucscResults/danRer3/config.json
 22cb6a6d1b6e4cdfa749f7d6dd7f436c  /home/cdiesh/ucscResults/danRer3/ensGene.bed.gz
 6d1b4b7fa4ac99b460ca5218f4ccaf01  /home/cdiesh/ucscResults/danRer3/ensGene.bed.gz.csi
 67de6c399880295c7f79d71e2af0a392  /home/cdiesh/ucscResults/danRer3/microsat.bed.gz
@@ -1903,7 +1903,7 @@ d0bd370661574b66e155b1f02b1fd85b  /home/cdiesh/ucscResults/danRer4/bacEndSingles
 f08d2882450ea6f5f9e7fb0ecef55354  /home/cdiesh/ucscResults/danRer4/bacEndSingles.bed.gz.csi
 eb147de8a4f77eef4b56c22ee597b140  /home/cdiesh/ucscResults/danRer4/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/danRer4/bigTracks.json
-f88251a55f0fee34852fc1f42c336b52  /home/cdiesh/ucscResults/danRer4/config.json
+4699eacd086a089a78ff4a089e897991  /home/cdiesh/ucscResults/danRer4/config.json
 8e04bd412fa59897ca91683b593a847e  /home/cdiesh/ucscResults/danRer4/ensGene.bed.gz
 6ecdf7e50c595ccf94a5fe17e20bf733  /home/cdiesh/ucscResults/danRer4/ensGene.bed.gz.csi
 9c9a25916041cc6274fe080fc68b14e3  /home/cdiesh/ucscResults/danRer4/genscan.bed.gz
@@ -1929,7 +1929,7 @@ d04399a668206a19bc2d7a5674291f2d  /home/cdiesh/ucscResults/danRer5/augustusGene.
 6007d456da745f86db83c6a28d8525f2  /home/cdiesh/ucscResults/danRer5/augustusGene.bed.gz.csi
 30a7b7152875dfb16b7a99a196fe472b  /home/cdiesh/ucscResults/danRer5/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/danRer5/bigTracks.json
-f148a74f4ebd3b84bb0565c541913b2c  /home/cdiesh/ucscResults/danRer5/config.json
+913748827d9c060461b7606cb7b2db75  /home/cdiesh/ucscResults/danRer5/config.json
 7bdd82cae2a1e08d4a6273c18a7d3000  /home/cdiesh/ucscResults/danRer5/ensGene.bed.gz
 6a49642de96e01f8093bee865594dade  /home/cdiesh/ucscResults/danRer5/ensGene.bed.gz.csi
 5d40dc6eb4334df40155c77540f47929  /home/cdiesh/ucscResults/danRer5/gap.bed.gz
@@ -1961,9 +1961,9 @@ e079b15df0fc4eefb41be64989edee86  /home/cdiesh/ucscResults/danRer5/xenoRefGene.b
 1e097dbeee80bea458e4f15a7249a009  /home/cdiesh/ucscResults/danRer5/xenoRefGene.bed.gz.csi
 07c07381ca6ee537bde48967e72d8a87  /home/cdiesh/ucscResults/danRer6/augustusGene.bed.gz
 7d0b4a2f2af52466b8b6fd6b80ad49b7  /home/cdiesh/ucscResults/danRer6/augustusGene.bed.gz.csi
-39d8f4b63f422a90f7883ace49d40f69  /home/cdiesh/ucscResults/danRer6/bed.sh
+1ac99e785d766b57acdd1895e00dc492  /home/cdiesh/ucscResults/danRer6/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/danRer6/bigTracks.json
-b771368670ad79be69ec653daa471f3e  /home/cdiesh/ucscResults/danRer6/config.json
+be32ff5b01d5d8def361894d77f63853  /home/cdiesh/ucscResults/danRer6/config.json
 8147ef46cf2d5994efca15009205c94c  /home/cdiesh/ucscResults/danRer6/cpgIslandExt.bed.gz
 c25c4923f5789ac1c2ff1da58b7f6e96  /home/cdiesh/ucscResults/danRer6/cpgIslandExt.bed.gz.csi
 69cf56b1d72f5916607555e02c65ea62  /home/cdiesh/ucscResults/danRer6/cpgIslandExtUnmasked.bed.gz
@@ -1995,9 +1995,9 @@ b58c3644bc4e3afd201d3274d78b4bc8  /home/cdiesh/ucscResults/danRer6/rmsk.bed.gz.c
 960820fde8ed034d06ffd8ee89785ed9  /home/cdiesh/ucscResults/danRer6/xenoRefGene.bed.gz.csi
 42f9f7e9e124f47f6e05ef6fd31ab45f  /home/cdiesh/ucscResults/danRer7/augustusGene.bed.gz
 6c4f5459005a535ab832a2657149e740  /home/cdiesh/ucscResults/danRer7/augustusGene.bed.gz.csi
-93fccbd42532dbafdddb560f17abfa85  /home/cdiesh/ucscResults/danRer7/bed.sh
+0b34efff0c1127ac1567d81499b06ec3  /home/cdiesh/ucscResults/danRer7/bed.sh
 bdc82eb698ee0b929ad6b666c8abe87e  /home/cdiesh/ucscResults/danRer7/bigTracks.json
-18e0e8158cd80f68b93ffb3a638c462f  /home/cdiesh/ucscResults/danRer7/config.json
+e313f2f6cdf09c84ea542d7444c75e82  /home/cdiesh/ucscResults/danRer7/config.json
 0a491ff09f1c4588e9538eb76399cba0  /home/cdiesh/ucscResults/danRer7/cpgIslandExt.bed.gz
 2f4a29d4a3c33456b4abb24da1101a31  /home/cdiesh/ucscResults/danRer7/cpgIslandExt.bed.gz.csi
 be1af1d6ae9a4f6eb7d04d28df9dd970  /home/cdiesh/ucscResults/danRer7/cpgIslandExtUnmasked.bed.gz
@@ -2047,7 +2047,7 @@ de24e45c58a0b1d8b118c35fd8426b6a  /home/cdiesh/ucscResults/dasNov3/augustusGene.
 dc7221158d1d9c4f6920d45483c40d08  /home/cdiesh/ucscResults/dasNov3/augustusGene.bed.gz.csi
 c90cff4875489f79447de9e18a703417  /home/cdiesh/ucscResults/dasNov3/bed.sh
 0987dbd0d01418bc6fec5eb325f7ebc2  /home/cdiesh/ucscResults/dasNov3/bigTracks.json
-3743f7c06b7d490dc3504d24581b203e  /home/cdiesh/ucscResults/dasNov3/config.json
+3429b78f8339452a9d406cca2857a679  /home/cdiesh/ucscResults/dasNov3/config.json
 51b7710d6d4fb7d90270896cad8f3702  /home/cdiesh/ucscResults/dasNov3/cpgIslandExt.bed.gz
 cb8e26acd3b02a943df0ff97b1cd4e36  /home/cdiesh/ucscResults/dasNov3/cpgIslandExt.bed.gz.csi
 95c5a9555757133d98499ae8f7546217  /home/cdiesh/ucscResults/dasNov3/cpgIslandExtUnmasked.bed.gz
@@ -2089,7 +2089,7 @@ d91b6204322f43233d874fcdaeaad27a  /home/cdiesh/ucscResults/dasNov3/xenoRefGene.b
 0dcf42847db78d3f402e209472949ccd  /home/cdiesh/ucscResults/dipOrd1/augustusGene.bed.gz.csi
 e06f6576d100feed9b0b6b2f98faa991  /home/cdiesh/ucscResults/dipOrd1/bed.sh
 f6b46ebc5b74570356f59e5afa43846b  /home/cdiesh/ucscResults/dipOrd1/bigTracks.json
-e599807fd0ea723bcae1f8cbb03cab3c  /home/cdiesh/ucscResults/dipOrd1/config.json
+25315763fd9a02335a9a9711cd8d31ef  /home/cdiesh/ucscResults/dipOrd1/config.json
 089d83360ea32536041f51e27a31410f  /home/cdiesh/ucscResults/dipOrd1/cpgIslandExt.bed.gz
 f8ae6925266815ea20bcea0595c204b1  /home/cdiesh/ucscResults/dipOrd1/cpgIslandExt.bed.gz.csi
 0b3c8d7c1bb8028323ad22e3a84fa450  /home/cdiesh/ucscResults/dipOrd1/cpgIslandExtUnmasked.bed.gz
@@ -2127,9 +2127,9 @@ f02a7c9cc451f3c162ebb12328f45450  /home/cdiesh/ucscResults/dm1/anophelesEcores.b
 90f337aefdf7f81ea2bac456f193e328  /home/cdiesh/ucscResults/dm1/bdgpGene.bed.gz.csi
 6480b2441ba04b220ba94ffe8966bddd  /home/cdiesh/ucscResults/dm1/bdgpNonCoding.bed.gz
 c7927e1af3cd3bbe5ad903c66218f3b1  /home/cdiesh/ucscResults/dm1/bdgpNonCoding.bed.gz.csi
-58c305239dc2923a2347e386e4733e9f  /home/cdiesh/ucscResults/dm1/bed.sh
+0e12d588b897153db8d5d051725895fb  /home/cdiesh/ucscResults/dm1/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/dm1/bigTracks.json
-0b1d5ecb03928a1ea690a4d959953fbc  /home/cdiesh/ucscResults/dm1/config.json
+d9010732a612b2a0e1c8db6e2af5c7c9  /home/cdiesh/ucscResults/dm1/config.json
 54c9316d09fe2ed2352a92cc3b29ce08  /home/cdiesh/ucscResults/dm1/cytoBand.bed.gz
 729d12ecc14ccdc58b2f3181dda99568  /home/cdiesh/ucscResults/dm1/cytoBand.bed.gz.csi
 95715484fd8722dfe65a096049ddf6e8  /home/cdiesh/ucscResults/dm1/cytoBandIdeo.bed.gz
@@ -2197,7 +2197,7 @@ d5fa036a7fdd96933b8fd90082ca50fd  /home/cdiesh/ucscResults/dm2/bdtnpDnaseAccS5.b
 25eb8c28e28af1e270a31b0b90bdaf60  /home/cdiesh/ucscResults/dm2/bdtnpDnaseAccS9.bed.gz.csi
 138480e328e35b3127f9000a2c9ac7cf  /home/cdiesh/ucscResults/dm2/bed.sh
 805231a875fcb8a4da19517ae5dfaf1d  /home/cdiesh/ucscResults/dm2/bigTracks.json
-ccb84be10805ef306a65f89efd951a6a  /home/cdiesh/ucscResults/dm2/config.json
+574d46ad585fa92d37f9c78ffee9d63d  /home/cdiesh/ucscResults/dm2/config.json
 d16f4ae145e26f6efe112ffa809e00bb  /home/cdiesh/ucscResults/dm2/cytoBand.bed.gz
 16066862b3eab46a6eee46eef7d7c8bb  /home/cdiesh/ucscResults/dm2/cytoBand.bed.gz.csi
 59e2ef3111c87a0cb100ce6b3a38a703  /home/cdiesh/ucscResults/dm2/cytoBandIdeo.bed.gz
@@ -2273,9 +2273,9 @@ f6c0c58fc6f2333b13c8bf2be2cffdc6  /home/cdiesh/ucscResults/dm3/bdtnpDnaseAccS5.b
 9848bfb6998696313b1710c5f51b43e6  /home/cdiesh/ucscResults/dm3/bdtnpDnaseAccS5.bed.gz.csi
 ed028df0856bfaa3a0d87fa1b0f61c76  /home/cdiesh/ucscResults/dm3/bdtnpDnaseAccS9.bed.gz
 aa60a9b0c9a755a38de2971a95a8c0eb  /home/cdiesh/ucscResults/dm3/bdtnpDnaseAccS9.bed.gz.csi
-b7879874f242d36b1e0274622a213605  /home/cdiesh/ucscResults/dm3/bed.sh
+4be5de7c282bdc3c9aa81608da6de352  /home/cdiesh/ucscResults/dm3/bed.sh
 805231a875fcb8a4da19517ae5dfaf1d  /home/cdiesh/ucscResults/dm3/bigTracks.json
-eba2b1b1e8f93b7f9a5b63e2be3829f4  /home/cdiesh/ucscResults/dm3/config.json
+854a776398184dc592327824366ff09b  /home/cdiesh/ucscResults/dm3/config.json
 442cc8f2da26e8ee66035014b3c26daf  /home/cdiesh/ucscResults/dm3/cytoBand.bed.gz
 c21bb19d41bab14e63ee7a4b28bce87a  /home/cdiesh/ucscResults/dm3/cytoBand.bed.gz.csi
 94f5d130dd92c12b319bc24e8b042658  /home/cdiesh/ucscResults/dm3/cytoBandIdeo.bed.gz
@@ -2311,9 +2311,9 @@ cbaf1fca6ed0849901d7324c286af393  /home/cdiesh/ucscResults/dm3/tracks.json
 058226e1d221b587165cfa64a130d18b  /home/cdiesh/ucscResults/dm3/xenoRefGene.bed.gz.csi
 1d58f06b561fc1b7a95518d5631c0182  /home/cdiesh/ucscResults/dm6/augustusGene.bed.gz
 e747efa5e66bb221de333f2d681fdb1d  /home/cdiesh/ucscResults/dm6/augustusGene.bed.gz.csi
-34e1929f323b7c4ef9e26a6cffc3eda5  /home/cdiesh/ucscResults/dm6/bed.sh
+0716bceaff0d91db29fd11228880420e  /home/cdiesh/ucscResults/dm6/bed.sh
 7a364eb8697b710722582810e364aafd  /home/cdiesh/ucscResults/dm6/bigTracks.json
-944b8e8a77b803c40d5f4c33e08783f5  /home/cdiesh/ucscResults/dm6/config.json
+89434b92815138406c3870d803d3f6c8  /home/cdiesh/ucscResults/dm6/config.json
 5f353193fe5ca40f12d4284a6aba80cb  /home/cdiesh/ucscResults/dm6/cpgIslandExt.bed.gz
 09fef01e9c647063e4a9147372cccb2a  /home/cdiesh/ucscResults/dm6/cpgIslandExt.bed.gz.csi
 90ec2ddda40cdca005aa57d1f76d6785  /home/cdiesh/ucscResults/dm6/cpgIslandExtUnmasked.bed.gz
@@ -2371,7 +2371,7 @@ b1891d823260285182d04e057d1357c6  /home/cdiesh/ucscResults/dp2/augustusGene.bed.
 e778c5b5275aefeaa89c3d0b308f8703  /home/cdiesh/ucscResults/dp2/augustusGene.bed.gz.csi
 6c1eea93f18ff62eef4b17035adfc316  /home/cdiesh/ucscResults/dp2/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/dp2/bigTracks.json
-888598486cbb567492a9d04cc7de8d83  /home/cdiesh/ucscResults/dp2/config.json
+41dd0e8a24bee9bd69d4b85bce136ea9  /home/cdiesh/ucscResults/dp2/config.json
 895ab1981941709d03a3dd5a7c93a94e  /home/cdiesh/ucscResults/dp2/gap.bed.gz
 88defd9a61ee003c2c7e4a85aa96239a  /home/cdiesh/ucscResults/dp2/gap.bed.gz.csi
 b8179bc427cf69060ae0dad22f0d6507  /home/cdiesh/ucscResults/dp2/gcPercent.bed.gz
@@ -2395,7 +2395,7 @@ ee1312779e43583be9e72d502ec91c1a  /home/cdiesh/ucscResults/dp3/augustusGene.bed.
 deb8e4c8d0468c9a6d9d1537f6f7ad27  /home/cdiesh/ucscResults/dp3/augustusGene.bed.gz.csi
 cf6da49bdc0d65c3c1623916bccb18e4  /home/cdiesh/ucscResults/dp3/bed.sh
 ffad23f155e4cf5a6211d29172137ceb  /home/cdiesh/ucscResults/dp3/bigTracks.json
-e047390c37fe676de1ae9cf10af36616  /home/cdiesh/ucscResults/dp3/config.json
+ac85293de5dacf845407e7b09de56874  /home/cdiesh/ucscResults/dp3/config.json
 e92c03b0cda58c90b3fb8bbc9dfc28a5  /home/cdiesh/ucscResults/dp3/flyBaseGene.bed.gz
 334668f3e744d8a1ef12841493495ae1  /home/cdiesh/ucscResults/dp3/flyBaseGene.bed.gz.csi
 38a8d95d889df8eb082e497547096284  /home/cdiesh/ucscResults/dp3/gcPercent.bed.gz
@@ -2419,7 +2419,7 @@ d2b161ba07a9a1bd88404d93b03ac7a3  /home/cdiesh/ucscResults/dp3/xenoRefGene.bed.g
 645aee3334b348bffe254ee060391c1f  /home/cdiesh/ucscResults/droAna1/augustusGene.bed.gz.csi
 708c68a1c4366351c075f85020fb2f8b  /home/cdiesh/ucscResults/droAna1/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/droAna1/bigTracks.json
-1beb66c1e0beb2f235321cc9a540cec1  /home/cdiesh/ucscResults/droAna1/config.json
+12787cfd834ec810c664c64f441f0a9c  /home/cdiesh/ucscResults/droAna1/config.json
 83fd7e3cd28434f10944df83c2cde602  /home/cdiesh/ucscResults/droAna1/gap.bed.gz
 96e0bc4e0907a37a1f8655a91efb5517  /home/cdiesh/ucscResults/droAna1/gap.bed.gz.csi
 c774b40a1b211d4549dcf40fd8715b1c  /home/cdiesh/ucscResults/droAna1/gcPercent.bed.gz
@@ -2441,7 +2441,7 @@ f5656e2f51393cdbb0ba3d79dcc4f3c2  /home/cdiesh/ucscResults/droAna1/xenoRefGene.b
 a3424032d9a77959e04234d1141a4e45  /home/cdiesh/ucscResults/droAna2/augustusGene.bed.gz.csi
 fa59712852c99a0673ee5780bf995756  /home/cdiesh/ucscResults/droAna2/bed.sh
 bba7245ea1106bd6fa40130ae0beca2c  /home/cdiesh/ucscResults/droAna2/bigTracks.json
-c2460b9bc73440a9ca028297d0f15cb2  /home/cdiesh/ucscResults/droAna2/config.json
+54b0b564b7cea6bf35cd1c8c41c659c1  /home/cdiesh/ucscResults/droAna2/config.json
 5ad81a459e6fcb2e1053b4e30f2483b1  /home/cdiesh/ucscResults/droAna2/gap.bed.gz
 d75f9b4ccac8ea93391d0fdb220478b2  /home/cdiesh/ucscResults/droAna2/gap.bed.gz.csi
 09c1d5d78da7ae3b142fc0712af1b33f  /home/cdiesh/ucscResults/droAna2/geneMapper.bed.gz
@@ -2463,7 +2463,7 @@ d84a859335b310f025e80dca2c9d5f96  /home/cdiesh/ucscResults/droAna2/xenoRefGene.b
 4c57dd2b76a3c5e070bbff51cdb350b9  /home/cdiesh/ucscResults/droEre1/augustusGene.bed.gz.csi
 932557e97730dbf83b6626e2536f34f2  /home/cdiesh/ucscResults/droEre1/bed.sh
 391be4bcaee5811c0f42f66d62a81f87  /home/cdiesh/ucscResults/droEre1/bigTracks.json
-2fc0a84bf82bca0a2acbc847151fd38f  /home/cdiesh/ucscResults/droEre1/config.json
+55c9b594aedc55dcec524aa3220a2f19  /home/cdiesh/ucscResults/droEre1/config.json
 0ce24ff0fa536678bd1fcf373c8638bf  /home/cdiesh/ucscResults/droEre1/gap.bed.gz
 3dccad88323281712fce78b58383718f  /home/cdiesh/ucscResults/droEre1/gap.bed.gz.csi
 106b1a36382f379808ff68b6acfb97be  /home/cdiesh/ucscResults/droEre1/geneMapper.bed.gz
@@ -2485,7 +2485,7 @@ d3f8dab416e934e37cc2fe7c32bbd210  /home/cdiesh/ucscResults/droGri1/augustusGene.
 f513b0f265de1fd7477c90a88b9657e8  /home/cdiesh/ucscResults/droGri1/augustusGene.bed.gz.csi
 32785cd7f566e7f454666f3273469b5e  /home/cdiesh/ucscResults/droGri1/bed.sh
 f5f00a5187ae931e83ec4731038384cb  /home/cdiesh/ucscResults/droGri1/bigTracks.json
-e4b14a9aaa67df098b3a03a6933ab88d  /home/cdiesh/ucscResults/droGri1/config.json
+56774bf8d11d6bfe9f49b4cf19cd05d7  /home/cdiesh/ucscResults/droGri1/config.json
 ad56b6e529b200f2a7601bdb838571bd  /home/cdiesh/ucscResults/droGri1/gap.bed.gz
 5958b727c5c7502c8b8ec50bd6e5728e  /home/cdiesh/ucscResults/droGri1/gap.bed.gz.csi
 80704e0f68d69f8dcfb7fe6d9fa2df3c  /home/cdiesh/ucscResults/droGri1/genscan.bed.gz
@@ -2505,7 +2505,7 @@ eaf7b48dbf95448434891600d09bd520  /home/cdiesh/ucscResults/droGri1/xenoRefGene.b
 7186f6701c93c573025ecfca10ee0021  /home/cdiesh/ucscResults/droMoj1/augustusGene.bed.gz.csi
 6ac8d59d0adb63ce0699c3fdbaa06636  /home/cdiesh/ucscResults/droMoj1/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/droMoj1/bigTracks.json
-eaecbc4170b88dd86a7fca848101bb70  /home/cdiesh/ucscResults/droMoj1/config.json
+ca87cb34eb5c0a7932cddd62ced7428b  /home/cdiesh/ucscResults/droMoj1/config.json
 169ce87f0543f48701bb0872c3e41658  /home/cdiesh/ucscResults/droMoj1/gap.bed.gz
 e6c19b36a460780b58737aec821c96a1  /home/cdiesh/ucscResults/droMoj1/gap.bed.gz.csi
 4853464061412511658f429c8ab598b5  /home/cdiesh/ucscResults/droMoj1/gcPercent.bed.gz
@@ -2527,7 +2527,7 @@ c35da614ebfbf7a82c8a86bb7612edab  /home/cdiesh/ucscResults/droMoj1/xenoRefGene.b
 d512c972602952a4322e450d93ea8026  /home/cdiesh/ucscResults/droMoj2/augustusGene.bed.gz.csi
 cf3225e84fe3144b3f957b74887a9f87  /home/cdiesh/ucscResults/droMoj2/bed.sh
 b145fc55feef0a8c91fc8a7fcc45c98a  /home/cdiesh/ucscResults/droMoj2/bigTracks.json
-eeb0eea05518e04f6781040a847e133c  /home/cdiesh/ucscResults/droMoj2/config.json
+d3f491dadf0ce3e674567f5922d047b1  /home/cdiesh/ucscResults/droMoj2/config.json
 6ff0347a6d2b13f021863d68707c59e2  /home/cdiesh/ucscResults/droMoj2/gap.bed.gz
 48bd4e0086dd18cfe2c63ab8c5d3f495  /home/cdiesh/ucscResults/droMoj2/gap.bed.gz.csi
 4e84bd907a569fca0de8d8d0ff14e808  /home/cdiesh/ucscResults/droMoj2/geneMapper.bed.gz
@@ -2549,7 +2549,7 @@ c34f983e498185ee9080af60ebef15fa  /home/cdiesh/ucscResults/droMoj2/xenoRefGene.b
 7a905301ed0acb90c475ed99e2900d44  /home/cdiesh/ucscResults/droPer1/augustusGene.bed.gz.csi
 26ec91e8edbaa9c4927f2051e1df3c01  /home/cdiesh/ucscResults/droPer1/bed.sh
 9ef7daf7119d4ade671f541d2891406e  /home/cdiesh/ucscResults/droPer1/bigTracks.json
-b8ce0ab817af70042ec38370d8ee334e  /home/cdiesh/ucscResults/droPer1/config.json
+f4ab3ea1fb1243d0ed4a2627568f3828  /home/cdiesh/ucscResults/droPer1/config.json
 1ec5798e87c2127ab2298ee021e19b5c  /home/cdiesh/ucscResults/droPer1/gap.bed.gz
 3b876f0e9934d6164d6a89cbde87505d  /home/cdiesh/ucscResults/droPer1/gap.bed.gz.csi
 c40a363abf103ffd23c1c3197b6d481d  /home/cdiesh/ucscResults/droPer1/genscan.bed.gz
@@ -2575,7 +2575,7 @@ c56abfa3eda53f01d573a003b3a62261  /home/cdiesh/ucscResults/droPer1/xenoRefGene.b
 1723e1571d7e11972330c4143f9aa0ae  /home/cdiesh/ucscResults/droSec1/augustusGene.bed.gz.csi
 124083fe7f0adef32ec406ff08c37956  /home/cdiesh/ucscResults/droSec1/bed.sh
 93297a43aed74f11af0772f7948f2f26  /home/cdiesh/ucscResults/droSec1/bigTracks.json
-cb769ebdaa3aa2caa7f8e34da0e13bd9  /home/cdiesh/ucscResults/droSec1/config.json
+203bf16ae4b77c1d060715ce3e38b616  /home/cdiesh/ucscResults/droSec1/config.json
 441df1b559ed8e2678e02e1d63092eab  /home/cdiesh/ucscResults/droSec1/gap.bed.gz
 e1736db23a6ef9be539d6d0bcc0e7eb7  /home/cdiesh/ucscResults/droSec1/gap.bed.gz.csi
 7230d329b74b4b2995c0d0a7f8e699e3  /home/cdiesh/ucscResults/droSec1/genscan.bed.gz
@@ -2595,7 +2595,7 @@ ff9ae4fd402471ebb35f5834c66edcd4  /home/cdiesh/ucscResults/droSim1/augustusGene.
 1bdccd04e56ee4b356671c4ea4b08a3d  /home/cdiesh/ucscResults/droSim1/augustusGene.bed.gz.csi
 c51a2742a8deaac22bd2224c6ac7d463  /home/cdiesh/ucscResults/droSim1/bed.sh
 67ca0ac679b5cbbf52480ef1c94baeb6  /home/cdiesh/ucscResults/droSim1/bigTracks.json
-e527d32ceb8e1e0b1d87134fda597ca1  /home/cdiesh/ucscResults/droSim1/config.json
+5bfe6e774d5b09af02d8a21fc5547fc3  /home/cdiesh/ucscResults/droSim1/config.json
 a3240d334137f44f9d586b94aa8b15ff  /home/cdiesh/ucscResults/droSim1/gcPercent.bed.gz
 6fac3d8c1d03ec44713be754f0bb8506  /home/cdiesh/ucscResults/droSim1/gcPercent.bed.gz.csi
 babe579aa5a26583c1d71147a7411551  /home/cdiesh/ucscResults/droSim1/geneid.bed.gz
@@ -2613,7 +2613,7 @@ e18b5b36516ef914148029f9fe220c1f  /home/cdiesh/ucscResults/droSim1/simpleRepeat.
 01ed6b5f78c8e840a7bb1dbbb358120b  /home/cdiesh/ucscResults/droVir1/augustusGene.bed.gz.csi
 884f944f221b9ab1022b859b97d92271  /home/cdiesh/ucscResults/droVir1/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/droVir1/bigTracks.json
-3d138cd472073185d1b6c5cebff03879  /home/cdiesh/ucscResults/droVir1/config.json
+debb66516113eb342276a3a293946e32  /home/cdiesh/ucscResults/droVir1/config.json
 3636f616a5035c91ffa54fa4ad1b2161  /home/cdiesh/ucscResults/droVir1/gap.bed.gz
 b7214b710e3c70c8ccd2a078a421f080  /home/cdiesh/ucscResults/droVir1/gap.bed.gz.csi
 53f8e5b5bfb0e2a01782e60509c69778  /home/cdiesh/ucscResults/droVir1/gcPercent.bed.gz
@@ -2635,7 +2635,7 @@ be1efcf8145062893c9a8c48f93c45d1  /home/cdiesh/ucscResults/droVir1/rmsk.bed.gz.c
 57bc2799b5ff7a566b5a7c6bb64fc6bf  /home/cdiesh/ucscResults/droVir2/augustusGene.bed.gz.csi
 085953cafa3d0118fe013a77bdd1aea9  /home/cdiesh/ucscResults/droVir2/bed.sh
 dec8caf913d0d4ddb9cf12fed4620452  /home/cdiesh/ucscResults/droVir2/bigTracks.json
-bab215c72d94fa4283ef9e5443f43653  /home/cdiesh/ucscResults/droVir2/config.json
+bf15846520ebff7bb19dc7f3c272c66c  /home/cdiesh/ucscResults/droVir2/config.json
 cd436c16cc5c6b43bd0ffe9db5ceabcf  /home/cdiesh/ucscResults/droVir2/gap.bed.gz
 71c2d4d34d02f93d6c86429c0f45677b  /home/cdiesh/ucscResults/droVir2/gap.bed.gz.csi
 8f15860c1206e7c0dd919f998333b6e0  /home/cdiesh/ucscResults/droVir2/geneMapper.bed.gz
@@ -2657,7 +2657,7 @@ a7ff2fb5ae92b425a89da917eae4138b  /home/cdiesh/ucscResults/droVir2/tracks.json
 15d88a22b9044df3e1053fbf34e2914f  /home/cdiesh/ucscResults/droYak1/augustusGene.bed.gz.csi
 3182c75d9d86de5ad51cbb01345b6356  /home/cdiesh/ucscResults/droYak1/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/droYak1/bigTracks.json
-aa00702f055ace4d12e1ac770737f241  /home/cdiesh/ucscResults/droYak1/config.json
+aefd2cba2d5d4b05dca2a5dfa6dc67aa  /home/cdiesh/ucscResults/droYak1/config.json
 33e5dcba48d18170ad5bbe19bf75953c  /home/cdiesh/ucscResults/droYak1/gcPercent.bed.gz
 586f34fbfdba9eb91123f8aa23654882  /home/cdiesh/ucscResults/droYak1/gcPercent.bed.gz.csi
 e94ab3dcaa5d5fac93e456ebc4d40903  /home/cdiesh/ucscResults/droYak1/geneid.bed.gz
@@ -2677,7 +2677,7 @@ bb20a08ac626eb0fa9becb81dafa6c61  /home/cdiesh/ucscResults/droYak1/xenoRefGene.b
 7861ae92f7847385dcf1fb11ccd991a5  /home/cdiesh/ucscResults/droYak2/augustusGene.bed.gz.csi
 54adf6ed961b6cbd12475b40a4dda31f  /home/cdiesh/ucscResults/droYak2/bed.sh
 9b2af7142e87824d0fb8e875e15d5639  /home/cdiesh/ucscResults/droYak2/bigTracks.json
-01805a9c69255db6ca2d4a266a58c488  /home/cdiesh/ucscResults/droYak2/config.json
+eb042e092e3114f29e6a1766b825c670  /home/cdiesh/ucscResults/droYak2/config.json
 6d84dc3cae92e64fed74ab63555b21fc  /home/cdiesh/ucscResults/droYak2/contamination.bed.gz
 467f9c2f34e0aea45d0a57af48dc292f  /home/cdiesh/ucscResults/droYak2/contamination.bed.gz.csi
 a1f2e00590da73ab4083ea6cfcaf0a87  /home/cdiesh/ucscResults/droYak2/genscan.bed.gz
@@ -2691,7 +2691,7 @@ dccb50926f06066902fdccb99e8daf93  /home/cdiesh/ucscResults/droYak2/tracks.json
 90df0d73b2f9433ca1f4449671927efd  /home/cdiesh/ucscResults/droYak2/xenoRefGene.bed.gz.csi
 8cfed18bed174b7c177a7f1d8b948478  /home/cdiesh/ucscResults/eboVir3/bed.sh
 414b4bf779c3e06be69ce991f1e57729  /home/cdiesh/ucscResults/eboVir3/bigTracks.json
-41ccfe7de8792ed86722065c4e9d3edd  /home/cdiesh/ucscResults/eboVir3/config.json
+4fa968130991201b07e120a0f373023d  /home/cdiesh/ucscResults/eboVir3/config.json
 2fe2a00e2a5b0e5c91bf8f2495cd7a08  /home/cdiesh/ucscResults/eboVir3/cytoBandIdeo.bed.gz
 420b1198bc2cd42b2d1d211f6c7ab077  /home/cdiesh/ucscResults/eboVir3/cytoBandIdeo.bed.gz.csi
 169ce87f0543f48701bb0872c3e41658  /home/cdiesh/ucscResults/eboVir3/gap.bed.gz
@@ -2715,7 +2715,7 @@ bc8d78942e34d73f9b7d5773424ce13e  /home/cdiesh/ucscResults/echTel1/augustusGene.
 ac060edb4ec7b92f7cbf17ddff92f84c  /home/cdiesh/ucscResults/echTel1/augustusGene.bed.gz.csi
 32f4979aefa42a6cccaf48c37bc3a40c  /home/cdiesh/ucscResults/echTel1/bed.sh
 5234a7a70ca0c074356bcb6728e83189  /home/cdiesh/ucscResults/echTel1/bigTracks.json
-9aa083be735505869e66e8b758943fac  /home/cdiesh/ucscResults/echTel1/config.json
+cd6d88e29fb5a6f45783034883c5f0b6  /home/cdiesh/ucscResults/echTel1/config.json
 86a399cc62ad8b653bc73b32c5d46a2d  /home/cdiesh/ucscResults/echTel1/cpgIslandExt.bed.gz
 6dab137a8b6f83b7475d688da0d71717  /home/cdiesh/ucscResults/echTel1/cpgIslandExt.bed.gz.csi
 1985dd09d9767f2b63472660d7fc2c45  /home/cdiesh/ucscResults/echTel1/cpgIslandExtUnmasked.bed.gz
@@ -2749,7 +2749,7 @@ a032083b3363f5c17779fd506075abe3  /home/cdiesh/ucscResults/echTel1/xenoRefGene.b
 b79c37f9e38719a1f05c20ce9aa00a14  /home/cdiesh/ucscResults/echTel2/augustusGene.bed.gz.csi
 4b6aab9a35a239d10615cb5a38e10f7e  /home/cdiesh/ucscResults/echTel2/bed.sh
 abf0d97d88878935e01500d0766c6d56  /home/cdiesh/ucscResults/echTel2/bigTracks.json
-3422f6d28eba80f906bab02f7da1c06f  /home/cdiesh/ucscResults/echTel2/config.json
+858cf2f1a040e4ad3e23028aa3cbb462  /home/cdiesh/ucscResults/echTel2/config.json
 0a3bb1340c1603ad0a491d3edb3084a2  /home/cdiesh/ucscResults/echTel2/cpgIslandExt.bed.gz
 ef7061c7d2ed9faa2b75a79762079588  /home/cdiesh/ucscResults/echTel2/cpgIslandExt.bed.gz.csi
 d28bd1142eb05fc1f9696be668804126  /home/cdiesh/ucscResults/echTel2/cpgIslandExtUnmasked.bed.gz
@@ -2785,13 +2785,13 @@ a551f31ae4eb9b4a30933f08b9525616  /home/cdiesh/ucscResults/echTel2/xenoRefGene.b
 8c04f28d4fdc5fdf5ce2a64e274fba7e  /home/cdiesh/ucscResults/echTel2/xenoRefGene.bed.gz.csi
 99aa06d3014798d86001c324468d497f  /home/cdiesh/ucscResults/enhLutNer1/bed.sh
 99aa06d3014798d86001c324468d497f  /home/cdiesh/ucscResults/enhLutNer1/bigTracks.json
-41a3e848e5113705bc7d82532e28593b  /home/cdiesh/ucscResults/enhLutNer1/config.json
+99aa06d3014798d86001c324468d497f  /home/cdiesh/ucscResults/enhLutNer1/config.json
 99aa06d3014798d86001c324468d497f  /home/cdiesh/ucscResults/enhLutNer1/tracks.json
 5266f1f00bb23885610af879c8d047f4  /home/cdiesh/ucscResults/equCab1/augustusGene.bed.gz
 b40d4038b8e81d67b2fd6b14bcb0999a  /home/cdiesh/ucscResults/equCab1/augustusGene.bed.gz.csi
 6ff24cb2345df9388a7990de7999b9dc  /home/cdiesh/ucscResults/equCab1/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/equCab1/bigTracks.json
-6e21038199d8af416f7d07f1da05b792  /home/cdiesh/ucscResults/equCab1/config.json
+fef48c4e4513b1519edcdd1243e4a310  /home/cdiesh/ucscResults/equCab1/config.json
 fee1973e381afa0c0ad7e6876131fb8b  /home/cdiesh/ucscResults/equCab1/geneid.bed.gz
 101684468456a6784b511ac202c3e784  /home/cdiesh/ucscResults/equCab1/geneid.bed.gz.csi
 b4c1ae7d409e4b348920ab380a979fe6  /home/cdiesh/ucscResults/equCab1/microsat.bed.gz
@@ -2817,7 +2817,7 @@ adfad80e0d830b3f263053aa3eff1d34  /home/cdiesh/ucscResults/equCab1/windowmaskerS
 6277b25156de425c795b791b5b0f6fde  /home/cdiesh/ucscResults/equCab2/augustusGene.bed.gz.csi
 e8e7924e542b09995af66d9b2f667678  /home/cdiesh/ucscResults/equCab2/bed.sh
 9f3af4e0cce7cfaee934b3a3793b2e07  /home/cdiesh/ucscResults/equCab2/bigTracks.json
-c805d45cd5a6fedaf6f66bd5fd233ff3  /home/cdiesh/ucscResults/equCab2/config.json
+83b6aaa5af6cb0fcb8dd642e48b0f074  /home/cdiesh/ucscResults/equCab2/config.json
 0536527f4cc6a340381bbc06de2801ef  /home/cdiesh/ucscResults/equCab2/cytoBandIdeo.bed.gz
 09dcb7864e62ed665db63081a6f04b56  /home/cdiesh/ucscResults/equCab2/cytoBandIdeo.bed.gz.csi
 dbb076f250ec8bf8aa465653ff1a4af3  /home/cdiesh/ucscResults/equCab2/ensGene.bed.gz
@@ -2845,7 +2845,7 @@ a4837b6592c46d42fda80d5a0fdc63f4  /home/cdiesh/ucscResults/equCab2/simpleRepeat.
 cf545635ce55198e64e7cb0331701ad5  /home/cdiesh/ucscResults/equCab3/augustusGene.bed.gz.csi
 fdef98eff6d93ea7e546eee2a2407b29  /home/cdiesh/ucscResults/equCab3/bed.sh
 e83f0074f34c487dd3640e4c45e94269  /home/cdiesh/ucscResults/equCab3/bigTracks.json
-964968cb452d29fb8fd2e0b6af05b1fc  /home/cdiesh/ucscResults/equCab3/config.json
+977a64df410b020a81c077dc053a835d  /home/cdiesh/ucscResults/equCab3/config.json
 d56658870d5d3470f13a01f5cc04741e  /home/cdiesh/ucscResults/equCab3/cpgIslandExt.bed.gz
 94e072268aa4189b260f3f48c5b71bb2  /home/cdiesh/ucscResults/equCab3/cpgIslandExt.bed.gz.csi
 48ddd8157dbb1fc8b1c0a771651f319d  /home/cdiesh/ucscResults/equCab3/cpgIslandExtUnmasked.bed.gz
@@ -2889,7 +2889,7 @@ ded1b9b9b436d3ec60b9854ccb0b08fc  /home/cdiesh/ucscResults/equCab3/windowmaskerS
 2690757db6d6bcd8823ac87292982c3a  /home/cdiesh/ucscResults/eriEur1/augustusGene.bed.gz.csi
 c022d982f61a8c30f82643b3dc500d70  /home/cdiesh/ucscResults/eriEur1/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/eriEur1/bigTracks.json
-fddc8af2db3c1a108e3752f8458a8426  /home/cdiesh/ucscResults/eriEur1/config.json
+9d624fd485a581a563e048418d65158b  /home/cdiesh/ucscResults/eriEur1/config.json
 dc5710696cce65c284a99cbfd48973ba  /home/cdiesh/ucscResults/eriEur1/cpgIslandExt.bed.gz
 961af1a98fef3affc15647fa96455335  /home/cdiesh/ucscResults/eriEur1/cpgIslandExt.bed.gz.csi
 d972d1f1a34bdfe4e905c14efa17cc50  /home/cdiesh/ucscResults/eriEur1/cpgIslandExtUnmasked.bed.gz
@@ -2923,7 +2923,7 @@ c7141bc05d04e75236d9e83607583df8  /home/cdiesh/ucscResults/eriEur1/xenoRefGene.b
 1767de40e8801513a0095a54974a5760  /home/cdiesh/ucscResults/eriEur2/augustusGene.bed.gz.csi
 520a5cb77deed77f98716dcd68219411  /home/cdiesh/ucscResults/eriEur2/bed.sh
 229297549227cc1db16a996471f9fe1e  /home/cdiesh/ucscResults/eriEur2/bigTracks.json
-b3a6e9289fc6ad1affe03d17dbc2a6d3  /home/cdiesh/ucscResults/eriEur2/config.json
+9e1638585c71f0ad05fc7dc8c53721f5  /home/cdiesh/ucscResults/eriEur2/config.json
 724eaedbedd009d4c73ee7f74ae4d4f0  /home/cdiesh/ucscResults/eriEur2/cpgIslandExt.bed.gz
 6b69fc2f9dc5a780f8e71661b59ae7d4  /home/cdiesh/ucscResults/eriEur2/cpgIslandExt.bed.gz.csi
 1418676f885b849821c27bc71dd78759  /home/cdiesh/ucscResults/eriEur2/cpgIslandExtUnmasked.bed.gz
@@ -2965,7 +2965,7 @@ ffa4fe22afe58321d944c1321aab5427  /home/cdiesh/ucscResults/eriEur2/windowmaskerS
 b39e28acd622ff0a07ba4596781b242f  /home/cdiesh/ucscResults/eriEur2/xenoRefGene.bed.gz.csi
 85946e7b4a64b9a3c1bc7d9c9e2ab4e9  /home/cdiesh/ucscResults/felCat3/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/felCat3/bigTracks.json
-5841ef2188dc1bf549250d79e0e05a62  /home/cdiesh/ucscResults/felCat3/config.json
+fdd70f225e1ad0f1f2f1a72e68c2e2ec  /home/cdiesh/ucscResults/felCat3/config.json
 5c018e96a5d772a1a5ea2aa0805c24ed  /home/cdiesh/ucscResults/felCat3/cpgIslandExt.bed.gz
 9ed6603cdc2291783eaf59f90c7fbca2  /home/cdiesh/ucscResults/felCat3/cpgIslandExt.bed.gz.csi
 051d4b4d697e4f2a9ad0380a3fbcac38  /home/cdiesh/ucscResults/felCat3/cpgIslandExtUnmasked.bed.gz
@@ -3003,9 +3003,9 @@ cb6ad35953efdd1f803c067582941d70  /home/cdiesh/ucscResults/felCat3/tRNAs.bed.gz.
 0733cdbca4152467a388fed3e9aba464  /home/cdiesh/ucscResults/felCat3/xenoRefGene.bed.gz.csi
 cd32d327b1500ee870725e5f32d02935  /home/cdiesh/ucscResults/felCat4/augustusGene.bed.gz
 401cdc31cff07448cf2e7691c4a60db1  /home/cdiesh/ucscResults/felCat4/augustusGene.bed.gz.csi
-530e6d5b715b86f55c775a20544ac014  /home/cdiesh/ucscResults/felCat4/bed.sh
+353f6c4bac9f588aa3b1a8a244e2f8a2  /home/cdiesh/ucscResults/felCat4/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/felCat4/bigTracks.json
-691223629a3e682229ad06da904c61d2  /home/cdiesh/ucscResults/felCat4/config.json
+c1c9b6cc752b15f4f289865cd7f24f3d  /home/cdiesh/ucscResults/felCat4/config.json
 faddc974a4ca8fa26328432e5ae9a131  /home/cdiesh/ucscResults/felCat4/cpgIslandExt.bed.gz
 53abdd3fe9612c9af10c80079b1a7449  /home/cdiesh/ucscResults/felCat4/cpgIslandExt.bed.gz.csi
 43f3de87b86e961f3058e8cd5b58348b  /home/cdiesh/ucscResults/felCat4/cpgIslandExtUnmasked.bed.gz
@@ -3035,9 +3035,9 @@ cf97227c5f0750838ea91338b9b5c9fc  /home/cdiesh/ucscResults/felCat4/tracks.json
 97ee6de1e0b38f39a0cb24ac66337d05  /home/cdiesh/ucscResults/felCat4/xenoRefGene.bed.gz.csi
 a5764688c08426e62ebddbfa29af6ec5  /home/cdiesh/ucscResults/felCat5/augustusGene.bed.gz
 e86886f553e07d36dec5e3310a3e8230  /home/cdiesh/ucscResults/felCat5/augustusGene.bed.gz.csi
-3ae6bd0463d72b42af830c21707d0055  /home/cdiesh/ucscResults/felCat5/bed.sh
+054d685f7239b2cffcf34699d8c978a1  /home/cdiesh/ucscResults/felCat5/bed.sh
 5234a7a70ca0c074356bcb6728e83189  /home/cdiesh/ucscResults/felCat5/bigTracks.json
-5e3e72265cfced0ca6470da498589556  /home/cdiesh/ucscResults/felCat5/config.json
+a70f019d0275cb7808c992042b0ddf52  /home/cdiesh/ucscResults/felCat5/config.json
 9095ef93344b19fdbfaea17e984ddf02  /home/cdiesh/ucscResults/felCat5/cpgIslandExt.bed.gz
 fab6e7143b24e0f77d2d1966afec1e95  /home/cdiesh/ucscResults/felCat5/cpgIslandExt.bed.gz.csi
 c6d1fc84932431df1608858d7f904c04  /home/cdiesh/ucscResults/felCat5/cpgIslandExtUnmasked.bed.gz
@@ -3077,7 +3077,7 @@ f44ac0eccb190c41a36e7ce0e53cc601  /home/cdiesh/ucscResults/felCat8/augustusGene.
 087b0e03e9bee2a581f3b278249351e7  /home/cdiesh/ucscResults/felCat8/augustusGene.bed.gz.csi
 c75feeccfc3f79c6995d237c8069f985  /home/cdiesh/ucscResults/felCat8/bed.sh
 732f8f58a846c51de54d0758f76d9c50  /home/cdiesh/ucscResults/felCat8/bigTracks.json
-daccbdadab79db9473c2b925231db3d0  /home/cdiesh/ucscResults/felCat8/config.json
+5e5cdb3bf8360207d1932a9766a45941  /home/cdiesh/ucscResults/felCat8/config.json
 b08b4dbfb66c4cad1d2b8d8b66fc3b48  /home/cdiesh/ucscResults/felCat8/cpgIslandExt.bed.gz
 d1f6726a49e9977896a6a1863281121a  /home/cdiesh/ucscResults/felCat8/cpgIslandExt.bed.gz.csi
 5846b474c07b1cbb3cfa44c4704c2453  /home/cdiesh/ucscResults/felCat8/cpgIslandExtUnmasked.bed.gz
@@ -3121,7 +3121,7 @@ bcf7c60c8dd38b489170773f99054074  /home/cdiesh/ucscResults/felCat8/xenoRefGene.b
 ef7c15630f94a612b448d9a2e3b306b5  /home/cdiesh/ucscResults/felCat9/augustusGene.bed.gz.csi
 0f3999e420b6e300e63a238539b618c3  /home/cdiesh/ucscResults/felCat9/bed.sh
 d43bdbe14edba18abaa1e8ec56de8b7c  /home/cdiesh/ucscResults/felCat9/bigTracks.json
-9959ff6394cbe5e10855528f3d9a16d3  /home/cdiesh/ucscResults/felCat9/config.json
+974bfeea1276943b5e1b206640bdcff9  /home/cdiesh/ucscResults/felCat9/config.json
 f3cd21d708f74d2d74aa640a2134405c  /home/cdiesh/ucscResults/felCat9/cpgIslandExt.bed.gz
 be8f63d6ef9139c2957a5166ce6d6016  /home/cdiesh/ucscResults/felCat9/cpgIslandExt.bed.gz.csi
 c5f7fecee7cf1b004ef537fc0821d4f3  /home/cdiesh/ucscResults/felCat9/cpgIslandExtUnmasked.bed.gz
@@ -3168,7 +3168,7 @@ a6cfeaf6caf98ff593a72177d362ae5c  /home/cdiesh/ucscResults/felCat9/ucscToRefSeq.
 ef6f9190566da9ff9faafc31e82174ea  /home/cdiesh/ucscResults/fr1/augustusGene.bed.gz.csi
 f30d1b93585d64a5bda40eda2ddb2378  /home/cdiesh/ucscResults/fr1/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/fr1/bigTracks.json
-ef4b621600ca0a565a7a41159d3706ea  /home/cdiesh/ucscResults/fr1/config.json
+991c5fa33ed42ac3b3a328ca3950be6b  /home/cdiesh/ucscResults/fr1/config.json
 0f8cd85b594278e8bdcc9fe788901cfc  /home/cdiesh/ucscResults/fr1/cpgIsland.bed.gz
 a5c80e3bf696b2734dd09a2d67d6fceb  /home/cdiesh/ucscResults/fr1/cpgIsland.bed.gz.csi
 7318a6bb2fcf90b5f7c20df336f9e7a6  /home/cdiesh/ucscResults/fr1/ecoresHg16.bed.gz
@@ -3192,7 +3192,7 @@ e6cde90fef0de965fb85dbaa125a8194  /home/cdiesh/ucscResults/fr1/tracks.json
 c7da1a890b67b21ec7a59ad8e8c395da  /home/cdiesh/ucscResults/fr2/augustusGene.bed.gz.csi
 3f3c1a14016a76e9eb70ca5683762d00  /home/cdiesh/ucscResults/fr2/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/fr2/bigTracks.json
-7cf32e9603901dc452c63e6ad4986192  /home/cdiesh/ucscResults/fr2/config.json
+9aae08092bd1e6dca862bf45922b8054  /home/cdiesh/ucscResults/fr2/config.json
 68d20e392e8b5d4a28cc5ce9d9624299  /home/cdiesh/ucscResults/fr2/ensGene.bed.gz
 6af5841efc5ebf4e8f3888f95806de6f  /home/cdiesh/ucscResults/fr2/ensGene.bed.gz.csi
 af9fc724711f3f9e27cb061bd73a2924  /home/cdiesh/ucscResults/fr2/microsat.bed.gz
@@ -3208,9 +3208,9 @@ facd8ae45fdc46a8895e357968e2e711  /home/cdiesh/ucscResults/fr2/tRNAs.bed.gz.csi
 2f9ad39d251e1fb14610a79adc6f00d6  /home/cdiesh/ucscResults/fr2/windowmaskerSdust.bed.gz.csi
 1f4a07d3b5d0a96dff8adca34ab9fe9c  /home/cdiesh/ucscResults/fr3/augustusGene.bed.gz
 52001af4c1edda47ea1465ee96791b3e  /home/cdiesh/ucscResults/fr3/augustusGene.bed.gz.csi
-a980a6b382c7538663c801df235cc9f0  /home/cdiesh/ucscResults/fr3/bed.sh
+7c79324a00ddb11e00e9127af6adec96  /home/cdiesh/ucscResults/fr3/bed.sh
 658eebeb5b4cc58c64316c2f0513d5ce  /home/cdiesh/ucscResults/fr3/bigTracks.json
-5fe87b6cbbc97c8a4c6908270c3b87dd  /home/cdiesh/ucscResults/fr3/config.json
+b1149db2563187fb620c2412594ccdde  /home/cdiesh/ucscResults/fr3/config.json
 0c3ada88cb4012dffb4361d2f98839a4  /home/cdiesh/ucscResults/fr3/cpgIslandExt.bed.gz
 5746800cff60f9b3a220ebf325ee85a3  /home/cdiesh/ucscResults/fr3/cpgIslandExt.bed.gz.csi
 2520ca25722a3e919046f3036fdcc5e6  /home/cdiesh/ucscResults/fr3/cpgIslandExtUnmasked.bed.gz
@@ -3252,9 +3252,9 @@ a4fd37af77ea57f5fbcb457fa99a95a0  /home/cdiesh/ucscResults/fr3/simpleRepeat.bed.
 940aa72a2a01ad4dc9e4fd76d5f0ab4a  /home/cdiesh/ucscResults/fr3/windowmaskerSdust.bed.gz.csi
 2db9e7f187d1ca8203d96566210afeb3  /home/cdiesh/ucscResults/gadMor1/augustusGene.bed.gz
 146dba854238074c8931b3f0796458d3  /home/cdiesh/ucscResults/gadMor1/augustusGene.bed.gz.csi
-58aa9a36b5ed9069247c3683c01d4941  /home/cdiesh/ucscResults/gadMor1/bed.sh
+494ee1bbb4608832dccaf8b60be0faca  /home/cdiesh/ucscResults/gadMor1/bed.sh
 6ae04b81e7482919beb888d3e9d07d09  /home/cdiesh/ucscResults/gadMor1/bigTracks.json
-6e881986ba926ac6e67895cfe8e3e79e  /home/cdiesh/ucscResults/gadMor1/config.json
+209983d17ab670d2fbc78287762a93f5  /home/cdiesh/ucscResults/gadMor1/config.json
 f5172a4dd0f641aaa9bbb7077b229101  /home/cdiesh/ucscResults/gadMor1/cpgIslandExt.bed.gz
 dfc29d3ba70979b83ac58913e69f5426  /home/cdiesh/ucscResults/gadMor1/cpgIslandExt.bed.gz.csi
 68850e58c7d715157ad577eb90587364  /home/cdiesh/ucscResults/gadMor1/cpgIslandExtUnmasked.bed.gz
@@ -3298,7 +3298,7 @@ fe8f50ed254d4c6fcb7e21826f3d5f37  /home/cdiesh/ucscResults/galGal2/bgiGene.bed.g
 02cfe9f8fe5d33d879ac5335d4196f97  /home/cdiesh/ucscResults/galGal2/bgiSnp.bed.gz
 021e858f964cb73c24fc6995e73980ab  /home/cdiesh/ucscResults/galGal2/bgiSnp.bed.gz.csi
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/galGal2/bigTracks.json
-3324e40e918cf3b0efad8ecf43749c67  /home/cdiesh/ucscResults/galGal2/config.json
+363ddcb799b06d12dbc7ab9cfa44d118  /home/cdiesh/ucscResults/galGal2/config.json
 7bc46233d186787429ecae1676fdd733  /home/cdiesh/ucscResults/galGal2/contamination.bed.gz
 cbdc33a65175f470768706ce670836e9  /home/cdiesh/ucscResults/galGal2/contamination.bed.gz.csi
 6d8c12aa1e24db08c4fc2a541995f1d2  /home/cdiesh/ucscResults/galGal2/cpgIslandGgfAndy.bed.gz
@@ -3344,7 +3344,7 @@ bc78919263ae3fd25a29a607f80caf92  /home/cdiesh/ucscResults/galGal3/bgiCov.bed.gz
 fb0fc7f20e5db988f968a60879eefb67  /home/cdiesh/ucscResults/galGal3/bgiSnp.bed.gz
 fcd244f203761ec6e228a2ea007a2d9a  /home/cdiesh/ucscResults/galGal3/bgiSnp.bed.gz.csi
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/galGal3/bigTracks.json
-f517f2508b9dbb5b43f515f380a441d0  /home/cdiesh/ucscResults/galGal3/config.json
+f01f07a04431f96eba1e686503279948  /home/cdiesh/ucscResults/galGal3/config.json
 de1d7d1f56d28bf6cb9639b3e7272e4e  /home/cdiesh/ucscResults/galGal3/cpgIslandExt.bed.gz
 e01062f21692752bb2c900ed14c2edbd  /home/cdiesh/ucscResults/galGal3/cpgIslandExt.bed.gz.csi
 de1d7d1f56d28bf6cb9639b3e7272e4e  /home/cdiesh/ucscResults/galGal3/cpgIslandExtUnmasked.bed.gz
@@ -3374,9 +3374,9 @@ ea3e54edc38a2c2bbdd686cc106e9b82  /home/cdiesh/ucscResults/galGal3/tRNAs.bed.gz.
 d12c7bb9ec2935ae20e69ae5a11c3579  /home/cdiesh/ucscResults/galGal4/animalQtl.bed.gz.csi
 d2232ec9c57566f0ecbf7e9fef838ec4  /home/cdiesh/ucscResults/galGal4/augustusGene.bed.gz
 cfd4ffd7470dcf1d9652a0336a3738f2  /home/cdiesh/ucscResults/galGal4/augustusGene.bed.gz.csi
-d569e959eb823a4d91bc3bdceee69be8  /home/cdiesh/ucscResults/galGal4/bed.sh
+daed6b3adddd853181d33f97cb46b66c  /home/cdiesh/ucscResults/galGal4/bed.sh
 c03101013cf60bb5d704e47ad02dfdf7  /home/cdiesh/ucscResults/galGal4/bigTracks.json
-9250ef12e9e90c3ace323039ec2f2b4f  /home/cdiesh/ucscResults/galGal4/config.json
+533db107a9776aa22a3ae4c882ce161d  /home/cdiesh/ucscResults/galGal4/config.json
 2b8849683a5cb22db27f084f764fff40  /home/cdiesh/ucscResults/galGal4/cpgIslandExt.bed.gz
 d95a0a24b63092ea82c9ffcbef993122  /home/cdiesh/ucscResults/galGal4/cpgIslandExt.bed.gz.csi
 330fa42e4ec2c7cd7a952a5d5a0e3cf9  /home/cdiesh/ucscResults/galGal4/cpgIslandExtUnmasked.bed.gz
@@ -3416,7 +3416,7 @@ f5d8a4cc67fe70aa74455c0b8058cbac  /home/cdiesh/ucscResults/galGal4/xenoRefGene.b
 ad21006fe602b02896e8416673aca565  /home/cdiesh/ucscResults/galGal5/augustusGene.bed.gz.csi
 56b5d584b15caf8e19e223ba7806371c  /home/cdiesh/ucscResults/galGal5/bed.sh
 c2cfb6b55b7a0098050218741d808d18  /home/cdiesh/ucscResults/galGal5/bigTracks.json
-3dcee1e41ae6fa1f41c7e484adbdb9a5  /home/cdiesh/ucscResults/galGal5/config.json
+d5944164789a60ca8049b3b6a5d75c40  /home/cdiesh/ucscResults/galGal5/config.json
 bf387be59899df46241f18523e478134  /home/cdiesh/ucscResults/galGal5/cpgIslandExt.bed.gz
 b69035de624e40bee2defe529262b7e2  /home/cdiesh/ucscResults/galGal5/cpgIslandExt.bed.gz.csi
 db8e20e8c5c0c1a8a7ef04eec7339f46  /home/cdiesh/ucscResults/galGal5/cpgIslandExtUnmasked.bed.gz
@@ -3460,7 +3460,7 @@ beff3d1d8f5b30020b938b4a9e3f23d5  /home/cdiesh/ucscResults/galGal5/xenoRefGene.b
 d137a5c964bb547b1c6a05c0144e9827  /home/cdiesh/ucscResults/galGal6/augustusGene.bed.gz.csi
 df690124aec3e2eacb465abf5db52856  /home/cdiesh/ucscResults/galGal6/bed.sh
 b794a9da8601b38891dd2fabd44ddc28  /home/cdiesh/ucscResults/galGal6/bigTracks.json
-539632cb4879afe2fe71b46831413f91  /home/cdiesh/ucscResults/galGal6/config.json
+7ac61380c05cc5ef55a08b0ce13021e9  /home/cdiesh/ucscResults/galGal6/config.json
 8a505d2e12c9683b3e091681b9eafcca  /home/cdiesh/ucscResults/galGal6/cpgIslandExt.bed.gz
 17ed2f3357db360ec5049fd3f9a1453c  /home/cdiesh/ucscResults/galGal6/cpgIslandExt.bed.gz.csi
 45fb50be027f7eb910098fce34a2f07b  /home/cdiesh/ucscResults/galGal6/cpgIslandExtUnmasked.bed.gz
@@ -3508,7 +3508,7 @@ a762e82bb2cdf196ff3a9da3365c14c6  /home/cdiesh/ucscResults/galGal6/windowmaskerS
 57b6e5fdd75f18f174e86efd89c66df6  /home/cdiesh/ucscResults/galVar1/augustusGene.bed.gz.csi
 83e5f45c85ae399e2aed54d2971c9287  /home/cdiesh/ucscResults/galVar1/bed.sh
 742b06ef4ecd31d414ae6afdf24bc6a0  /home/cdiesh/ucscResults/galVar1/bigTracks.json
-7310599fa0d2859b745fe4b18608c205  /home/cdiesh/ucscResults/galVar1/config.json
+ed83170f272a331ecf63b801a076652d  /home/cdiesh/ucscResults/galVar1/config.json
 8d736c749889b06c09e92296ead0222d  /home/cdiesh/ucscResults/galVar1/cpgIslandExt.bed.gz
 a35ba3b88ae15812ced5976ef82e9d5f  /home/cdiesh/ucscResults/galVar1/cpgIslandExt.bed.gz.csi
 d9f8ea8a7f8a7e0296f974675d8d57b6  /home/cdiesh/ucscResults/galVar1/cpgIslandExtUnmasked.bed.gz
@@ -3550,7 +3550,7 @@ b96d6cbf624762c0d9622b8962594416  /home/cdiesh/ucscResults/gasAcu1/augustusGene.
 d6ae82f9b1ddea2bf62ac377ead22afd  /home/cdiesh/ucscResults/gasAcu1/augustusGene.bed.gz.csi
 ffcb3713f9cd3f1b2a6e2dd3feb59a8a  /home/cdiesh/ucscResults/gasAcu1/bed.sh
 4a5b975a79c48ee5a9513feb31f072c6  /home/cdiesh/ucscResults/gasAcu1/bigTracks.json
-d3060964bcb25572dbbadb219fa5f2cb  /home/cdiesh/ucscResults/gasAcu1/config.json
+a44250dd2bf0697fe48129b9244bba21  /home/cdiesh/ucscResults/gasAcu1/config.json
 d75534c905281d29d3f9663563e10724  /home/cdiesh/ucscResults/gasAcu1/cytoBandIdeo.bed.gz
 dac8e150252e688563a3a4de237a7780  /home/cdiesh/ucscResults/gasAcu1/cytoBandIdeo.bed.gz.csi
 2c13e02fade3f43c2cc74aa661e2250f  /home/cdiesh/ucscResults/gasAcu1/ensGene.bed.gz
@@ -3582,7 +3582,7 @@ ba5f3696df62ffef944d4caca9862ec7  /home/cdiesh/ucscResults/geoFor1/augustusGene.
 23b44e5fe48bc6f940ff503f864db162  /home/cdiesh/ucscResults/geoFor1/augustusGene.bed.gz.csi
 d511a3879bd841809e191cf3b48267d8  /home/cdiesh/ucscResults/geoFor1/bed.sh
 f9cb615eb6b5cb2b1bbb019b2004b305  /home/cdiesh/ucscResults/geoFor1/bigTracks.json
-acfb6f5039f23bbb9849af5898fdc6e4  /home/cdiesh/ucscResults/geoFor1/config.json
+d07174dba3ba1cd47c224af0de857524  /home/cdiesh/ucscResults/geoFor1/config.json
 86753e4359e67cbc5dfaca9f5873a39b  /home/cdiesh/ucscResults/geoFor1/cpgIslandExt.bed.gz
 860efd229cd0d5813fc64691fedcdc7a  /home/cdiesh/ucscResults/geoFor1/cpgIslandExt.bed.gz.csi
 33fc11e849e1b8b8a9c43b52d31258a6  /home/cdiesh/ucscResults/geoFor1/cpgIslandExtUnmasked.bed.gz
@@ -3628,9 +3628,9 @@ f894b0253d98ffaadd4a27fbda70ae75  /home/cdiesh/ucscResults/geoFor1/windowmaskerS
 934e928b66df55b808918e6656e19279  /home/cdiesh/ucscResults/geoFor1/xenoRefGene.bed.gz.csi
 023119fe898b0cb9f7020be655e70a35  /home/cdiesh/ucscResults/gorGor3/augustusGene.bed.gz
 b11480bf4780e9b2cb043e504c5623af  /home/cdiesh/ucscResults/gorGor3/augustusGene.bed.gz.csi
-1af6459c3f400c3fbf6cd2a6357e46b0  /home/cdiesh/ucscResults/gorGor3/bed.sh
+7c9c27d1e2a02fe8f911a6dca0faa87f  /home/cdiesh/ucscResults/gorGor3/bed.sh
 a5929d098202ae39f8d89f37121034a7  /home/cdiesh/ucscResults/gorGor3/bigTracks.json
-b6c113b3ae5b503dbcc3253dde4b20e2  /home/cdiesh/ucscResults/gorGor3/config.json
+42f8ef00b71f28f02d40a1b1633ea291  /home/cdiesh/ucscResults/gorGor3/config.json
 b10788cf15a1952edd9f862cf05afd1b  /home/cdiesh/ucscResults/gorGor3/cytoBandIdeo.bed.gz
 3723066a6dac3c7092169f9430a518bd  /home/cdiesh/ucscResults/gorGor3/cytoBandIdeo.bed.gz.csi
 302bcccfe2627e3d91d513f5f0952356  /home/cdiesh/ucscResults/gorGor3/ensGene.bed.gz
@@ -3662,7 +3662,7 @@ e1136de877c00bf90aab9ab2d60e10a2  /home/cdiesh/ucscResults/gorGor3/xenoRefGene.b
 b4ab9bc30ff0b2c80e68aca88ea60fad  /home/cdiesh/ucscResults/gorGor4/augustusGene.bed.gz.csi
 c4b13436f7d8bde79aa661063a9c96b2  /home/cdiesh/ucscResults/gorGor4/bed.sh
 ad804ea0be79ea3c4b6f4201ae3e957e  /home/cdiesh/ucscResults/gorGor4/bigTracks.json
-b9aef6181444dd624062b4835dd672db  /home/cdiesh/ucscResults/gorGor4/config.json
+1fdb2928b73cb5e95a9957457fa105b3  /home/cdiesh/ucscResults/gorGor4/config.json
 4b012bb2277f2b7401cd2551bade8d6b  /home/cdiesh/ucscResults/gorGor4/cpgIslandExt.bed.gz
 ae5f956717609e75732b113f1877e8d4  /home/cdiesh/ucscResults/gorGor4/cpgIslandExt.bed.gz.csi
 f2881f0a9b55d1a3d2d9f5e7394026b4  /home/cdiesh/ucscResults/gorGor4/cpgIslandExtUnmasked.bed.gz
@@ -3700,7 +3700,7 @@ c99b3590f7297158760d39e2b3f0d74d  /home/cdiesh/ucscResults/gorGor5/augustusGene.
 e21dfd1768c6fad10262ca583556d66d  /home/cdiesh/ucscResults/gorGor5/augustusGene.bed.gz.csi
 37c11537cac8d5121a8bf47d5d22c411  /home/cdiesh/ucscResults/gorGor5/bed.sh
 2f21fcb21508e0de2a8a79bba0d8e92c  /home/cdiesh/ucscResults/gorGor5/bigTracks.json
-9b1818fe879b21711fc9152bbd27b6b9  /home/cdiesh/ucscResults/gorGor5/config.json
+5ad9bb6e2aa9104f36a88b3e4514aba3  /home/cdiesh/ucscResults/gorGor5/config.json
 209b0825d7a3aaba9d5f0ccbca2ac9db  /home/cdiesh/ucscResults/gorGor5/cpgIslandExt.bed.gz
 8a511d41448cb4a700e8c71aee1162e9  /home/cdiesh/ucscResults/gorGor5/cpgIslandExt.bed.gz.csi
 152c80c9c39892087c640ab188ecf6c2  /home/cdiesh/ucscResults/gorGor5/cpgIslandExtUnmasked.bed.gz
@@ -3732,7 +3732,7 @@ cb8182280ec6b87efed4aec1f69553e9  /home/cdiesh/ucscResults/gorGor6/augustusGene.
 93774df92af0a5d3d78dd104459e372d  /home/cdiesh/ucscResults/gorGor6/augustusGene.bed.gz.csi
 e1269a625f4db7bf4f4ed9705b1afd91  /home/cdiesh/ucscResults/gorGor6/bed.sh
 bb70d2962c6c8461f619e8da8c614367  /home/cdiesh/ucscResults/gorGor6/bigTracks.json
-7d0bb7db46e70bb8be151365132ee9c0  /home/cdiesh/ucscResults/gorGor6/config.json
+0db92a0b4b65448d8bdacd91e0255f4e  /home/cdiesh/ucscResults/gorGor6/config.json
 c5c9a310888e547eb042b705568ae3f6  /home/cdiesh/ucscResults/gorGor6/cpgIslandExt.bed.gz
 4f2372a0c0413cbf3de1b5e43505f2a8  /home/cdiesh/ucscResults/gorGor6/cpgIslandExt.bed.gz.csi
 fce2728cfc53b7fc8b5d3147172a7056  /home/cdiesh/ucscResults/gorGor6/cpgIslandExtUnmasked.bed.gz
@@ -3774,7 +3774,7 @@ e4a3a1a9ba52ccf08d2b3574ec307204  /home/cdiesh/ucscResults/gorGor6/xenoRefGene.b
 60cf168bd19fb902a542b76b442c3f5e  /home/cdiesh/ucscResults/hetGla1/augustusGene.bed.gz.csi
 56fb67f7729e8d70dc0a4d1b0c45c807  /home/cdiesh/ucscResults/hetGla1/bed.sh
 5234a7a70ca0c074356bcb6728e83189  /home/cdiesh/ucscResults/hetGla1/bigTracks.json
-e7cf173b10734abf61af49f5a7638ffb  /home/cdiesh/ucscResults/hetGla1/config.json
+9a9e8f556ef453f4f62e729c06cab760  /home/cdiesh/ucscResults/hetGla1/config.json
 cedfe0c898ca4f4fcfff1a1b2b2b2648  /home/cdiesh/ucscResults/hetGla1/cpgIslandExt.bed.gz
 c8485ae1759dad4acd3ab78372170a57  /home/cdiesh/ucscResults/hetGla1/cpgIslandExt.bed.gz.csi
 36dc92e0c8d67ce4703cdb3c5682923a  /home/cdiesh/ucscResults/hetGla1/cpgIslandExtUnmasked.bed.gz
@@ -3804,7 +3804,7 @@ bde1aa24308645f2611a8a49a0336dba  /home/cdiesh/ucscResults/hetGla2/augustusGene.
 77ee917a13b45685ac173fbf62febe2a  /home/cdiesh/ucscResults/hetGla2/augustusGene.bed.gz.csi
 2e6eba4e6b1a2dda242659c9b6664181  /home/cdiesh/ucscResults/hetGla2/bed.sh
 e5d7066bfc113295519a66fc586c67e9  /home/cdiesh/ucscResults/hetGla2/bigTracks.json
-e9239599da4d67c4017083a962999b72  /home/cdiesh/ucscResults/hetGla2/config.json
+b62bbc1ffe822243c602cd180f42016d  /home/cdiesh/ucscResults/hetGla2/config.json
 50795ebf72b9b89fb6c056f740d18f19  /home/cdiesh/ucscResults/hetGla2/cpgIslandExt.bed.gz
 27dedec19c5939dff25f193d72d2b3bf  /home/cdiesh/ucscResults/hetGla2/cpgIslandExt.bed.gz.csi
 f82c0966733a2c295b45eedc60c62198  /home/cdiesh/ucscResults/hetGla2/cpgIslandExtUnmasked.bed.gz
@@ -3850,7 +3850,7 @@ e243664a87357d2c8aea7fbda8225f68  /home/cdiesh/ucscResults/hg16/augustusGene.bed
 2a61212d121d11ffe09945f7dc4d2e95  /home/cdiesh/ucscResults/hg16/augustusGene.bed.gz.csi
 8f6866277da9085a643b35f429278749  /home/cdiesh/ucscResults/hg16/bacEndPairs.bed.gz
 874a2486b6f6a5052efbd21b10bb45cf  /home/cdiesh/ucscResults/hg16/bacEndPairs.bed.gz.csi
-89b6dd844ebb65e51ae24ecc40b0f8b9  /home/cdiesh/ucscResults/hg16/bed.sh
+17a2df46b339d734cf6fde21db76456b  /home/cdiesh/ucscResults/hg16/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/hg16/bigTracks.json
 72306bbb2991def1d5ba5160fc3e9921  /home/cdiesh/ucscResults/hg16/celeraCoverage.bed.gz
 e6e052045018ed62177478298ccd9085  /home/cdiesh/ucscResults/hg16/celeraCoverage.bed.gz.csi
@@ -3870,7 +3870,7 @@ e31c49c74b3ba3af7a027e817919ace3  /home/cdiesh/ucscResults/hg16/cnpSebat.bed.gz
 8a25165dc438d371fe9716a2e307c2b7  /home/cdiesh/ucscResults/hg16/cnpSebat.bed.gz.csi
 dd8b6421231d1be05504567e9a5c7c43  /home/cdiesh/ucscResults/hg16/cnpSharp.bed.gz
 53a17481b3e7975d02e99d6aeea23ad4  /home/cdiesh/ucscResults/hg16/cnpSharp.bed.gz.csi
-18a5e562e1a949c3f9b2e6d140d52c2f  /home/cdiesh/ucscResults/hg16/config.json
+69780400808dc99cf5156d742ecbd05c  /home/cdiesh/ucscResults/hg16/config.json
 5c327d9a854a8fcfa195f4fbd69cfdd7  /home/cdiesh/ucscResults/hg16/cpgIsland.bed.gz
 952072b5a5c31d209e8c07f07352748a  /home/cdiesh/ucscResults/hg16/cpgIsland.bed.gz.csi
 6bbc615bc72604d5bf49d280c219b5f0  /home/cdiesh/ucscResults/hg16/cytoBand.bed.gz
@@ -4690,7 +4690,7 @@ f2d2232bf5fdf34e859cc6e2a2f57cd5  /home/cdiesh/ucscResults/hg17/bacEndPairs.bed.
 6caa30ddf4bd515e2815787c36741879  /home/cdiesh/ucscResults/hg17/bacEndPairs.bed.gz.csi
 9fcb8cfefd10a1be03532d6fc8522786  /home/cdiesh/ucscResults/hg17/bacendsCow.bed.gz
 68fe0390b384ea95620437ec02a0cfcc  /home/cdiesh/ucscResults/hg17/bacendsCow.bed.gz.csi
-ea979f2bf50ca8799a938718ceeed549  /home/cdiesh/ucscResults/hg17/bed.sh
+6b50c96bd6f49cfb1382ad0b5cc30daf  /home/cdiesh/ucscResults/hg17/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/hg17/bigTracks.json
 5d0c71e0607d685cd058322b832e8dca  /home/cdiesh/ucscResults/hg17/ccdsGene.bed.gz
 197f58a38186c79587912775d6a6dee4  /home/cdiesh/ucscResults/hg17/ccdsGene.bed.gz.csi
@@ -4706,7 +4706,7 @@ c0596553f24fdf39c98725c26aab7231  /home/cdiesh/ucscResults/hg17/cnpSebat.bed.gz
 a3fb212d08a2280a2e05682281048302  /home/cdiesh/ucscResults/hg17/cnpSebat.bed.gz.csi
 5217ad1d9e1f86ff3cd38960b65c79a0  /home/cdiesh/ucscResults/hg17/cnpSharp.bed.gz
 307da95650327690500e239b7d60f791  /home/cdiesh/ucscResults/hg17/cnpSharp.bed.gz.csi
-61a3fa21cf7e48fd461800ab3a1b59aa  /home/cdiesh/ucscResults/hg17/config.json
+df3dcb6d4e4c72912f22ce7755d34ec2  /home/cdiesh/ucscResults/hg17/config.json
 a176a67ce7bfb673e8bb590a4fc6b1e7  /home/cdiesh/ucscResults/hg17/consIndelsHgMmCanFam.bed.gz
 5735cfa29667c7cc7b7c0bb6ed726260  /home/cdiesh/ucscResults/hg17/consIndelsHgMmCanFam.bed.gz.csi
 66758d04a7b96c05818e54b52e440c74  /home/cdiesh/ucscResults/hg17/cpgIslandExt.bed.gz
@@ -6024,7 +6024,7 @@ dc87932d1dbe9f7e14f727ceaa6270e3  /home/cdiesh/ucscResults/hg18/augustusHints.be
 b8dd6e61a1e21302dcb5ec692c204b1b  /home/cdiesh/ucscResults/hg18/augustusXRA.bed.gz.csi
 49967b6a16cd0b338d61a86ddc668cc0  /home/cdiesh/ucscResults/hg18/bacEndPairs.bed.gz
 235da9ca405c412c2db45b68938891d5  /home/cdiesh/ucscResults/hg18/bacEndPairs.bed.gz.csi
-bd191cfcb586fb4bf0fa277fc2ff617d  /home/cdiesh/ucscResults/hg18/bed.sh
+be2267fc0f25248ac1bb14f6c36b63a5  /home/cdiesh/ucscResults/hg18/bed.sh
 dc90660f168d80920b9f05d45c029888  /home/cdiesh/ucscResults/hg18/bigTracks.json
 45ccb788363d9fd2ec5144d2d8a32575  /home/cdiesh/ucscResults/hg18/burgeRnaSeqGemMapperAlignAdiposeAllRawSignal.bed.gz
 07f7f5832b1e21c08d26de7bab015be1  /home/cdiesh/ucscResults/hg18/burgeRnaSeqGemMapperAlignAdiposeAllRawSignal.bed.gz.csi
@@ -6100,7 +6100,7 @@ bfc391e368d0874ed652f0edfc8d5228  /home/cdiesh/ucscResults/hg18/cnpSebat2.bed.gz
 f01256323b138b46478b78d47495dbc6  /home/cdiesh/ucscResults/hg18/cnpSharp2.bed.gz.csi
 ee94de3475eab56571256543ea4b4198  /home/cdiesh/ucscResults/hg18/cnpTuzun.bed.gz
 973ba720b022466a9c8babb2e75ae396  /home/cdiesh/ucscResults/hg18/cnpTuzun.bed.gz.csi
-5ec58e9a5c9a8b4aa3111b72f4fdf4ca  /home/cdiesh/ucscResults/hg18/config.json
+ea5cc007047a7f840b6e6ce3affe7182  /home/cdiesh/ucscResults/hg18/config.json
 172528838a3bd0e2afcdaca26c84b413  /home/cdiesh/ucscResults/hg18/consIndelsHgMmCanFam.bed.gz
 b8c19c3d2edd967d9c1d4d287a14a8fc  /home/cdiesh/ucscResults/hg18/consIndelsHgMmCanFam.bed.gz.csi
 b6e45e0eccae3e763e1fda69c94b5247  /home/cdiesh/ucscResults/hg18/cpgIslandExt.bed.gz
@@ -7478,7 +7478,7 @@ c63e5c13fce6f7b5b33ed3588a3c261e  /home/cdiesh/ucscResults/hg19/agilentCgh2x400k
 0c18fbf0575a3517d2efa0ef2e77f1ac  /home/cdiesh/ucscResults/hg19/augustusGene.bed.gz.csi
 371cdd0c721a9009e01234d2a4480834  /home/cdiesh/ucscResults/hg19/bacEndPairs.bed.gz
 f24d51c4e4b2720442065a14c9ee51ce  /home/cdiesh/ucscResults/hg19/bacEndPairs.bed.gz.csi
-a7f18b9202187e24d7b2f7970c9bf7c4  /home/cdiesh/ucscResults/hg19/bed.sh
+aa047c5f5cccf590112d1db0a27e0705  /home/cdiesh/ucscResults/hg19/bed.sh
 07438c327586550b47efedf228e79c91  /home/cdiesh/ucscResults/hg19/bigTracks.json
 667af155bc63c7541ec5a2043710e9f3  /home/cdiesh/ucscResults/hg19/burgeRnaSeqGemMapperAlignAdiposeAllRawSignal.bed.gz
 c77ffd51d29d3981e06cb28a30b6b9ae  /home/cdiesh/ucscResults/hg19/burgeRnaSeqGemMapperAlignAdiposeAllRawSignal.bed.gz.csi
@@ -7540,7 +7540,7 @@ fbf93fc8a498fcece62739f702382006  /home/cdiesh/ucscResults/hg19/ccdsGene.bed.gz
 6b3df27f9f6c62044b02ee272000bd3c  /home/cdiesh/ucscResults/hg19/ccdsGene.bed.gz.csi
 27d932f859f18b5b02de0c07a30b6831  /home/cdiesh/ucscResults/hg19/cgapSage.bed.gz
 476f747a192130cdb299af6260dc435d  /home/cdiesh/ucscResults/hg19/cgapSage.bed.gz.csi
-1eda7395b20b1422c8ff9bac647ba71b  /home/cdiesh/ucscResults/hg19/config.json
+3fc93842595328ba82b20d37a3c80e62  /home/cdiesh/ucscResults/hg19/config.json
 20516a47e1273d0fcdbdf866a7f79366  /home/cdiesh/ucscResults/hg19/consIndelsHgMmCanFam.bed.gz
 f7b1601ab23bebd2700200f758483cfa  /home/cdiesh/ucscResults/hg19/consIndelsHgMmCanFam.bed.gz.csi
 2237b15321ee9fba11e5884211d0b24a  /home/cdiesh/ucscResults/hg19/coriellDelDup.bed.gz
@@ -8322,7 +8322,7 @@ fa9a9a9cbe21a75302bcb74f2d4716c3  /home/cdiesh/ucscResults/hg38/cloneEndRP11.bed
 0c86f97230e57c58be1405bf2fac2d8c  /home/cdiesh/ucscResults/hg38/cloneEndRP11.bed.gz.csi
 e14bb763ee7b65514397dfd1967d6b81  /home/cdiesh/ucscResults/hg38/cloneEndWI2.bed.gz
 6938da3a018175f2a510f7fa4c5fe026  /home/cdiesh/ucscResults/hg38/cloneEndWI2.bed.gz.csi
-a2b667db06059eb1cffb79b1c76c5d3c  /home/cdiesh/ucscResults/hg38/config.json
+3ace39345c79437f6379e5d35c478ee9  /home/cdiesh/ucscResults/hg38/config.json
 35ddba10416bdb8ecd4c4dafde25b05e  /home/cdiesh/ucscResults/hg38/coriellDelDup.bed.gz
 8c4166f1571c817e0f69ad3959f5c25c  /home/cdiesh/ucscResults/hg38/coriellDelDup.bed.gz.csi
 de835d12598c43bd184e2f327dd98d49  /home/cdiesh/ucscResults/hg38/cpgIslandExt.bed.gz
@@ -8470,13 +8470,13 @@ ed65e4a7402c37c36fc7246e00ffff79  /home/cdiesh/ucscResults/hg38/wgRna.bed.gz
 c6ee7d006c16774a92a493bed99d4e4e  /home/cdiesh/ucscResults/hg38/xenoRefGene.bed.gz.csi
 99aa06d3014798d86001c324468d497f  /home/cdiesh/ucscResults/hs1/bed.sh
 99aa06d3014798d86001c324468d497f  /home/cdiesh/ucscResults/hs1/bigTracks.json
-e85506410e267c186df5dc674070ecae  /home/cdiesh/ucscResults/hs1/config.json
+99aa06d3014798d86001c324468d497f  /home/cdiesh/ucscResults/hs1/config.json
 99aa06d3014798d86001c324468d497f  /home/cdiesh/ucscResults/hs1/tracks.json
 11ae48bcbd9ad9cf113ce0d95e4103e6  /home/cdiesh/ucscResults/latCha1/augustusGene.bed.gz
 bfdbfff745b865d3b831e643b5e17f0c  /home/cdiesh/ucscResults/latCha1/augustusGene.bed.gz.csi
 64f8f11002b9c7e8aa85e148cf7c474b  /home/cdiesh/ucscResults/latCha1/bed.sh
 7c0615b8fa9412435d7d38564ba720ab  /home/cdiesh/ucscResults/latCha1/bigTracks.json
-4544ba64667f34c6508722686de754c9  /home/cdiesh/ucscResults/latCha1/config.json
+21298a1614baac3b1da122332567e91f  /home/cdiesh/ucscResults/latCha1/config.json
 7cbb7c2b0ea9bcd3bf56fc070c6fe744  /home/cdiesh/ucscResults/latCha1/cpgIslandExt.bed.gz
 e835cec56f4f606002c2c8b84dce815f  /home/cdiesh/ucscResults/latCha1/cpgIslandExt.bed.gz.csi
 2229433ae178a2e6f64b78ac93362bd1  /home/cdiesh/ucscResults/latCha1/cpgIslandExtUnmasked.bed.gz
@@ -8518,7 +8518,7 @@ dd45db73f4d01124f9f08a49ca9268b4  /home/cdiesh/ucscResults/latCha1/xenoRefGene.b
 e0b2baaa4e6b95d9350494fafad0150f  /home/cdiesh/ucscResults/loxAfr3/augustusGene.bed.gz.csi
 0250a2288811360cd6a1ab5a3ae56dd1  /home/cdiesh/ucscResults/loxAfr3/bed.sh
 c5157dfcd107325df22c5c2a53a8e215  /home/cdiesh/ucscResults/loxAfr3/bigTracks.json
-f206339fc5b851dd75d3ec9e0e8feb45  /home/cdiesh/ucscResults/loxAfr3/config.json
+081d4942fbe2c729fc6345f21db28e14  /home/cdiesh/ucscResults/loxAfr3/config.json
 8009ff1b65e2d66529208d58954ec679  /home/cdiesh/ucscResults/loxAfr3/cytoBandIdeo.bed.gz
 8908d5cd9a75c31e9c943534f1b42e4c  /home/cdiesh/ucscResults/loxAfr3/cytoBandIdeo.bed.gz.csi
 4f660af03599e145e55079f048a2f2e2  /home/cdiesh/ucscResults/loxAfr3/ensGene.bed.gz
@@ -8558,7 +8558,7 @@ de035d18e8831cb42086310c1f0a7b84  /home/cdiesh/ucscResults/loxAfr3/xenoRefGene.b
 a900e6b762ee4771cb7f03f04438999b  /home/cdiesh/ucscResults/macEug2/augustusGene.bed.gz.csi
 19578f180509a74da756a3103edbce96  /home/cdiesh/ucscResults/macEug2/bed.sh
 1f4674365cf935e5078f2d77c3ed7be2  /home/cdiesh/ucscResults/macEug2/bigTracks.json
-5a95c5c7f555e49ae68894236ee62fbf  /home/cdiesh/ucscResults/macEug2/config.json
+6138625e459da2f43066c1c39aba8d0b  /home/cdiesh/ucscResults/macEug2/config.json
 ad907ee422223372ac67127b375b6dd5  /home/cdiesh/ucscResults/macEug2/cytoBandIdeo.bed.gz
 697271c6f6cc62a91f9e1fca8e48766a  /home/cdiesh/ucscResults/macEug2/cytoBandIdeo.bed.gz.csi
 233c81d8e8a834b698f19cc54ae4ee46  /home/cdiesh/ucscResults/macEug2/gap.bed.gz
@@ -8586,7 +8586,7 @@ f194f9345894ca11b914ec348d460a4b  /home/cdiesh/ucscResults/macEug2/xenoRefGene.b
 3efdc92d234e9968c124ea9669455cfa  /home/cdiesh/ucscResults/macFas5/augustusGene.bed.gz.csi
 537d64085c51ce3d3c15797cb60b9bb6  /home/cdiesh/ucscResults/macFas5/bed.sh
 e60c85e4b2481d499b012b52b623c893  /home/cdiesh/ucscResults/macFas5/bigTracks.json
-e7ee12a0616f819b7f0777f9f84858b5  /home/cdiesh/ucscResults/macFas5/config.json
+32f4ceca18895cae671dfd5f0c937e55  /home/cdiesh/ucscResults/macFas5/config.json
 5b7fb90e3434dcc3da5ab18255b2d4ac  /home/cdiesh/ucscResults/macFas5/cpgIslandExt.bed.gz
 2ec710797363b268825ab9178798c098  /home/cdiesh/ucscResults/macFas5/cpgIslandExt.bed.gz.csi
 d8cd277b350d81cae1350e7e1d302cb8  /home/cdiesh/ucscResults/macFas5/cpgIslandExtUnmasked.bed.gz
@@ -8628,7 +8628,7 @@ c19ff393c66ea38b7109ef90f22f70ed  /home/cdiesh/ucscResults/manPen1/augustusGene.
 9722cf2be1da81257c50f9769caaf777  /home/cdiesh/ucscResults/manPen1/augustusGene.bed.gz.csi
 291e98338c9aae08ed2498d39c667a9d  /home/cdiesh/ucscResults/manPen1/bed.sh
 195019235c191219f271442cafe7bbda  /home/cdiesh/ucscResults/manPen1/bigTracks.json
-471988c50464f88d0699fc963c090cf2  /home/cdiesh/ucscResults/manPen1/config.json
+836ee7517e5e3226bcaf090ac5d52791  /home/cdiesh/ucscResults/manPen1/config.json
 482cca772db45b1bb32b258f8c8d03da  /home/cdiesh/ucscResults/manPen1/cpgIslandExt.bed.gz
 e6ed6d9977cf33a005a8229322b578fc  /home/cdiesh/ucscResults/manPen1/cpgIslandExt.bed.gz.csi
 03cc9c33d7e5b4951087bc1c55fb6ae6  /home/cdiesh/ucscResults/manPen1/cpgIslandExtUnmasked.bed.gz
@@ -8661,7 +8661,7 @@ a4d9869077efabfa8f8bc2864e526a93  /home/cdiesh/ucscResults/md5sum.txt
 f62ffa13c57ff3c924f4f008a34fd908  /home/cdiesh/ucscResults/melGal1/augustusGene.bed.gz.csi
 b165dc3b10d9df4d82f259be2a0c4738  /home/cdiesh/ucscResults/melGal1/bed.sh
 5234a7a70ca0c074356bcb6728e83189  /home/cdiesh/ucscResults/melGal1/bigTracks.json
-1ba97e9f79004d223652902cb6f81f73  /home/cdiesh/ucscResults/melGal1/config.json
+67290f645ad470abd009ee5704665276  /home/cdiesh/ucscResults/melGal1/config.json
 ea8ca446cf8b14b8879703c417bb981d  /home/cdiesh/ucscResults/melGal1/cpgIslandExt.bed.gz
 4f3555c5f16b0cb16608e75a9d481160  /home/cdiesh/ucscResults/melGal1/cpgIslandExt.bed.gz.csi
 1e32dfdb21647fa788499f252797a4a6  /home/cdiesh/ucscResults/melGal1/cpgIslandExtUnmasked.bed.gz
@@ -8697,7 +8697,7 @@ abbd9503c3bb8549ae918223356da6b1  /home/cdiesh/ucscResults/melGal1/ucscToINSDC.b
 14d903c4f575cbd21df66e5181e3434f  /home/cdiesh/ucscResults/melGal5/augustusGene.bed.gz.csi
 8f46a7ab8b2f89f2102a2e8446b00604  /home/cdiesh/ucscResults/melGal5/bed.sh
 3bed193594c1f9a8a53a11f19bf92343  /home/cdiesh/ucscResults/melGal5/bigTracks.json
-05a29227548b6a537971e2b81408d1ae  /home/cdiesh/ucscResults/melGal5/config.json
+9b88406535ea41d31ce646364aa200c4  /home/cdiesh/ucscResults/melGal5/config.json
 411ef61d7389ffdcb297e6c0e00239f6  /home/cdiesh/ucscResults/melGal5/cpgIslandExt.bed.gz
 437668773fa11396d944767e7ff72d9e  /home/cdiesh/ucscResults/melGal5/cpgIslandExt.bed.gz.csi
 1f2cd58e55bc3d56c82f557b2ecc95bb  /home/cdiesh/ucscResults/melGal5/cpgIslandExtUnmasked.bed.gz
@@ -8739,9 +8739,9 @@ b23e8ee510820771624899bc4d75c13a  /home/cdiesh/ucscResults/melGal5/ucscToRefSeq.
 f85be67a74dfa51a7ace82c1dfb9955b  /home/cdiesh/ucscResults/melGal5/xenoRefGene.bed.gz.csi
 fd7b5e7391709da8a1c47bf425e18d90  /home/cdiesh/ucscResults/melUnd1/augustusGene.bed.gz
 baabd86157fc78c484de3db1bd429a72  /home/cdiesh/ucscResults/melUnd1/augustusGene.bed.gz.csi
-2a739471b4d6be12b1429b0cbdc4f253  /home/cdiesh/ucscResults/melUnd1/bed.sh
+869865831517738801da59d68d689a85  /home/cdiesh/ucscResults/melUnd1/bed.sh
 9b0ce26962eebc8d32f53602592a05ba  /home/cdiesh/ucscResults/melUnd1/bigTracks.json
-e764f4b1098be023cc1786f9d008c84d  /home/cdiesh/ucscResults/melUnd1/config.json
+ad91d8bc9ba05e35a0d0976fc59b6893  /home/cdiesh/ucscResults/melUnd1/config.json
 2506b5b6d8e758325d87b408b4235a19  /home/cdiesh/ucscResults/melUnd1/cpgIslandExt.bed.gz
 8b859f28f28726e40e457623b0537a46  /home/cdiesh/ucscResults/melUnd1/cpgIslandExt.bed.gz.csi
 925f952aeccf3564ad9b77e92f2e7a12  /home/cdiesh/ucscResults/melUnd1/cpgIslandExtUnmasked.bed.gz
@@ -8783,7 +8783,7 @@ ee474e09fdadd74178d07a594955f56b  /home/cdiesh/ucscResults/melUnd1/windowmaskerS
 8be907c9a236af68350ceb3bba640694  /home/cdiesh/ucscResults/micMur1/augustusGene.bed.gz.csi
 82eefba6e6c825a751519a3259aed364  /home/cdiesh/ucscResults/micMur1/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/micMur1/bigTracks.json
-27986b58a99a9594e580ede4a4454c13  /home/cdiesh/ucscResults/micMur1/config.json
+b650f7d03de6bb0ed9d8486b1009d233  /home/cdiesh/ucscResults/micMur1/config.json
 42e0743ff377c776bd1a8ea23104f01e  /home/cdiesh/ucscResults/micMur1/cpgIslandExt.bed.gz
 6c59aeafb335e5132160afa926cd7530  /home/cdiesh/ucscResults/micMur1/cpgIslandExt.bed.gz.csi
 57d6fb3eef704ebe5acce49dc31d89a3  /home/cdiesh/ucscResults/micMur1/cpgIslandExtUnmasked.bed.gz
@@ -8817,7 +8817,7 @@ ee241be45ec0ef2e030015cd87223eae  /home/cdiesh/ucscResults/micMur1/rmsk.bed.gz
 c7d5381f1e3e1d745493298ab8f15eca  /home/cdiesh/ucscResults/micMur2/augustusGene.bed.gz.csi
 5024b97a265f62f713b6fde0b7990270  /home/cdiesh/ucscResults/micMur2/bed.sh
 b73744015c18d1fff08739c23340026b  /home/cdiesh/ucscResults/micMur2/bigTracks.json
-418af9482faa3ab0d5e3f9b5cff379eb  /home/cdiesh/ucscResults/micMur2/config.json
+12c855a698b461976fa4376e2cfcd08c  /home/cdiesh/ucscResults/micMur2/config.json
 7f6d9f5bf590effe924029f540bdb355  /home/cdiesh/ucscResults/micMur2/cpgIslandExt.bed.gz
 e5567993c4fb43986e2f62e309b17887  /home/cdiesh/ucscResults/micMur2/cpgIslandExt.bed.gz.csi
 07763bce16e1a1271c185a13e7f260ba  /home/cdiesh/ucscResults/micMur2/cpgIslandExtUnmasked.bed.gz
@@ -8857,7 +8857,7 @@ a40c8323a6fd2e8cdd7e6ef07a2cd8b4  /home/cdiesh/ucscResults/micMur2/windowmaskerS
 01f551f0e44e5f6e00d06ee3c93000b4  /home/cdiesh/ucscResults/mm10/assemblyFrags.bed.gz.csi
 acd6bb8e64d554e1f329d2cb715bd2c4  /home/cdiesh/ucscResults/mm10/augustusGene.bed.gz
 04bb826e491325577196243748dc8c8c  /home/cdiesh/ucscResults/mm10/augustusGene.bed.gz.csi
-d0635625ac67cb0f1ca0239f7524b75f  /home/cdiesh/ucscResults/mm10/bed.sh
+f931dd146fbabec3c9219057564b7607  /home/cdiesh/ucscResults/mm10/bed.sh
 5e13a417bee3845807aaf494e9327fa2  /home/cdiesh/ucscResults/mm10/bigTracks.json
 6681af28cd338fc26aa8dabccdb7a444  /home/cdiesh/ucscResults/mm10/ccdsGene.bed.gz
 7521b64984b96dd541fe192cbf4e463c  /home/cdiesh/ucscResults/mm10/ccdsGene.bed.gz.csi
@@ -8887,7 +8887,7 @@ c2ac1029927b9c94115aa6af105baaa3  /home/cdiesh/ucscResults/mm10/cloneEndRP24.bed
 3434b159c96a966f05e02780fa533992  /home/cdiesh/ucscResults/mm10/cloneEndRP24.bed.gz.csi
 d14b24dda6e62936f2c72e11a3914b88  /home/cdiesh/ucscResults/mm10/cloneEndWI1.bed.gz
 ed57e8dfd51f476f71fc33ab738030fc  /home/cdiesh/ucscResults/mm10/cloneEndWI1.bed.gz.csi
-e00404eee14ee150db89355e0fdc98e9  /home/cdiesh/ucscResults/mm10/config.json
+7a3644a890155cd6fdff6236b32f578c  /home/cdiesh/ucscResults/mm10/config.json
 700b2bf00917a144cd0eacd618a57642  /home/cdiesh/ucscResults/mm10/cpgIslandExt.bed.gz
 79a3590f6ee27281ed578caee28da8d0  /home/cdiesh/ucscResults/mm10/cpgIslandExt.bed.gz.csi
 625a1d3525a4b871269545b092db6774  /home/cdiesh/ucscResults/mm10/cpgIslandExtUnmasked.bed.gz
@@ -8967,7 +8967,7 @@ c39fe1ca388bf6be76b0cc34124f88b5  /home/cdiesh/ucscResults/mm10/xenoRefGene.bed.
 569d0fa53723f8151abd7f9b10a32f2f  /home/cdiesh/ucscResults/mm39/augustusGene.bed.gz.csi
 30ec0c79729db8af146fbe872c677ed2  /home/cdiesh/ucscResults/mm39/bed.sh
 834ad9e6d9d08be3fffc9712ceb8a70a  /home/cdiesh/ucscResults/mm39/bigTracks.json
-0441f3d909f410fb43db3b1ebca34e14  /home/cdiesh/ucscResults/mm39/config.json
+1146ff5bdb488e217d694c887efaf832  /home/cdiesh/ucscResults/mm39/config.json
 8e9b407ad9f9f039db090d7136e99360  /home/cdiesh/ucscResults/mm39/cpgIslandExt.bed.gz
 fb26627811f86740f7473bc239fb9798  /home/cdiesh/ucscResults/mm39/cpgIslandExt.bed.gz.csi
 31eb0cb3b6b59e7b476aa77d5655abf7  /home/cdiesh/ucscResults/mm39/cpgIslandExtUnmasked.bed.gz
@@ -9017,9 +9017,9 @@ c85656652d17232e00fe82b057ddc73b  /home/cdiesh/ucscResults/mm39/xenoRefGene.bed.
 4884a176394b405e6063678e19a52ff9  /home/cdiesh/ucscResults/mm7/augustusGene.bed.gz.csi
 a53bbf4611efa2f1f046d18de1132697  /home/cdiesh/ucscResults/mm7/bacEndPairs.bed.gz
 c40967e1c181926e6f5e5b754b7ef2ad  /home/cdiesh/ucscResults/mm7/bacEndPairs.bed.gz.csi
-d4ec87e11cb6d36d588718dbe79843b9  /home/cdiesh/ucscResults/mm7/bed.sh
+8aaa40e8eb75fd417199b3b731e8e8d7  /home/cdiesh/ucscResults/mm7/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/mm7/bigTracks.json
-1439f55cef8a53c48453b28da84700c5  /home/cdiesh/ucscResults/mm7/config.json
+6e4c0da69efef25eb8131d723152a761  /home/cdiesh/ucscResults/mm7/config.json
 17002bcd0609338d702fc72292cf85b7  /home/cdiesh/ucscResults/mm7/cpgIslandExt.bed.gz
 1ea9585b04601e0d9c6c9db14e5da87f  /home/cdiesh/ucscResults/mm7/cpgIslandExt.bed.gz.csi
 089f5235d983c9b865b8a757b77e8438  /home/cdiesh/ucscResults/mm7/cpgIslandExtUnmasked.bed.gz
@@ -9115,7 +9115,7 @@ bf16dfcdfe49a6995f764d5a6f458af7  /home/cdiesh/ucscResults/mm8/ccdsGene.bed.gz
 d04c938347e2d8cbd9118d361e888701  /home/cdiesh/ucscResults/mm8/ccdsGene.bed.gz.csi
 1cd8254b972eb669dc5d658fde82d80b  /home/cdiesh/ucscResults/mm8/cgapSage.bed.gz
 dbc92efa3b9f362f7494821842737dd2  /home/cdiesh/ucscResults/mm8/cgapSage.bed.gz.csi
-9b378b0d2452612d766da4833550c4dc  /home/cdiesh/ucscResults/mm8/config.json
+39325043d30a48730cccc6cf49ea31c9  /home/cdiesh/ucscResults/mm8/config.json
 bb17588283b60ac67f35d2f4516f7e50  /home/cdiesh/ucscResults/mm8/cpgIslandExt.bed.gz
 ca63ef80867fb6f17b78a398bf1aa948  /home/cdiesh/ucscResults/mm8/cpgIslandExt.bed.gz.csi
 2409f0411f563e81bfaebbd5b4edf466  /home/cdiesh/ucscResults/mm8/cpgIslandExtUnmasked.bed.gz
@@ -9181,11 +9181,11 @@ ed63cb688bb8367f2a3281985e8e349e  /home/cdiesh/ucscResults/mm9/agilentCgh244a.be
 b052c1858b63eda0d542053d3f617ef6  /home/cdiesh/ucscResults/mm9/augustusGene.bed.gz.csi
 e744f7c530e16686ed4ac29586096259  /home/cdiesh/ucscResults/mm9/bacEndPairs.bed.gz
 e8dd7d1ceaab39deb1b0f7f33abd0108  /home/cdiesh/ucscResults/mm9/bacEndPairs.bed.gz.csi
-c77a13138b1de56f044ec3526b575532  /home/cdiesh/ucscResults/mm9/bed.sh
+984e3ea882f8df93e269cb7b83219b90  /home/cdiesh/ucscResults/mm9/bed.sh
 6bf0bf50adac4a6d6e434d04fa1f3093  /home/cdiesh/ucscResults/mm9/bigTracks.json
 7241b01d74ca517c92a771e4eb7a4488  /home/cdiesh/ucscResults/mm9/ccdsGene.bed.gz
 0373a4407a878414a389ab891e3c3dc9  /home/cdiesh/ucscResults/mm9/ccdsGene.bed.gz.csi
-9aadc280feb3806fbf02888f7876abf1  /home/cdiesh/ucscResults/mm9/config.json
+800117c11b07ddab96c53deaa267d813  /home/cdiesh/ucscResults/mm9/config.json
 8d8ca2f01f33628a33260076e8849aad  /home/cdiesh/ucscResults/mm9/cpgIslandExt.bed.gz
 c1f6c8a236c052277133b00e6131a60f  /home/cdiesh/ucscResults/mm9/cpgIslandExt.bed.gz.csi
 64b47b84ea08d9bb26a7c3a762774453  /home/cdiesh/ucscResults/mm9/cpgIslandExtUnmasked.bed.gz
@@ -9279,7 +9279,7 @@ cce6182277a8b7a53c2d9a1da8a0193c  /home/cdiesh/ucscResults/mm9/vegaPseudoGene.be
 f48b7efee6438b4d52b2b523587d71b4  /home/cdiesh/ucscResults/monDom1/augustusGene.bed.gz.csi
 9b01d4c9de0e6d1878464726ca60ad78  /home/cdiesh/ucscResults/monDom1/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/monDom1/bigTracks.json
-9bd736cd9487415e01483605ceae18a4  /home/cdiesh/ucscResults/monDom1/config.json
+921cbcd462c9c53da74070ebe1db2a95  /home/cdiesh/ucscResults/monDom1/config.json
 4332f6ada03aec2076c3186f67b25215  /home/cdiesh/ucscResults/monDom1/cpgIslandExt.bed.gz
 56ac1425826ae7bcf7c3d6b56f0f1287  /home/cdiesh/ucscResults/monDom1/cpgIslandExt.bed.gz.csi
 4332f6ada03aec2076c3186f67b25215  /home/cdiesh/ucscResults/monDom1/cpgIslandExtUnmasked.bed.gz
@@ -9305,7 +9305,7 @@ df0f09debc236667904f3939686b6bc2  /home/cdiesh/ucscResults/monDom4/augustusGene.
 cec96fcb633c9431ee09c96026ec2802  /home/cdiesh/ucscResults/monDom4/augustusGene.bed.gz.csi
 463db56355449d24bac1e21b74dc2911  /home/cdiesh/ucscResults/monDom4/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/monDom4/bigTracks.json
-77c68e6cb55ead572c33cfd9e56835b8  /home/cdiesh/ucscResults/monDom4/config.json
+03759f60ef9394d60ab515db6234c1bb  /home/cdiesh/ucscResults/monDom4/config.json
 90b72e1f900e699ffa96d1362175c829  /home/cdiesh/ucscResults/monDom4/cpgIslandExt.bed.gz
 4a44a418c8678963c6876604e6086612  /home/cdiesh/ucscResults/monDom4/cpgIslandExt.bed.gz.csi
 90b72e1f900e699ffa96d1362175c829  /home/cdiesh/ucscResults/monDom4/cpgIslandExtUnmasked.bed.gz
@@ -9335,7 +9335,7 @@ d3b767e773eb5c67932803321684b66f  /home/cdiesh/ucscResults/monDom4/simpleRepeat.
 9b353e3c13bcfa0f58dafd629d7901b4  /home/cdiesh/ucscResults/monDom5/augustusGene.bed.gz.csi
 a69862c627e3ddad95ced0362c99889d  /home/cdiesh/ucscResults/monDom5/bed.sh
 bf2ff54cbc6a4fb3e68b541ee4d7ce6e  /home/cdiesh/ucscResults/monDom5/bigTracks.json
-972a1749596c7ff74b32c87c32da8662  /home/cdiesh/ucscResults/monDom5/config.json
+c828102ed41c7f0f8fbb6b0319ac4a11  /home/cdiesh/ucscResults/monDom5/config.json
 398a00544aa45d064e43da59255d3113  /home/cdiesh/ucscResults/monDom5/cpgIslandExt.bed.gz
 281ea3037fd73dfa631b343bcdd11542  /home/cdiesh/ucscResults/monDom5/cpgIslandExt.bed.gz.csi
 4b45c3acd7f4b73cc60e94a623a4340a  /home/cdiesh/ucscResults/monDom5/cpgIslandExtUnmasked.bed.gz
@@ -9373,13 +9373,13 @@ edc510b518bae8cb2a12e17ee1fb1dca  /home/cdiesh/ucscResults/monDom5/xenoRefGene.b
 a0e99d0391686584d527f70041ea9547  /home/cdiesh/ucscResults/monDom5/xenoRefGene.bed.gz.csi
 99aa06d3014798d86001c324468d497f  /home/cdiesh/ucscResults/mpxvRivers/bed.sh
 99aa06d3014798d86001c324468d497f  /home/cdiesh/ucscResults/mpxvRivers/bigTracks.json
-9c7dc5c795f8b8f04dbf0cdc15ff387c  /home/cdiesh/ucscResults/mpxvRivers/config.json
+99aa06d3014798d86001c324468d497f  /home/cdiesh/ucscResults/mpxvRivers/config.json
 99aa06d3014798d86001c324468d497f  /home/cdiesh/ucscResults/mpxvRivers/tracks.json
 4ec90bef0365b3d269ec6bd63e656816  /home/cdiesh/ucscResults/musFur1/augustusGene.bed.gz
 ffceb9023d47fe004962b21b123dc718  /home/cdiesh/ucscResults/musFur1/augustusGene.bed.gz.csi
 381ecc2932fa09ae93dc0e89e63e9952  /home/cdiesh/ucscResults/musFur1/bed.sh
 d99452fc60611cbb466a0030d03b25e1  /home/cdiesh/ucscResults/musFur1/bigTracks.json
-699ba8a02a3924aba75ba9ff52bb030a  /home/cdiesh/ucscResults/musFur1/config.json
+065e369cf96f3ceafb77a2423506ee95  /home/cdiesh/ucscResults/musFur1/config.json
 a8dd7d5ecc4487669a037d4136a8f10a  /home/cdiesh/ucscResults/musFur1/cpgIslandExt.bed.gz
 50123a77d8e319a89c5745ded5e3c30a  /home/cdiesh/ucscResults/musFur1/cpgIslandExt.bed.gz.csi
 6968abbe0cd0f0963c8d5b90ca1a5cd1  /home/cdiesh/ucscResults/musFur1/cpgIslandExtUnmasked.bed.gz
@@ -9421,7 +9421,7 @@ f9400316f93c49624889981aab958cca  /home/cdiesh/ucscResults/musFur1/ucscToINSDC.b
 10e965090e215c0e4ec066d47f094006  /home/cdiesh/ucscResults/nanPar1/augustusGene.bed.gz.csi
 01bcd143b81dbcdf8c277fac862dec06  /home/cdiesh/ucscResults/nanPar1/bed.sh
 c0a5a383cd7b495668af23875248dde4  /home/cdiesh/ucscResults/nanPar1/bigTracks.json
-02eddcd70f7ca4dd72272c2f6fdd0312  /home/cdiesh/ucscResults/nanPar1/config.json
+bb8562f93e6eb4ed1b70c7614a98ba5f  /home/cdiesh/ucscResults/nanPar1/config.json
 42a9bdc55d3e4a944fb4ad98e4e5fdd8  /home/cdiesh/ucscResults/nanPar1/cpgIslandExt.bed.gz
 45e98585e47d534228d1de721c7e61bb  /home/cdiesh/ucscResults/nanPar1/cpgIslandExt.bed.gz.csi
 3f297f697d4bf0bc8ac4072288860179  /home/cdiesh/ucscResults/nanPar1/cpgIslandExtUnmasked.bed.gz
@@ -9459,7 +9459,7 @@ e81535d0d752fe0a12f78708912141f2  /home/cdiesh/ucscResults/nanPar1/windowmaskerS
 1a4aa03284f5e99052f926d36727a133  /home/cdiesh/ucscResults/nasLar1/augustusGene.bed.gz.csi
 0be46c35ffdef99e9ceae3b984c8d7cf  /home/cdiesh/ucscResults/nasLar1/bed.sh
 5f4ef8a7c88b3c21aa97fd61e2a980a4  /home/cdiesh/ucscResults/nasLar1/bigTracks.json
-5fe4ad1d51ec1bc64e717399a68469a9  /home/cdiesh/ucscResults/nasLar1/config.json
+0b6b8f79777e670c272aa7a60f656670  /home/cdiesh/ucscResults/nasLar1/config.json
 2e4e772b76c0a972b5381ac7896e2a24  /home/cdiesh/ucscResults/nasLar1/cpgIslandExt.bed.gz
 0c9f2474d16e3ab09f468729d9c0b1e7  /home/cdiesh/ucscResults/nasLar1/cpgIslandExt.bed.gz.csi
 096b10ce59a8bc12676221780add7e89  /home/cdiesh/ucscResults/nasLar1/cpgIslandExtUnmasked.bed.gz
@@ -9491,7 +9491,7 @@ a5293fbaabc4090789f64534efc2b1e3  /home/cdiesh/ucscResults/neoSch1/augustusGene.
 5c7f3a9019051dd01b55ce71e7fecc79  /home/cdiesh/ucscResults/neoSch1/augustusGene.bed.gz.csi
 d8bcafb33f54b5191529dfd1c2ce3d1b  /home/cdiesh/ucscResults/neoSch1/bed.sh
 b1a113775c96cd57b750c08cfa82f592  /home/cdiesh/ucscResults/neoSch1/bigTracks.json
-74368b33f0c2f0fe74065c357664b8e3  /home/cdiesh/ucscResults/neoSch1/config.json
+8f43c3d53d9160fe184b2e0ff58ae1ba  /home/cdiesh/ucscResults/neoSch1/config.json
 95ccdeed86009eb1fee3c2bad5de9385  /home/cdiesh/ucscResults/neoSch1/cpgIslandExt.bed.gz
 c257f3c05ecd627bf60c9aac0d9e37d6  /home/cdiesh/ucscResults/neoSch1/cpgIslandExt.bed.gz.csi
 1af4e38c84088c491e0628d20c26e699  /home/cdiesh/ucscResults/neoSch1/cpgIslandExtUnmasked.bed.gz
@@ -9531,7 +9531,7 @@ b3dacf63ad55700344067d03185f0e61  /home/cdiesh/ucscResults/nomLeu1/augustusGene.
 62f8be372bf343678ade743c21a840e8  /home/cdiesh/ucscResults/nomLeu1/augustusGene.bed.gz.csi
 ad13286b65cbf1939d580a999fafc9d5  /home/cdiesh/ucscResults/nomLeu1/bed.sh
 5234a7a70ca0c074356bcb6728e83189  /home/cdiesh/ucscResults/nomLeu1/bigTracks.json
-c8158e6100a834f56736aec0bcc1f671  /home/cdiesh/ucscResults/nomLeu1/config.json
+72fd241d3e79fd06897f8a58974b801d  /home/cdiesh/ucscResults/nomLeu1/config.json
 7d63b704bd710a7616f4a346c8957a0a  /home/cdiesh/ucscResults/nomLeu1/ensGene.bed.gz
 e057647a41d45a85dbc1bda5a9730b93  /home/cdiesh/ucscResults/nomLeu1/ensGene.bed.gz.csi
 2eb7d5a4a16b00c1b6607f552954dca5  /home/cdiesh/ucscResults/nomLeu1/gap.bed.gz
@@ -9555,7 +9555,7 @@ a69450a4fae176f35f3054aee5effb62  /home/cdiesh/ucscResults/nomLeu2/augustusGene.
 3885364d5332196787a01a6e13fccb3b  /home/cdiesh/ucscResults/nomLeu2/augustusGene.bed.gz.csi
 5435a0f285d29aba17de78ab00984a51  /home/cdiesh/ucscResults/nomLeu2/bed.sh
 5381b76bbc1e01bda4e592bb7b8bdc3a  /home/cdiesh/ucscResults/nomLeu2/bigTracks.json
-24203268107349b0d346cbd14a5bc1be  /home/cdiesh/ucscResults/nomLeu2/config.json
+08290e6450b953ea864406f98e8a7db0  /home/cdiesh/ucscResults/nomLeu2/config.json
 495bf3fdd84e4a0edfa92e553ff36ae0  /home/cdiesh/ucscResults/nomLeu2/cpgIslandExt.bed.gz
 fdb167bb3a681921caede88a482b1903  /home/cdiesh/ucscResults/nomLeu2/cpgIslandExt.bed.gz.csi
 e21da47255e5f8bc6925f01c56ef345f  /home/cdiesh/ucscResults/nomLeu2/cpgIslandExtUnmasked.bed.gz
@@ -9585,7 +9585,7 @@ b34f49af82a8c1bace2efa432f10e532  /home/cdiesh/ucscResults/nomLeu2/windowmaskerS
 90fd08db201494161254999ef6a51067  /home/cdiesh/ucscResults/nomLeu3/augustusGene.bed.gz.csi
 b4aa91c30c32a36466493135c4240e10  /home/cdiesh/ucscResults/nomLeu3/bed.sh
 b31640eb8b1f537bfdd80d6bfa486310  /home/cdiesh/ucscResults/nomLeu3/bigTracks.json
-449ae53980308dd8a3b4203daa22a6e4  /home/cdiesh/ucscResults/nomLeu3/config.json
+b8848129c491d3e7ef4ce25466c75c91  /home/cdiesh/ucscResults/nomLeu3/config.json
 b399ad8b4b6ca49313b9bcb62bbee85b  /home/cdiesh/ucscResults/nomLeu3/cpgIslandExt.bed.gz
 8fcd751e40cb5372cb2e68ed8c85caa8  /home/cdiesh/ucscResults/nomLeu3/cpgIslandExt.bed.gz.csi
 7a18ea4958c85e698f8e27b9d801623f  /home/cdiesh/ucscResults/nomLeu3/cpgIslandExtUnmasked.bed.gz
@@ -9629,7 +9629,7 @@ bcfc06f5ad35d0003b6c352008a32cf1  /home/cdiesh/ucscResults/ochPri2/augustusGene.
 39b1066399b09376b0f6a5d84f41d585  /home/cdiesh/ucscResults/ochPri2/augustusGene.bed.gz.csi
 35a0775122e1abf94da4bfa24131977d  /home/cdiesh/ucscResults/ochPri2/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/ochPri2/bigTracks.json
-60e2ff08073abcf8987b843ee54797c4  /home/cdiesh/ucscResults/ochPri2/config.json
+d1c671832128128944b97331465618ab  /home/cdiesh/ucscResults/ochPri2/config.json
 91c55d3bd423488a6a1742b48028c9be  /home/cdiesh/ucscResults/ochPri2/cpgIslandExt.bed.gz
 14ae0416be20ed4a080e3b11840fea1d  /home/cdiesh/ucscResults/ochPri2/cpgIslandExt.bed.gz.csi
 5d423959828c64d82b6a40c1fe171148  /home/cdiesh/ucscResults/ochPri2/cpgIslandExtUnmasked.bed.gz
@@ -9663,7 +9663,7 @@ fbfcfdabb6f3cf1c5480fc73ea8b9675  /home/cdiesh/ucscResults/ochPri2/xenoRefGene.b
 0c548cfec3cb00b4cb416f6902a7917b  /home/cdiesh/ucscResults/ochPri3/augustusGene.bed.gz.csi
 03cbbb446880c1da04f94c37b488d9cc  /home/cdiesh/ucscResults/ochPri3/bed.sh
 f30c38a8079265a4f6e0d77be2488b3e  /home/cdiesh/ucscResults/ochPri3/bigTracks.json
-9f85acf89e48a1a5b4535cdb40f0da47  /home/cdiesh/ucscResults/ochPri3/config.json
+37d30fdfe0f7bc1897f153d11664e229  /home/cdiesh/ucscResults/ochPri3/config.json
 2282f20ea7c9a9687ed0103a33a93fd6  /home/cdiesh/ucscResults/ochPri3/cpgIslandExt.bed.gz
 73023c8fb729c3d4d0d38e235523e542  /home/cdiesh/ucscResults/ochPri3/cpgIslandExt.bed.gz.csi
 087777c1754d9ffb7441d83442f5f5ee  /home/cdiesh/ucscResults/ochPri3/cpgIslandExtUnmasked.bed.gz
@@ -9699,9 +9699,9 @@ bfc99866bab2d073f4a2219213aa5c93  /home/cdiesh/ucscResults/ochPri3/windowmaskerS
 e6ca34bb70c5b1a7aec1f070030fe60a  /home/cdiesh/ucscResults/ochPri3/xenoRefGene.bed.gz.csi
 7f768d6b8b5280c49bd34b22800b58c9  /home/cdiesh/ucscResults/oreNil2/augustusGene.bed.gz
 3fd07e7ef47e454d69061efb0dd70fd1  /home/cdiesh/ucscResults/oreNil2/augustusGene.bed.gz.csi
-e8cd3e0c2c58b59575f24fbecb9922ce  /home/cdiesh/ucscResults/oreNil2/bed.sh
+18375186fe3094cb1f5d74eaa02626b2  /home/cdiesh/ucscResults/oreNil2/bed.sh
 05ccbb39fd10a71e11651d824435be88  /home/cdiesh/ucscResults/oreNil2/bigTracks.json
-171ba8210ecbc9a2291f18d55be05aa3  /home/cdiesh/ucscResults/oreNil2/config.json
+5c32c6e22505c0192b1fdd60e3b83982  /home/cdiesh/ucscResults/oreNil2/config.json
 f6b61d676c779d2efcc0dee8ddef976d  /home/cdiesh/ucscResults/oreNil2/cpgIslandExt.bed.gz
 ac40b381b3208b61496cdf3d0db03678  /home/cdiesh/ucscResults/oreNil2/cpgIslandExt.bed.gz.csi
 b744d2ac4cf2675d58399631b7a2013e  /home/cdiesh/ucscResults/oreNil2/cpgIslandExtUnmasked.bed.gz
@@ -9743,7 +9743,7 @@ ef03fc037365436b6cad36e80c821843  /home/cdiesh/ucscResults/oreNil2/xenoRefGene.b
 924cbe4198a4da4b5d46c9598df2ebed  /home/cdiesh/ucscResults/ornAna1/augustusGene.bed.gz.csi
 507dde20848995744746d7cfbdaccbef  /home/cdiesh/ucscResults/ornAna1/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/ornAna1/bigTracks.json
-0004ccba6ee94a677c53654809572aba  /home/cdiesh/ucscResults/ornAna1/config.json
+b26a2b777324c8acfc23d152c6cda9e1  /home/cdiesh/ucscResults/ornAna1/config.json
 b628446bfc9bfe515897101542fd5fd1  /home/cdiesh/ucscResults/ornAna1/cpgIslandExt.bed.gz
 3c514dc1c05860aa1a57b115112b772c  /home/cdiesh/ucscResults/ornAna1/cpgIslandExt.bed.gz.csi
 b5e6e32f0e9eeab875ed24b3435f4382  /home/cdiesh/ucscResults/ornAna1/cpgIslandExtUnmasked.bed.gz
@@ -9781,7 +9781,7 @@ a51eb08596fa139e453d702cfbf816ec  /home/cdiesh/ucscResults/ornAna1/xenoRefGene.b
 8347d8ce4e8e1c4a3143b9a3ef2b92e9  /home/cdiesh/ucscResults/ornAna2/augustusGene.bed.gz.csi
 766408013bf8eab29109168e02e8faf6  /home/cdiesh/ucscResults/ornAna2/bed.sh
 3b72cac7b06f1f523f35d95d7a599ac2  /home/cdiesh/ucscResults/ornAna2/bigTracks.json
-c677b660fcac5fa8dee3b603c31d37d2  /home/cdiesh/ucscResults/ornAna2/config.json
+e9ebbb508abdc8b8e1015ec756865c6f  /home/cdiesh/ucscResults/ornAna2/config.json
 4b89276b22447f437e08c0f2463780f9  /home/cdiesh/ucscResults/ornAna2/cpgIslandExt.bed.gz
 2d1f2bb049cbe58183f48ed2d12dbedd  /home/cdiesh/ucscResults/ornAna2/cpgIslandExt.bed.gz.csi
 8f6c6cfbd557aa2b4f77fc6edab5a903  /home/cdiesh/ucscResults/ornAna2/cpgIslandExtUnmasked.bed.gz
@@ -9817,7 +9817,7 @@ e7b05445c4b84645ca9afd5cba84e1c3  /home/cdiesh/ucscResults/oryCun2/augustusGene.
 978f3bb9c7078c752a40b808901519da  /home/cdiesh/ucscResults/oryCun2/augustusGene.bed.gz.csi
 91db60f110b00e4c339abf39bed86b0e  /home/cdiesh/ucscResults/oryCun2/bed.sh
 ea14c4f43bc741abdb56b86540fcc616  /home/cdiesh/ucscResults/oryCun2/bigTracks.json
-7ebfbb1aa7d61baf76410f053dca7388  /home/cdiesh/ucscResults/oryCun2/config.json
+d97020a8a2b33bced43ed0a67b38c10b  /home/cdiesh/ucscResults/oryCun2/config.json
 b782293031c4734fa6587e9b9ea5ff82  /home/cdiesh/ucscResults/oryCun2/cpgIslandExt.bed.gz
 135ea6ac4f6271c70512246a38edfbc9  /home/cdiesh/ucscResults/oryCun2/cpgIslandExt.bed.gz.csi
 803024620372b9f794becc99e63f3ae5  /home/cdiesh/ucscResults/oryCun2/cpgIslandExtUnmasked.bed.gz
@@ -9859,9 +9859,9 @@ d6ab7711c82f9681528def3c840e38fd  /home/cdiesh/ucscResults/oryCun2/ucscToINSDC.b
 0913111edfdc55ad2bff780dde7d6537  /home/cdiesh/ucscResults/oryCun2/xenoRefGene.bed.gz.csi
 fcd24139fb6b3ca327f6be40108acbcb  /home/cdiesh/ucscResults/oryLat2/augustusGene.bed.gz
 f0f423ce4124a31d1fb21ad9622fca9f  /home/cdiesh/ucscResults/oryLat2/augustusGene.bed.gz.csi
-3d4abaa79a6c1620984a643781f7aa90  /home/cdiesh/ucscResults/oryLat2/bed.sh
+c5022f83e1ed61483154441c06417c09  /home/cdiesh/ucscResults/oryLat2/bed.sh
 bdb8be65dbf47fc5542c77422d8df11c  /home/cdiesh/ucscResults/oryLat2/bigTracks.json
-042979d0ee88fc9bd8eb0107850ae6a8  /home/cdiesh/ucscResults/oryLat2/config.json
+9099cd3e3a6cc8b299222815514afc48  /home/cdiesh/ucscResults/oryLat2/config.json
 bb46f13c06d5bea595f74c0f0d306967  /home/cdiesh/ucscResults/oryLat2/cytoBandIdeo.bed.gz
 e0a9d704cd4575d6a91ef12bff407361  /home/cdiesh/ucscResults/oryLat2/cytoBandIdeo.bed.gz.csi
 886f5d4741aa6553c37eef11a279e592  /home/cdiesh/ucscResults/oryLat2/ensGene.bed.gz
@@ -9899,7 +9899,7 @@ c441ee36564e76ddeb3828d25b052bdc  /home/cdiesh/ucscResults/oryLat2/xenoRefGene.b
 be259f79b9a633c6d85824e3598fbc2f  /home/cdiesh/ucscResults/otoGar3/augustusGene.bed.gz.csi
 7f2c5e0d30bcc4c2d560793cca65a5c3  /home/cdiesh/ucscResults/otoGar3/bed.sh
 0f52861efb043b0444dc56a19ab825e6  /home/cdiesh/ucscResults/otoGar3/bigTracks.json
-98434c14b1673e981de3083ec63c4e26  /home/cdiesh/ucscResults/otoGar3/config.json
+bcfa433978fd7784867bbed52b32e233  /home/cdiesh/ucscResults/otoGar3/config.json
 e6a54ee1364359b003c0f2479181b4dc  /home/cdiesh/ucscResults/otoGar3/cpgIslandExt.bed.gz
 d3f75e95a8e434f92ee5a57cfbb124b9  /home/cdiesh/ucscResults/otoGar3/cpgIslandExt.bed.gz.csi
 063fdaa895e540148be1a16a95aa7c26  /home/cdiesh/ucscResults/otoGar3/cpgIslandExtUnmasked.bed.gz
@@ -9939,9 +9939,9 @@ be7ae8eb96fa86445afd0285cf3133c9  /home/cdiesh/ucscResults/otoGar3/xenoRefGene.b
 8248acc946ff9f6772c6a0a4e62f2a49  /home/cdiesh/ucscResults/otoGar3/xenoRefGene.bed.gz.csi
 91980d842b4a77eb754c215b15861d54  /home/cdiesh/ucscResults/oviAri1/augustusGene.bed.gz
 be8e944fe9dc8555ca0a20a93d5e92bd  /home/cdiesh/ucscResults/oviAri1/augustusGene.bed.gz.csi
-a5d24facf0578dabb942ae2fee2e7c82  /home/cdiesh/ucscResults/oviAri1/bed.sh
+8f6c82134dc84ad918fabcaa1e5866b4  /home/cdiesh/ucscResults/oviAri1/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/oviAri1/bigTracks.json
-f763afd90e47a2fae46263bb8dd30d7e  /home/cdiesh/ucscResults/oviAri1/config.json
+19aefdea38e368f6330a3cb7e3c2728b  /home/cdiesh/ucscResults/oviAri1/config.json
 a1b5183202f9b21cc9393c6b4968afa1  /home/cdiesh/ucscResults/oviAri1/cpgIslandExt.bed.gz
 17c40ffeef7d07b5c55c8514bfd240c3  /home/cdiesh/ucscResults/oviAri1/cpgIslandExt.bed.gz.csi
 7f5ee763f034282dc2c25fd4edc73059  /home/cdiesh/ucscResults/oviAri1/cpgIslandExtUnmasked.bed.gz
@@ -9971,9 +9971,9 @@ a078d5141769ccbe473a8461ebb75cde  /home/cdiesh/ucscResults/oviAri1/xenoRefGene.b
 8744322eff173595d0e09a0788139524  /home/cdiesh/ucscResults/oviAri3/animalQtl.bed.gz.csi
 739e90bf41fbc3b1b1d0c8fb4ea251f2  /home/cdiesh/ucscResults/oviAri3/augustusGene.bed.gz
 120df36beed1d38bd0106887aae124c8  /home/cdiesh/ucscResults/oviAri3/augustusGene.bed.gz.csi
-71534aea0be2d67ed24d80a59cd597bb  /home/cdiesh/ucscResults/oviAri3/bed.sh
+0768591df735f6e85cac5a62e1cbbf78  /home/cdiesh/ucscResults/oviAri3/bed.sh
 5b9220d74506a96ee272287850fd0eb6  /home/cdiesh/ucscResults/oviAri3/bigTracks.json
-86719c11ec9db7ffff919fccc43587e8  /home/cdiesh/ucscResults/oviAri3/config.json
+388fa978ac869c95bb3d3d5c68debab2  /home/cdiesh/ucscResults/oviAri3/config.json
 fa18a9ad869bc5d751f606e01e025e8a  /home/cdiesh/ucscResults/oviAri3/cpgIslandExt.bed.gz
 160406c8e0a28389888702a26b927a1b  /home/cdiesh/ucscResults/oviAri3/cpgIslandExt.bed.gz.csi
 6ffc7aa3282e86956e564340ec7cf373  /home/cdiesh/ucscResults/oviAri3/cpgIslandExtUnmasked.bed.gz
@@ -10015,7 +10015,7 @@ f291c254f0db1a681b3330635475713d  /home/cdiesh/ucscResults/oviAri3/windowmaskerS
 3d9cdfaa4e5f9e84b2ecf064a98f6e57  /home/cdiesh/ucscResults/oviAri4/augustusGene.bed.gz.csi
 f3000cbe0ef255beef66450d0d592d94  /home/cdiesh/ucscResults/oviAri4/bed.sh
 a5b0afb73cd2e8cfb75247879c7d51b2  /home/cdiesh/ucscResults/oviAri4/bigTracks.json
-aa0af5e08f972d4d5c3eccadc6e0dc69  /home/cdiesh/ucscResults/oviAri4/config.json
+e67a4f20de3252b1bd8b29854b48249c  /home/cdiesh/ucscResults/oviAri4/config.json
 c1be19dca659fd08a6d38e1dac6206d0  /home/cdiesh/ucscResults/oviAri4/cpgIslandExt.bed.gz
 168c5a1179649e9f4391075f55a3f159  /home/cdiesh/ucscResults/oviAri4/cpgIslandExt.bed.gz.csi
 a7b60e16af049816481568ca34e78cdb  /home/cdiesh/ucscResults/oviAri4/cpgIslandExtUnmasked.bed.gz
@@ -10055,9 +10055,9 @@ e539ba6205fe432029ea3cb21bcedf4d  /home/cdiesh/ucscResults/oviAri4/windowmaskerS
 4b9ea67120c4c8c0b235fc7d32975f73  /home/cdiesh/ucscResults/oviAri4/xenoRefGene.bed.gz.csi
 89d97f0b58195f64fb03258848c8b05b  /home/cdiesh/ucscResults/panPan1/augustusGene.bed.gz
 f58f77d14377d430e7bceaed8e0234ce  /home/cdiesh/ucscResults/panPan1/augustusGene.bed.gz.csi
-fd9446d987ed1e5f9841e43e176f2cee  /home/cdiesh/ucscResults/panPan1/bed.sh
+07a5be36cf1f16da5579304372f443bf  /home/cdiesh/ucscResults/panPan1/bed.sh
 cff3f83e3255511efe0e40022cfbebda  /home/cdiesh/ucscResults/panPan1/bigTracks.json
-2884f0899e185381cfef6ae063c4dfb1  /home/cdiesh/ucscResults/panPan1/config.json
+b434e5c307de8aae28f26fd50ddc1968  /home/cdiesh/ucscResults/panPan1/config.json
 e18a12e3fc60f756d642daf74dc9a359  /home/cdiesh/ucscResults/panPan1/cpgIslandExt.bed.gz
 fd4c0bae175036dc4f628bd88e0d5fbe  /home/cdiesh/ucscResults/panPan1/cpgIslandExt.bed.gz.csi
 ac36e304b76ea9851db7c165fee10b2e  /home/cdiesh/ucscResults/panPan1/cpgIslandExtUnmasked.bed.gz
@@ -10101,7 +10101,7 @@ d476beb865967c6bb3a36dff209c41c1  /home/cdiesh/ucscResults/panPan1/xenoRefGene.b
 b2fb4dcdb0a8ce443c5f288a6abdac6c  /home/cdiesh/ucscResults/panPan2/augustusGene.bed.gz.csi
 5c48a41d4e655106883acb55bea3f2b7  /home/cdiesh/ucscResults/panPan2/bed.sh
 4900e482ad777c7273c6f8b29151032b  /home/cdiesh/ucscResults/panPan2/bigTracks.json
-e68c0f5631806b85a1c92cddd8cf0941  /home/cdiesh/ucscResults/panPan2/config.json
+3b63b501540ecd9c5eca59cf35311d39  /home/cdiesh/ucscResults/panPan2/config.json
 2369cb9d8d4ed84a01427fa34605c3a3  /home/cdiesh/ucscResults/panPan2/cpgIslandExt.bed.gz
 7c09cae1d31e903dfae3f2bea4c17975  /home/cdiesh/ucscResults/panPan2/cpgIslandExt.bed.gz.csi
 b16613696c7e5398d6295d27e8618f0c  /home/cdiesh/ucscResults/panPan2/cpgIslandExtUnmasked.bed.gz
@@ -10149,7 +10149,7 @@ f5d38a189ef9a7195489cb30c7a01624  /home/cdiesh/ucscResults/panPan2/ucscToINSDC.b
 c961890c73d32f5675d230f110d9b30b  /home/cdiesh/ucscResults/panPan3/augustusGene.bed.gz.csi
 98ba8be3dd073d03476102b29d29e082  /home/cdiesh/ucscResults/panPan3/bed.sh
 94abcd80b33c7ea3f253a8b57f4ed2b1  /home/cdiesh/ucscResults/panPan3/bigTracks.json
-75e758a6f8c688c006873f262d950bdd  /home/cdiesh/ucscResults/panPan3/config.json
+18e272b647ff066ac58117ed153b9ae0  /home/cdiesh/ucscResults/panPan3/config.json
 ee14d241d46730eefed367dd6aea1733  /home/cdiesh/ucscResults/panPan3/cpgIslandExt.bed.gz
 cc6c2248fdb65afcfcb951ee6c806988  /home/cdiesh/ucscResults/panPan3/cpgIslandExt.bed.gz.csi
 1cd2fc5379f17089a17ea32a4ce89403  /home/cdiesh/ucscResults/panPan3/cpgIslandExtUnmasked.bed.gz
@@ -10193,7 +10193,7 @@ e569bd89be6222f0529a2375acb1abf0  /home/cdiesh/ucscResults/panTro1/bacEndPairs.b
 0602038cbb97dc8a106fddc84a646991  /home/cdiesh/ucscResults/panTro1/bacEndPairs.bed.gz.csi
 09699c1af25d67f4eaabb9287c80f107  /home/cdiesh/ucscResults/panTro1/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/panTro1/bigTracks.json
-66eefe704341dbd56dbcef3feaf7ddd5  /home/cdiesh/ucscResults/panTro1/config.json
+28f2b20415e3faefed4254809bcc2c28  /home/cdiesh/ucscResults/panTro1/config.json
 a6171cdb8ebd9c2c35bc8d2bc1c3ad97  /home/cdiesh/ucscResults/panTro1/cpgIsland.bed.gz
 cde57e065f1f47c4bf7b7b49107d5e13  /home/cdiesh/ucscResults/panTro1/cpgIsland.bed.gz.csi
 3cc9c24ea18a17ec837e39f76bfbfdbf  /home/cdiesh/ucscResults/panTro1/ensGene.bed.gz
@@ -10217,7 +10217,7 @@ cbaac7d5ba7748db2caaf0f1d509fdf1  /home/cdiesh/ucscResults/panTro1/microsat.bed.
 c5ebbe7e2516b87b60509de965c5f055  /home/cdiesh/ucscResults/panTro1/xenoRefGene.bed.gz.csi
 03dcd2c2f17bd29e10ad1bab6aec7ec8  /home/cdiesh/ucscResults/panTro2/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/panTro2/bigTracks.json
-93dfcc1240ab38c5123955611f60a234  /home/cdiesh/ucscResults/panTro2/config.json
+ca4b574dbf73cbbe39e423a8ddd2e845  /home/cdiesh/ucscResults/panTro2/config.json
 73f266f09255ddd1db8c57a6b8c1516f  /home/cdiesh/ucscResults/panTro2/cpgIslandExt.bed.gz
 85476dc952bfe89e973accc01adee8f5  /home/cdiesh/ucscResults/panTro2/cpgIslandExt.bed.gz.csi
 73f266f09255ddd1db8c57a6b8c1516f  /home/cdiesh/ucscResults/panTro2/cpgIslandExtUnmasked.bed.gz
@@ -10245,9 +10245,9 @@ c6b9c75b6bfd4cc5f0199763c9bd710c  /home/cdiesh/ucscResults/panTro2/tRNAs.bed.gz
 27c2325ade78460ea94f50d76bbefed4  /home/cdiesh/ucscResults/panTro2/xenoRefGene.bed.gz.csi
 88add6cbfde5a35c1814e90816fecbe0  /home/cdiesh/ucscResults/panTro3/augustusGene.bed.gz
 4ed7adcb265bdd7b8dd5f785367bbe59  /home/cdiesh/ucscResults/panTro3/augustusGene.bed.gz.csi
-42d133c9d0317d26b59750f2d29d26ea  /home/cdiesh/ucscResults/panTro3/bed.sh
+181c21d6a6651faa097db7b1b2d8376b  /home/cdiesh/ucscResults/panTro3/bed.sh
 5234a7a70ca0c074356bcb6728e83189  /home/cdiesh/ucscResults/panTro3/bigTracks.json
-2129f64eea8d84f52c3a416e8ae4dd2b  /home/cdiesh/ucscResults/panTro3/config.json
+eceea8aab936f7c975beeaeb1c2b544b  /home/cdiesh/ucscResults/panTro3/config.json
 c5b34d5ac9ecc9495a54817f7e30ed58  /home/cdiesh/ucscResults/panTro3/cpgIslandExt.bed.gz
 894fdbbfb240afb65f19b190f05f57bd  /home/cdiesh/ucscResults/panTro3/cpgIslandExt.bed.gz.csi
 c5d9ebf26a47ebe58f04e2d80d181d78  /home/cdiesh/ucscResults/panTro3/cpgIslandExtUnmasked.bed.gz
@@ -10279,9 +10279,9 @@ e6d5ef8cebfe6daca630a2819c9233ae  /home/cdiesh/ucscResults/panTro3/tRNAs.bed.gz
 f8dc0f663e4b33f212c77457dbe0b1fd  /home/cdiesh/ucscResults/panTro3/xenoRefGene.bed.gz.csi
 162df6906fbf9be9900efbd910961082  /home/cdiesh/ucscResults/panTro4/augustusGene.bed.gz
 d2dc9beeaef281991cb861cc62e49c68  /home/cdiesh/ucscResults/panTro4/augustusGene.bed.gz.csi
-e2f773b9887d985dc4948d97b5dabec5  /home/cdiesh/ucscResults/panTro4/bed.sh
+b2985032f7244cf5696bf059905a3c2b  /home/cdiesh/ucscResults/panTro4/bed.sh
 7249f4a7ff042a4cbef246aee894d287  /home/cdiesh/ucscResults/panTro4/bigTracks.json
-b4f19740108973732df2529dcfc62406  /home/cdiesh/ucscResults/panTro4/config.json
+7edbe5ed55533ce174a387d3b389935c  /home/cdiesh/ucscResults/panTro4/config.json
 6e086e519261e4b1a3804cbe2bf091fa  /home/cdiesh/ucscResults/panTro4/cpgIslandExt.bed.gz
 f3f466cbcc23fe23451efefb85d86894  /home/cdiesh/ucscResults/panTro4/cpgIslandExt.bed.gz.csi
 997f5bf32a55606bf28401c7ced003f0  /home/cdiesh/ucscResults/panTro4/cpgIslandExtUnmasked.bed.gz
@@ -10327,7 +10327,7 @@ a9cabd3494d891dfe3a6673fba6c4a8b  /home/cdiesh/ucscResults/panTro5/augustusGene.
 162b53601666f538e8e27d762bd4d130  /home/cdiesh/ucscResults/panTro5/augustusGene.bed.gz.csi
 a6c296c7efa867fdbdcc5b6f802b6592  /home/cdiesh/ucscResults/panTro5/bed.sh
 513317115d5edf9e8484723117fcaf90  /home/cdiesh/ucscResults/panTro5/bigTracks.json
-90a7debb52d0563d6f9568bc16860ca8  /home/cdiesh/ucscResults/panTro5/config.json
+26d231f1a2e83a3bd3a2e134d4b8259b  /home/cdiesh/ucscResults/panTro5/config.json
 b1f5f3cfab7e3d31c476bd1e2f1a0d62  /home/cdiesh/ucscResults/panTro5/cpgIslandExt.bed.gz
 47ffe8e11e67fd5d087340f4888c1e0a  /home/cdiesh/ucscResults/panTro5/cpgIslandExt.bed.gz.csi
 457e698337c1ed2a3b2e6a1bf71f414f  /home/cdiesh/ucscResults/panTro5/cpgIslandExtUnmasked.bed.gz
@@ -10371,7 +10371,7 @@ aef4ad2fcf9d0fc7e3bc432be7d201f7  /home/cdiesh/ucscResults/panTro6/augustusGene.
 c1b82c32f1f810dfb087ec377d334c8d  /home/cdiesh/ucscResults/panTro6/augustusGene.bed.gz.csi
 2f02c48382927d6c10158065858c930c  /home/cdiesh/ucscResults/panTro6/bed.sh
 9120e27d68ca016447e211cc39c7280f  /home/cdiesh/ucscResults/panTro6/bigTracks.json
-ce3536de2319106bb7c475c26a14e610  /home/cdiesh/ucscResults/panTro6/config.json
+81ff3d2e83da0b8e7e86bc3c11cd5e30  /home/cdiesh/ucscResults/panTro6/config.json
 bf3ac61653f3a35173ceedf344658103  /home/cdiesh/ucscResults/panTro6/cpgIslandExt.bed.gz
 26e5eb62c4078e77966ea3b471002b91  /home/cdiesh/ucscResults/panTro6/cpgIslandExt.bed.gz.csi
 9cd0d7aa7a4ad07050f06b526c395732  /home/cdiesh/ucscResults/panTro6/cpgIslandExtUnmasked.bed.gz
@@ -10411,9 +10411,9 @@ a1630f843b46ae1d9b576a5e7ae74eef  /home/cdiesh/ucscResults/panTro6/windowmaskerS
 67f624b447d51c5a4671cd2b5d48a20e  /home/cdiesh/ucscResults/panTro6/xenoRefGene.bed.gz.csi
 1f5974b9500098356018416e523b5fe7  /home/cdiesh/ucscResults/papAnu2/augustusGene.bed.gz
 567a72cfa0d2fab6e81d049bbd959290  /home/cdiesh/ucscResults/papAnu2/augustusGene.bed.gz.csi
-7fb86026d0d18f6f6ea9c845cdb3be8d  /home/cdiesh/ucscResults/papAnu2/bed.sh
+9b59af69a6dc00c8c98ee617f5682431  /home/cdiesh/ucscResults/papAnu2/bed.sh
 b5effb4d471f1799f98a1596ee3f4131  /home/cdiesh/ucscResults/papAnu2/bigTracks.json
-9786066cb86f2f31526db798879a9dfe  /home/cdiesh/ucscResults/papAnu2/config.json
+d8a9de4be97b77110842fdb79d4d000c  /home/cdiesh/ucscResults/papAnu2/config.json
 a6c9aacc3edbb03775eac96b7789eadb  /home/cdiesh/ucscResults/papAnu2/cpgIslandExt.bed.gz
 66783910f689a917b4b47dee33484423  /home/cdiesh/ucscResults/papAnu2/cpgIslandExt.bed.gz.csi
 ed792546a95589de6b64b1cad3672454  /home/cdiesh/ucscResults/papAnu2/cpgIslandExtUnmasked.bed.gz
@@ -10457,7 +10457,7 @@ f13c205e5e4ab018acb7f6f8923a80df  /home/cdiesh/ucscResults/papAnu4/augustusGene.
 92e9f170ccd1d0d9bebe3447032adb58  /home/cdiesh/ucscResults/papAnu4/augustusGene.bed.gz.csi
 636abb5dc01dd9f2156c08f290cdb532  /home/cdiesh/ucscResults/papAnu4/bed.sh
 d72577e805fe2faba95bb8a4b811bbd3  /home/cdiesh/ucscResults/papAnu4/bigTracks.json
-6358b9c143bf0fe95e8f1ec222be9edc  /home/cdiesh/ucscResults/papAnu4/config.json
+4709203a16b06a2f23a0815086490964  /home/cdiesh/ucscResults/papAnu4/config.json
 2bf55157dde15cd47faea885e4436664  /home/cdiesh/ucscResults/papAnu4/cpgIslandExt.bed.gz
 57ade9921af7cb9b905db6804a41b7c3  /home/cdiesh/ucscResults/papAnu4/cpgIslandExt.bed.gz.csi
 5e87d02c2cb270abd256b654a8ee4ff2  /home/cdiesh/ucscResults/papAnu4/cpgIslandExtUnmasked.bed.gz
@@ -10499,9 +10499,9 @@ d2a584f9d497548f61afaa1509680a29  /home/cdiesh/ucscResults/papAnu4/ucscToRefSeq.
 66870cd6eaf285ba67d67acee3f718bd  /home/cdiesh/ucscResults/papAnu4/xenoRefGene.bed.gz.csi
 feed18957e7a3215197abe91c2b7938b  /home/cdiesh/ucscResults/papHam1/augustusGene.bed.gz
 56c6b2fad9f8843f0dcc1b588ce83647  /home/cdiesh/ucscResults/papHam1/augustusGene.bed.gz.csi
-f675bf9f319296c66218699938c71a33  /home/cdiesh/ucscResults/papHam1/bed.sh
+a3e5c0a140d076b9aefcbb0f09b22125  /home/cdiesh/ucscResults/papHam1/bed.sh
 8ecd29ab18a727ab00d8141b425e9664  /home/cdiesh/ucscResults/papHam1/bigTracks.json
-d7967181a697b2e268db0f028952baf9  /home/cdiesh/ucscResults/papHam1/config.json
+c9aa3dd1e9bb942ec34f07d6c36e3722  /home/cdiesh/ucscResults/papHam1/config.json
 4975f37eff20a3441dd8f2a6c0c4ac7e  /home/cdiesh/ucscResults/papHam1/cpgIslandExt.bed.gz
 4bbb950f0865f80a26ecb53aa885fe73  /home/cdiesh/ucscResults/papHam1/cpgIslandExt.bed.gz.csi
 66d3326b7025a66741ac86d311b96b6d  /home/cdiesh/ucscResults/papHam1/cpgIslandExtUnmasked.bed.gz
@@ -10533,7 +10533,7 @@ c180d7615dd7f8fd04ab924f088f0060  /home/cdiesh/ucscResults/petMar1/augustusGene.
 c963efeb9af888b159de02a626008150  /home/cdiesh/ucscResults/petMar1/augustusGene.bed.gz.csi
 16b35cc7e494d73642f29cd47a44fb35  /home/cdiesh/ucscResults/petMar1/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/petMar1/bigTracks.json
-58a046991a92dab8150838129587323f  /home/cdiesh/ucscResults/petMar1/config.json
+403c2b8d0bac0951512bd4ad80b7f658  /home/cdiesh/ucscResults/petMar1/config.json
 2a17c19ba5295de1bf5d138390e1d38e  /home/cdiesh/ucscResults/petMar1/gap.bed.gz
 861a7dc95eb34fefa9e39577479ea85b  /home/cdiesh/ucscResults/petMar1/gap.bed.gz.csi
 20274854bb1bdfc0374d6855e8164c72  /home/cdiesh/ucscResults/petMar1/gold.bed.gz
@@ -10557,7 +10557,7 @@ e83693d5ea3e1e9827001514a26553e1  /home/cdiesh/ucscResults/petMar1/xenoRefGene.b
 c39ae38f2fd13b32b2903f249463a6cb  /home/cdiesh/ucscResults/petMar2/augustusGene.bed.gz.csi
 454dfbab5ed5ab5d25c7778fd986b847  /home/cdiesh/ucscResults/petMar2/bed.sh
 6d7b87b1319e05116559e10b6c23d6d0  /home/cdiesh/ucscResults/petMar2/bigTracks.json
-983dd973e1ff135a6613d1076c2ad523  /home/cdiesh/ucscResults/petMar2/config.json
+431ecec29719c90017ec1d57d3908710  /home/cdiesh/ucscResults/petMar2/config.json
 442e4570b81fc76ec29fdeaa903e9777  /home/cdiesh/ucscResults/petMar2/cpgIslandExt.bed.gz
 d8072b1acc2faf290cd7b5bf60d91a53  /home/cdiesh/ucscResults/petMar2/cpgIslandExt.bed.gz.csi
 10d74c4877b158c8a5a09c6d52a6a583  /home/cdiesh/ucscResults/petMar2/cpgIslandExtUnmasked.bed.gz
@@ -10595,7 +10595,7 @@ c0ca6cbd78cddbba2a909a6ec83863b1  /home/cdiesh/ucscResults/petMar2/xenoRefGene.b
 5ed1fcc476e3f6ae8fb4a33d4cfa1d80  /home/cdiesh/ucscResults/petMar3/augustusGene.bed.gz.csi
 d9bbd2e989b89662350f1739ba2ff903  /home/cdiesh/ucscResults/petMar3/bed.sh
 50d838ad9eb2c5d31159deede076476b  /home/cdiesh/ucscResults/petMar3/bigTracks.json
-1606db32cd4dfff1b1149e6499f5c37a  /home/cdiesh/ucscResults/petMar3/config.json
+73e985837f55f85bee38c691713e1a99  /home/cdiesh/ucscResults/petMar3/config.json
 35b970a3df902a682f2b4082679a27ff  /home/cdiesh/ucscResults/petMar3/cpgIslandExt.bed.gz
 0b46f3d0360f625315f2d69e4083ad6a  /home/cdiesh/ucscResults/petMar3/cpgIslandExt.bed.gz.csi
 af7ec625d6ed38e707fc12b2b7ea3da8  /home/cdiesh/ucscResults/petMar3/cpgIslandExtUnmasked.bed.gz
@@ -10629,7 +10629,7 @@ b2b9ef9b4548b22919de944078a2ff32  /home/cdiesh/ucscResults/ponAbe2/augustusGene.
 ef1a7bd9d759480987439e83e1d3c5c9  /home/cdiesh/ucscResults/ponAbe2/augustusGene.bed.gz.csi
 4f066d8155562eb21456c69643a3c339  /home/cdiesh/ucscResults/ponAbe2/bed.sh
 654a6426ca7411135118bb8477ac4ce8  /home/cdiesh/ucscResults/ponAbe2/bigTracks.json
-9e449249e0ce61c362103d653892aa83  /home/cdiesh/ucscResults/ponAbe2/config.json
+60a8d09f50dc2193e96e3a28786b6332  /home/cdiesh/ucscResults/ponAbe2/config.json
 36376a0ca54628981fc5960dcb3069d4  /home/cdiesh/ucscResults/ponAbe2/cytoBandIdeo.bed.gz
 2091e54ed5bdb48ac9eaffbb1ce253c8  /home/cdiesh/ucscResults/ponAbe2/cytoBandIdeo.bed.gz.csi
 0765eda0b7acf69c1f2b2af6afff4505  /home/cdiesh/ucscResults/ponAbe2/ensGene.bed.gz
@@ -10659,7 +10659,7 @@ a1e1c868431e5620e8319602916c0c3e  /home/cdiesh/ucscResults/ponAbe3/augustusGene.
 33acc871d8ea616ca174b58c4ebe38bc  /home/cdiesh/ucscResults/ponAbe3/augustusGene.bed.gz.csi
 94a2bc96eb2f8aa5982ad994ec1eaf6c  /home/cdiesh/ucscResults/ponAbe3/bed.sh
 8f6a59c41ae79236eb9365f048920cfd  /home/cdiesh/ucscResults/ponAbe3/bigTracks.json
-c3622e17b93345ee3ff7ad59a0457471  /home/cdiesh/ucscResults/ponAbe3/config.json
+f2bb129170e29baa3856428a4b5fbf95  /home/cdiesh/ucscResults/ponAbe3/config.json
 9d560641f29557ea12d144fbca28ab29  /home/cdiesh/ucscResults/ponAbe3/cpgIslandExt.bed.gz
 b43fef0aaeb24f73919907c7089b4e06  /home/cdiesh/ucscResults/ponAbe3/cpgIslandExt.bed.gz.csi
 50cc2242a2fe14867a685fc3bc2f405d  /home/cdiesh/ucscResults/ponAbe3/cpgIslandExtUnmasked.bed.gz
@@ -10699,7 +10699,7 @@ fe857a9aa01c89d2ba93a6e14df45fa6  /home/cdiesh/ucscResults/ponAbe3/windowmaskerS
 78a51a07a4b5d766af5e6393f5076867  /home/cdiesh/ucscResults/priPac1/augustusGene.bed.gz.csi
 9c58c7136862d5b56f9c3b1c826b0ec2  /home/cdiesh/ucscResults/priPac1/bed.sh
 790bd1d76bc44cb31b528b56b97e660b  /home/cdiesh/ucscResults/priPac1/bigTracks.json
-97c2477bdec8e555d68d14a898d8cf39  /home/cdiesh/ucscResults/priPac1/config.json
+3896f41550fe91e8332754d5700e497c  /home/cdiesh/ucscResults/priPac1/config.json
 aad77480098870621db4891dfa9b6b50  /home/cdiesh/ucscResults/priPac1/microsat.bed.gz
 a8606d81343aae80333ca59627195a5f  /home/cdiesh/ucscResults/priPac1/microsat.bed.gz.csi
 ea0ea4497533217226a31b3f72e29311  /home/cdiesh/ucscResults/priPac1/simpleRepeat.bed.gz
@@ -10713,7 +10713,7 @@ a75e1ebd308d7d65ec599291db5cde7f  /home/cdiesh/ucscResults/proCap1/augustusGene.
 392d2d67d3d7144a3d022d86a91031de  /home/cdiesh/ucscResults/proCap1/augustusGene.bed.gz.csi
 c62267a3314a64b0c66641d75f4da24b  /home/cdiesh/ucscResults/proCap1/bed.sh
 dbcc448db98835568328478b4ad0c14e  /home/cdiesh/ucscResults/proCap1/bigTracks.json
-ac3cf63d688f3f09bf51994e3964a7b9  /home/cdiesh/ucscResults/proCap1/config.json
+345830ee2faf118046e0a2b2e97ae9bf  /home/cdiesh/ucscResults/proCap1/config.json
 9a80ebc039ee2ccc2b61110345382a83  /home/cdiesh/ucscResults/proCap1/cpgIslandExt.bed.gz
 376d0f20693f2a0c934816621c787e8d  /home/cdiesh/ucscResults/proCap1/cpgIslandExt.bed.gz.csi
 f023d8e54fe9fbb249beb3dc2d299cac  /home/cdiesh/ucscResults/proCap1/cpgIslandExtUnmasked.bed.gz
@@ -10747,7 +10747,7 @@ ad77cf1b2899f6edd995dd5901bf716c  /home/cdiesh/ucscResults/pteVam1/augustusGene.
 fc992f597d0b6e7e784873a94e772fbb  /home/cdiesh/ucscResults/pteVam1/augustusGene.bed.gz.csi
 2573ae13c0ae2cb22d30da4abfe7a285  /home/cdiesh/ucscResults/pteVam1/bed.sh
 ea82c9c6fd7826f6aeb5a723217984f6  /home/cdiesh/ucscResults/pteVam1/bigTracks.json
-3e3931042fae425d22d23e84092e0b7f  /home/cdiesh/ucscResults/pteVam1/config.json
+485f932c05a8802104993e721f56f4e9  /home/cdiesh/ucscResults/pteVam1/config.json
 0a7f57afa64baa004c2ddd42f2146e50  /home/cdiesh/ucscResults/pteVam1/cpgIslandExt.bed.gz
 5b21eafaea4c2e9d85013387d1617793  /home/cdiesh/ucscResults/pteVam1/cpgIslandExt.bed.gz.csi
 9fce6a86177a553316d146d08ed6b973  /home/cdiesh/ucscResults/pteVam1/cpgIslandExtUnmasked.bed.gz
@@ -10781,7 +10781,7 @@ c5e1bc5e35cde533f30d045ced331add  /home/cdiesh/ucscResults/rheMac10/augustusGene
 52d8126889ca1dbadf9822f1e0250839  /home/cdiesh/ucscResults/rheMac10/augustusGene.bed.gz.csi
 3bd811b14922a3146bd5cbd3af0d1ffe  /home/cdiesh/ucscResults/rheMac10/bed.sh
 2c91d51f840f9bf4d067bd05328ff5d0  /home/cdiesh/ucscResults/rheMac10/bigTracks.json
-30b95c5a7a1d5cdbae869d5959790b05  /home/cdiesh/ucscResults/rheMac10/config.json
+1e65aad9269298dba071440569e8b4f3  /home/cdiesh/ucscResults/rheMac10/config.json
 7cc9a5ec33ad876bf2c4c9dacb400eec  /home/cdiesh/ucscResults/rheMac10/cpgIslandExt.bed.gz
 a0998a1d30d4265143a8e6909e4292ba  /home/cdiesh/ucscResults/rheMac10/cpgIslandExt.bed.gz.csi
 a8876a457229d7b967f9de531db5498e  /home/cdiesh/ucscResults/rheMac10/cpgIslandExtUnmasked.bed.gz
@@ -10825,9 +10825,9 @@ a72415ac6636d86b4f201a553cb6425b  /home/cdiesh/ucscResults/rheMac10/windowmasker
 2bfcbc533cc347dc985c036c431c54ac  /home/cdiesh/ucscResults/rheMac10/windowmaskerSdust.bed.gz.csi
 b54ee4985c5dae812c6fab15bfd356ee  /home/cdiesh/ucscResults/rheMac10/xenoRefGene.bed.gz
 f2c35a86ab4d42e3cfd1eb661f77c597  /home/cdiesh/ucscResults/rheMac10/xenoRefGene.bed.gz.csi
-95453aa01dfd3c9db2a9c8933a57696d  /home/cdiesh/ucscResults/rheMac2/bed.sh
+2d71f7af515c51f74ffe95989338c90e  /home/cdiesh/ucscResults/rheMac2/bed.sh
 e3a2a982556ed66065cc436acd002357  /home/cdiesh/ucscResults/rheMac2/bigTracks.json
-893775b32706f6a84d4bf76c26219ab9  /home/cdiesh/ucscResults/rheMac2/config.json
+e754d897e498db206610a78ed60b4bca  /home/cdiesh/ucscResults/rheMac2/config.json
 337cf4c229b925f07158ac946b6d44b0  /home/cdiesh/ucscResults/rheMac2/cpgIslandExt.bed.gz
 22166c3e2c9094a26ba5e0892790e1df  /home/cdiesh/ucscResults/rheMac2/cpgIslandExt.bed.gz.csi
 a48fe4c7179fdd0b6bd5abc31b579a43  /home/cdiesh/ucscResults/rheMac2/cpgIslandExtUnmasked.bed.gz
@@ -10863,9 +10863,9 @@ b7c964ee3f44a6f2c8b1c88481e28a07  /home/cdiesh/ucscResults/rheMac2/xenoRefGene.b
 92f9840986d11150f717d9b98d94f761  /home/cdiesh/ucscResults/rheMac2/xenoRefGene.bed.gz.csi
 1c7b9d88e6cf959c7fa3d31f5781b06b  /home/cdiesh/ucscResults/rheMac3/augustusGene.bed.gz
 12d43ad584ba3297daa794005928f6b2  /home/cdiesh/ucscResults/rheMac3/augustusGene.bed.gz.csi
-9bb9f9f28961d37cdc44e11eb8bc8bdb  /home/cdiesh/ucscResults/rheMac3/bed.sh
+5b5980e688e02b082945f2c760e51e70  /home/cdiesh/ucscResults/rheMac3/bed.sh
 5234a7a70ca0c074356bcb6728e83189  /home/cdiesh/ucscResults/rheMac3/bigTracks.json
-c1100aa573b5b49df6d35992c622375e  /home/cdiesh/ucscResults/rheMac3/config.json
+efa64740d4578975986aefb924f7430c  /home/cdiesh/ucscResults/rheMac3/config.json
 93d62ee4fe58d498ca0bed366326988b  /home/cdiesh/ucscResults/rheMac3/cpgIslandExt.bed.gz
 40199f34a438be934a9eaaab266cbebe  /home/cdiesh/ucscResults/rheMac3/cpgIslandExt.bed.gz.csi
 5c33090c24303d31fce0657505de1df2  /home/cdiesh/ucscResults/rheMac3/cpgIslandExtUnmasked.bed.gz
@@ -10901,7 +10901,7 @@ b6fe9035667474a49a8f779176a15821  /home/cdiesh/ucscResults/rheMac3/xenoRefGene.b
 75178e1aaa4aece4fba6f85b160f1e0b  /home/cdiesh/ucscResults/rheMac8/augustusGene.bed.gz.csi
 02609ff3e508ff7fb560b1af5bdef218  /home/cdiesh/ucscResults/rheMac8/bed.sh
 920cc6307e505c258eda9f9c1ee9714f  /home/cdiesh/ucscResults/rheMac8/bigTracks.json
-baa056c9c62d1e90c9f80d4dc0961239  /home/cdiesh/ucscResults/rheMac8/config.json
+36e48035f162c3a9508974280556103d  /home/cdiesh/ucscResults/rheMac8/config.json
 f2fae7fd292bcebec16440be827f0841  /home/cdiesh/ucscResults/rheMac8/cpgIslandExt.bed.gz
 d5bdeb6795e6187765367b66e9620a8e  /home/cdiesh/ucscResults/rheMac8/cpgIslandExt.bed.gz.csi
 d0338dc315ec7d217898773cbf07bef6  /home/cdiesh/ucscResults/rheMac8/cpgIslandExtUnmasked.bed.gz
@@ -10945,7 +10945,7 @@ a6353f6e6f5b794ce68213f1bb34ab25  /home/cdiesh/ucscResults/rheMac8/xenoRefGene.b
 f506af2498c57cb66e8409606ee640c3  /home/cdiesh/ucscResults/rhiRox1/augustusGene.bed.gz.csi
 48927f4c4620f446c965c144342905fd  /home/cdiesh/ucscResults/rhiRox1/bed.sh
 5d27e64e33d466eac46a75ef96160499  /home/cdiesh/ucscResults/rhiRox1/bigTracks.json
-31f23b81199a880b3e54977a1acd2182  /home/cdiesh/ucscResults/rhiRox1/config.json
+e61ae1089ed229c29ff941ca484fb608  /home/cdiesh/ucscResults/rhiRox1/config.json
 75b87dd85a9c352fd760e3e44b2911a7  /home/cdiesh/ucscResults/rhiRox1/cpgIslandExt.bed.gz
 ffedf5795c1fb5e6069b0e2dcb30aba9  /home/cdiesh/ucscResults/rhiRox1/cpgIslandExt.bed.gz.csi
 655eccb2d01ee608daa2adcfff66346e  /home/cdiesh/ucscResults/rhiRox1/cpgIslandExtUnmasked.bed.gz
@@ -10989,7 +10989,7 @@ fdfe60d8db153066315e7f3a014aa575  /home/cdiesh/ucscResults/rn3/bactigPos.bed.gz
 f0fd443137c1bf235bc089f758360850  /home/cdiesh/ucscResults/rn3/bactigPos.bed.gz.csi
 a9846a7c43832d3111d97612f241bfe9  /home/cdiesh/ucscResults/rn3/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/rn3/bigTracks.json
-c4be8579b3044d0d7fb8ee4f1210fbe8  /home/cdiesh/ucscResults/rn3/config.json
+6e18bb1743b089d13d545cd1b64b3673  /home/cdiesh/ucscResults/rn3/config.json
 59f49e0fa7c158599e445579c2a92071  /home/cdiesh/ucscResults/rn3/cpgIsland.bed.gz
 f3a0098d934343057bf02e0bc9161eea  /home/cdiesh/ucscResults/rn3/cpgIsland.bed.gz.csi
 b46bf42b9a1c0c71f397cf216d9f35e0  /home/cdiesh/ucscResults/rn3/cytoBand.bed.gz
@@ -11055,9 +11055,9 @@ f60df93600229f6ac9085700dd1e96ff  /home/cdiesh/ucscResults/rn4/augustusGene.bed.
 fe0e6d95083822e8ec336017221f6f26  /home/cdiesh/ucscResults/rn4/augustusGene.bed.gz.csi
 8593d28b25bba280d1b86883c67ee75b  /home/cdiesh/ucscResults/rn4/bacEndPairs.bed.gz
 82371707cfacfd07cc8450d1d5dfb61d  /home/cdiesh/ucscResults/rn4/bacEndPairs.bed.gz.csi
-ffb8255a7037b56d883f7a1851221838  /home/cdiesh/ucscResults/rn4/bed.sh
+739dd994bb88e3ae312da17753af4113  /home/cdiesh/ucscResults/rn4/bed.sh
 679d005ebef8ad8a9159d174c5657d50  /home/cdiesh/ucscResults/rn4/bigTracks.json
-9153908492ea3ff069b8183fde72b1b9  /home/cdiesh/ucscResults/rn4/config.json
+0ceda4525971f3a530f07e3196948ac9  /home/cdiesh/ucscResults/rn4/config.json
 768955e327192efe93077dddc9cfe256  /home/cdiesh/ucscResults/rn4/cpgIslandExt.bed.gz
 e5b4e3848aaea7d5b1a589c30fe83f6b  /home/cdiesh/ucscResults/rn4/cpgIslandExt.bed.gz.csi
 1024a773af6563b93c8dc77d89b6a1b7  /home/cdiesh/ucscResults/rn4/cpgIslandExtUnmasked.bed.gz
@@ -11107,9 +11107,9 @@ e678232eb8292f36bcf5d457591e3cef  /home/cdiesh/ucscResults/rn4/pubsBlat.bed.gz.c
 2fe4f19f10a47b9b03ed15108e7a4b47  /home/cdiesh/ucscResults/rn4/xenoRefGene.bed.gz.csi
 9a1e1817d396945ea3e3c7a4f3bcee54  /home/cdiesh/ucscResults/rn5/augustusGene.bed.gz
 68124eaa73308760068f1b57badbc66d  /home/cdiesh/ucscResults/rn5/augustusGene.bed.gz.csi
-e78ef68029fb0691b4c064c5b08faa1e  /home/cdiesh/ucscResults/rn5/bed.sh
+482e518d1d4c5c52b21a954f41cbb5da  /home/cdiesh/ucscResults/rn5/bed.sh
 7b9dcda64b0275382630e15406e337f5  /home/cdiesh/ucscResults/rn5/bigTracks.json
-c7bdf6044b152468b9576df4f81d6781  /home/cdiesh/ucscResults/rn5/config.json
+925a95ba9d6a556df973a7ede0997c4c  /home/cdiesh/ucscResults/rn5/config.json
 41a4c8f911f09c0ed50680daf396b159  /home/cdiesh/ucscResults/rn5/cpgIslandExt.bed.gz
 2b8aec06814a7f78c235ce3286908b06  /home/cdiesh/ucscResults/rn5/cpgIslandExt.bed.gz.csi
 799f25a7f32095cc6ec247f6da3860f5  /home/cdiesh/ucscResults/rn5/cpgIslandExtUnmasked.bed.gz
@@ -11149,7 +11149,7 @@ cf393944e07aabd25683bfe5ed7e27b3  /home/cdiesh/ucscResults/rn5/xenoRefGene.bed.g
 610915b27b2a730683a26fc3535616f9  /home/cdiesh/ucscResults/rn5/xenoRefGene.bed.gz.csi
 cc145d24cf9417692b8638e5cfc4a0ca  /home/cdiesh/ucscResults/rn6/augustusGene.bed.gz
 919d7e6089899d69d1a0bb5d34d290f6  /home/cdiesh/ucscResults/rn6/augustusGene.bed.gz.csi
-ac4348eed80f442d0ba0250e5972a2bf  /home/cdiesh/ucscResults/rn6/bed.sh
+f259db86790a1e53f95ff9a5951901d1  /home/cdiesh/ucscResults/rn6/bed.sh
 6fab3019136a31030b714c60a4a9513d  /home/cdiesh/ucscResults/rn6/bigTracks.json
 5f647773825616c23065e01ab3b68cb7  /home/cdiesh/ucscResults/rn6/cloneEndbadEnds.bed.gz
 d6954047f82a8478cdd81756a88c4d35  /home/cdiesh/ucscResults/rn6/cloneEndbadEnds.bed.gz.csi
@@ -11163,7 +11163,7 @@ d04eab88eb4843473ea795e8ecebde2f  /home/cdiesh/ucscResults/rn6/cloneEndRNB2.bed.
 4c0d1bfcce20afbefa42b2bb601f6bfa  /home/cdiesh/ucscResults/rn6/cloneEndRNB2.bed.gz.csi
 19ba872caff4b5a3ab4a4d2736df0d91  /home/cdiesh/ucscResults/rn6/cloneEndRP32.bed.gz
 9b8bc523edf56e0003f8eb070b8c535c  /home/cdiesh/ucscResults/rn6/cloneEndRP32.bed.gz.csi
-915b07d036d91e96f90beb3511939ba7  /home/cdiesh/ucscResults/rn6/config.json
+ccdc19ed2e1aa1f0cb1623ce745f3a9e  /home/cdiesh/ucscResults/rn6/config.json
 5b970106b8c9527bbe33bac6c41f158d  /home/cdiesh/ucscResults/rn6/cpgIslandExt.bed.gz
 f235a9d9bb30c298c4347a847f1a0f27  /home/cdiesh/ucscResults/rn6/cpgIslandExt.bed.gz.csi
 391a0b13210a9ebbeed3a9b7c97f3e83  /home/cdiesh/ucscResults/rn6/cpgIslandExtUnmasked.bed.gz
@@ -11215,7 +11215,7 @@ d47a51f53f1912be402ac5b817e606ed  /home/cdiesh/ucscResults/rn7/augustusGene.bed.
 2ed05027b396f4dc714bb59be5a17818  /home/cdiesh/ucscResults/rn7/augustusGene.bed.gz.csi
 f4a130f24896f6d544649042d294f083  /home/cdiesh/ucscResults/rn7/bed.sh
 dc55ba950c0cf93c12ac92c7f71d87dd  /home/cdiesh/ucscResults/rn7/bigTracks.json
-6ba51bf3d0f6e6c175c7ff0c093eb14d  /home/cdiesh/ucscResults/rn7/config.json
+8fff3b24da913536614b52689ec1de83  /home/cdiesh/ucscResults/rn7/config.json
 371bde339801d9d8c9721305b7056846  /home/cdiesh/ucscResults/rn7/cpgIslandExt.bed.gz
 bf6417a57b1f78f549fb637ab3f6b59a  /home/cdiesh/ucscResults/rn7/cpgIslandExt.bed.gz.csi
 4d79b2a0c06dd08192cb904010167c98  /home/cdiesh/ucscResults/rn7/cpgIslandExtUnmasked.bed.gz
@@ -11257,7 +11257,7 @@ b0155dc917d58e0c4361eb29ee4e669d  /home/cdiesh/ucscResults/sacCer1/augustusGene.
 f43781996a2234103195c4baeb319392  /home/cdiesh/ucscResults/sacCer1/augustusGene.bed.gz.csi
 600c910d54c27b7333f19d6b90fe6bbe  /home/cdiesh/ucscResults/sacCer1/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/sacCer1/bigTracks.json
-2d35d9522db5d9de5063f3a363423669  /home/cdiesh/ucscResults/sacCer1/config.json
+c32ebcb866248308a4be5624c6dc12ff  /home/cdiesh/ucscResults/sacCer1/config.json
 efaa595453c5808d3a5f248d28c9ea5b  /home/cdiesh/ucscResults/sacCer1/ensGene.bed.gz
 92e36198fc44dd5122b8337b730bd221  /home/cdiesh/ucscResults/sacCer1/ensGene.bed.gz.csi
 29ec57a0f87b2c139494ad0d61d2a16c  /home/cdiesh/ucscResults/sacCer1/esRegGeneToMotif.bed.gz
@@ -11289,9 +11289,9 @@ fdebe7aeb161f230c5526c401b9163f9  /home/cdiesh/ucscResults/sacCer1/uwFootprintsP
 0255bd35ef0f8d78e429c904c977d9bd  /home/cdiesh/ucscResults/sacCer1/xenoRefGene.bed.gz.csi
 e7e3eeb580f96737296e624df6ffec61  /home/cdiesh/ucscResults/sacCer2/augustusGene.bed.gz
 ccce520de4e6226b2ff41797099cba04  /home/cdiesh/ucscResults/sacCer2/augustusGene.bed.gz.csi
-630b2e5ee671c919742bc0270ec2812d  /home/cdiesh/ucscResults/sacCer2/bed.sh
+a0dc07b05d162a55aefd4d34b2705b41  /home/cdiesh/ucscResults/sacCer2/bed.sh
 0ad71228e55e2eda7214ffcb4ead200f  /home/cdiesh/ucscResults/sacCer2/bigTracks.json
-bb1e64909eee2a5276962aca699bae89  /home/cdiesh/ucscResults/sacCer2/config.json
+7e16ef5317a0737816d15b6a71e285b3  /home/cdiesh/ucscResults/sacCer2/config.json
 03784c38c1dd0165b300e7a3d52bc567  /home/cdiesh/ucscResults/sacCer2/ensGene.bed.gz
 65e32c7f484473f0cbbe9799dfaee0e8  /home/cdiesh/ucscResults/sacCer2/ensGene.bed.gz.csi
 67f68937f11eb82be3c0474bcf2c66bf  /home/cdiesh/ucscResults/sacCer2/esRegGeneToMotif.bed.gz
@@ -11329,7 +11329,7 @@ eee1f73b81e07ec324bdf79c2d379ce4  /home/cdiesh/ucscResults/sacCer2/uwFootprintsM
 31ea10f53d3901999062e0dd10f15a7a  /home/cdiesh/ucscResults/sacCer3/augustusGene.bed.gz.csi
 85024c5c082de38a4869fe07a7bc9a41  /home/cdiesh/ucscResults/sacCer3/bed.sh
 c0090c3c1f7dfa0b01ca7fe27249de8f  /home/cdiesh/ucscResults/sacCer3/bigTracks.json
-5cbb86143bf81e4c2b3774673bab62d6  /home/cdiesh/ucscResults/sacCer3/config.json
+64a56b4bf97a7d0580278f5126e4a0b9  /home/cdiesh/ucscResults/sacCer3/config.json
 70489a4e41e2eb016498825ab0064523  /home/cdiesh/ucscResults/sacCer3/crisprRanges.bed.gz
 69a8c1dcd1eb359998212c306104f423  /home/cdiesh/ucscResults/sacCer3/crisprRanges.bed.gz.csi
 63ad68fcdd38c05e81d80d71673dff3c  /home/cdiesh/ucscResults/sacCer3/ensGene.bed.gz
@@ -11369,7 +11369,7 @@ c4d752f78e28c296a5d8863afc47cd02  /home/cdiesh/ucscResults/sacCer3/xenoRefGene.b
 dc7e91e2ee0a502b29f7f6e82d7d7bb7  /home/cdiesh/ucscResults/saiBol1/augustusGene.bed.gz.csi
 372209f62efede302239e2c4b1fc06b7  /home/cdiesh/ucscResults/saiBol1/bed.sh
 e234d4b6e60632bd2918903b049cd703  /home/cdiesh/ucscResults/saiBol1/bigTracks.json
-ae5f29b1c17f00e53c21c6f6fda51ad8  /home/cdiesh/ucscResults/saiBol1/config.json
+5bd22cf4a184fe2ff442b4f61dca36de  /home/cdiesh/ucscResults/saiBol1/config.json
 aabd0d3573285d93b3ae7c2d32403e66  /home/cdiesh/ucscResults/saiBol1/cpgIslandExt.bed.gz
 c643c4529a0196a53c8d3d47d1ea58a1  /home/cdiesh/ucscResults/saiBol1/cpgIslandExt.bed.gz.csi
 eb5cb4ccfae2027dba9aa4c991111550  /home/cdiesh/ucscResults/saiBol1/cpgIslandExtUnmasked.bed.gz
@@ -11409,9 +11409,9 @@ cd83e6980ebe5e50c96581f0334d122f  /home/cdiesh/ucscResults/saiBol1/windowmaskerS
 0fddd152fb042d86cb1afeed101f4beb  /home/cdiesh/ucscResults/saiBol1/xenoRefGene.bed.gz.csi
 6caecec51ecc70af5036f741e0296dd9  /home/cdiesh/ucscResults/sarHar1/augustusGene.bed.gz
 4facb3d200072c2d4218fc1e605d4670  /home/cdiesh/ucscResults/sarHar1/augustusGene.bed.gz.csi
-7bea3d772d10f6c0b9b5b99404a479c2  /home/cdiesh/ucscResults/sarHar1/bed.sh
+87790cb3447002bbf2fc6a1ec8462443  /home/cdiesh/ucscResults/sarHar1/bed.sh
 9f1063f8a11f97a8be0e8a353f1f8c95  /home/cdiesh/ucscResults/sarHar1/bigTracks.json
-612861b1433c8ee325aa944879927018  /home/cdiesh/ucscResults/sarHar1/config.json
+67305a1857d69bc06d958ae280674569  /home/cdiesh/ucscResults/sarHar1/config.json
 6475c6e7f07be7e74e260301a676415f  /home/cdiesh/ucscResults/sarHar1/cpgIslandExt.bed.gz
 22484728314920792d6fbd94969dd93d  /home/cdiesh/ucscResults/sarHar1/cpgIslandExt.bed.gz.csi
 d9d178aff8bfc0a6205e2a5cd4a169fa  /home/cdiesh/ucscResults/sarHar1/cpgIslandExtUnmasked.bed.gz
@@ -11455,7 +11455,7 @@ c4954de5f1d286e3aac24a90ad56f535  /home/cdiesh/ucscResults/sarHar1/xenoRefGene.b
 198129c2483894631e34bbd16c80ec25  /home/cdiesh/ucscResults/sorAra1/augustusGene.bed.gz.csi
 82a60c0e88cfd30cb92af21731cc1487  /home/cdiesh/ucscResults/sorAra1/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/sorAra1/bigTracks.json
-0e198564742ff6216a64442562dcbd49  /home/cdiesh/ucscResults/sorAra1/config.json
+64520184a56c1691736b0b357b24c42c  /home/cdiesh/ucscResults/sorAra1/config.json
 c21eb34d8cd0fda7adcf3751d6fa2695  /home/cdiesh/ucscResults/sorAra1/cpgIslandExt.bed.gz
 c92a3d789634e4d3bcb4e1380df8c56d  /home/cdiesh/ucscResults/sorAra1/cpgIslandExt.bed.gz.csi
 9cee5ed2cf2b0062af3034a8f0b77571  /home/cdiesh/ucscResults/sorAra1/cpgIslandExtUnmasked.bed.gz
@@ -11489,7 +11489,7 @@ b6e6c71435918da53ba3860894886419  /home/cdiesh/ucscResults/sorAra1/xenoRefGene.b
 e747ed5133bdee4b20f3f213815f06e9  /home/cdiesh/ucscResults/sorAra2/augustusGene.bed.gz.csi
 a94694ede6c9a631ed21137a1c2ffd14  /home/cdiesh/ucscResults/sorAra2/bed.sh
 6f918b6baabf638e3753cd79fb5bc7bc  /home/cdiesh/ucscResults/sorAra2/bigTracks.json
-cbfab4bf01d0034b260e1c35277a2936  /home/cdiesh/ucscResults/sorAra2/config.json
+df837e1b58d67799557223da1f1e089c  /home/cdiesh/ucscResults/sorAra2/config.json
 4f616fb3192315a9c34732dcfe0b1b88  /home/cdiesh/ucscResults/sorAra2/cpgIslandExt.bed.gz
 cb3cc1b8ed9ce741498c9f9679c31524  /home/cdiesh/ucscResults/sorAra2/cpgIslandExt.bed.gz.csi
 643e3ab38e2b8c42e03c5c7fb5f3cd25  /home/cdiesh/ucscResults/sorAra2/cpgIslandExtUnmasked.bed.gz
@@ -11529,7 +11529,7 @@ e0046d1d168608efbca87e322cd994e7  /home/cdiesh/ucscResults/sorAra2/ucscToRefSeq.
 d89d32e4bf28912d4c7c780956df02f5  /home/cdiesh/ucscResults/speTri2/augustusGene.bed.gz.csi
 3aa56ca7181e4a98e86f27de9ae1a2e9  /home/cdiesh/ucscResults/speTri2/bed.sh
 aba2fc46707d47d6555e82cb8b857048  /home/cdiesh/ucscResults/speTri2/bigTracks.json
-2f2c4d33384d0a315bddca3167ebbc3e  /home/cdiesh/ucscResults/speTri2/config.json
+deec7dc4862549eab16a3f8f83dc4cbd  /home/cdiesh/ucscResults/speTri2/config.json
 757e66593ad26037f831c3fb02f68fe4  /home/cdiesh/ucscResults/speTri2/cpgIslandExt.bed.gz
 1032683e2a493d6955449a342d968265  /home/cdiesh/ucscResults/speTri2/cpgIslandExt.bed.gz.csi
 5abd7928fa16b9cf956a2724cac27148  /home/cdiesh/ucscResults/speTri2/cpgIslandExtUnmasked.bed.gz
@@ -11569,7 +11569,7 @@ c6d6be364713683fd1f96f1dac6d0aa1  /home/cdiesh/ucscResults/speTri2/xenoRefGene.b
 e9b9f1f2d9aeef4d48cea90adff39f8b  /home/cdiesh/ucscResults/speTri2/xenoRefGene.bed.gz.csi
 3a169f8cad621afb0c0a971c4e3afaa5  /home/cdiesh/ucscResults/strPur1/bed.sh
 4d69792b66a5b21ba8abd4ec6718b00e  /home/cdiesh/ucscResults/strPur1/bigTracks.json
-efbacd0c9aa5e103e07942168a87076f  /home/cdiesh/ucscResults/strPur1/config.json
+3ed1f591f5cc620b8fb1f1ef6106c3a4  /home/cdiesh/ucscResults/strPur1/config.json
 219f9fff9508f73086136df4a4d35011  /home/cdiesh/ucscResults/strPur1/gap.bed.gz
 caf4c712d1440f32fbe1d3eab4a16a9a  /home/cdiesh/ucscResults/strPur1/gap.bed.gz.csi
 70ce8b6cbc04ac5013e1cb0e0e6203ca  /home/cdiesh/ucscResults/strPur1/genscan.bed.gz
@@ -11587,7 +11587,7 @@ dd53625faa542734242e43e25e835c05  /home/cdiesh/ucscResults/strPur1/xenoRefGene.b
 b2e067aee6d84adef34708563ce04325  /home/cdiesh/ucscResults/strPur1/xenoRefGene.bed.gz.csi
 d160d3587568899ca5d58c4eaf10dd82  /home/cdiesh/ucscResults/strPur2/bed.sh
 538b02d797395451685dbd57ded32c8b  /home/cdiesh/ucscResults/strPur2/bigTracks.json
-2925c60bb7fd0d3aead3ce35840d15f4  /home/cdiesh/ucscResults/strPur2/config.json
+45d3950e7cee325ba84710d6699fc6a7  /home/cdiesh/ucscResults/strPur2/config.json
 bbd18c5f0b024c6313c643a576528d49  /home/cdiesh/ucscResults/strPur2/cytoBandIdeo.bed.gz
 03571241e219c79fe9678e6417a4f459  /home/cdiesh/ucscResults/strPur2/cytoBandIdeo.bed.gz.csi
 1ffe4ef5f5d82974dfeadc2c5966aa81  /home/cdiesh/ucscResults/strPur2/gap.bed.gz
@@ -11611,7 +11611,7 @@ ba9bcdcc273b29cb1236fb0184c646b4  /home/cdiesh/ucscResults/strPur2/xenoRefGene.b
 9cfe1765ae23772b5a4c96534438e3ab  /home/cdiesh/ucscResults/susScr11/augustusGene.bed.gz.csi
 0a66073d50fdf856e2777062d572f2d6  /home/cdiesh/ucscResults/susScr11/bed.sh
 57ec9b179e64eb50d896815c2e3be33b  /home/cdiesh/ucscResults/susScr11/bigTracks.json
-ceb8e0be3215f9363384adc8b30e9134  /home/cdiesh/ucscResults/susScr11/config.json
+f0ebb4c8e0c74212e292b97cc5d4b2bd  /home/cdiesh/ucscResults/susScr11/config.json
 e7a2213bf05c7d90416fdb2622757422  /home/cdiesh/ucscResults/susScr11/cpgIslandExt.bed.gz
 213ca95084b3f9e28e22128d221493c0  /home/cdiesh/ucscResults/susScr11/cpgIslandExt.bed.gz.csi
 23f4f5741317bcb20efa14c49b686086  /home/cdiesh/ucscResults/susScr11/cpgIslandExtUnmasked.bed.gz
@@ -11653,9 +11653,9 @@ a54ac92f648b7e9c165683b8c3cb73e8  /home/cdiesh/ucscResults/susScr11/windowmasker
 48cfc7302b3a445e995b44e36c9c3290  /home/cdiesh/ucscResults/susScr11/xenoRefGene.bed.gz.csi
 f6031942f3436ca83026f1582e55de1d  /home/cdiesh/ucscResults/susScr2/augustusGene.bed.gz
 ab4995168cd9ac4fd6dc49521d94d4b8  /home/cdiesh/ucscResults/susScr2/augustusGene.bed.gz.csi
-5977b6fff2970c48f3ce03e24092c1dc  /home/cdiesh/ucscResults/susScr2/bed.sh
+faa5d27fdbdd908d965cb3cb57f2c22a  /home/cdiesh/ucscResults/susScr2/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/susScr2/bigTracks.json
-a09e469970cdec8dd8159b8bcd8a7539  /home/cdiesh/ucscResults/susScr2/config.json
+3b8ed50d0dba4eadc67aac16ad6d69a9  /home/cdiesh/ucscResults/susScr2/config.json
 560aec53f2f3b2048e229b44c6ce4c3a  /home/cdiesh/ucscResults/susScr2/cpgIslandExt.bed.gz
 83464316546f419572df644f5cc41643  /home/cdiesh/ucscResults/susScr2/cpgIslandExt.bed.gz.csi
 612881f323b09521c2be3bcacb2de565  /home/cdiesh/ucscResults/susScr2/cpgIslandExtUnmasked.bed.gz
@@ -11691,9 +11691,9 @@ e2a0dae3f779ecde8a6ef0f4fcd49868  /home/cdiesh/ucscResults/susScr3/animalQtl.bed
 132cb1fd05951e053cc2d5da8ba3fb32  /home/cdiesh/ucscResults/susScr3/animalQtl.bed.gz.csi
 086c250dfbeabd7b793b24d035ac8642  /home/cdiesh/ucscResults/susScr3/augustusGene.bed.gz
 0da015ab0920c5fc1cd236676d18acb8  /home/cdiesh/ucscResults/susScr3/augustusGene.bed.gz.csi
-8a3ae755ef9cbf78fdf1551ff46713ee  /home/cdiesh/ucscResults/susScr3/bed.sh
+238bc0a88ab505471b6cc14be863cfc3  /home/cdiesh/ucscResults/susScr3/bed.sh
 cd1c4a13a12b8f7cd68f5080716032aa  /home/cdiesh/ucscResults/susScr3/bigTracks.json
-40526aac06b040858512af271c030c0b  /home/cdiesh/ucscResults/susScr3/config.json
+4c8c4b5cca52e34f05c35453153bc8de  /home/cdiesh/ucscResults/susScr3/config.json
 c326e338632f563bdfc53b7295676324  /home/cdiesh/ucscResults/susScr3/cpgIslandExt.bed.gz
 0c97d6bc337a8526c3c375d242295533  /home/cdiesh/ucscResults/susScr3/cpgIslandExt.bed.gz.csi
 ba3d9031dfbc158a9f6aeef88b0b44df  /home/cdiesh/ucscResults/susScr3/cpgIslandExtUnmasked.bed.gz
@@ -11739,7 +11739,7 @@ fa8b04a746a07f13f66fa5bd3cf797e9  /home/cdiesh/ucscResults/taeGut1/augustusGene.
 e94ec362a819725371a6a854dc35eefc  /home/cdiesh/ucscResults/taeGut1/augustusGene.bed.gz.csi
 5d2fcf19549bc1eec0bc630d9607d40f  /home/cdiesh/ucscResults/taeGut1/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/taeGut1/bigTracks.json
-8bb2a7cfa1cc6de49c357b03d99f8b39  /home/cdiesh/ucscResults/taeGut1/config.json
+7a8b68e8d8346c773bc324b71fa81812  /home/cdiesh/ucscResults/taeGut1/config.json
 6fd51cdc0e85cdb3f7f136ba5d64eccd  /home/cdiesh/ucscResults/taeGut1/cytoBandIdeo.bed.gz
 4c70842914ab970564d1613b68524e05  /home/cdiesh/ucscResults/taeGut1/cytoBandIdeo.bed.gz.csi
 69c0262b4104fae1499e0f0707619a5a  /home/cdiesh/ucscResults/taeGut1/ensGene.bed.gz
@@ -11765,7 +11765,7 @@ ef7045e7a679ee9f15f252e632b3466c  /home/cdiesh/ucscResults/taeGut1/xenoRefGene.b
 410213def1a4779c699963d097026c0a  /home/cdiesh/ucscResults/taeGut2/augustusGene.bed.gz.csi
 27eb8d4b73fec96c9c3cf0ba0e7c3fc9  /home/cdiesh/ucscResults/taeGut2/bed.sh
 3c18892a8168885d4dcffc510678218e  /home/cdiesh/ucscResults/taeGut2/bigTracks.json
-c998c90e9ecfb0c311c11140c520894b  /home/cdiesh/ucscResults/taeGut2/config.json
+68ba1623c5e2036604c40297b40b01c4  /home/cdiesh/ucscResults/taeGut2/config.json
 c916f04e5565ad9996235deb5dc23034  /home/cdiesh/ucscResults/taeGut2/cpgIslandExt.bed.gz
 47869fb12ffa71513592bd30c2e38fdf  /home/cdiesh/ucscResults/taeGut2/cpgIslandExt.bed.gz.csi
 e7391c2a5be79aa969169a888c47b1ef  /home/cdiesh/ucscResults/taeGut2/cpgIslandExtUnmasked.bed.gz
@@ -11807,7 +11807,7 @@ d65989d9a1aa808a15dc3877a6361f11  /home/cdiesh/ucscResults/tarSyr1/augustusGene.
 4a8a31229ea263c57f634adf2bb6d84a  /home/cdiesh/ucscResults/tarSyr1/augustusGene.bed.gz.csi
 c27a0da38edce7a81152999ab4e8a301  /home/cdiesh/ucscResults/tarSyr1/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/tarSyr1/bigTracks.json
-5a9329b57f0f7da3c307165968e72b5a  /home/cdiesh/ucscResults/tarSyr1/config.json
+e937345a1b4a5d65deb41cd1e2cb6f8f  /home/cdiesh/ucscResults/tarSyr1/config.json
 68abb27683181d853092b8fd4c6e7fd0  /home/cdiesh/ucscResults/tarSyr1/cpgIslandExt.bed.gz
 9d20789d60868b31a3ab0dcb1ab304b2  /home/cdiesh/ucscResults/tarSyr1/cpgIslandExt.bed.gz.csi
 78ec9ef9d96a7b39a9392ea209cc9cd5  /home/cdiesh/ucscResults/tarSyr1/cpgIslandExtUnmasked.bed.gz
@@ -11841,7 +11841,7 @@ df9fa54a175ed7a729ff88967bea345c  /home/cdiesh/ucscResults/tarSyr2/augustusGene.
 6000f000f73172136ee40dff05c55a15  /home/cdiesh/ucscResults/tarSyr2/augustusGene.bed.gz.csi
 e2139e65ee31ab9289240e0df10f4404  /home/cdiesh/ucscResults/tarSyr2/bed.sh
 26ee03e37111fe149fc23164af88b91a  /home/cdiesh/ucscResults/tarSyr2/bigTracks.json
-64db3618603c45440ec398fb5cabdb35  /home/cdiesh/ucscResults/tarSyr2/config.json
+a6ebddc3515995320a104716bc866179  /home/cdiesh/ucscResults/tarSyr2/config.json
 0dfd23ace397bd45c5736c8728d9305a  /home/cdiesh/ucscResults/tarSyr2/cpgIslandExt.bed.gz
 b888075daf819010e38444dab10c3d41  /home/cdiesh/ucscResults/tarSyr2/cpgIslandExt.bed.gz.csi
 52af4e2f368c74813170398a70dbf64b  /home/cdiesh/ucscResults/tarSyr2/cpgIslandExtUnmasked.bed.gz
@@ -11885,7 +11885,7 @@ d92296fb035110a50fc5ca0a538f8b26  /home/cdiesh/ucscResults/tarSyr2/xenoRefGene.b
 22759f208d63b03965f2604b5f8484d4  /home/cdiesh/ucscResults/tetNig1/augustusGene.bed.gz.csi
 8d6d1c6402a717b264f77f83f30902df  /home/cdiesh/ucscResults/tetNig1/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/tetNig1/bigTracks.json
-4f143f3e43ec64cb0f8dffdfa03c59e3  /home/cdiesh/ucscResults/tetNig1/config.json
+5d97ebc2c786f8f05c1a6bc402779f9c  /home/cdiesh/ucscResults/tetNig1/config.json
 4ec8bf86c9a13a76010bba3912b6774b  /home/cdiesh/ucscResults/tetNig1/cytokines.bed.gz
 cbd0b70f589d8247c3b37a47dd8b19fb  /home/cdiesh/ucscResults/tetNig1/cytokines.bed.gz.csi
 4dc6d8c5c2c70accd944f2274c86b87e  /home/cdiesh/ucscResults/tetNig1/ecoresHg17.bed.gz
@@ -11911,9 +11911,9 @@ b43ed0662e1c63b3de9ad721fe3406bf  /home/cdiesh/ucscResults/tetNig1/nscanGene.bed
 5e5143bc96fddbdcd9a19253da7c2aa9  /home/cdiesh/ucscResults/tetNig1/xenoRefGene.bed.gz.csi
 41cc2470c7811f6fac85adfdaa8606a5  /home/cdiesh/ucscResults/tetNig2/augustusGene.bed.gz
 864ce03c3b501b7aa2a4c1d48bc0acb4  /home/cdiesh/ucscResults/tetNig2/augustusGene.bed.gz.csi
-4ed0348da290a3a502764ba43a182d1d  /home/cdiesh/ucscResults/tetNig2/bed.sh
+67c8d35c8426523295cc26b962e8c420  /home/cdiesh/ucscResults/tetNig2/bed.sh
 2ed969706b90a245b1229fe57fb2ebfb  /home/cdiesh/ucscResults/tetNig2/bigTracks.json
-e2526a14b29c3430b11303acf07451af  /home/cdiesh/ucscResults/tetNig2/config.json
+8ceff21d8b97552a5cb013e8396cc3b5  /home/cdiesh/ucscResults/tetNig2/config.json
 d927a61b14fbc895ec6217e16264967e  /home/cdiesh/ucscResults/tetNig2/cpgIslandExt.bed.gz
 b7d4d61e383c33578b7eecfa3d53ecda  /home/cdiesh/ucscResults/tetNig2/cpgIslandExt.bed.gz.csi
 0e4df60835611566e8667b7cb71af3b8  /home/cdiesh/ucscResults/tetNig2/cpgIslandExtUnmasked.bed.gz
@@ -11947,7 +11947,7 @@ d66f34eb4be987d2782351f0c0737c47  /home/cdiesh/ucscResults/thaSir1/augustusGene.
 9e70336fe82391d2a42e916ca25caddf  /home/cdiesh/ucscResults/thaSir1/augustusGene.bed.gz.csi
 4c296a8675672453e5fc0abac62049a1  /home/cdiesh/ucscResults/thaSir1/bed.sh
 3c74e55930f49562ef476ce26c7abba3  /home/cdiesh/ucscResults/thaSir1/bigTracks.json
-845b436d38eff283a0bae6dd021a946c  /home/cdiesh/ucscResults/thaSir1/config.json
+9feddcaca7124c2976d3014f9532e4d0  /home/cdiesh/ucscResults/thaSir1/config.json
 7e60f376681e5a406ec6af0792a911e7  /home/cdiesh/ucscResults/thaSir1/cpgIslandExt.bed.gz
 310e229ab7d43089b26f3460352e6ea8  /home/cdiesh/ucscResults/thaSir1/cpgIslandExt.bed.gz.csi
 5717e8b8bfd928e7636b3e5c13c549eb  /home/cdiesh/ucscResults/thaSir1/cpgIslandExtUnmasked.bed.gz
@@ -11985,7 +11985,7 @@ e133cc59d8fe92a6346d5fbbc8fd30e9  /home/cdiesh/ucscResults/thaSir1/xenoRefGene.b
 dd3a6f7fe0f10ad6a521e0cb7a55a7d2  /home/cdiesh/ucscResults/triMan1/augustusGene.bed.gz.csi
 a97303da5232cbb8391dff11ab41a7ab  /home/cdiesh/ucscResults/triMan1/bed.sh
 ede36f4a2dd4828c7e1afcbfa439f9c1  /home/cdiesh/ucscResults/triMan1/bigTracks.json
-896eb0abcf54cac2851cc42a69254bb3  /home/cdiesh/ucscResults/triMan1/config.json
+29b36f95cde24550b81dda048628c25a  /home/cdiesh/ucscResults/triMan1/config.json
 043a87cec69fbf9e97570bc4f515585b  /home/cdiesh/ucscResults/triMan1/cpgIslandExt.bed.gz
 3041814460c1532d3920400953138dae  /home/cdiesh/ucscResults/triMan1/cpgIslandExt.bed.gz.csi
 de7c173bac714469a879c088b7441220  /home/cdiesh/ucscResults/triMan1/cpgIslandExtUnmasked.bed.gz
@@ -12025,7 +12025,7 @@ cb29543247b4b2ce0a208688df316f38  /home/cdiesh/ucscResults/triMan1/windowmaskerS
 e5ddcf44f95b8017e9270323a7e03d28  /home/cdiesh/ucscResults/tupBel1/augustusGene.bed.gz.csi
 9ea1770c40ae0287edcc9c0884a9e102  /home/cdiesh/ucscResults/tupBel1/bed.sh
 bd3b0f45756442e72fc521c5164d6d9c  /home/cdiesh/ucscResults/tupBel1/bigTracks.json
-15482a7d4ffcf2300e559c461afd9cf0  /home/cdiesh/ucscResults/tupBel1/config.json
+69d879b87e2d0c1158abd8a38eeb70aa  /home/cdiesh/ucscResults/tupBel1/config.json
 b33fd97a757ce16a361e0c7ad497dcc8  /home/cdiesh/ucscResults/tupBel1/cpgIslandExt.bed.gz
 497940497b2c306e0378e08a7d1aba1e  /home/cdiesh/ucscResults/tupBel1/cpgIslandExt.bed.gz.csi
 02993bdc060ac26a738bb4e8aaa6543a  /home/cdiesh/ucscResults/tupBel1/cpgIslandExtUnmasked.bed.gz
@@ -12057,9 +12057,9 @@ d2c44cc292366d2f0f321ade7301d6fc  /home/cdiesh/ucscResults/tupBel1/xenoRefGene.b
 92012dda8fa2cf541929026461b4f1ef  /home/cdiesh/ucscResults/tupBel1/xenoRefGene.bed.gz.csi
 9b8e50ec353b7ebcb0a7eee973ca906b  /home/cdiesh/ucscResults/turTru2/augustusGene.bed.gz
 a8ddb7abcb1ee7e4923b0cf1c9764f7d  /home/cdiesh/ucscResults/turTru2/augustusGene.bed.gz.csi
-8efa5b931997a7785b159b6f925877a9  /home/cdiesh/ucscResults/turTru2/bed.sh
+b0deb80df9728f967cf6512e9479fc47  /home/cdiesh/ucscResults/turTru2/bed.sh
 c8eff015c29d66dea1a74035d4347a1f  /home/cdiesh/ucscResults/turTru2/bigTracks.json
-3e0ec0434d8e5c659b9c86f1ac3b27d4  /home/cdiesh/ucscResults/turTru2/config.json
+b1c5157dfb564d4000387d411211c3fd  /home/cdiesh/ucscResults/turTru2/config.json
 38aa6699aa937caa61e07d5f8eb08e40  /home/cdiesh/ucscResults/turTru2/cpgIslandExt.bed.gz
 85d785620b7a153627fc50c3b0120f9f  /home/cdiesh/ucscResults/turTru2/cpgIslandExt.bed.gz.csi
 f79ec0b459469a30cb39a887c6c30fa5  /home/cdiesh/ucscResults/turTru2/cpgIslandExtUnmasked.bed.gz
@@ -12091,7 +12091,7 @@ eaa3bc0ccadb20d09190454731af1a7a  /home/cdiesh/ucscResults/vicPac1/augustusGene.
 86962415608547730f867538d9514ff0  /home/cdiesh/ucscResults/vicPac1/augustusGene.bed.gz.csi
 4ae2897229735639e49726b82f8618e5  /home/cdiesh/ucscResults/vicPac1/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/vicPac1/bigTracks.json
-3908580b5658ac210c859c4c6f09f0ad  /home/cdiesh/ucscResults/vicPac1/config.json
+977e018a7968f9d7494dff6869285df5  /home/cdiesh/ucscResults/vicPac1/config.json
 6fd43cbe8ef7c8bc27d21d2e4d84c235  /home/cdiesh/ucscResults/vicPac1/cpgIslandExt.bed.gz
 3fe42019f4bd3b7e4f13afe16567b95c  /home/cdiesh/ucscResults/vicPac1/cpgIslandExt.bed.gz.csi
 1069b8063e1512f8924f9c3c18b22cc3  /home/cdiesh/ucscResults/vicPac1/cpgIslandExtUnmasked.bed.gz
@@ -12125,7 +12125,7 @@ b4c985df220d1ab33c93930d1e3c3365  /home/cdiesh/ucscResults/vicPac1/xenoRefGene.b
 efc0c861b19b7289d262c033cabdc180  /home/cdiesh/ucscResults/vicPac2/augustusGene.bed.gz.csi
 604303db3cfe9fe38ea149c493f72372  /home/cdiesh/ucscResults/vicPac2/bed.sh
 ca4d21d37070b290fefd0d6fa02b22fa  /home/cdiesh/ucscResults/vicPac2/bigTracks.json
-656b7d4e025c0771b83673762826a23b  /home/cdiesh/ucscResults/vicPac2/config.json
+05cad904296d85824276ca40d2acae33  /home/cdiesh/ucscResults/vicPac2/config.json
 793cba8be87b977d89bc7b55da7adfc5  /home/cdiesh/ucscResults/vicPac2/cpgIslandExt.bed.gz
 6101f10c1a208cb85ce62f23b39480ff  /home/cdiesh/ucscResults/vicPac2/cpgIslandExt.bed.gz.csi
 b6f4e897a66eaf0ed579f25822013cfa  /home/cdiesh/ucscResults/vicPac2/cpgIslandExtUnmasked.bed.gz
@@ -12155,9 +12155,9 @@ d6b2c2921f6d8b9f3a49071b70e247f3  /home/cdiesh/ucscResults/vicPac2/xenoRefGene.b
 93f96bf053f69254ff0b0114babe0f02  /home/cdiesh/ucscResults/vicPac2/xenoRefGene.bed.gz.csi
 5b4adcc95546f3d4b9bf102fc39f6f92  /home/cdiesh/ucscResults/wuhCor1/augustusGene.bed.gz
 6cb450ea6c0e6d4099bccaaef7b629b1  /home/cdiesh/ucscResults/wuhCor1/augustusGene.bed.gz.csi
-87069344ea2037afc2f0496ebd132dd1  /home/cdiesh/ucscResults/wuhCor1/bed.sh
+d32cc73247077d6ac82dbcaac24edc8d  /home/cdiesh/ucscResults/wuhCor1/bed.sh
 ec15902a9e458ab109d97343731cdde5  /home/cdiesh/ucscResults/wuhCor1/bigTracks.json
-c9c8159a0681bba38e9eacc6d2b4137a  /home/cdiesh/ucscResults/wuhCor1/config.json
+892ae96acb45c59c1934ca77ee1f11df  /home/cdiesh/ucscResults/wuhCor1/config.json
 0f4e6981eb60573b93d98eba338c2104  /home/cdiesh/ucscResults/wuhCor1/cpgIslandExt.bed.gz
 695aa729bcdf3aadba923f56b3ea5edc  /home/cdiesh/ucscResults/wuhCor1/cpgIslandExt.bed.gz.csi
 0f4e6981eb60573b93d98eba338c2104  /home/cdiesh/ucscResults/wuhCor1/cpgIslandExtUnmasked.bed.gz
@@ -12189,7 +12189,7 @@ baf3a4c0c669572525b69dc23be72ecb  /home/cdiesh/ucscResults/wuhCor1/windowmaskerS
 4859a3363dbe519c8ad8016338baa557  /home/cdiesh/ucscResults/xenLae2/augustusGene.bed.gz.csi
 7f0334b1c9462ccb4aae62bb8aa617e1  /home/cdiesh/ucscResults/xenLae2/bed.sh
 4f388dcac73e220458080340243721b8  /home/cdiesh/ucscResults/xenLae2/bigTracks.json
-6d391394629ef6e9fa17a2574b91a674  /home/cdiesh/ucscResults/xenLae2/config.json
+3f9a023afcecf6bf3a7f23af15b62b2e  /home/cdiesh/ucscResults/xenLae2/config.json
 a897d7d8e87a3d7a2078eeb259a635c8  /home/cdiesh/ucscResults/xenLae2/cpgIslandExt.bed.gz
 01d2dc7aeb17968bb64ab7dc70b4981c  /home/cdiesh/ucscResults/xenLae2/cpgIslandExt.bed.gz.csi
 64e6ca9e99458f1920386c76fd73ea9c  /home/cdiesh/ucscResults/xenLae2/cpgIslandExtUnmasked.bed.gz
@@ -12231,7 +12231,7 @@ fd2d505fe27c5a77693789ccc015944f  /home/cdiesh/ucscResults/xenLae2/ucscToRefSeq.
 dff734484efed193ebce468b55326e4b  /home/cdiesh/ucscResults/xenTro10/augustusGene.bed.gz.csi
 8b43fe8dafbc3f7a9d9a813a91d73715  /home/cdiesh/ucscResults/xenTro10/bed.sh
 f2582f2781d5f1cbaebe61e09f97bbc2  /home/cdiesh/ucscResults/xenTro10/bigTracks.json
-bec2fc21f6e6a3d059bf1fe374db459f  /home/cdiesh/ucscResults/xenTro10/config.json
+a2008ff45af7c6db86b4fd9350f17734  /home/cdiesh/ucscResults/xenTro10/config.json
 aa48c669e2f95a5b0639ac555a7e10ee  /home/cdiesh/ucscResults/xenTro10/cpgIslandExt.bed.gz
 18a9219e19b09a42cfb3c0d3a9b0609f  /home/cdiesh/ucscResults/xenTro10/cpgIslandExt.bed.gz.csi
 d5e2bb6c69c469044fb882a02600959e  /home/cdiesh/ucscResults/xenTro10/cpgIslandExtUnmasked.bed.gz
@@ -12273,7 +12273,7 @@ fe348f287030a0436e30915e4f81905d  /home/cdiesh/ucscResults/xenTro1/augustusGene.
 b9367cfe2d0882a046a502cfcd040ed8  /home/cdiesh/ucscResults/xenTro1/augustusGene.bed.gz.csi
 c949429d10a8ed80a8c9b1f6c011207b  /home/cdiesh/ucscResults/xenTro1/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/xenTro1/bigTracks.json
-d25bb5c860ffbc557a2c3dba396d4188  /home/cdiesh/ucscResults/xenTro1/config.json
+65ac96d3070b2b20f4eff5d351e03523  /home/cdiesh/ucscResults/xenTro1/config.json
 5fe5c57d81772ddd23d18070f005ade2  /home/cdiesh/ucscResults/xenTro1/cpgIslandExt.bed.gz
 a3b15ea78d24493b92bee097f316792e  /home/cdiesh/ucscResults/xenTro1/cpgIslandExt.bed.gz.csi
 5fe5c57d81772ddd23d18070f005ade2  /home/cdiesh/ucscResults/xenTro1/cpgIslandExtUnmasked.bed.gz
@@ -12299,9 +12299,9 @@ bc43aa16e8150870f725c44fd4eb75cb  /home/cdiesh/ucscResults/xenTro1/simpleRepeat.
 ef890adc4ff35126c3925e5772a1185c  /home/cdiesh/ucscResults/xenTro1/xenoRefGene.bed.gz.csi
 211835fb7bb5af7cc451c8172e8c74fa  /home/cdiesh/ucscResults/xenTro2/augustusGene.bed.gz
 de2aceb5f03b54a8946c49d0a62eebd0  /home/cdiesh/ucscResults/xenTro2/augustusGene.bed.gz.csi
-dcd12aad5d8bb911820620fde451fd6b  /home/cdiesh/ucscResults/xenTro2/bed.sh
+effb3484186b039940948addd914539c  /home/cdiesh/ucscResults/xenTro2/bed.sh
 7809095c382d5f77daa13e4f205dc5ba  /home/cdiesh/ucscResults/xenTro2/bigTracks.json
-3a254ba4c31b5a7278a1d7b96588c5ce  /home/cdiesh/ucscResults/xenTro2/config.json
+5d25b34506846daa5e0c0788af746985  /home/cdiesh/ucscResults/xenTro2/config.json
 40b52cc3533b4189c6998f559c73dc3c  /home/cdiesh/ucscResults/xenTro2/cpgIslandExt.bed.gz
 e3583f0eac1055c478257c4e42f738a4  /home/cdiesh/ucscResults/xenTro2/cpgIslandExt.bed.gz.csi
 5575f5afc45058d8cb0094d7b94dfb80  /home/cdiesh/ucscResults/xenTro2/cpgIslandExtUnmasked.bed.gz
@@ -12333,9 +12333,9 @@ ca8101197f6fe0d8481753395d142764  /home/cdiesh/ucscResults/xenTro2/simpleRepeat.
 5086d4aefec04485d28cbb9cfdd24f69  /home/cdiesh/ucscResults/xenTro2/xenoRefGene.bed.gz.csi
 8c797b0b78035263e8bbe2d1da4d4ca1  /home/cdiesh/ucscResults/xenTro3/augustusGene.bed.gz
 5485644121280d3ce26aa6556086acf9  /home/cdiesh/ucscResults/xenTro3/augustusGene.bed.gz.csi
-4bb81fff08af6e17a17d10a606a955e0  /home/cdiesh/ucscResults/xenTro3/bed.sh
+4820662ad7e59edb6131e1dd165772f6  /home/cdiesh/ucscResults/xenTro3/bed.sh
 5234a7a70ca0c074356bcb6728e83189  /home/cdiesh/ucscResults/xenTro3/bigTracks.json
-33e9ced68f6e6d2c77d29b2de6ffcb92  /home/cdiesh/ucscResults/xenTro3/config.json
+604807612f38475204ca79d2c70d91d4  /home/cdiesh/ucscResults/xenTro3/config.json
 c4ec1ddcb43368b44662a1133e959034  /home/cdiesh/ucscResults/xenTro3/cpgIslandExt.bed.gz
 dff9f24e2dfe7c756a8d6ac2f1f58834  /home/cdiesh/ucscResults/xenTro3/cpgIslandExt.bed.gz.csi
 841e414de759864659b7d055d1fa0ec6  /home/cdiesh/ucscResults/xenTro3/cpgIslandExtUnmasked.bed.gz
@@ -12371,7 +12371,7 @@ c03df288588b64a547ab37d6a4e9c2ae  /home/cdiesh/ucscResults/xenTro3/tRNAs.bed.gz
 8caa2fe38daa0f3955bea1e33b3e110e  /home/cdiesh/ucscResults/xenTro7/augustusGene.bed.gz.csi
 6b7073fc40f3784c1f1907de7b26f85b  /home/cdiesh/ucscResults/xenTro7/bed.sh
 87a932d38e1b40337142a6d7c346b999  /home/cdiesh/ucscResults/xenTro7/bigTracks.json
-57be2e781f1f8bbbd35a34bf37c888b3  /home/cdiesh/ucscResults/xenTro7/config.json
+6ee1976d1e08eaf27b5ac5868bb154a2  /home/cdiesh/ucscResults/xenTro7/config.json
 65dce6b6a0e3dd8a7a295190ca98358d  /home/cdiesh/ucscResults/xenTro7/cpgIslandExt.bed.gz
 d0d71c3418dac08ddab60b79efb437d5  /home/cdiesh/ucscResults/xenTro7/cpgIslandExt.bed.gz.csi
 9f57b69958a3001c1ed88eb7394e5350  /home/cdiesh/ucscResults/xenTro7/cpgIslandExtUnmasked.bed.gz
@@ -12413,7 +12413,7 @@ d84bddaa1153a213789ebdf33ed49303  /home/cdiesh/ucscResults/xenTro7/xenoRefGene.b
 dca475e8e383d269c8b94fe5583f96d6  /home/cdiesh/ucscResults/xenTro9/augustusGene.bed.gz.csi
 b55d462bc59c08401ff524e4596d5db3  /home/cdiesh/ucscResults/xenTro9/bed.sh
 edfbe30399a2f31322be277d17680628  /home/cdiesh/ucscResults/xenTro9/bigTracks.json
-c4296ce346ca544596fe93340ccc79d8  /home/cdiesh/ucscResults/xenTro9/config.json
+5cc246e8362b820a8f335b63cac46afd  /home/cdiesh/ucscResults/xenTro9/config.json
 be7be0e91d7765df69c4dd3739a14beb  /home/cdiesh/ucscResults/xenTro9/cpgIslandExt.bed.gz
 77e5fabd6b42f6af8884f5b642b20b00  /home/cdiesh/ucscResults/xenTro9/cpgIslandExt.bed.gz.csi
 0cd257b7b46ba0b2d5429eedf8e3e611  /home/cdiesh/ucscResults/xenTro9/cpgIslandExtUnmasked.bed.gz

@@ -2,6 +2,14 @@ const name = process.argv[2]
 const f = (j: string) =>
   `https://hgdownload.soe.ucsc.edu/goldenPath/${name}/bigZips/${j}`
 
+let hasAliases = false
+try {
+  const res = await fetch(f(`${name}.chromAlias.txt`))
+  if (!res.ok) {
+    throw new Error('wow')
+  }
+  hasAliases = true
+} catch (e) {}
 console.log(
   JSON.stringify(
     {
@@ -17,12 +25,16 @@ console.log(
               chromSizes: f(`${name}.chrom.sizes`),
             },
           },
-          refNameAliases: {
-            adapter: {
-              type: 'RefNameAliasAdapter',
-              uri: f(`${name}.chromAlias.txt`),
-            },
-          },
+          ...(hasAliases
+            ? {
+                refNameAliases: {
+                  adapter: {
+                    type: 'RefNameAliasAdapter',
+                    uri: f(`${name}.chromAlias.txt`),
+                  },
+                },
+              }
+            : {}),
         },
       ],
       tracks: [],
