@@ -5,6 +5,35 @@ export NODE_OPTIONS="--no-warnings=ExperimentalWarning"
 # Set default value for OUT if not already set
 : ${OUT:=~/ucscResults}
 
+# Function to process gene tracks
+process_gene_tracks() {
+  TRACKS_JSON="$1"
+  DBDIR="$2"
+  OUTDIR="$3"
+  # Use jq to extract gene prediction tracks
+  jq -r 'to_entries | .[] | select(.value.type | startswith("genePred")) | .key' "$TRACKS_JSON" | while read -r key; do
+    # Skip wgEncode tracks
+    if [[ "$key" == wgEncode* ]]; then
+      continue
+    fi
+
+    infile="$DBDIR/$key"
+    outfile="$OUTDIR/$key"
+
+    # Check if SQL file exists
+    if [ -f "${infile}.sql" ]; then
+      echo "Processing $key..."
+      mkdir -p "$(dirname "$outfile")"
+      node src/geneLike.ts "${infile}.sql" "${infile}.txt.gz" | sort -k1,1 -k2,2n >"${outfile}.bed"
+      hck -f 13,4 "${outfile}.bed" | awk '{if($1=="") $1=$2"-gene"; print $0}' >${outfile}.isoforms.txt
+      echo "node fixup.ts ${outfile}.isoforms.txt"
+      node fixup.ts ${outfile}.isoforms.txt
+      bed2gff --bed ${outfile}.bed --output ${outfile}.gff --isoforms ${outfile}.isoforms.txt
+      jbrowse sort-gff ${outfile}.gff | bgzip >${outfile}.sorted.gff.gz
+    fi
+  done
+}
+
 # Function to process a single gene
 process_gene() {
   local INDIR=$1
@@ -13,14 +42,11 @@ process_gene() {
   local DB=$INDIR/$ASM/database
 
   mkdir -p $OUTDIR
-
-  # make repeatmasker tracks
-  echo "Processing: " node src/parseGeneTracks.ts $OUTDIR/tracks.json $DB $OUTDIR
-  node src/parseGeneTracks.ts $OUTDIR/tracks.json $DB $OUTDIR
+  process_gene_tracks $OUTDIR/tracks.json $DB $OUTDIR
 }
 
 export -f process_gene
+export -f process_gene_tracks
 export OUT
 
-# Run the process_gene function in parallel for each input directory
 parallel --will-cite process_gene ::: "$@"

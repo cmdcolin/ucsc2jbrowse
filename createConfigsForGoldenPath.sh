@@ -17,6 +17,11 @@ process_assembly() {
     node src/addBedTabixTrackToConfig.ts $OUTDIR/config.json $i
   done
 
+  for i in $OUTDIR/*.gff.gz; do
+    echo $i
+    node src/addGffTabixTrackToConfig.ts $OUTDIR/config.json $i
+  done
+
   # add metadata from the tracksDb.sql to the config.json
   node src/addMetadata.ts $OUTDIR/config.json $OUTDIR/tracks.json >$OUTDIR/tmp.json && mv $OUTDIR/tmp.json $OUTDIR/config.json
 
