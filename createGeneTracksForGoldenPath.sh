@@ -12,10 +12,10 @@ process_gene() {
   local OUTDIR=$OUT/$ASM
   local DB=$INDIR/$ASM/database
 
-  echo "Processing $OUTDIR"
   mkdir -p $OUTDIR
 
   # make repeatmasker tracks
+  echo "Processing: " node src/parseGeneTracks.ts $OUTDIR/tracks.json $DB $OUTDIR
   node src/parseGeneTracks.ts $OUTDIR/tracks.json $DB $OUTDIR
 }
 

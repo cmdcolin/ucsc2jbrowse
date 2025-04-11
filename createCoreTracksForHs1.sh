@@ -1,5 +1,4 @@
 #!/bin/bash
-set -v
 export LC_ALL=C
 export NODE_OPTIONS="--no-warnings=ExperimentalWarning"
 

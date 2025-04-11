@@ -11,12 +11,16 @@ export async function genBed12(sql: string, txtGz: string) {
     input: fs.createReadStream(txtGz).pipe(zlib.createGunzip()),
   })
 
+  console.log(
+    `#${['chrom', 'start', 'end', 'name', 'score', 'strand', 'thickStart', 'thickEnd', 'itemRgb', 'blockCount', 'blockSizes', 'blockStarts', 'geneName2'].join('\t')}`,
+  )
   for await (const line of rl) {
     const {
       chrom,
       txStart,
       score,
       name,
+      name2,
       strand,
       txEnd,
       exonStarts,
@@ -50,6 +54,7 @@ export async function genBed12(sql: string, txtGz: string) {
         s.length,
         sizes.join(','),
         s.join(','),
+        name2,
       ].join('\t') + '\n',
     )
   }
