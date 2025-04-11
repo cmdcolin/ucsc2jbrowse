@@ -1221,7 +1221,7 @@ fe629a6ed386bf290cf1e3a1fe622630  /home/cdiesh/ucscResults/cavPor3/windowmaskerS
 4398ca17e6a3665b468806262658131b  /home/cdiesh/ucscResults/cavPor3/xenoRefGene.bed.gz.csi
 99aa06d3014798d86001c324468d497f  /home/cdiesh/ucscResults/cb1/bed.sh
 99aa06d3014798d86001c324468d497f  /home/cdiesh/ucscResults/cb1/bigTracks.json
-99aa06d3014798d86001c324468d497f  /home/cdiesh/ucscResults/cb1/config.json
+e7a0db32690c9f766e3dcc3a9acd5109  /home/cdiesh/ucscResults/cb1/config.json
 99aa06d3014798d86001c324468d497f  /home/cdiesh/ucscResults/cb1/tracks.json
 49b408cefd49f4be1c6c65b599c51e08  /home/cdiesh/ucscResults/cb3/augustusGene.bed.gz
 56d20657d2b801bce73ac6d3fa83b940  /home/cdiesh/ucscResults/cb3/augustusGene.bed.gz.csi
@@ -2785,7 +2785,7 @@ a551f31ae4eb9b4a30933f08b9525616  /home/cdiesh/ucscResults/echTel2/xenoRefGene.b
 8c04f28d4fdc5fdf5ce2a64e274fba7e  /home/cdiesh/ucscResults/echTel2/xenoRefGene.bed.gz.csi
 99aa06d3014798d86001c324468d497f  /home/cdiesh/ucscResults/enhLutNer1/bed.sh
 99aa06d3014798d86001c324468d497f  /home/cdiesh/ucscResults/enhLutNer1/bigTracks.json
-99aa06d3014798d86001c324468d497f  /home/cdiesh/ucscResults/enhLutNer1/config.json
+bd0373038de07672f86a84a38b72f610  /home/cdiesh/ucscResults/enhLutNer1/config.json
 99aa06d3014798d86001c324468d497f  /home/cdiesh/ucscResults/enhLutNer1/tracks.json
 5266f1f00bb23885610af879c8d047f4  /home/cdiesh/ucscResults/equCab1/augustusGene.bed.gz
 b40d4038b8e81d67b2fd6b14bcb0999a  /home/cdiesh/ucscResults/equCab1/augustusGene.bed.gz.csi
@@ -8470,7 +8470,7 @@ ed65e4a7402c37c36fc7246e00ffff79  /home/cdiesh/ucscResults/hg38/wgRna.bed.gz
 c6ee7d006c16774a92a493bed99d4e4e  /home/cdiesh/ucscResults/hg38/xenoRefGene.bed.gz.csi
 99aa06d3014798d86001c324468d497f  /home/cdiesh/ucscResults/hs1/bed.sh
 99aa06d3014798d86001c324468d497f  /home/cdiesh/ucscResults/hs1/bigTracks.json
-99aa06d3014798d86001c324468d497f  /home/cdiesh/ucscResults/hs1/config.json
+5a5e2ada0751130bcfd4ad8bfef77b59  /home/cdiesh/ucscResults/hs1/config.json
 99aa06d3014798d86001c324468d497f  /home/cdiesh/ucscResults/hs1/tracks.json
 11ae48bcbd9ad9cf113ce0d95e4103e6  /home/cdiesh/ucscResults/latCha1/augustusGene.bed.gz
 bfdbfff745b865d3b831e643b5e17f0c  /home/cdiesh/ucscResults/latCha1/augustusGene.bed.gz.csi
@@ -9373,7 +9373,7 @@ edc510b518bae8cb2a12e17ee1fb1dca  /home/cdiesh/ucscResults/monDom5/xenoRefGene.b
 a0e99d0391686584d527f70041ea9547  /home/cdiesh/ucscResults/monDom5/xenoRefGene.bed.gz.csi
 99aa06d3014798d86001c324468d497f  /home/cdiesh/ucscResults/mpxvRivers/bed.sh
 99aa06d3014798d86001c324468d497f  /home/cdiesh/ucscResults/mpxvRivers/bigTracks.json
-99aa06d3014798d86001c324468d497f  /home/cdiesh/ucscResults/mpxvRivers/config.json
+1a8d3d7f8ad0abb49432c8b9dbfb5cb7  /home/cdiesh/ucscResults/mpxvRivers/config.json
 99aa06d3014798d86001c324468d497f  /home/cdiesh/ucscResults/mpxvRivers/tracks.json
 4ec90bef0365b3d269ec6bd63e656816  /home/cdiesh/ucscResults/musFur1/augustusGene.bed.gz
 ffceb9023d47fe004962b21b123dc718  /home/cdiesh/ucscResults/musFur1/augustusGene.bed.gz.csi
