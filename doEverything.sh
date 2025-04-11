@@ -1,6 +1,11 @@
 #!/bin/bash
-./createCoreTracksForGoldenPath.sh
-./createRmskTracksForGoldenPath.sh
-./createGeneTracksForGoldenPath.sh
-./createCoreTracksForHs1.sh
-./createTabixIndexes.sh
+## Run downloadGoldenpath.sh separately
+./createAssemblies.sh ~/ucsc/*
+./createTracksJsonForGoldenPath.sh ~/ucsc/*
+./createBedTracksForGoldenPath.sh ~/ucsc/*
+./createRmskTracksForGoldenPath.sh ~/ucsc/*
+./createGeneTracksForGoldenPath.sh ~/ucsc/*
+./createCoreTracksForHs1.sh ~/ucsc/*
+./createTabixIndexes.sh ~/ucsc/*
+./createConfigsForGoldenPath.sh ~/ucsc/*
+./getMd5.sh ~/ucsc/

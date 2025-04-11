@@ -1,5 +1,6 @@
 #!/bin/bash
 export LC_ALL=C
+export NODE_OPTIONS="--no-warnings=ExperimentalWarning"
 
 # Set default value for OUT if not already set
 : ${OUT:=~/ucscResults}

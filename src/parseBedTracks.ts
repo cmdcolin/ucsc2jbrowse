@@ -20,7 +20,7 @@ const tracks = JSON.parse(fs.readFileSync(process.argv[2], 'utf8')) as Record<
 // many narrow/broad peak tracks
 const types = ['bed', 'pgSnp', 'peptideMapping'] //less tracks
 
-for (const [key, val] of Object.entries(tracks).filter(([key, val]) =>
+for (const [key, val] of Object.entries(tracks).filter(([_key, val]) =>
   types.some(t => val.type.startsWith(t)),
 )) {
   const infile = path.join(process.argv[3], key)
@@ -40,11 +40,11 @@ for (const [key, val] of Object.entries(tracks).filter(([key, val]) =>
       )
       if (stderr.trim() === 'no_bin') {
         console.log(
-          `(echo "${stdout.trim()}" && pigz -dc ${infile}.txt.gz)   |bgzip  > ${outfile}.bed.gz`,
+          `(echo "${stdout.trim()}" && pigz -dc ${infile}.txt.gz)   |sort -k1,1 -k2,2n|bgzip  > ${outfile}.bed.gz`,
         )
       } else {
         console.log(
-          `(echo "${stdout.trim()}" && pigz -dc ${infile}.txt.gz | hck -Ld$'\\t' -f2- )   |bgzip  > ${outfile}.bed.gz`,
+          `(echo "${stdout.trim()}" && pigz -dc ${infile}.txt.gz | hck -Ld$'\\t' -f2- )   |sort -k1,1 -k2,2n|bgzip  > ${outfile}.bed.gz`,
         )
       }
     }

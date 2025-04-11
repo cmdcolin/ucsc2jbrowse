@@ -12,25 +12,6 @@ process_assembly() {
   local OUTDIR=$OUT/$ASM
   local DB=$INDIR/$ASM/database
 
-  echo "Processing $OUTDIR"
-  mkdir -p $OUTDIR
-  node src/createAssembly.ts $ASM >$OUTDIR/config.json
-
-  ## make tracks.json file
-  node src/tracksDbLike.ts $DB/trackDb.sql $DB/trackDb.txt.gz >$OUTDIR/tracks.json
-
-  # find bigbed files in the tracks.json, these do not have sql db files
-  node src/parseBigFileTracks.ts $OUTDIR/tracks.json $DB $OUTDIR >$OUTDIR/bigTracks.json
-  node src/addBigDataTracks.ts $OUTDIR/bigTracks.json $OUTDIR/config.json
-
-  # make bed.gz files from "genePred" type sql db tracks
-  node src/parseGeneTracks.ts $OUTDIR/tracks.json $DB $OUTDIR
-
-  # make bed.gz files from "regular bed" sql db tracks
-  node src/parseBedTracks.ts $OUTDIR/tracks.json $DB $OUTDIR >$OUTDIR/bed.sh
-  chmod +x $OUTDIR/bed.sh
-  $OUTDIR/bed.sh
-
   for i in $OUTDIR/*.bed.gz; do
     echo $i
     node src/addBedTabixTrackToConfig.ts $OUTDIR/config.json $i
