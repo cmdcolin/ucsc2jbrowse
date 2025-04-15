@@ -9,5 +9,5 @@
 ./createConfigsForGoldenPath.sh ~/ucsc/*
 ./createTabixIndexes.sh ~/ucscResults/
 ./textIndexGoldenPath.sh ~/ucscResults/
-node src/makeUcscExtensions.ts
+node src/makeUcscExtensions.ts ~/ucscResults/
 ./getFileListing.sh ~/ucscResults/
