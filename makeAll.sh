@@ -9,5 +9,6 @@
 ./createConfigsForGoldenPath.sh ~/ucsc/*
 ./createTabixIndexes.sh ~/ucscResults/
 ./textIndexGoldenPath.sh ~/ucscResults/
-node src/makeUcscExtensions.ts ~/ucscResults/
+node src/makeUcscExtensions.ts ~/ucscResults
 ./getFileListing.sh ~/ucscResults/
+aws s3 sync ~/ucscResults s3://jbrowse.org/ucsc/ --size-only

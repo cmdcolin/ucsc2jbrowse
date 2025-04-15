@@ -12,7 +12,7 @@ process_assembly() {
   local OUTDIR=$OUT/$ASM
   local DB=$INDIR/$ASM/database
 
-  echo "Processing $OUTDIR"
+  echo "Create tracks.json for $OUTDIR"
 
   ## make tracks.json file
   node src/tracksDbLike.ts $DB/trackDb.sql $DB/trackDb.txt.gz >$OUTDIR/tracks.json
