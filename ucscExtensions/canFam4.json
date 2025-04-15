@@ -44,8 +44,8 @@
     },
     {
       "type": "VariantTrack",
-      "trackId": "dog10k_svs_large",
-      "name": "Dog10k SVs (larger, size >1Mbp)",
+      "trackId": "dog10k_sv",
+      "name": "Dog10k SVs",
       "assemblyNames": ["canFam4"],
       "category": ["Dog10k"],
       "adapter": {
@@ -64,65 +64,7 @@
           "locationType": "UriLocation",
           "uri": "https://myloveydove.com/dog10k/info.tsv"
         }
-      },
-      "displays": [
-        {
-          "type": "LinearVariantDisplay",
-          "jexlFilters": ["get(feature,'end')-get(feature,'start')>1000000"],
-          "displayId": "dog10k_svs-LinearVariantDisplay"
-        },
-        {
-          "type": "LinearVariantMatrixDisplay",
-          "jexlFilters": ["get(feature,'end')-get(feature,'start')>1000000"],
-          "displayId": "dog10k_svs-LinearVariantMatrixDisplay"
-        },
-        {
-          "type": "MultiLinearVariantDisplay",
-          "jexlFilters": ["get(feature,'end')-get(feature,'start')>1000000"],
-          "displayId": "dog10k_svs-MultiLinearVariantDisplay"
-        }
-      ]
-    },
-    {
-      "type": "VariantTrack",
-      "trackId": "dog10k_svs_large",
-      "name": "Dog10k SVs (smaller, size <1Mbp)",
-      "assemblyNames": ["canFam4"],
-      "category": ["Dog10k"],
-      "adapter": {
-        "type": "VcfTabixAdapter",
-        "vcfGzLocation": {
-          "locationType": "UriLocation",
-          "uri": "https://myloveydove.com/dog10k/SV-genotype-v2.merge.agg_only.08032022.vcf.gz"
-        },
-        "index": {
-          "location": {
-            "locationType": "UriLocation",
-            "uri": "https://myloveydove.com/dog10k/SV-genotype-v2.merge.agg_only.08032022.vcf.gz.tbi"
-          }
-        },
-        "samplesTsvLocation": {
-          "locationType": "UriLocation",
-          "uri": "https://myloveydove.com/dog10k/info.tsv"
-        }
-      },
-      "displays": [
-        {
-          "type": "LinearVariantDisplay",
-          "jexlFilters": ["get(feature,'end')-get(feature,'start')<=1000000"],
-          "displayId": "dog10k_svs-LinearVariantDisplay"
-        },
-        {
-          "type": "LinearVariantMatrixDisplay",
-          "jexlFilters": ["get(feature,'end')-get(feature,'start')<=1000000"],
-          "displayId": "dog10k_svs-LinearVariantMatrixDisplay"
-        },
-        {
-          "type": "MultiLinearVariantDisplay",
-          "jexlFilters": ["get(feature,'end')-get(feature,'start')<=1000000"],
-          "displayId": "dog10k_svs-MultiLinearVariantDisplay"
-        }
-      ]
+      }
     }
   ]
 }
