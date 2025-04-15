@@ -39,7 +39,7 @@ fs.writeFileSync(
       ],
       tracks: Object.values(hub.tracks.data)
         .map(val => {
-          const { track, bigDataUrl, longLabel } = val!.data
+          const { track, bigDataUrl, shortLabel } = val!.data
           const grp = findCategory(val!.data, hub.tracks.data)
           if (bigDataUrl) {
             const uri = s(bigDataUrl)
@@ -47,7 +47,7 @@ fs.writeFileSync(
               return {
                 type: 'FeatureTrack',
                 assemblyNames: [asm],
-                name: longLabel,
+                name: shortLabel,
                 category: grp ? [grp] : undefined,
                 trackId: track,
                 adapter: {
@@ -59,7 +59,7 @@ fs.writeFileSync(
               return {
                 type: 'VariantTrack',
                 assemblyNames: [asm],
-                name: longLabel,
+                name: shortLabel,
                 category: grp ? [grp] : undefined,
                 trackId: track,
                 adapter: {
@@ -70,7 +70,7 @@ fs.writeFileSync(
             } else {
               return {
                 type: 'QuantitativeTrack',
-                name: longLabel,
+                name: shortLabel,
                 assemblyNames: [asm],
                 category: grp ? [grp] : undefined,
                 trackId: track,
@@ -89,3 +89,135 @@ fs.writeFileSync(
     2,
   ),
 )
+
+function makeTrackConfig({
+  track,
+  trackDbUrl,
+  trackDb,
+  sequenceAdapter,
+}: {
+  track: RaStanza
+  trackDbUrl: string
+  trackDb: TrackDbFile
+  sequenceAdapter: Adapter
+}) {
+  const { data } = track
+
+  const parent = data.parent || ''
+  const bigDataUrlPre = data.bigDataUrl || ''
+  const bigDataIdx = data.bigDataIndex || ''
+  if (bigDataIdx) {
+    throw new Error("Don't yet support bigDataIdx")
+  }
+  const trackType = data.type || trackDb.data[parent].data.type || ''
+  const name =
+    (data.shortLabel || '') + (bigDataUrlPre.includes('xeno') ? ' (xeno)' : '')
+
+  let baseTrackType = trackType.split(' ')[0] || ''
+  if (baseTrackType === 'bam' && bigDataUrlPre.toLowerCase().endsWith('cram')) {
+    baseTrackType = 'cram'
+  }
+  const bigDataUrl = new URL(bigDataUrlPre, trackDbUrl)
+
+  switch (baseTrackType) {
+    case 'bam': {
+      return {
+        type: 'AlignmentsTrack',
+        name,
+        description: data.longLabel,
+        adapter: {
+          type: 'BamAdapter',
+          uri: bigDataUrl,
+        },
+      }
+    }
+    case 'cram': {
+      return {
+        type: 'AlignmentsTrack',
+        name,
+        description: data.longLabel,
+        adapter: {
+          type: 'CramAdapter',
+          uri: bigDataUrl,
+          sequenceAdapter,
+        },
+      }
+    }
+    case 'bigWig': {
+      return {
+        type: 'QuantitativeTrack',
+        name,
+        description: data.longLabel,
+        adapter: {
+          type: 'BigWigAdapter',
+          uri: bigDataUrl,
+        },
+      }
+    }
+    default: {
+      if (baseTrackType.startsWith('big')) {
+        return {
+          type: 'FeatureTrack',
+          name,
+          description: data.longLabel,
+          adapter: {
+            type: 'BigBedAdapter',
+            uri: bigDataUrl,
+          },
+        }
+      } else if (baseTrackType === 'vcfTabix') {
+        return {
+          type: 'VariantTrack',
+          name,
+          description: data.longLabel,
+          adapter: {
+            type: 'VcfTabixAdapter',
+            uri: bigDataUrl,
+          },
+        }
+      } else if (baseTrackType === 'hic') {
+        return {
+          type: 'HicTrack',
+          name,
+          description: data.longLabel,
+          adapter: {
+            type: 'HicAdapter',
+            uri: bigDataUrl,
+          },
+        }
+      } else {
+        // unsupported types
+        //     case 'peptideMapping':
+        //     case 'gvf':
+        //     case 'ld2':
+        //     case 'narrowPeak':
+        //     case 'wig':
+        //     case 'wigMaf':
+        //     case 'halSnake':
+        //     case 'bed':
+        //     case 'bed5FloatScore':
+        //     case 'bedGraph':
+        //     case 'bedRnaElements':
+        //     case 'broadPeak':
+        //     case 'coloredExon':
+        return generateUnknownTrackConf(name, baseTrackType)
+      }
+    }
+  }
+}
+
+function generateUnknownTrackConf(
+  trackName: string,
+  trackUrl: string,
+  categories?: string[],
+) {
+  const conf = {
+    type: 'FeatureTrack',
+    name: `${trackName} (Unknown)`,
+    description: `Could not determine track type for "${trackUrl}"`,
+    category: categories,
+    trackId: '',
+  }
+  conf.trackId = objectHash(conf)
+  return conf
+}

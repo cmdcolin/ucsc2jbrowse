@@ -16,7 +16,7 @@ function splitOnce(s: string, s2: string) {
 }
 
 let tracks2 = {} as Record<string, unknown>
-for (const [key, val] of Object.entries(tracks).filter(([key, val]) =>
+for (const [key, val] of Object.entries(tracks).filter(([_key, val]) =>
   val.type.startsWith('big'),
 )) {
   const settings = Object.fromEntries(

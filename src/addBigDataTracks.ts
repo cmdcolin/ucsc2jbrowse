@@ -11,11 +11,9 @@ const config = JSON.parse(fs.readFileSync(process.argv[3], 'utf8')) as {
 
 const s = new Set(config.tracks?.map(t => t.trackId) || [])
 
-Object.entries(bigDataEntries).map(([key, val]) => {
-  const {
-    settings: { bigDataUrl },
-    tableName,
-  } = val
+Object.values(bigDataEntries).map(val => {
+  const { settings, tableName } = val
+  const { bigDataUrl } = settings
   if (bigDataUrl && !bigDataUrl.includes('fantom')) {
     const uri = bigDataUrl.startsWith('https://hgdownload.soe.ucsc.edu')
       ? bigDataUrl
