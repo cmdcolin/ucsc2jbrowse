@@ -12,3 +12,4 @@
 node src/makeUcscExtensions.ts ~/ucscResults
 ./getFileListing.sh ~/ucscResults/
 aws s3 sync ~/ucscResults s3://jbrowse.org/ucsc/ --size-only
+aws cloudfront create-invalidation --distribution-id E13LGELJOT4GQO --paths "/ucsc/*"

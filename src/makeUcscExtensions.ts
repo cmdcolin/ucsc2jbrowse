@@ -24,24 +24,23 @@ for (const item of ret) {
     })
   }
 
-  // Create backup of existing config file
-  fs.copyFileSync(f, `${f}.bak`)
-  console.log(`Created backup: ${f}.bak`)
-
   const existingConfig = readJSON(f) as Config
   const extensionConfig = readJSON(path.join(base, item)) as Config
 
-  // Merge the configs (extension takes precedence)
-  const mergedConfig = {
-    ...existingConfig,
-    ...extensionConfig,
-    tracks: dedupe(
-      [...extensionConfig.tracks, ...existingConfig.tracks],
-      t => t.trackId,
+  fs.writeFileSync(
+    f,
+    JSON.stringify(
+      {
+        ...existingConfig,
+        ...extensionConfig,
+        tracks: dedupe(
+          [...extensionConfig.tracks, ...existingConfig.tracks],
+          t => t.trackId,
+        ),
+      },
+      undefined,
+      2,
     ),
-  }
-
-  // Write the merged config back to the original file
-  fs.writeFileSync(f, JSON.stringify(mergedConfig, undefined, 2))
+  )
   console.log(`Updated config file: ${f}`)
 }
