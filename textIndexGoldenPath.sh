@@ -12,7 +12,7 @@ process_assembly() {
   local OUTDIR=$OUT/$ASM
   local DB=$INDIR/$ASM/database
 
-  jbrowse text-index --out $OUTDIR
+  jbrowse text-index --out $OUTDIR --force
 }
 
 export -f process_assembly
