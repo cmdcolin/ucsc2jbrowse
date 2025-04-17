@@ -1,4 +1,4 @@
-import pkg from '@gmod/ucsc-hub'
+import pkg, { RaStanza, TrackDbFile } from '@gmod/ucsc-hub'
 import fs from 'fs'
 const { SingleFileHub } = pkg
 
@@ -99,7 +99,7 @@ function makeTrackConfig({
   track: RaStanza
   trackDbUrl: string
   trackDb: TrackDbFile
-  sequenceAdapter: Adapter
+  sequenceAdapter: any
 }) {
   const { data } = track
 
@@ -218,6 +218,6 @@ function generateUnknownTrackConf(
     category: categories,
     trackId: '',
   }
-  conf.trackId = objectHash(conf)
+  conf.trackId = `track-${Math.random()}`
   return conf
 }

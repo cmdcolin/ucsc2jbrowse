@@ -1,5 +1,9 @@
-import fs from 'fs'
-const config = JSON.parse(fs.readFileSync(process.argv[2], 'utf8'))
+import { readJSON } from './util.ts'
+
+const config = readJSON(process.argv[2]) as {
+  tracks: { trackId: string }[]
+  plugins: unknown[]
+}
 
 console.log(
   JSON.stringify(
