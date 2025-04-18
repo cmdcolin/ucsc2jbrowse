@@ -6,7 +6,6 @@
   },
   "dependencies": {
     "@gmod/ucsc-hub": "^1.0.1",
-    "@jbrowse/core": "^3.2.0",
     "node-sql-parser": "^5.2.0"
   },
   "devDependencies": {

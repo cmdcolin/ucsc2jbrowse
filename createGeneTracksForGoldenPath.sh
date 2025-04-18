@@ -24,7 +24,7 @@ process_gene_tracks() {
     if [ -f "${infile}.sql" ]; then
       echo "Processing $infile..."
       mkdir -p "$(dirname "$outfile")"
-      node src/geneLike.ts "${infile}.sql" "${infile}.txt.gz" | sort -k1,1 -k2,2n >"${outfile}.bed"
+      node src/geneLike.ts "${infile}.sql" "${infile}.txt.gz" "${infile}Link.txt.gz" "${infile}Link.sql" | sort -k1,1 -k2,2n >"${outfile}.bed"
       hck -f 13,4 "${outfile}.bed" >${outfile}.isoforms.txt
       node src/fixupIsoforms.ts ${outfile}.isoforms.txt
       time ~/bed2gff --bed ${outfile}.bed --output ${outfile}.gff --isoforms ${outfile}.isoforms.txt &&
