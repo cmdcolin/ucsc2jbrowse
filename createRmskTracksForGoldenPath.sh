@@ -14,8 +14,6 @@ process_rmsk() {
 
   mkdir -p $OUTDIR
 
-  # make repeatmasker tracks
-  echo node src/parseRmskTracks.ts $OUTDIR/tracks.json $DB $OUTDIR
   node src/parseRmskTracks.ts $OUTDIR/tracks.json $DB $OUTDIR
 }
 
@@ -23,4 +21,4 @@ export -f process_rmsk
 export OUT
 
 # Run the process_rmsk function in parallel for each input directory
-parallel --will-cite process_rmsk ::: "$@"
+parallel --bar --will-cite process_rmsk ::: "$@"
