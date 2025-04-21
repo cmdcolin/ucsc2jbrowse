@@ -27,9 +27,10 @@ process_gene_tracks() {
       node src/geneLike.ts "${infile}.sql" "${infile}.txt.gz" "${infile}Link.txt.gz" "${infile}Link.sql" | sort -k1,1 -k2,2n >"${outfile}.bed"
       hck -f 13,4 "${outfile}.bed" >${outfile}.isoforms.txt
       node src/fixupIsoforms.ts ${outfile}.isoforms.txt
-      time ~/bed2gff --bed ${outfile}.bed --output ${outfile}.gff --isoforms ${outfile}.isoforms.txt &&
+      ~/bed2gff --bed ${outfile}.bed --output ${outfile}.gff --isoforms ${outfile}.isoforms.txt &&
         jbrowse sort-gff ${outfile}.gff | bgzip >${outfile}.sorted.gff.gz &&
         rm "${outfile}.bed" &&
+        rm "${outfile}.isoforms.txt" &&
         rm "${outfile}.gff"
     fi
   done

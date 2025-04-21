@@ -1,6 +1,8 @@
-import pkg, { RaStanza, TrackDbFile } from '@gmod/ucsc-hub'
+import pkg from '@gmod/ucsc-hub'
 import fs from 'fs'
 const { SingleFileHub } = pkg
+
+import type { RaStanza, TrackDbFile } from '@gmod/ucsc-hub'
 
 function findCategory(obj: any, tracks: any) {
   while (obj.parent) {

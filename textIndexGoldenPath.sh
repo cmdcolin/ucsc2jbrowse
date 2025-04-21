@@ -13,7 +13,7 @@ process_assembly() {
   local DB=$INDIR/$ASM/database
 
   echo "Text index $INDIR"
-  jbrowse text-index --out $INDIR --force --tracks ncbiRefSeq
+  jbrowse text-index --out $INDIR --force
 }
 
 export -f process_assembly
