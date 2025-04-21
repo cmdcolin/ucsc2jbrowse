@@ -1,16 +1,40 @@
 import fs from 'fs'
-import readline from 'readline'
 import zlib from 'zlib'
 import { getColNames } from './utils/getColNames.ts'
 import { parseTableLine } from './utils/parseTableLine.ts'
 
+export function parseLineByLine<T>(
+  buffer: Uint8Array,
+  cb: (line: string) => T | undefined,
+): T[] {
+  let blockStart = 0
+  const entries: T[] = []
+  const decoder = new TextDecoder('utf8')
+
+  while (blockStart < buffer.length) {
+    const n = buffer.indexOf(10, blockStart)
+    if (n === -1) {
+      break
+    }
+    const b = buffer.slice(blockStart, n)
+    const line = decoder.decode(b).trim().replace(/\r/g, '\\r')
+    if (line) {
+      const entry = cb(line)
+      if (entry) {
+        entries.push(entry)
+      }
+    }
+
+    blockStart = n + 1
+  }
+  return entries
+}
+
 export async function genBed12(sql: string, txtGz: string) {
   const cols = getColNames(fs.readFileSync(sql, 'utf8'))
-  const rl = readline.createInterface({
-    input: fs.createReadStream(txtGz).pipe(zlib.createGunzip()),
-  })
+  const ret = zlib.gunzipSync(fs.readFileSync(txtGz))
 
-  for await (const line of rl) {
+  parseLineByLine(ret, line => {
     const {
       chrom,
       txStart,
@@ -53,7 +77,7 @@ export async function genBed12(sql: string, txtGz: string) {
         name2,
       ].join('\t') + '\n',
     )
-  }
+  })
 }
 
 try {

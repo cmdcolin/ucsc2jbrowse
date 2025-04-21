@@ -63,8 +63,9 @@ export async function enanceGffWithLinkTable(
       )
       const ID = col9attrs.ID || ''
       const newCol9 = `${col9};${Object.entries(data[ID] || {})
+        .filter(([_key, val]) => !!val)
         .map(([key, val]) => `${key}=${val}`)
-        .join(';')})`
+        .join(';')}`
 
       process.stdout.write(
         [chr, source, type, start, end, score, strand, phase, newCol9].join(
