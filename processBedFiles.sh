@@ -27,8 +27,4 @@ for i in "$OUTDIR"/*.bed.gz; do
   fi
 done
 
-# Index all bed.gz files
-# echo "Indexing bed.gz files..."
-# find "$OUTDIR" -name "*.bed.gz" | parallel "echo {}; tabix -C -f {}"
-
 echo "Bed file processing complete"

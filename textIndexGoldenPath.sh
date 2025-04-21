@@ -12,7 +12,6 @@ process_assembly() {
   local OUTDIR=$OUT/$ASM
   local DB=$INDIR/$ASM/database
 
-  echo "Text index $INDIR"
   jbrowse text-index --out $INDIR --force
 }
 
@@ -20,4 +19,4 @@ export -f process_assembly
 export OUT
 
 # Run the process_assembly function in parallel for each input directory
-parallel -j4 --will-cite process_assembly ::: "$@"
+parallel -j4 --bar --will-cite process_assembly ::: "$@"
