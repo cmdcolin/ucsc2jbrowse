@@ -40,7 +40,7 @@ export async function enanceGffWithLinkTable(
 
   for await (const line of rl) {
     if (line.startsWith('#')) {
-      process.stdout.write(line)
+      process.stdout.write(line + '\n')
     } else {
       const [chr, source, type, start, end, score, strand, phase, col9] =
         line.split('\t')
