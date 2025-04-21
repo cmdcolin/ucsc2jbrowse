@@ -16,8 +16,8 @@ const tracksDb = JSON.parse(fs.readFileSync(process.argv[3], 'utf8')) as Record<
 function splitOnFirst(str: string, sep: string) {
   const index = str.indexOf(sep)
   return index < 0
-    ? [str, '']
-    : [str.slice(0, index), str.slice(index + sep.length)]
+    ? ([str, ''] as const)
+    : ([str.slice(0, index), str.slice(index + sep.length)] as const)
 }
 
 console.log(
@@ -30,7 +30,10 @@ console.log(
           const { settings, html, longLabel, shortLabel, grp, ...rest } =
             tracksDb[t.trackId]
           const settings2 = Object.fromEntries(
-            settings.split('\n').map(r => splitOnFirst(r, ' ')),
+            settings
+              .split('\n')
+              .map(r => splitOnFirst(r, ' '))
+              .filter(([key]) => !!key),
           )
           return {
             ...t,
@@ -45,7 +48,10 @@ console.log(
             },
             name: shortLabel,
             description: longLabel,
-            category: [grp, settings2.parent].filter(f => !!f),
+            category: [
+              grp,
+              settings2.parent?.replace(' on', '')?.replace(' off', ''),
+            ].filter(f => !!f),
           }
         } else {
           console.error('track not found in trackDb', t.trackId)
