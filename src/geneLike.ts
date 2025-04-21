@@ -3,31 +3,36 @@ import zlib from 'zlib'
 import { getColNames } from './utils/getColNames.ts'
 import { parseTableLine } from './utils/parseTableLine.ts'
 
-export function parseLineByLine<T>(
+export function parseLineByLine(
   buffer: Uint8Array,
-  cb: (line: string) => T | undefined,
-): T[] {
+  cb: (line: string) => void,
+) {
   let blockStart = 0
-  const entries: T[] = []
   const decoder = new TextDecoder('utf8')
 
   while (blockStart < buffer.length) {
     const n = buffer.indexOf(10, blockStart)
-    if (n === -1) {
-      break
-    }
-    const b = buffer.slice(blockStart, n)
-    const line = decoder.decode(b).trim().replace(/\r/g, '\\r')
-    if (line) {
-      const entry = cb(line)
-      if (entry) {
-        entries.push(entry)
-      }
-    }
-
+    const b = n === -1 ? buffer.slice(blockStart) : buffer.slice(blockStart, n)
     blockStart = n + 1
+
+    const line = decoder.decode(b).trim()
+
+    // a literal \n in the gene name like Dmel\nt2 was
+    // converted to a newline probably, join with next
+    // line. be mindful also of the carriage return case.
+    // this is a particular oddity with ucsc database dumps
+    if (line.endsWith('\\')) {
+      const n = buffer.indexOf(10, blockStart)
+      const b =
+        n === -1 ? buffer.slice(blockStart) : buffer.slice(blockStart, n)
+
+      const line2 = decoder.decode(b).trim()
+      blockStart = n + 1
+      cb((line + 'n' + line2).replace(/\r/g, '\\r'))
+    } else if (line) {
+      cb(line.replace(/\r/g, '\\r'))
+    }
   }
-  return entries
 }
 
 export async function genBed12(sql: string, txtGz: string) {
@@ -49,10 +54,16 @@ export async function genBed12(sql: string, txtGz: string) {
       exonEnds,
     } = parseTableLine(line, cols.colNames)
     const sizes = []
-    const s = exonStarts
-      .split(',')
-      .filter(f => !!f)
-      .map(r => +r - +txStart)
+    let s: any
+    try {
+      s = exonStarts
+        .split(',')
+        .filter(f => !!f)
+        .map(r => +r - +txStart)
+    } catch (e) {
+      console.error({ line, exonStarts, p: process.argv })
+      throw e
+    }
     const e = exonEnds
       .split(',')
       .filter(f => !!f)

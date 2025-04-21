@@ -33,10 +33,10 @@ process_gene_tracks() {
       else
         jbrowse sort-gff ${outfile}.gff | bgzip >${outfile}.sorted.gff.gz
       fi
-      # rm -f "${outfile}.bed" &&
-      #   rm -f "${outfile}.isoforms.txt" &&
-      #   rm -f "${outfile}.enhanced.gff" &&
-      #   rm -f "${outfile}.gff"
+      rm -f "${outfile}.bed" &&
+        rm -f "${outfile}.isoforms.txt" &&
+        rm -f "${outfile}.enhanced.gff" &&
+        rm -f "${outfile}.gff"
     fi
   done
 }

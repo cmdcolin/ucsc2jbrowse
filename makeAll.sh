@@ -1,4 +1,7 @@
 #!/bin/bash
+
+export NODE_OPTIONS="--no-warnings=ExperimentalWarning"
+
 ./downloadGoldenpath.sh ~/ucsc
 ./createAssemblies.sh ~/ucsc/*
 ./createTracksJsonForGoldenPath.sh ~/ucsc/*
