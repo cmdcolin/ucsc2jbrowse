@@ -11,7 +11,7 @@ process_assembly() {
   local ASM=$(basename $INDIR)
   local OUTDIR=$OUT/$ASM
   local DB=$INDIR/$ASM/database
-  jbrowse text-index --out $INDIR --force --tracks ncbiRefSeq
+  jbrowse text-index --out $INDIR --force --tracks ncbiRefSeq --attributes ID,Name,gene_synonym
 }
 
 export -f process_assembly

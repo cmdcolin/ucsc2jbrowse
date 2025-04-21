@@ -51,20 +51,12 @@ export async function enanceGffWithLinkTable(
           .map(f => f.trim())
           .filter(f => !!f)
           .map(f => f.split('='))
-          .map(
-            ([key, val]) =>
-              [
-                key!.trim(),
-                val
-                  ? decodeURIComponentNoThrow(val).trim().split(',').join(' ')
-                  : undefined,
-              ] as const,
-          ),
+          .map(([key, val]) => [key!.trim(), val] as const),
       )
       const ID = col9attrs.ID || ''
       const newCol9 = `${col9};${Object.entries(data[ID] || {})
         .filter(([_key, val]) => !!val)
-        .map(([key, val]) => `${key}=${val}`)
+        .map(([key, val]) => `${key}=${encodeURIComponent(val)}`)
         .join(';')}`
 
       process.stdout.write(
