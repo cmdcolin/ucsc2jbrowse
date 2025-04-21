@@ -22,16 +22,21 @@ process_gene_tracks() {
 
     # Check if SQL file exists
     if [ -f "${infile}.sql" ]; then
-      echo "Processing $infile..."
       mkdir -p "$(dirname "$outfile")"
       node src/geneLike.ts "${infile}.sql" "${infile}.txt.gz" "${infile}Link.txt.gz" "${infile}Link.sql" | sort -k1,1 -k2,2n >"${outfile}.bed"
       hck -f 13,4 "${outfile}.bed" >${outfile}.isoforms.txt
       node src/fixupIsoforms.ts ${outfile}.isoforms.txt
-      ~/bed2gff --bed ${outfile}.bed --output ${outfile}.gff --isoforms ${outfile}.isoforms.txt &&
-        jbrowse sort-gff ${outfile}.gff | bgzip >${outfile}.sorted.gff.gz &&
-        rm "${outfile}.bed" &&
-        rm "${outfile}.isoforms.txt" &&
-        rm "${outfile}.gff"
+      RUST_LOG=off ~/bed2gff -t2 --bed ${outfile}.bed --output ${outfile}.gff --isoforms ${outfile}.isoforms.txt
+      if [ -f "${infile}Link.sql" ]; then
+        node src/enhanceGffWithLinkTable.ts ${outfile}.gff "${infile}Link.txt.gz" "${infile}Link.sql" >${outfile}.enhanced.gff
+        jbrowse sort-gff ${outfile}.enhanced.gff | bgzip >${outfile}.sorted.gff.gz
+      else
+        jbrowse sort-gff ${outfile}.gff | bgzip >${outfile}.sorted.gff.gz
+      fi
+      # rm -f "${outfile}.bed" &&
+      #   rm -f "${outfile}.isoforms.txt" &&
+      #   rm -f "${outfile}.enhanced.gff" &&
+      #   rm -f "${outfile}.gff"
     fi
   done
 }
@@ -51,4 +56,4 @@ export -f process_gene
 export -f process_gene_tracks
 export OUT
 
-parallel --will-cite process_gene ::: "$@"
+parallel -j 12 --bar --will-cite process_gene ::: "$@"

@@ -15,22 +15,6 @@ export async function genBed12(
     input: fs.createReadStream(txtGz).pipe(zlib.createGunzip()),
   })
 
-  const linkCols = getColNames(fs.readFileSync(linkSqlFile, 'utf8'))
-  const data = Object.fromEntries(
-    zlib
-      .gunzipSync(fs.readFileSync(linkFile))
-      .toString('utf8')
-      .split('\n')
-      .map(r => {
-        const ret = r.split('\t')
-        return [
-          ret[0],
-          Object.fromEntries(
-            ret.map((col, idx) => [linkCols.colNames[idx]!, col]),
-          ),
-        ]
-      }),
-  )
   for await (const line of rl) {
     const {
       chrom,
