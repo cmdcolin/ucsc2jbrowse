@@ -4,12 +4,7 @@ import zlib from 'zlib'
 import { getColNames } from './utils/getColNames.ts'
 import { parseTableLine } from './utils/parseTableLine.ts'
 
-export async function genBed12(
-  sql: string,
-  txtGz: string,
-  linkFile: string,
-  linkSqlFile: string,
-) {
+export async function genBed12(sql: string, txtGz: string) {
   const cols = getColNames(fs.readFileSync(sql, 'utf8'))
   const rl = readline.createInterface({
     input: fs.createReadStream(txtGz).pipe(zlib.createGunzip()),
@@ -61,4 +56,8 @@ export async function genBed12(
   }
 }
 
-genBed12(process.argv[2], process.argv[3], process.argv[4], process.argv[5])
+try {
+  await genBed12(process.argv[2], process.argv[3])
+} catch (e) {
+  console.error(e, process.argv)
+}

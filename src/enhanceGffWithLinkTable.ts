@@ -18,10 +18,9 @@ export async function enanceGffWithLinkTable(
   linkSqlFile: string,
 ) {
   const rl = readline.createInterface({
-    input: fs.createReadStream(gffFile).pipe(zlib.createGunzip()),
+    input: fs.createReadStream(gffFile),
   })
 
-  console.error(linkFile)
   const linkCols = getColNames(fs.readFileSync(linkSqlFile, 'utf8'))
   const data = Object.fromEntries(
     zlib
@@ -38,38 +37,41 @@ export async function enanceGffWithLinkTable(
         ] as const
       }),
   )
-  console.log({ gffFile, linkFile, linkSqlFile })
 
   for await (const line of rl) {
-    const [chr, source, type, start, end, score, strand, phase, col9] =
-      line.split('\t')
+    if (line.startsWith('#')) {
+      process.stdout.write(line)
+    } else {
+      const [chr, source, type, start, end, score, strand, phase, col9] =
+        line.split('\t')
 
-    const col9attrs = Object.fromEntries(
-      col9!
-        .split(';')
-        .map(f => f.trim())
-        .filter(f => !!f)
-        .map(f => f.split('='))
-        .map(
-          ([key, val]) =>
-            [
-              key!.trim(),
-              val
-                ? decodeURIComponentNoThrow(val).trim().split(',').join(' ')
-                : undefined,
-            ] as const,
-        ),
-    )
-    const ID = col9attrs.ID || ''
-    const newCol9 = `${col9};${Object.entries(data[ID] || {})
-      .map(([key, val]) => `${key}=${val}`)
-      .join(';')})`
+      const col9attrs = Object.fromEntries(
+        col9!
+          .split(';')
+          .map(f => f.trim())
+          .filter(f => !!f)
+          .map(f => f.split('='))
+          .map(
+            ([key, val]) =>
+              [
+                key!.trim(),
+                val
+                  ? decodeURIComponentNoThrow(val).trim().split(',').join(' ')
+                  : undefined,
+              ] as const,
+          ),
+      )
+      const ID = col9attrs.ID || ''
+      const newCol9 = `${col9};${Object.entries(data[ID] || {})
+        .map(([key, val]) => `${key}=${val}`)
+        .join(';')})`
 
-    process.stdout.write(
-      [chr, source, type, start, end, score, strand, phase, newCol9].join(
-        '\t',
-      ) + '\n',
-    )
+      process.stdout.write(
+        [chr, source, type, start, end, score, strand, phase, newCol9].join(
+          '\t',
+        ) + '\n',
+      )
+    }
   }
 }
 
