@@ -14,7 +14,9 @@ process_rmsk() {
 
   mkdir -p $OUTDIR
 
-  node src/parseRmskTracks.ts $OUTDIR/tracks.json $DB $OUTDIR
+  if [ -f "$OUTDIR/tracks.json" ]; then
+    node src/parseRmskTracks.ts $OUTDIR/tracks.json $DB $OUTDIR
+  fi
 }
 
 export -f process_rmsk
