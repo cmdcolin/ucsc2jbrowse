@@ -25,9 +25,6 @@ process_assembly() {
   # add metadata from the tracksDb.sql to the config.json
   node src/addMetadata.ts $OUTDIR/config.json $OUTDIR/tracks.json >$OUTDIR/tmp.json && mv $OUTDIR/tmp.json $OUTDIR/config.json
 
-  # add cytobands to assembly
-  node src/addCytobands.ts $OUTDIR/config.json $OUTDIR/tracks.json >$OUTDIR/tmp.json && mv $OUTDIR/tmp.json $OUTDIR/config.json
-
   # optional
   # remove older copies of tracks, e.g. older dbSnp, older GENCODE, etc.
   node src/removeEverythingButLatest.ts $OUTDIR/config.json >$OUTDIR/tmp.json && mv $OUTDIR/tmp.json $OUTDIR/config.json

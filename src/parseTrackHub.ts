@@ -1,20 +1,18 @@
-import pkg from '@gmod/ucsc-hub'
+import pkg, { RaStanza, TrackDbFile } from '@gmod/ucsc-hub'
 import fs from 'fs'
 const { SingleFileHub } = pkg
 
-import type { RaStanza, TrackDbFile } from '@gmod/ucsc-hub'
-
-function findCategory(obj: any, tracks: any) {
-  while (obj.parent) {
-    obj = tracks[obj.parent.split(' ')[0]]?.data
-  }
-  return obj.group
-}
+type Adapter = Record<string, unknown>
 
 const hub = new SingleFileHub(fs.readFileSync(process.argv[2], 'utf8'))
 const asm = 'hs1'
 const s = (s: string) => 'https://hgdownload.soe.ucsc.edu/' + s
 
+const sequenceAdapter = {
+  type: 'TwoBitAdapter',
+  uri: s(hub.genome.data.twoBit),
+  chromSizes: s(hub.genome.data.chromSizes),
+}
 fs.writeFileSync(
   process.argv[3],
   JSON.stringify(
@@ -24,12 +22,8 @@ fs.writeFileSync(
           name: asm,
           sequence: {
             type: 'ReferenceSequenceTrack',
-            trackId: 'hs1-referenceSequenceTrack',
-            adapter: {
-              type: 'TwoBitAdapter',
-              uri: s(hub.genome.data.twoBit),
-              chromSizes: s(hub.genome.data.chromSizes),
-            },
+            trackId: `${asm}-referenceSequenceTrack`,
+            adapter: sequenceAdapter,
             refNameAliases: {
               adapter: {
                 type: 'RefNameAliasAdapter',
@@ -40,59 +34,48 @@ fs.writeFileSync(
         },
       ],
       tracks: Object.values(hub.tracks.data)
-        .map(val => {
-          const { track, bigDataUrl, shortLabel } = val!.data
-          const grp = findCategory(val!.data, hub.tracks.data)
-          if (bigDataUrl) {
-            const uri = s(bigDataUrl)
-            if (bigDataUrl.endsWith('.bb') || bigDataUrl.endsWith('.bigBed')) {
-              return {
-                type: 'FeatureTrack',
-                assemblyNames: [asm],
-                name: shortLabel,
-                category: grp ? [grp] : undefined,
-                trackId: track,
-                adapter: {
-                  type: 'BigBedAdapter',
-                  uri,
-                },
-              }
-            } else if (bigDataUrl.endsWith('.vcf.gz')) {
-              return {
-                type: 'VariantTrack',
-                assemblyNames: [asm],
-                name: shortLabel,
-                category: grp ? [grp] : undefined,
-                trackId: track,
-                adapter: {
-                  type: 'VcfTabixAdapter',
-                  uri,
-                },
-              }
-            } else {
-              return {
-                type: 'QuantitativeTrack',
-                name: shortLabel,
-                assemblyNames: [asm],
-                category: grp ? [grp] : undefined,
-                trackId: track,
-                adapter: {
-                  type: 'BigWigAdapter',
-                  uri,
-                },
-              }
-            }
-          }
-          return undefined
-        })
+        .map(val =>
+          makeTrackConfig({
+            track: val,
+            trackDbUrl: s(asm),
+            trackDb: hub.tracks,
+            sequenceAdapter,
+            assemblyName: asm,
+          }),
+        )
         .filter(f => !!f),
     },
     null,
     2,
   ),
 )
-
 function makeTrackConfig({
+  track,
+  trackDbUrl,
+  trackDb,
+  sequenceAdapter,
+  assemblyName,
+}: {
+  track: RaStanza
+  trackDbUrl: string
+  trackDb: TrackDbFile
+  sequenceAdapter: Adapter
+  assemblyName: string
+}) {
+  const { data } = track
+  const bigDataUrlPre = data.bigDataUrl || ''
+  const name =
+    (data.shortLabel || '') + (bigDataUrlPre.includes('xeno') ? ' (xeno)' : '')
+
+  return {
+    trackId: `${assemblyName}-${data.track}`,
+    description: data.longLabel,
+    assemblyNames: [assemblyName],
+    name,
+    ...makeTrackConfigSub({ track, trackDbUrl, trackDb, sequenceAdapter }),
+  }
+}
+function makeTrackConfigSub({
   track,
   trackDbUrl,
   trackDb,
@@ -101,10 +84,9 @@ function makeTrackConfig({
   track: RaStanza
   trackDbUrl: string
   trackDb: TrackDbFile
-  sequenceAdapter: any
+  sequenceAdapter: Adapter
 }) {
   const { data } = track
-
   const parent = data.parent || ''
   const bigDataUrlPre = data.bigDataUrl || ''
   const bigDataIdx = data.bigDataIndex || ''
@@ -125,8 +107,6 @@ function makeTrackConfig({
     case 'bam': {
       return {
         type: 'AlignmentsTrack',
-        name,
-        description: data.longLabel,
         adapter: {
           type: 'BamAdapter',
           uri: bigDataUrl,
@@ -136,8 +116,6 @@ function makeTrackConfig({
     case 'cram': {
       return {
         type: 'AlignmentsTrack',
-        name,
-        description: data.longLabel,
         adapter: {
           type: 'CramAdapter',
           uri: bigDataUrl,
@@ -148,8 +126,6 @@ function makeTrackConfig({
     case 'bigWig': {
       return {
         type: 'QuantitativeTrack',
-        name,
-        description: data.longLabel,
         adapter: {
           type: 'BigWigAdapter',
           uri: bigDataUrl,
@@ -160,8 +136,6 @@ function makeTrackConfig({
       if (baseTrackType.startsWith('big')) {
         return {
           type: 'FeatureTrack',
-          name,
-          description: data.longLabel,
           adapter: {
             type: 'BigBedAdapter',
             uri: bigDataUrl,
@@ -170,8 +144,6 @@ function makeTrackConfig({
       } else if (baseTrackType === 'vcfTabix') {
         return {
           type: 'VariantTrack',
-          name,
-          description: data.longLabel,
           adapter: {
             type: 'VcfTabixAdapter',
             uri: bigDataUrl,
@@ -180,8 +152,6 @@ function makeTrackConfig({
       } else if (baseTrackType === 'hic') {
         return {
           type: 'HicTrack',
-          name,
-          description: data.longLabel,
           adapter: {
             type: 'HicAdapter',
             uri: bigDataUrl,
@@ -207,19 +177,15 @@ function makeTrackConfig({
     }
   }
 }
-
-function generateUnknownTrackConf(
+export function generateUnknownTrackConf(
   trackName: string,
   trackUrl: string,
   categories?: string[],
 ) {
-  const conf = {
+  return {
     type: 'FeatureTrack',
     name: `${trackName} (Unknown)`,
     description: `Could not determine track type for "${trackUrl}"`,
     category: categories,
-    trackId: '',
   }
-  conf.trackId = `track-${Math.random()}`
-  return conf
 }
