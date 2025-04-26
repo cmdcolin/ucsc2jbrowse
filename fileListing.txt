@@ -8446,7 +8446,7 @@ aa2a05cc246fc8f64504c249fe2f2ac3  /home/cdiesh/ucscResults/hg38/windowmaskerSdus
 f8c4e510dc5b823f4f7059c1237b4c0c  /home/cdiesh/ucscResults/hg38/xenoRefGene.sorted.gff.gz
 577ac30373b93fc5b1b5df26aa9b5c4a  /home/cdiesh/ucscResults/hg38/xenoRefGene.sorted.gff.gz.csi
 99aa06d3014798d86001c324468d497f  /home/cdiesh/ucscResults/hs1/bigTracks.json
-4bb64c9323713a44dd8b9d733a2b5e06  /home/cdiesh/ucscResults/hs1/config.json
+0f45cf3ec7604229756166ca6a0a91b3  /home/cdiesh/ucscResults/hs1/config.json
 99aa06d3014798d86001c324468d497f  /home/cdiesh/ucscResults/hs1/tracks.json
 f4e73a779e9d36a92a5dd85c17327af6  /home/cdiesh/ucscResults/latCha1/augustusGene.sorted.gff.gz
 57f7c063e10cc6c1591734f00ab92a54  /home/cdiesh/ucscResults/latCha1/augustusGene.sorted.gff.gz.csi

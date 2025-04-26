@@ -12,7 +12,7 @@ for i in hs1; do
   export OUTDIR=$OUT/$i
   mkdir -p $OUTDIR
   # cp $i.json $OUTDIR/config.json
-  echo $OUTDIR
+  echo node src/parseTrackHub.ts $INDIR/hubs/public/hub.txt $OUTDIR/config.json
   node src/parseTrackHub.ts $INDIR/hubs/public/hub.txt $OUTDIR/config.json
 done
 
