@@ -140,7 +140,7 @@ export function generateHubTracks({
               category: [
                 track.data.group,
                 ...parentTracks
-                  .map(p => p.data.group)
+                  .map(p => p.name)
                   .filter((f): f is string => !!f),
               ].filter(f => !!f),
               ...trackConfig,
@@ -173,6 +173,7 @@ function makeTrackConfig({
     trackDbUrl,
     trackDb,
     sequenceAdapter,
+    name,
   })
   return sub
     ? {
@@ -189,11 +190,13 @@ function makeTrackConfigSub({
   trackDbUrl,
   trackDb,
   sequenceAdapter,
+  name,
 }: {
   track: RaStanza
   trackDbUrl: string
   trackDb: TrackDbFile
   sequenceAdapter: Adapter
+  name: string
 }) {
   const { data } = track
   const parent = data.parent || ''
@@ -245,6 +248,7 @@ function makeTrackConfigSub({
           adapter: {
             type: 'BigBedAdapter',
             uri: bigDataUrl,
+            scoreColumn: name.endsWith('wssd CN') ? 'ID' : undefined,
           },
         }
       } else if (baseTrackType === 'vcfTabix') {
