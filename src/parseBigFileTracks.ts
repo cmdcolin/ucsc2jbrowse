@@ -1,4 +1,4 @@
-import { TrackDbEntry } from './types.ts'
+import type { TrackDbEntry } from './types.ts'
 import { readJSON } from './util.ts'
 
 if (!process.argv[2]) {

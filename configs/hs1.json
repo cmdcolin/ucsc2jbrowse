@@ -57,7 +57,7 @@
         "defaultLabelFields": "name",
         "longLabel": "CAT + Liftoff Gene Annotations"
       },
-      "category": ["genes"],
+      "category": ["Genes and Gene Predictions"],
       "trackId": "hs1-catLiftOffGenesV1",
       "description": "CAT + Liftoff Gene Annotations",
       "assemblyNames": ["hs1"],
@@ -274,7 +274,7 @@
         "color": "100,0,200",
         "longLabel": "CHM13 unique in comparison to GRCh38/hg38"
       },
-      "category": ["compGeno", "hgUnique"],
+      "category": ["Comparative Genomics", "hgUnique"],
       "trackId": "hs1-hgUniqueHg38",
       "description": "CHM13 unique in comparison to GRCh38/hg38",
       "assemblyNames": ["hs1"],
@@ -297,7 +297,7 @@
         "color": "200,0,100",
         "longLabel": "CHM13 unique in comparison to GRCh37/hg19"
       },
-      "category": ["compGeno", "hgUnique"],
+      "category": ["Comparative Genomics", "hgUnique"],
       "trackId": "hs1-hgUniquehg19",
       "description": "CHM13 unique in comparison to GRCh37/hg19",
       "assemblyNames": ["hs1"],
@@ -710,7 +710,7 @@
         "url": "http://crispor.tefor.net/crispor.py?org=$D&pos=$S:${&pam=NGG",
         "mouseOverField": "_mouseOver"
       },
-      "category": ["genes"],
+      "category": ["Genes and Gene Predictions"],
       "trackId": "hs1-crisprHs1",
       "description": "CRISPR/Cas9 -NGG Targets, whole genome",
       "assemblyNames": ["hs1"],

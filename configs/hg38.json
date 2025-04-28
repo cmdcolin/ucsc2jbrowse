@@ -816,7 +816,7 @@
         "track": "knownGene"
       },
       "description": "GENCODE V47",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "pliByGene",
@@ -1495,7 +1495,7 @@
         "track": "yale_parents"
       },
       "description": "Yale Pseudogene Parents",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "recombAvg",
@@ -1790,7 +1790,7 @@
         "html": ""
       },
       "description": "UCSC alignment of SwissProt proteins to genome (dark blue: main isoform, light blue: alternative isoforms)",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "TFrPeakClusters",
@@ -2622,7 +2622,7 @@
         "track": "knownGeneV46"
       },
       "description": "GENCODE V46",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "missenseByGene",
@@ -3366,7 +3366,7 @@
         "track": "yale_pseudogenes"
       },
       "description": "Yale Pseudogenes",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "pTriplo",
@@ -3865,7 +3865,7 @@
         "html": ""
       },
       "description": "UCSC alignment of TrEMBL proteins to genome",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "umap36",
@@ -4316,7 +4316,7 @@
         "track": "knownGeneV45"
       },
       "description": "GENCODE V45",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "geneHancerInteractionsDoubleElite",
@@ -4905,7 +4905,7 @@
         "html": ""
       },
       "description": "UniProt Signal Peptides",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "giabSv",
@@ -5580,7 +5580,7 @@
         "html": ""
       },
       "description": "UniProt Extracellular Domain",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "knownGeneV44",
@@ -5632,7 +5632,7 @@
         "track": "knownGeneV44"
       },
       "description": "GENCODE V44",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "geneHancerClusteredInteractionsDoubleElite",
@@ -5823,7 +5823,7 @@
         "html": ""
       },
       "description": "UniProt Regions of Interest",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "jaspar2018",
@@ -6135,7 +6135,7 @@
         "html": ""
       },
       "description": "NCBI RefSeq Other Annotations (not NM_*, NR_*, XM_*, XR_*, NP_* or YP_*)",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "umap100",
@@ -6377,7 +6377,7 @@
         "track": "knownGeneV43"
       },
       "description": "GENCODE V43",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "geneHancerRegElements",
@@ -6743,7 +6743,7 @@
         "html": ""
       },
       "description": "UniProt Transmembrane Domains",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "umap24Quantitative",
@@ -6936,7 +6936,7 @@
         "html": ""
       },
       "description": "UniProt Cytoplasmic Domains",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "snpArrayCytoSnp850k",
@@ -7061,7 +7061,7 @@
         "track": "knownGeneV39"
       },
       "description": "GENCODE V39",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "geneHancerGenes",
@@ -7213,7 +7213,7 @@
         "html": ""
       },
       "description": "Differences between NCBI RefSeq Transcripts and the Reference Genome",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "umap36Quantitative",
@@ -7439,7 +7439,7 @@
         "html": ""
       },
       "description": "UniProt Mature Protein Products (Polypeptide Chains)",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "COAD",
@@ -7529,7 +7529,7 @@
         "track": "knownGeneV38"
       },
       "description": "GENCODE V38",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "geneHancerInteractions",
@@ -7761,7 +7761,7 @@
         "html": ""
       },
       "description": "UniProt Disulfide Bonds",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "DLBC",
@@ -7840,7 +7840,7 @@
         "html": ""
       },
       "description": "UniProt Domains",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "knownGeneV36",
@@ -7889,7 +7889,7 @@
         "track": "knownGeneV36"
       },
       "description": "GENCODE V36",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "geneHancerClusteredInteractions",
@@ -8079,7 +8079,7 @@
         "html": ""
       },
       "description": "UniProt Amino Acid Modifications",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "bismap24Quantitative",
@@ -8427,7 +8427,7 @@
         "html": ""
       },
       "description": "UniProt Amino Acid Mutations",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "ncbiOrtho",
@@ -8469,7 +8469,7 @@
         "html": ""
       },
       "description": "NCBI Gene Orthologs",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "SeqCap-EZ_MedExomePlusMito_hg19_empirical_targets",
@@ -8558,7 +8558,7 @@
         "transMapSrcSet": "ensembl"
       },
       "description": "TransMap Ensembl and GENCODE Mappings Version 5",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "transMapRefSeqV5",
@@ -8610,7 +8610,7 @@
         "transMapSrcSet": "refseq"
       },
       "description": "TransMap RefSeq Gene Mappings Version 5",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "transMapRnaV5",
@@ -8662,7 +8662,7 @@
         "transMapSrcSet": "rna"
       },
       "description": "TransMap GenBank RNA Mappings Version 5",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "transMapEstV5",
@@ -8711,7 +8711,7 @@
         "transMapSrcSet": "est"
       },
       "description": "TransMap EST Mappings Version 5",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "ukbDepletion",
@@ -8904,7 +8904,7 @@
         "html": ""
       },
       "description": "UniProt Other Annotations",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "unipStruct",
@@ -8943,7 +8943,7 @@
         "html": ""
       },
       "description": "UniProt Protein Primary/Secondary Structure Annotations",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "Agilent_Human_Exon_Clinical_Research_V2_Covered",
@@ -9093,7 +9093,7 @@
         "html": ""
       },
       "description": "UniProt Repeats",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "Agilent_Human_Exon_Clinical_Research_V2_Regions",
@@ -9246,7 +9246,7 @@
         "html": ""
       },
       "description": "UniProt Sequence Conflicts",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "Agilent_Human_Exon_Focused_Covered",
@@ -13593,7 +13593,7 @@
         "urlLabel": "Click here to show this guide on Crispor.org, with expression oligos, validation primers and more"
       },
       "description": "CRISPR/Cas9 -NGG Targets, whole genome",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "dgvGold",
@@ -14821,7 +14821,7 @@
         "html": "<h2>Description</h2>\n<p>\nThe <a href=\"https://www.genenames.org/tools/search\" target=\"_blank\">HGNC</a> is \nresponsible for approving unique symbols and names for human loci, including protein \ncoding genes, ncRNA genes and pseudogenes, to allow unambiguous scientific communication.\n<p>\nFor each known human gene, the HGNC approves a gene name and symbol (short-form abbreviation).\nAll approved symbols are stored in the HGNC database, <a href=\"https://genenames.org\" \ntarget=\"_blank\">www.genenames.org</a>, a curated online repository of HGNC-approved gene \nnomenclature, gene groups and associated resources including links to genomic, proteomic, \nand phenotypic information. Each symbol is unique and we ensure that each gene is only \ngiven one approved gene symbol. It is necessary to provide a unique symbol for each gene \nso that we and others can talk about them, and this also facilitates electronic data \nretrieval from publications and databases. In preference, each symbol maintains \nparallel construction in different members of a gene family and can also be \nused in other species, especially other vertebrates including mouse.\n\n<h2>Data Access</h2>\n<p>\nThe raw data can be explored interactively with the <a href=\"https://genome.ucsc.edu/cgi-bin/hgTables\"\ntarget=\"_blank\">Table Browser</a>, or the <a href=\"https://genome.ucsc.edu/cgi-bin/hgIntegrator\"\ntarget=\"_blank\">Data Integrator</a>. For computational analysis, genome annotations are stored in\na bigBigFile file that can be downloaded from the\n<a href=\"http://hgdownload.soe.ucsc.edu/gbdb/hg38/hgnc/hgnc.bb\" target=\"_blank\">download\nserver</a>. Regional or genome-wide annotations can be converted from binary data to human readable\ntext using our command line utility <em>bigBedToBed</em> which can be compiled from source code or\ndownloaded as a precompiled binary for your system. Files and instructions can be found in the\n<a href=\"http://hgdownload.soe.ucsc.edu/admin/exe/\" target=\"_blank\">utilities directory</a>.\n\nThe utility can be used to obtain features within a given range, for example:</p>\n<code>bigBedToBed -chrom=chr6 -start=0 -end=1000000 http://hgdownload.soe.ucsc.edu/gbdb/hg38/hgnc/hgnc.bb stdout</code>\n\n<p>\n\n<p>\nPlease refer to our <a href=\"https://genome.ucsc.edu/FAQ/FAQdownloads.html#download36\" target=\"_blank\">Data Access FAQ</a>\nfor more information or our <a href=\"https://groups.google.com/a/soe.ucsc.edu/forum/#!forum/genome\"\ntarget=\"_blank\">mailing list</a> for archived user questions.</p>\n\n<h2>Credits</h2>\n<p>\nHGNC Database, HUGO Gene Nomenclature Committee (HGNC), European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Hinxton, Cambridge CB10 1SD, United Kingdom <a href=\"/\">www.genenames.org</a>.\n\n<h2>References</h2>\n<p>\nTweedie S, Braschi B, Gray KA, Jones TEM, Seal RL, Yates B, Bruford EA. <strong>Genenames.org: the HGNC and VGNC resources in 2021.</strong> Nucleic Acids Res. PMID: <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/33152070\">33152070</a> PMCID: <a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7779007/\">PMC7779007</a> DOI: <a href=\"https://dx.doi.org/10.1093%2Fnar%2Fgkaa980\">10.1093/nar/gkaa980</a>\n</p>\n"
       },
       "description": "HUGO Gene Nomenclature",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "ileumWangCellType",
@@ -15420,7 +15420,7 @@
         "urls": "ncbiTranscript=https://www.ncbi.nlm.nih.gov/nuccore/$$ ensemblTranscript=http://www.ensembl.org/Multi/Search/Results?site=ensembl_all;q=$$ ncbiProtein=https://www.ncbi.nlm.nih.gov/protein/$$ ensemblProtein=http://www.ensembl.org/Multi/Search/Results?site=ensembl_all;q=$$"
       },
       "description": "Locus Reference Genomic (LRG) / RefSeqGene Fixed Transcript Annotations",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "lungTravaglini2020CellType10x",
@@ -16341,7 +16341,7 @@
         "html": "<h2>Description</h2>\n<p>\nThe <a href=\"https://www.ncbi.nlm.nih.gov/refseq/MANE/\" target=\"_blank\">Matched Annotation from\nNCBI and EMBL-EBI (MANE)</a> project aims to produce a matched set of \nhigh-confidence transcripts that are identically annotated between RefSeq (NCBI) and \nEnsembl/GENCODE (led by EMBL-EBI). Transcripts for MANE are chosen by a combination of \nautomated and manual methods based on conservation, expression levels, clinical significance, \nand other factors. Transcripts are matched between the NCBI RefSeq and Ensembl/GENCODE annotations\nbased on the GRCh38 genome assembly, with precise 5' and 3' ends defined by high-throughput\nsequencing or other available data.</p>\n<p>This track is automatically updated, see the <b>source data version</b> above for the current version\nnumber. MANE include almost all human protein-coding genes and genes of clinical relevance, including genes in the\n<a href=\"https://www.acmg.net/PDFLibrary/41436_2021_1172_OnlinePDF-1.pdf\" target=\"_blank\">American\nCollege of Medical Genetics and Genomics (ACMG) Secondary Findings list (SF) v3.0</a>. It includes \nboth <b>MANE Select</b> and <b>MANE Plus Clinical</b> transcripts. <b>MANE\nPlus Clinical</b> items are <b><font color=red>colored red</font></b>.\n<p>\nFor more information on the different gene tracks, including MANE vs GENCODE or RefSeq,\nsee our <a href=\"/FAQ/FAQgenes.html#ens\" target=\"_blank\">Genes FAQ</a>.</p>\n\n<h2>Data Access</h2>\n<p>\nThe raw data can be explored interactively with the <a href=\"https://genome.ucsc.edu/cgi-bin/hgTables\"\ntarget=\"_blank\">Table Browser</a>, or the <a href=\"https://genome.ucsc.edu/cgi-bin/hgIntegrator\"\ntarget=\"_blank\">Data Integrator</a>. For computational analysis, genome annotations are stored in\na bigGenePred file that can be downloaded from the\n<a href=\"http://hgdownload.soe.ucsc.edu/gbdb/hg38/mane/\" target=\"_blank\">download\nserver</a>. Regional or genome-wide annotations can be converted from binary data to human readable\ntext using our command line utility <em>bigBedToBed</em> which can be compiled from source code or\ndownloaded as a precompiled binary for your system. Files and instructions can be found in the\n<a href=\"http://hgdownload.soe.ucsc.edu/admin/exe/\" target=\"_blank\">utilities directory</a>.\n\nThe utility can be used to obtain features within a given range, for example:</p>\n<code>bigBedToBed -chrom=chr6 -start=0 -end=1000000 http://hgdownload.soe.ucsc.edu/gbdb/hg38/mane/mane.bb stdout</code>\n\n<p>\nDownload links for MANE:\n<a href=\"ftp://ftp.ncbi.nlm.nih.gov/refseq/MANE\">ftp://ftp.ncbi.nlm.nih.gov/refseq/MANE</a>\n</p>\n\n<p>\nPrevious MANE versions are also available on our <a href=\"https://hgdownload.soe.ucsc.edu/goldenPath/archive/hg38/mane/\"\ntarget=\"_blank\">download archive</a>.</p>\n\n<p>\nPlease refer to our <a href=\"https://genome.ucsc.edu/FAQ/FAQdownloads.html#download36\" target=\"_blank\">Data Access FAQ</a>\nfor more information or our <a href=\"https://groups.google.com/a/soe.ucsc.edu/forum/#!forum/genome\"\ntarget=\"_blank\">mailing list</a> for archived user questions.</p>\n\n<h2>Credits</h2>\n<p>\nThank you to the RefSeq project at NCBI and the Ensembl/GENCODE project at EMBL-EBI.\nYou can contact the authors directly at <A HREF=\"mailto:&#77;A&#78;&#69;&#45;h&#101;&#108;&#112;&#64;&#110;&#99;&#98;&#105;.\n&#110;&#108;&#109;.&#110;ih.&#103;&#111;&#118;\">\n&#77;A&#78;&#69;&#45;h&#101;&#108;&#112;&#64;&#110;&#99;&#98;&#105;.&#110;&#108;&#109;.&#110;ih.&#103;&#111;&#118;</A>\nor <A HREF=\"mailto:&#109;&#97;&#110;&#101;&#45;&#104;el&#112;&#64;&#101;&#98;&#105;.a&#99;.&#117;&#107;\">\n&#109;&#97;&#110;&#101;&#45;&#104;el&#112;&#64;&#101;&#98;&#105;.a&#99;.&#117;&#107;</A>.</p>\n\n<h2>References</h2>\n<p>\nMorales J, Pujar S, Loveland JE, Astashyn A, Bennett R, Berry A, Cox E, Davidson C, Ermolaeva O,\nFarrell CM <em>et al</em>.\n<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/35388217\" target=\"_blank\">\nA joint NCBI and EMBL-EBI transcript set for clinical genomics and research</a>.\n<em>Nature</em>. 2022 Apr;604(7905):310-315.\nPMID: <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/35388217\" target=\"_blank\">35388217</a>; PMC: <a\nhref=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9007741/\" target=\"_blank\">PMC9007741</a>\n</p>\n"
       },
       "description": "MANE Select Plus Clinical: Representative transcript from RefSeq & GENCODE",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "mastermind",
@@ -19065,7 +19065,7 @@
         "html": "<H3>Description</H3>\n<P>\nThis track shows genes targeted by \n<a href=\"https://www.mousephenotype.org/about-impc/about-ikmc/\"\ntarget=\"_blank\">International Knockout Mouse Consortium (IKMC)</a>\nmapped to the human genome. IKMC is a \ncollaboration to generate a public resource of mouse embryonic stem (ES)\ncells containing a null mutation in every gene in the mouse genome.\nGene targets are color-coded by status:\n<UL>\n<LI><span style=\"color: #00F000; font-weight: bold;\">Green</span>: Reagent(s) Available</LI>\n<LI><span style=\"color: #FFD000; font-weight: bold;\">Yellow</span>: In Progress</LI>\n<LI><span style=\"color: #0000C8; font-weight: bold;\">Blue</span>: Not Started/On Hold</LI>\n<LI><span style=\"color: #000; font-weight: bold;\">Black</span>: Withdrawn/Problematic</LI>\n</UL>\n</P>\n<P>\nThe <a href=\"https://www.mousephenotype.org/about-impc/about-komp/\"\ntarget=\"_blank\">KnockOut Mouse Project Data\nCoordination Center (KOMP DCC)</a> is the central database resource\nfor coordinating mouse gene targeting within IKMC and provides\nweb-based query and display tools for IKMC data.  In addition, the\nKOMP DCC website provides a tool for the scientific community to\nnominate genes of interest to be knocked out by the KOMP initiative.</P>\n\n<P>\nIKMC members include\n<UL>\n<LI><a href=\"https://www.mousephenotype.org/about-impc/about-komp/\"\ntarget=\"_blank\">KnockOut Mouse Project (KOMP)</a>, a trans-NIH initiative (USA)</LI>\n<LI><a href=\"https://www.mousephenotype.org/about-impc/about-ikmc/eucomm/\"\ntarget=\"_blank\">European Conditional Mouse Mutagenesis Program (EUCOMM)</a>, funded by the\n    European Union Framework 6 programme (EU)</LI>\n<LI><a href=\"https://www.umanitoba.ca/institutes/manitoba_institute_cell_biology/norcomm/index.htm\"\n    TARGET=_BLANK>North American Conditional Mouse Mutagenesis Project\n    (NorCOMM)</a>, a Genome Prairie Project (Canada)</LI>\n<LI><a href=\"https://www.tigm.org/\" TARGET=_BLANK>Texas A&amp;M\n    Institute for Genomic Medicine (TIGM)</a> (USA)</LI>\n</UL>\n\nKOMP includes two production centers: \nCSD, a collaborative team at the <A HREF=\"http://www.chori.org/drupal1/\"\nTARGET=_BLANK>Children's Hospital Oakland Research Institute\n(CHORI)</A>, the <a href=\"http://www.sanger.ac.uk/science/collaboration/sanger-institute-gene-trap-\nresource\" target=\"_blank\">Wellcome Trust Sanger Institute</a> and the University\nof California at Davis <A HREF=\"https://www.vetmed.ucdavis.edu/\"\nTARGET=_BLANK>School of Veterinary Medicine</A>, and \na team at the <A HREF=\"https://www.regeneron.com/technology\"\nTARGET=_BLANK>VelociGene</A> division of Regeneron Pharmaceuticals, Inc.\nEUCOMM includes <a href=\"https://www.mousephenotype.org/about-impc/about-ikmc/eucomm/\"\ntarget=\"_blank\">9 participating institutions</a>.\nNorCOMM includes several <A HREF=\"https://umanitoba.ca/institutes/manitoba_institute_cell_biology/norcomm/research_partners.htm\"\nTARGET=_BLANK>participating institutions</A>.\n</P>\n\n<H3>Methods</H3>\n<P>\nUsing <a href=\"https://www.mousephenotype.org/about-impc/targeting-strategies/\"\ntarget=\"_blank\">complementary targeting strategies</a>, the IKMC centers\ndesign and create targeting vectors, mutant ES cell lines and, to some\nextent, mutant mice, embryos or sperm. Materials are distributed to\nthe research community.</P>\n<P>\nThe <a href=\"https://www.komp.org/index.php\" target=\"_blank\">KOMP Repository</a>\narchives, maintains, and distributes IKMC products. Researchers can\norder products and get product information from the\nRepository. Researchers can also express interest in products that are\nstill in the pipeline. They will then receive email notification as\nsoon as KOMP generated products are available for distribution.</P>\n<P>\nThe process for ordering EUCOMM materials can be found \n<a href=\"https://www.mousephenotype.org/about-impc/about-ikmc/eucomm/\"\ntarget=\"_blank\">here</a>.</P>\n<P>\nThe process for ordering TIGM materials can be found \n<a href=\"https://www.tigm.org/repository/\" target=\"_blank\">here</a>.</P>\n<P>\nInformation on NorCOMM products and services can be found \n<A HREF=\"https://www.umanitoba.ca/institutes/manitoba_institute_cell_biology/norcomm/accessing_services.htm\"\nTARGET=_BLANK>here</A>.\n</P><P>\nGenes were mapped to the human genome by IKMC.\n</P>\n\n<H3>Credits</H3>\n<P>\nThanks to the <a href=\"https://www.mousephenotype.org/about-impc/about-ikmc/\"\ntarget=\"_blank\">International Knockout Mouse Consortium</a>, and Carol Bult in \nparticular, for providing these data.</P>\n\n<H3>References</H3>\n<p>\nAustin CP, Battey JF, Bradley A, Bucan M, Capecchi M, Collins FS, Dove WF, Duyk G, Dymecki S, Eppig\nJT <em>et al</em>.\n<a href=\"https://www.nature.com/articles/ng0904-921\" target=\"_blank\">\nThe knockout mouse project</a>.\n<em>Nat Genet</em>. 2004 Sep;36(9):921-4.\nPMID: <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/15340423\" target=\"_blank\">15340423</a>; PMC: <a\nhref=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2716027/\" target=\"_blank\">PMC2716027</a>\n</p>\n\n<p>\nCollins FS, Finnell RH, Rossant J, Wurst W.\n<a href=\"https://www.sciencedirect.com/science/article/pii/S0092867407004643\" target=\"_blank\">\nA new partner for the international knockout mouse consortium</a>.\n<em>Cell</em>. 2007 Apr 20;129(2):235.\nPMID: <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/17448981\" target=\"_blank\">17448981</a>\n</p>\n\n<p>\nInternational Mouse Knockout Consortium, Collins FS, Rossant J, Wurst W.\n<a href=\"https://www.sciencedirect.com/science/article/pii/S0092867406016126\" target=\"_blank\">\nA mouse for all reasons</a>.\n<em>Cell</em>. 2007 Jan 12;128(1):9-13.\nPMID: <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/17218247\" target=\"_blank\">17218247</a>\n</p>\n"
       },
       "description": "International Knockout Mouse Consortium Genes Mapped to Human Genome",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -19290,7 +19290,7 @@
         "html": "<H2>Description</H2>\n<P>This track shows various types of alternative splicing and other\nevents that result in more than a single transcript from the same\ngene. The label by an item describes the type of event. The events are:</P>\n<UL>\n<LI>Alternate Promoter (<B>altPromoter</B>) - Transcription starts at multiple places.  The altPromoter extends from 100 bases before to 50 bases after transcription start.\n<LI>Alternate Finish Site (<B>altFinish</B>) - Transcription ends at multiple places.\n<LI>Cassette Exon (<B>cassetteExon</B>) - Exon is present in some transcripts but \nnot others. These are found by looking for exons that overlap an intron in the \nsame transcript.\n<LI>Retained Intron (<B>retainedIntron</B>) - Introns are spliced out in some \ntranscripts but not others. In some cases, particularly when the intron is near \nthe 3' end, this can reflect an incompletely processed transcript rather than \na true alt-splicing event.\n<LI>Overlapping Exon (<B>bleedingExon</B>) - Initial or terminal exons overlap \nin an intron in another transcript. These often are associated with incompletely \nprocessed transcripts.\n<LI>Alternate 3' End (<B>altThreePrime</B>) - Variations on the 3' end of an intron.\n<LI>Alternate 5' End (<B>altFivePrime</B>) - Variations on the 5' end of an intron.\n<LI>Intron Ends have AT/AC (<B>atacIntron</B>) - An intron with AT/AC ends rather than \nthe usual GT/AG. These are associated with the minor spliceosome.\n<LI>Strange Intron Ends (<B>strangeSplice</B>) - An intron with ends that are not \nGT/AG, GC/AG, or AT/AC. These are usually artifacts of some sort due to \nsequencing error or polymorphism.\n</UL>\n\n<H2>Credits</H2>\n<P>This track is based on an analysis by the <TT>txgAnalyse</TT> program of splicing graphs\nproduced by the <TT>txGraph</TT> program. Both of these programs were written by Jim\nKent at UCSC.</P>\n"
       },
       "description": "Alternative Splicing, Alternative Promoter and Similar Events in UCSC Genes",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -19336,7 +19336,7 @@
         "html": ""
       },
       "description": "lincRNAs from adipose",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -19382,7 +19382,7 @@
         "html": ""
       },
       "description": "lincRNAs from adrenal",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -19428,7 +19428,7 @@
         "html": ""
       },
       "description": "lincRNAs from brain",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -19474,7 +19474,7 @@
         "html": ""
       },
       "description": "lincRNAs from brain_r",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -19520,7 +19520,7 @@
         "html": ""
       },
       "description": "lincRNAs from breast",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -19566,7 +19566,7 @@
         "html": ""
       },
       "description": "lincRNAs from colon",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -19612,7 +19612,7 @@
         "html": ""
       },
       "description": "lincRNAs from foreskin_r",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -19658,7 +19658,7 @@
         "html": ""
       },
       "description": "lincRNAs from heart",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -19704,7 +19704,7 @@
         "html": ""
       },
       "description": "lincRNAs from kidney",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -19750,7 +19750,7 @@
         "html": ""
       },
       "description": "lincRNAs from liver",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -19796,7 +19796,7 @@
         "html": ""
       },
       "description": "lincRNAs from lung",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -19842,7 +19842,7 @@
         "html": ""
       },
       "description": "lincRNAs from lymphnode",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -19888,7 +19888,7 @@
         "html": ""
       },
       "description": "lincRNAs from ovary",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -19934,7 +19934,7 @@
         "html": ""
       },
       "description": "lincRNAs from placenta_r",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -19980,7 +19980,7 @@
         "html": ""
       },
       "description": "lincRNAs from prostate",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -20026,7 +20026,7 @@
         "html": ""
       },
       "description": "lincRNAs from skeletalmuscle",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -20072,7 +20072,7 @@
         "html": ""
       },
       "description": "lincRNAs from testes",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -20118,7 +20118,7 @@
         "html": ""
       },
       "description": "lincRNAs from testes_r",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -20164,7 +20164,7 @@
         "html": ""
       },
       "description": "lincRNAs from thyroid",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -20210,7 +20210,7 @@
         "html": ""
       },
       "description": "lincRNAs from whitebloodcell",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -20256,7 +20256,7 @@
         "html": ""
       },
       "description": "lincRNAs from hlf_r1",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -20302,7 +20302,7 @@
         "html": ""
       },
       "description": "lincRNAs from hlf_r2",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -20836,7 +20836,7 @@
         "html": "<H2>Description</H2>\n<P>\nThis track displays tRNA genes predicted by using \n<A HREF=\"http://lowelab.ucsc.edu/tRNAscan-SE/\" TARGET=_blank>tRNAscan-SE</A> v.1.23. \n</P>\n<P>\ntRNAscan-SE is an integrated program that uses tRNAscan (Fichant) and an A/B box motif detection \nalgorithm (Pavesi) as pre-filters to obtain an initial list of tRNA candidates. \nThe program then filters these candidates with a covariance model-based \nsearch program <A HREF=\"http://eddylab.org/software.html\" TARGET=_blank>\nCOVE</A> (Eddy) to obtain a highly specific set of primary sequence \nand secondary structure predictions that represent 99-100% of true tRNAs \nwith a false positive rate of fewer than 1 per 15 gigabases.</P>\n<P>\nDetailed tRNA annotations for eukaryotes, bacteria, and archaea are available at\n<A HREF=\"http://gtrnadb.ucsc.edu\" TARGET=_blank>Genomic tRNA Database (GtRNAdb)</A>. \n</P>\n<P>\nWhat does the tRNAscan-SE score mean?  Anything with a score above 20 bits is likely to be\n<I>derived</I> from a tRNA, although this does not indicate whether the tRNA gene still encodes a \nfunctional tRNA molecule (i.e. tRNA-derived SINES probably do not function in the ribosome in translation).\nVertebrate tRNAs with scores of &gt;60.0 (bits) are likely to encode functional tRNA genes, and \nthose with scores below ~45 have sequence or structural features that indicate they probably are\nno longer involved in translation.  tRNAs with scores between 45-60 bits are in the &quot;grey&quot; zone, and may\nor may not have all the required features to be functional.  In these cases, tRNAs should be inspected\ncarefully for loss of specific primary or secondary structure features (usually in alignments with other\ngenes of the same isotype), in order to make a better educated guess.  These rough score range guides \nare not exact, nor are they based on specific biochemical studies of atypical tRNA features,\nso please treat them accordingly.\n</P>\n<P>\nPlease note that tRNA genes marked as &quot;Pseudo&quot; are low scoring predictions that are mostly pseudogenes or \ntRNA-derived elements. These genes do not usually fold into a typical cloverleaf tRNA secondary \nstructure and the provided images of the predicted secondary structures may appear rotated.\n</P>\n\n<H2>Credits</H2>\n<P>\nBoth tRNAscan-SE and GtRNAdb are maintained by the\n<A HREF=\"http://lowelab.ucsc.edu\" TARGET=_blank>Lowe Lab</A> at UCSC.\n</P>\n<P>\nCove-predicted tRNA secondary structures were rendered by NAVIEW (c) 1988 Robert E. Bruccoleri.\n</P>\n\n<H2>References</H2>\n<P>\nWhen making use of these data, please cite the following articles:</P>\n<P>\nChan PP, Lowe TM. \n<A HREF=\"https://academic.oup.com/nar/article/37/suppl_1/D93/1010599/GtRNAdb-a-database-of-transfer-RNA-genes-detected\" \ntarget=\"_blank\">GtRNAdb: a database of transfer RNA genes detected in genomic sequence</a>.\n<em>Nucleic Acids Res</em>. 2009 Jan;37(Database issue):D93-7.\nPMID: <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/18984615\" target=\"_blank\">18984615</a>; PMC: <a\nhref=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2686519/\" target=\"_blank\">PMC2686519</a>\n</p>\n\n<P>\nEddy SR, Durbin R. \n<A HREF=\"https://academic.oup.com/nar/article/22/11/2079/2400118/RNA-sequence-analysis-using-covariance-models\" TARGET=_blank>\nRNA sequence analysis using covariance models</a>.\n<em>Nucleic Acids Res</em>. 1994 Jun 11;22(11):2079-88.\nPMID: <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/8029015\" target=\"_blank\">8029015</a>; PMC: <a\nhref=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC308124/\" target=\"_blank\">PMC308124</a>\n</p>\n\n<P>\nFichant GA, Burks C. \n<A HREF=\"https://www.sciencedirect.com/science/article/pii/002228369190108I\" TARGET=_blank>\nIdentifying potential tRNA genes in genomic DNA sequences</a>.\n<em>J Mol Biol</em>. 1991 Aug 5;220(3):659-71.\nPMID: <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/1870126\" target=\"_blank\">1870126</a>\n</P>\n\n<P>\nLowe TM, Eddy SR. \n<A HREF=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC146525/pdf/250955.pdf\" TARGET=_blank>\ntRNAscan-SE: a program for improved detection of transfer RNA genes in genomic sequence</a>.\n<em>Nucleic Acids Res</em>. 1997 Mar 1;25(5):955-64.\nPMID: <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/9023104\" target=\"_blank\">9023104</a>; PMC: <a\nhref=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC146525/\" target=\"_blank\">PMC146525</a>\n</P>\n\n<P>\nPavesi A, Conterio F, Bolchi A, Dieci G, Ottonello S.\n<A HREF=\"https://academic.oup.com/nar/article/22/7/1247/1206900/Identification-of-new-eukaryotic-tRNA-genes-in\" TARGET=_blank>\nIdentification of new eukaryotic tRNA genes in genomic DNA databases by a multistep weight matrix\nanalysis of transcriptional control regions</a>.\n<em>Nucleic Acids Res</em>. 1994 Apr 11;22(7):1247-56.\nPMID: <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/8165140\" target=\"_blank\">8165140</a>; PMC: <a\nhref=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC523650/\" target=\"_blank\">PMC523650</a>\n</p>\n"
       },
       "description": "Transfer RNA Genes Identified with tRNAscan-SE",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -20880,7 +20880,7 @@
         "track": "ucscGenePfam"
       },
       "description": "Pfam Domains in GENCODE Genes",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -21018,7 +21018,7 @@
         "html": "<H2>Description</H2>\n<P>\nThis track displays positions of four different types of RNA in the human \ngenome: \n<UL>\n<LI>microRNAs from the\n<A HREF=\"https://mirbase.org/\" TARGET=\"_blank\">\nmiRBase</A> at the <A HREF=\"https://www.sanger.ac.uk/\" TARGET=\"_blank\">\nWellcome Trust Sanger Institute</A>(WTSI).\n<LI>small nucleolar RNAs (C/D box and H/ACA box snoRNAs) and Cajal body-specific RNAs (scaRNAs) from the \n<A HREF=\"https://www-snorna.biotoul.fr//\" TARGET=\"_blank\">snoRNABase</A> maintained at the \n<A HREF=\"https://www-lbme.biotoul.fr//uk/index.html\" TARGET=\"_blank\">\nLaboratoire de Biologie Mol&eacute;culaire Eucaryote</A>\n</UL></P>\n<P>\nC/D box and H/ACA box snoRNAs are guides for the 2'O-ribose methylation and \nthe pseudouridilation, respectively, of rRNAs and snRNAs, although many of \nthem have no documented target RNA.  The scaRNAs guide modifications of the\nspliceosomal snRNAs transcribed by RNA polymerase II, and often contain both \nC/D and H/ACA domains.</P>\n\n<H2>Display Conventions and Configuration</H2>\n<P>\nThis track follows the general display conventions for \n<A HREF=\"https://genome.ucsc.edu/goldenPath/help/hgTracksHelp.html#GeneDisplay\">gene prediction \ntracks</A>. </P>\n<P>\nThe miRNA precursor  forms (pre-miRNA) are represented by red blocks.</P>\n<P>\nC/D box snoRNAs, H/ACA box snoRNAs and scaRNAs are represented by blue, \ngreen and magenta blocks, respectively. At a zoomed-in resolution, arrows \nsuperimposed on the blocks indicate the sense orientation of the snoRNAs. </P>\n\n<H2>Methods</H2>\n<P>\nPrecursor miRNA genomic locations from\n<a href=\"https://mirbase.org/\" target=\"_blank\">\nmiRBase</a>\nwere calculated using wublastn for sequence alignment with the requirement of\n100% identity. \nThe extents of the precursor sequences were not generally known and were\npredicted based on base-paired hairpin structure.  miRBase is\ndescribed in Griffiths-Jones, S. (2004) and Weber, M.J. (2005) in the \nReferences section below.</P>\n<P>\nThe snoRNAs and scaRNAs from the snoRNABase were aligned against the \nhuman genome using blat. \n</P>\n\n<H2>Credits</H2>\nGenome coordinates for this track were obtained from the miRBase sequences\n<A HREF=\"ftp://mirbase.org/pub/mirbase/CURRENT/\" \nTARGET=\"_BLANK\">FTP site</A> and from \n<A HREF=\"https://www-snorna.biotoul.fr//coordinates.php\" TARGET=\"_BLANK\">\nsnoRNABase coordinates download page.</A>\n<P>\n\n<H2>References</H2>\n<P>\nWhen making use of these data, please cite the folowing articles in addition to\nthe primary sources of the miRNA sequences:</P>\n<P>\nGriffiths-Jones S, Saini HK, van Dongen S, Enright AJ.\n<A HREF=\"https://academic.oup.com/nar/article/36/suppl_1/D154/2507930/miRBase-tools-for-microRNA-\ngenomics\" TARGET=\"_BLANK\">miRBase: tools for microRNA genomics</A>.\n<EM>Nucleic Acids Res.</EM> 2008 Jan 1;36(Database issue):D154-8.</P>\n<P>\nGriffiths-Jones S, Grocock RJ, van Dongen S, Bateman A, Enright AJ.\n<A HREF=\"https://academic.oup.com/nar/article/34/suppl_1/D140/1133563/miRBase-microRNA-sequences-\ntargets-and-gene\" TARGET=\"_BLANK\">miRBase: microRNA sequences, targets and gene nomenclature</A>.\n<EM>Nucleic Acids Res.</EM> 2006 Jan 1;34(Database issue):D140-4.</P>\n<P>\nGriffiths-Jones S.\n<A HREF=\"https://academic.oup.com/nar/article/32/suppl_1/D109/2505171/The-microRNA-Registry\"\nTARGET=\"_blank\">The microRNA Registry</A>.\n<EM>Nucleic Acids Res.</EM> 2004 Jan 1;32(Database issue):D109-11.</P>\n<P>\nWeber MJ.\n<A HREF=\"https://febs.onlinelibrary.wiley.com/doi/abs/10.1111/j.1432-1033.2004.04389.x\"\nTARGET=\"_blank\">New human and mouse microRNA genes found by homology search</A>.\n<P>\nYou may also want to cite The Wellcome Trust Sanger Institute \n<A HREF=\"https://mirbase.org/\"\nTARGET=\"_blank\">miRBase</A> and The Laboratoire de Biologie Moleculaire \nEucaryote <A HREF=\"https://www-snorna.biotoul.fr//\" TARGET=\"_blank\">snoRNABase</A>.</P>\n<P>\nThe following publication provides guidelines on miRNA annotation:\nAmbros V. <em>et al</em>., \n<A HREF=\"https://rnajournal.cshlp.org/content/9/3/277.abstract\" \nTARGET=\"_blank\">A uniform system for microRNA annotation</A>.  \n<em>RNA.</em> 2003;9(3):277-9.</P>\n<P>\n"
       },
       "description": "C/D and H/ACA Box snoRNAs, scaRNAs, and microRNAs from snoRNABase and miRBase",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -21108,7 +21108,7 @@
         "track": "augustusGene"
       },
       "description": "AUGUSTUS ab initio gene predictions v3.1",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -21154,7 +21154,7 @@
         "html": "<H2>Description</H2>\n<P>\nThis track shows human genome high-confidence gene annotations from the\n<A HREF=\"https://www.ncbi.nlm.nih.gov/CCDS/CcdsBrowse.cgi\" TARGET=_blank>Consensus \nCoding Sequence (CCDS) project</A>. This project is a collaborative effort \nto identify a core set of \nhuman protein-coding regions that are consistently annotated and of high \nquality. The long-term goal is to support convergence towards a standard set \nof gene annotations on the human genome.\n</P>\n<P>Collaborators include:\n<UL>\n<LI><A HREF=\"https://www.ebi.ac.uk/\" TARGET=_blank>European Bioinformatics \nInstitute</A> (EBI)\n<LI><A HREF=\"https://www.ncbi.nlm.nih.gov\" TARGET=_blank>National Center for \nBiotechnology Information</A> (NCBI)\n<LI><A HREF=\"http://www.cbse.ucsc.edu/\" TARGET=_blank>University of \nCalifornia, Santa Cruz</A> (UCSC)\n<LI><A HREF=\"https://www.sanger.ac.uk/\" TARGET=_blank>Wellcome Trust Sanger \nInstitute</A> (WTSI)\n</UL>\n\n<p>\nFor more information on the different gene tracks, see our <a target=_blank \nhref=\"/FAQ/FAQgenes.html\">Genes FAQ</a>.</p>\n\n<H2>Methods</H2>\n<P>\nCDS annotations of the human genome were obtained from two sources:\n<A HREF=\"https://www.ncbi.nlm.nih.gov/refseq/\" TARGET=_blank>NCBI \nRefSeq</A> and a union of the gene annotations from \n<A HREF=\"http://www.ensembl.org/index.html\" TARGET=_blank>Ensembl</A> and \n<A HREF=\"http://vega.archive.ensembl.org/index.html\" TARGET=_blank>Vega</A>, collectively known \nas <EM>Hinxton</EM>.</P>\n<P>\nGenes with identical CDS genomic coordinates in both sets become CCDS \ncandidates. The genes undergo a quality evaluation, which must be approved by \nall collaborators. The following criteria are currently used to assess each\ngene: \n<UL>\n<LI> an initiating ATG (Exception: a non-ATG translation start codon is \nannotated if it has sufficient experimental support), a valid stop codon, and \nno in-frame stop codons (Exception: selenoproteins, which contain a TGA codon \nthat is known to be translated to a selenocysteine instead of functioning as \na stop codon) \n<LI> ability to be translated from the genome reference sequence without frameshifts\n<LI> recognizable splicing sites\n<LI> no intersection with putative pseudogene predictions\n<LI> supporting transcripts and protein homology\n<LI> conservation evidence with other species\n</UL></P>\n<P>\nA unique CCDS ID is assigned to the CCDS, which links together all gene \nannotations with the same CDS.  CCDS gene annotations are under continuous\nreview, with periodic updates to this track.\n</P>\n\n<H2>Credits</H2>\n<P>\nThis track was produced at UCSC from data downloaded from the\n<A HREF=\"https://www.ncbi.nlm.nih.gov/CCDS/CcdsBrowse.cgi\" TARGET=_blank>CCDS project</A> \nweb site.\n</P>\n\n<H2>References</H2>\n<p>\nHubbard T, Barker D, Birney E, Cameron G, Chen Y, Clark L, Cox T, Cuff J, Curwen V, Down T <em>et\nal</em>.\n<a href=\"https://academic.oup.com/nar/article/30/1/38/1332872/The-Ensembl-genome-database-project\"\ntarget=\"_blank\">The Ensembl genome database project</a>.\n<em>Nucleic Acids Res</em>. 2002 Jan 1;30(1):38-41.\nPMID: <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/11752248\" target=\"_blank\">11752248</a>; PMC: <a\nhref=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC99161/\" target=\"_blank\">PMC99161</a>\n</p>\n<p>\nPruitt KD, Harrow J, Harte RA, Wallin C, Diekhans M, Maglott DR, Searle S, Farrell CM, Loveland JE,\nRuef BJ <em>et al</em>.\n<a href=\"https://genome.cshlp.org/content/19/7/1316.long\" target=\"_blank\">\nThe consensus coding sequence (CCDS) project: Identifying a common protein-coding gene set for the\nhuman and mouse genomes</a>.\n<em>Genome Res</em>. 2009 Jul;19(7):1316-23.\nPMID: <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/19498102\" target=\"_blank\">19498102</a>; PMC: <a\nhref=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2704439/\" target=\"_blank\">PMC2704439</a>\n</p>\n<p>\nPruitt KD, Tatusova T, Maglott DR.\n<a href=\"https://academic.oup.com/nar/article/33/suppl_1/D501/2505241/NCBI-Reference-Sequence-\nRefSeq-a-curated-non\" target=\"_blank\">\nNCBI Reference Sequence (RefSeq): a curated non-redundant sequence database of genomes, transcripts\nand proteins</a>.\n<em>Nucleic Acids Res</em>. 2005 Jan 1;33(Database issue):D501-4.\nPMID: <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/15608248\" target=\"_blank\">15608248</a>; PMC: <a\nhref=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC539979/\" target=\"_blank\">PMC539979</a>\n</p>\n"
       },
       "description": "Consensus CDS",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -21199,7 +21199,7 @@
         "track": "geneid"
       },
       "description": "Geneid Gene Predictions",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -21244,7 +21244,7 @@
         "track": "genscan"
       },
       "description": "Genscan Gene Predictions",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -21292,7 +21292,7 @@
         "html": "<h2>Description</h2>\n<p>\nThe Old UCSC Genes track shows genes from the previous version of\nthe UCSC Genes build, which was built with GENCODE v45 models.\nSee the <a href=\"http://genome.ucsc.edu/cgi-bin/hgTrackUi?c=chrX&g=knownGene\">description page</a>\nfor more information on how the new GENCODE v46 track was built.\n</p>\n<p>\nThe new release has 278,220 total transcripts, compared with 277,801 in the previous version. The\ntotal number of canonical genes has decreased from 70,711 to 70,611.\n"
       },
       "description": "Previous Version of UCSC Genes",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -21340,7 +21340,7 @@
         "track": "lincRNAsTranscripts"
       },
       "description": "lincRNA and TUCP transcripts",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -21387,7 +21387,7 @@
         "html": ""
       },
       "description": "NCBI RefSeq genes, curated and predicted (NM_*, XM_*, NR_*, XR_*, NP_*, YP_*)",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -21434,7 +21434,7 @@
         "html": ""
       },
       "description": "NCBI RefSeq genes, curated subset (NM_*, NR_*, NP_* or YP_*)",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -21482,7 +21482,7 @@
         "html": ""
       },
       "description": "NCBI RefSeq HGMD subset: transcripts with clinical variants in HGMD",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -21529,7 +21529,7 @@
         "html": ""
       },
       "description": "NCBI RefSeq Historical Transcript Versions",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -21576,7 +21576,7 @@
         "html": ""
       },
       "description": "NCBI RefSeq genes, predicted subset (XM_* or XR_*)",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -21624,7 +21624,7 @@
         "html": ""
       },
       "description": "NCBI RefSeq Select and MANE subset: A single representative transcript",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -21672,7 +21672,7 @@
         "html": "<h2>Description</h2>\n\n<p>\nThe RefSeq Genes track shows known human protein-coding and\nnon-protein-coding genes taken from the NCBI RNA reference sequences\ncollection (RefSeq). The data underlying this track are updated weekly.</p>\n\n<p>\nPlease visit the <a href=\"https://www.ncbi.nlm.nih.gov/projects/RefSeq/update.cgi\"\ntarget=\"_blank\">Feedback for Gene and Reference Sequences (RefSeq)</a> page to\nmake suggestions, submit additions and corrections, or ask for help concerning\nRefSeq records.\n</p>\n\n<p>\nFor more information on the different gene tracks, see our <a target=_blank \nhref=\"/FAQ/FAQgenes.html\">Genes FAQ</a>.</p>\n\n<h2>Display Conventions and Configuration</h2>\n\n<p>\nThis track follows the display conventions for\n<a href=\"https://genome.ucsc.edu/goldenPath/help/hgTracksHelp.html#GeneDisplay\" target=\"_blank\">\ngene prediction tracks</a>.\nThe color shading indicates the level of review the RefSeq record has\nundergone: predicted (light), provisional (medium), reviewed (dark).\n</p>\n\n<p>\nThe item labels and display colors of features within this track can be\nconfigured through the controls at the top of the track description page.\n<ul>\n<li><b>Label:</b> By default, items are labeled by gene name. Click the\nappropriate Label option to display the accession name instead of the gene\nname, show both the gene and accession names, or turn off the label\ncompletely.</li>\n<li><b>Codon coloring:</b> This track contains an optional codon coloring\nfeature that allows users to quickly validate and compare gene predictions.\nTo display codon colors, select the <em>genomic codons</em> option from the\n<em>Color track by codons</em> pull-down menu. For more information about this\nfeature, go to the\n<a href=\"https://genome.ucsc.edu/goldenPath/help/hgCodonColoring.html\" TARGET=\"_blank\">\nColoring Gene Predictions and Annotations by Codon</a> page.</li>\n<li><b>Hide non-coding genes:</b> By default, both the protein-coding and\nnon-protein-coding genes are displayed.  If you wish to see only the coding\ngenes, click this box.</li>\n</ul>\n</p>\n\n<h2>Methods</h2>\n\n<p>\nRefSeq RNAs were aligned against the human genome using BLAT.  Those\nwith an alignment of less than 15% were discarded. When a single RNA\naligned in multiple places, the alignment having the highest base identity\nwas identified.  Only alignments having a base identity level within 0.1% of\nthe best and at least 96% base identity with the genomic sequence were kept.\n</p>\n\n<h2>Credits</h2>\n\n<p>\nThis track was produced at UCSC from RNA sequence data generated by scientists\nworldwide and curated by the NCBI\n<a href=\"https://www.ncbi.nlm.nih.gov/refseq/\" target=\"_blank\">RefSeq project</a>.\n</p>\n\n<h2>References</h2>\n\n<p>\nKent WJ.\n<a href=\"https://genome.cshlp.org/content/12/4/656.full\" target=\"_blank\">\nBLAT - the BLAST-like alignment tool</a>.\n<em>Genome Res.</em> 2002 Apr;12(4):656-64.\nPMID: <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/11932250\" target=\"_blank\">11932250</a>; PMC: <a\nhref=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC187518/\" target=\"_blank\">PMC187518</a>\n</p>\n\n<p>\nPruitt KD, Brown GR, Hiatt SM, Thibaud-Nissen F, Astashyn A, Ermolaeva O, Farrell CM, Hart J,\nLandrum MJ, McGarvey KM <em>et al</em>.\n<a href=\"https://academic.oup.com/nar/article/42/D1/D756/1051112/RefSeq-an-update-on-mammalian-reference-sequences\" target=\"_blank\">\nRefSeq: an update on mammalian reference sequences</a>.\n<em>Nucleic Acids Res</em>. 2014 Jan;42(Database issue):D756-63.\nPMID: <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/24259432\" target=\"_blank\">24259432</a>; PMC: <a\nhref=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3965018/\" target=\"_blank\">PMC3965018</a>\n</p>\n\n<p>\nPruitt KD, Tatusova T, Maglott DR.\n<a href=\"https://academic.oup.com/nar/article/33/suppl_1/D501/2505241/NCBI-Reference-Sequence-RefSeq-a-curated-non\" target=\"_blank\">\nNCBI Reference Sequence (RefSeq): a curated non-redundant sequence database of genomes, transcripts and proteins</a>.\n<em>Nucleic Acids Res.</em> 2005 Jan 1;33(Database issue):D501-4.\nPMID: <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/15608248\" target=\"_blank\">15608248</a>; PMC: <a\nhref=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC539979/\" target=\"_blank\">PMC539979</a>\n</p>\n"
       },
       "description": "UCSC annotations of RefSeq RNAs (NM_* and NR_*)",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -21717,7 +21717,7 @@
         "track": "sgpGene"
       },
       "description": "SGP Gene Predictions Using Mouse/Human Homology",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -21763,7 +21763,7 @@
         "urlLabel": "SIB link:"
       },
       "description": "Swiss Institute of Bioinformatics Gene Predictions from mRNA and ESTs",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -21807,7 +21807,7 @@
         "html": "<H2>Description</H2>\n<P>\nThis track shows known protein-coding and non-protein-coding genes \nfor organisms other than human, taken from the NCBI RNA reference \nsequences collection (RefSeq). The data underlying this track are \nupdated weekly.</P>\n\n<H2>Display Conventions and Configuration</H2>\n<P>\nThis track follows the display conventions for \n<A HREF=\"https://genome.ucsc.edu/goldenPath/help/hgTracksHelp.html#GeneDisplay\" TARGET=_blank>gene prediction \ntracks</A>.\nThe color shading indicates the level of review the RefSeq record has \nundergone: predicted (light), provisional (medium), reviewed (dark).</P>\n<P>\nThe item labels and display colors of features within this track can be\nconfigured through the controls at the top of the track description page. \n<UL>\n<LI><B>Label:</B> By default, items are labeled by gene name. Click the \nappropriate Label option to display the accession name instead of the gene\nname, show both the gene and accession names, or turn off the label \ncompletely.\n<LI><B>Codon coloring:</B> This track contains an optional codon coloring \nfeature that allows users to quickly validate and compare gene predictions.\nTo display codon colors, select the <em>genomic codons</em> option from the\n<em>Color track by codons</em> pull-down menu. For more information about\nthis feature, go to the\n<A HREF=\"https://genome.ucsc.edu/goldenPath/help/hgCodonColoring.html\" TARGET=_blank>\nColoring Gene Predictions and Annotations by Codon</A> page.\n<LI><B>Hide non-coding genes:</B> By default, both the protein-coding and\nnon-protein-coding genes are displayed.  If you wish to see only the coding\ngenes, click this box.\n</UL></P>\n\n<H2>Methods</H2>\n<P>\nThe RNAs were aligned against the human genome using blat; those\nwith an alignment of less than 15% were discarded. When a single RNA aligned \nin multiple places, the alignment having the highest base identity was \nidentified.  Only alignments having a base identity level within 0.5% of \nthe best and at least 25% base identity with the genomic sequence were kept.\n</P>\n\n<H2>Credits</H2>\n<P>\nThis track was produced at UCSC from RNA sequence data\ngenerated by scientists worldwide and curated by the \nNCBI <A HREF=\"https://www.ncbi.nlm.nih.gov/refseq/\" \nTARGET=_blank>RefSeq project</A>.  </P>\n\n<H2>References</H2>\n<p>\nKent WJ.\n<a href=\"https://genome.cshlp.org/content/12/4/656.full\" target=\"_blank\">\nBLAT--the BLAST-like alignment tool</a>.\n<em>Genome Res</em>. 2002 Apr;12(4):656-64.\nPMID: <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/11932250\" target=\"_blank\">11932250</a>; PMC: <a\nhref=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC187518/\" target=\"_blank\">PMC187518</a>\n</p>\n\n<p>\nPruitt KD, Brown GR, Hiatt SM, Thibaud-Nissen F, Astashyn A, Ermolaeva O, Farrell CM, Hart J,\nLandrum MJ, McGarvey KM <em>et al</em>.\n<a href=\"https://academic.oup.com/nar/article/42/D1/D756/1051112/RefSeq-an-update-on-mammalian-reference-sequences\" target=\"_blank\">\nRefSeq: an update on mammalian reference sequences</a>.\n<em>Nucleic Acids Res</em>. 2014 Jan;42(Database issue):D756-63.\nPMID: <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/24259432\" target=\"_blank\">24259432</a>; PMC: <a\nhref=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3965018/\" target=\"_blank\">PMC3965018</a>\n</p>\n\n<p>\nPruitt KD, Tatusova T, Maglott DR.\n<a href=\"https://academic.oup.com/nar/article/33/suppl_1/D501/2505241/NCBI-Reference-Sequence-RefSeq-a-curated-non\" target=\"_blank\">\nNCBI Reference Sequence (RefSeq): a curated non-redundant sequence database of genomes, transcripts and proteins</a>.\n<em>Nucleic Acids Res.</em> 2005 Jan 1;33(Database issue):D501-4.\nPMID: <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/15608248\" target=\"_blank\">15608248</a>; PMC: <a\nhref=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC539979/\" target=\"_blank\">PMC539979</a>\n</p>\n"
       },
       "description": "Non-Human RefSeq Genes",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     }
   ],
   "aggregateTextSearchAdapters": [

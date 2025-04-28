@@ -558,7 +558,7 @@
         "html": "<h2>Description</h2>\n<p>\nThe NCBI Gene track for the 13 Jan 2020\n  <em>SARS-CoV-2 virus</em>/GCF_009858895.2 genome assembly is\nconstructed from the NCBI nuccore entry for <b>NC_045512.2 </b>\n<a href=\"https://www.ncbi.nlm.nih.gov/nuccore/NC_045512.2\"\ntarget=\"_blank\">https://www.ncbi.nlm.nih.gov/nuccore/NC_045512.2\n</a>\n</p>\n\n<h2>Data Access</h2>\n<p>\nThe raw data can be explored interactively with the \n<a href=\"hgTables\">Table Browser</a>, or the \n<a href=\"hgIntegrator\">Data Integrator</a>. \nFor automated analysis, the genome annotation is stored in \na bigBed file that can be downloaded from \n<a href=\"http://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/\">the download server</a>. \n\nAnnotations can\nbe converted to ASCII text by our tool bigBedToBed which can be compiled from \nthe source code or downloaded as a precompiled binary for your system. \nInstructions for downloading source code and binaries can be found on our\n<a href=\"http://hgdownload.soe.ucsc.edu/downloads.html#utilities_downloads\">utilities page</a>.\nThe tool can also be used to obtain features within a given range, \nfor example:\n</p>\n<code>bigBedToBed http://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/ncbiGene.bb -chrom=NC_045512v2 -start=0 -end=29902 stdout</code>\n\n<p>\nPlease refer to our \n<a href=\"https://groups.google.com/a/soe.ucsc.edu/forum/#!forum/genome\">mailing list archives</a>\n for questions, or our \n<a href=\"https://genome.ucsc.edu/FAQ/FAQdownloads.html#download36\">Data Access FAQ</a>\nfor more information.</p>\n\n<h2>Credits</h2>\n<p>\nThis track was created by Max Haeussler and Brian Raney at UCSC, with help from Daniel Schmelter\nand many others. Thanks to NCBI and the US National Institutes of Health\nfor making all data available for download.</p>\n"
       },
       "description": "NCBI Genes from NC_045512.2",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "ncbiProducts",
@@ -603,7 +603,7 @@
         "html": "<h2>Description</h2>\n<p>\nThe NCBI Mature Proteins track for the 13 Jan 2020\n  <em>SARS-CoV-2 virus</em>/GCF_009858895.2 genome assembly is\nconstructed from the NCBI nuccore entry for <b>NC_045512.2 </b>\n<a href=\"https://www.ncbi.nlm.nih.gov/nuccore/NC_045512.2\"\ntarget=\"_blank\">https://www.ncbi.nlm.nih.gov/nuccore/NC_045512.2\n</a>\n</p>\n<p>It shows the mature peptides, after cleavage, as annotated on the Genbank record.</p>\n\n<h2>Data Access</h2>\n<p>\nThe raw data can be explored interactively with the \n<a href=\"hgTables\">Table Browser</a>, or the \n<a href=\"hgIntegrator\">Data Integrator</a>. \nFor automated analysis, the genome annotation is stored in \na bigBed file that can be downloaded from \n<a href=\"http://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/\">the download server</a>. \n\nAnnotations can\nbe converted to ASCII text by our tool bigBedToBed which can be compiled from \nthe source code or downloaded as a precompiled binary for your system. \nInstructions for downloading source code and binaries can be found on our\n<a href=\"http://hgdownload.soe.ucsc.edu/downloads.html#utilities_downloads\">utilities page</a>.\nThe tool can also be used to obtain features within a given range, \nfor example:\n</p>\n<code>bigBedToBed http://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/ncbiGene.bb -chrom=NC_045512v2 -start=0 -end=29902 stdout</code>\n\n<p>\nPlease refer to our \n<a href=\"https://groups.google.com/a/soe.ucsc.edu/forum/#!forum/genome\">mailing list archives</a>\n for questions, or our \n<a href=\"https://genome.ucsc.edu/FAQ/FAQdownloads.html#download36\">Data Access FAQ</a>\nfor more information.</p>\n\n<h2>Credits</h2>\n<p>\nThis track was created by Max Haeussler and Brian Raney at UCSC, with help from Daniel Schmelter\nand many others. Thanks to NCBI and the US National Institutes of Health\nfor making all data available for download.</p>\n"
       },
       "description": "NCBI Proteins: annotated mature peptide products",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "Negative_Selection",
@@ -678,7 +678,7 @@
         "track": "ORFs"
       },
       "description": "Weizman ORF predictions",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "IgM_Z-score-_COVID-19_patients_P1",
@@ -786,7 +786,7 @@
         "html": ""
       },
       "description": "PhyloCSF Genes - curated conserved genes",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "unipCov2FullSeq",
@@ -950,7 +950,7 @@
         "html": ""
       },
       "description": "Transcription Regulatory Sequences (TRS) of Canonical Subgenomic Transcripts",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "varskip1a",
@@ -1283,7 +1283,7 @@
         "html": ""
       },
       "description": "Canonical Subgenomic Transcripts (gRNA and mRNA)",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "M2_library",
@@ -1508,7 +1508,7 @@
         "html": ""
       },
       "description": "Genes rejected from PhyloCSF genes list",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "Positive_Selection",
@@ -1960,7 +1960,7 @@
         "html": ""
       },
       "description": "Subgenomic Trans.: All recombined transcripts from Kim et al. 2020",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "COV2-2094Total",
@@ -2039,7 +2039,7 @@
         "html": ""
       },
       "description": "Kim et al. MGISEQ Noncanonical 5' Breakpoints",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "IgM_Z-score-_COVID-19_patients_P11",
@@ -2268,7 +2268,7 @@
         "html": "<h2>Description</h2>\n<p>\nThis track shows the locations of RNA-modifications as determined by Nanopore sequencing \n<a href=\"https://www.cell.com/pb-assets/products/coronavirus/CELL_CELL-D-20-00765.pdf\" target=\"_blank\">\n    Kim et al, Cell 2020</a>.\n</p>\n\n<h2>Display Conventions and Configuration</h2>\n<p>\nVery small tickmarks indicate the position of the RNA modifications on the\ngenome. One has to zoom in to basepair level detail to see their exact extent. A\nsmall barchart over the tick indicates the fraction of transcripts that are modified\nrelative to the un-modified transcripts. E.g. frac=0.3 means that 30% of the transcripts\nwere modified. There is one barchart per transcript.\n</p>\n\n<h2>Data Access</h2>\n<p>\nThe raw data can be explored interactively with the\n<a href=\"hgTables\">Table Browser</a>, or combined with other datasets in the\n<a href=\"hgIntegrator\">Data Integrator</a> tool.\nFor automated analysis, the genome annotation is stored in\na bigBed file that can be downloaded from\n<a href=\"http://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/bbi/kim2020\">the download server</a>.</p>\n\n<p>\nAnnotations can\nbe converted from binary to ASCII text by our command-line tool bigBedToBed.\nInstructions for downloading this command can be found on our\n<a href=\"http://hgdownload.soe.ucsc.edu/downloads.html#utilities_downloads\">utilities page</a>.\nThe tool can also be used to obtain features within a given range without downloading the file,\nfor example:</p>\n<code>bigBedToBed http://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/bbi/kim2020.bb -chrom=NC_045512v2 -start=0 -end=29902 stdout</code>\n\n<p>\nPlease refer to our\n<a href=\"https://groups.google.com/a/soe.ucsc.edu/forum/#!forum/genome\">mailing list archives</a>\nfor questions, or our\n<a href=\"https://genome.ucsc.edu/FAQ/FAQdownloads.html#download36\">Data Access FAQ</a>\nfor more information.</p>\n\n\n\n<h2>Credits</h2>\n<p>\nThanks to Hyeshik Chang for preparing and sharing custom tracks.\n<p>\n\n<h2>References</h2>\n\n<p>\n<a href=\"https://www.cell.com/pb-assets/products/coronavirus/CELL_CELL-D-20-00765.pdf\" target=\"_blank\">\nThe architecture of SARS-CoV-2 transcriptome</a>.\n<em>Cell 2020</em>. pre-proof\n<!-- PMID: <a href=\"\" target=\"_blank\">pending</a> -->\n</p>\n\n"
       },
       "description": "Subgenomic RNA Modifications from Kim et al. 2020: gRNA S 3a E M 6 7a 7b 8 N",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "variantNucMutsV2_B_1_351",
@@ -2528,7 +2528,7 @@
         "html": ""
       },
       "description": "Subgenomic Trans.: Recombined transcripts from Kim et al. 2020 with a TRS",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "COV2-2096Total",
@@ -2607,7 +2607,7 @@
         "html": ""
       },
       "description": "Nanopore Leader-to-body 3' Breakpoints",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "IgM_Z-score-_COVID-19_patients_P15",
@@ -3046,7 +3046,7 @@
         "html": ""
       },
       "description": "Recombined Subgenomic Trans.: Transcripts from Kim et al. 2020 without a TRS",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "COV2-2165Total",
@@ -3125,7 +3125,7 @@
         "html": ""
       },
       "description": "Nanopore Noncanonical 3' Breakpoints",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "IgM_Z-score-_COVID-19_patients_P32",
@@ -3653,7 +3653,7 @@
         "html": ""
       },
       "description": "Nanopore Noncanonical 5' Breakpoints",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "IgM_Z-score-_COVID-19_patients_P33",
@@ -5471,7 +5471,7 @@
         "html": "<H2>Description</H2>\n<P>\nThis track shows data from Gordon et al, 2020 <a target=_blank \nhref=\"https://www.biorxiv.org/content/10.1101/2020.03.22.002386v1.full.pdf+html\">\"A\nSARS-CoV-2-Human Protein-Protein Interaction Map Reveals Drug Targets and\nPotential Drug-Repurposing\"</a>.\n\n<p>\nThe authors cloned, tagged, and expressed 26\nof the mature proteins expressed by SARS-CoV-2 in 293 human cells and used\naffinity purification mass spectrometry (AP-MS) to identify human proteins that\ninteract with viral proteins. <br><br>332 high confidence interactions are reported\nbetwen human and viral proteins. \n\n<h2>Display Conventions and Configuration</h2>\n<p> \nOn the viral genome the coordinates of the viral protein are marked and labeled with the \nname of the human interactor.</p> \n<p>\nThe bed file also includes the <a target=_blank \nhref=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4378866/\">MIST</a> score * 1000.  \nA MIST score of 1 is a highly reproducible and specific interaction, scores \nare multipled by 1000 for display purposes.</p>\n<p>\nThe set of interactions displayed here includes <b>only</b> the 332 \"high confidence\" \ninteractions that met criteria for significance (using a MIST cutoff &gt;= 0.7 as well \nas \"a SAINTexpress BFDR &lt;= 0.05 and an average spectral count &gt;= 2.\").</p> \n\n<h2>Methods</h2>\n<p>\nThe tab delimited version of supplementary table 2 was downloaded from <a \ntarget=_blank href=\"https://www.biorxiv.org/content/biorxiv/early/2020/03/22/2020.03.22.002386/DC5/embed/media-5.xlsx?download=true\">\nbiorxiv</a>. This table lists the viral protein that served as the \"bait\" and \nUniprot identifiers of human proteins that were captured as \"prey\".</p>\n<p>\nA version of the \"UniProt Mature Protein Products (Polypeptide Chains)\" track was then manually \nmodified to rename ORFs to match paper nomenclature as indicated by Figure 1.</p>\n<p>\nThe table was then joined and MIST scores multipled by 1000 to produce a track reporting \ninteractions.</p>\n\n<h2>References</h2>\nGordon et al, <a href=\"https://www.biorxiv.org/content/10.1101/2020.03.22.002386v1.full.pdf+html\">\n\"A SARS-CoV-2-Human Protein-Protein Interaction Map Reveals Drug Targets and Potential Drug-Repurposing\"</a>, \nBiorxiv 2020</p>\n"
       },
       "description": "Human Interacting Proteins from Gordon et al. (* = druggable)",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "igm_Ctrl_LC177",
@@ -5809,7 +5809,7 @@
         "html": ""
       },
       "description": "Vero6 CHX 5hr 1",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "igm_Ctrl_LC169",
@@ -6108,7 +6108,7 @@
         "html": ""
       },
       "description": "Vero6 CHX 5hr 2",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "igm_Ctrl_LC168",
@@ -6368,7 +6368,7 @@
         "html": ""
       },
       "description": "Vero6 Harr 5hr 1",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "igm_Ctrl_LC182",
@@ -6628,7 +6628,7 @@
         "html": ""
       },
       "description": "Vero6 Harr 5hr 2",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "igm_COVID_528",
@@ -6888,7 +6888,7 @@
         "html": ""
       },
       "description": "Vero6 LTM 5hr 1",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "igm_Ctrl_NC65",
@@ -7148,7 +7148,7 @@
         "html": ""
       },
       "description": "Vero6 LTM 5hr 2",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "igg_Ctrl_NC98",
@@ -7408,7 +7408,7 @@
         "html": ""
       },
       "description": "Vero6 mRNA 5hr 1",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "igg_Ctrl_LC180",
@@ -7668,7 +7668,7 @@
         "html": ""
       },
       "description": "Vero6 mRNA 5hr 2",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "igg_COVID_607",
@@ -8649,7 +8649,7 @@
         "html": ""
       },
       "description": "Calu3 CHX 7hr 1",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "igg_COVID_605",
@@ -8837,7 +8837,7 @@
         "html": ""
       },
       "description": "Calu3 CHX 7hr 2",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "igg_COVID_15",
@@ -9025,7 +9025,7 @@
         "html": ""
       },
       "description": "Calu3 Harr 7hr 1",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "igg_COVID_17",
@@ -9213,7 +9213,7 @@
         "html": ""
       },
       "description": "Calu3 Harr 7hr 2",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "igg_COVID_414",
@@ -9401,7 +9401,7 @@
         "html": ""
       },
       "description": "Calu3 LTM 7hr 1",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "igg_COVID_4372",
@@ -9589,7 +9589,7 @@
         "html": ""
       },
       "description": "Calu3 LTM 7hr 2",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "igg_COVID_534",
@@ -9777,7 +9777,7 @@
         "html": ""
       },
       "description": "Calu3 mRNA 7hr 1",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "igg_COVID_16",
@@ -9965,7 +9965,7 @@
         "html": ""
       },
       "description": "Calu3 mRNA 7hr 2",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "igm_COVID_523",
@@ -10603,7 +10603,7 @@
         "html": "<h2>Description</h2>\n\n<p> This track shows alignments of sequences with known protein structures in the \n<a href=\"https://www.rcsb.org/\" target=\"_blank\">Protein Data Bank</a> (PDB).\nThe PDB protein sequence has to match the genome over at least 80% of its length,\nso somewhat similar sequences, e.g. from the SARS 2003 outbreak, are also shown.</p>\n\n<h2>Display Conventions and Configuration</h2>\n\n<p>\nGenomic locations of PDB matches are labeled with the accession number. \nA click on them shows a standard feature detail page with the PDB page integrated into it. \nThe protein structure is shown on the PDB page.</p>\n\n<h2>Methods</h2>\n<p>\nPDB sequences were downloaded from the \n<a href=\"https://www.rcsb.org/pdb/download/download.do\" target=\"_blank\">PDB website</a> and aligned \nwith BLAT. Only alignments with a minimum identity of 80%\nthat span at least 80% of the query sequence were kept.</p>\n\n<h2>References</h2>\n<p>\nBerman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE.\n<a href=\"https://academic.oup.com/nar/article/28/1/235/2384399\" target=\"_blank\">\nThe Protein Data Bank</a>.\n<em>Nucleic Acids Res</em>. 2000 Jan 1;28(1):235-42.\nPMID: <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/10592235\" target=\"_blank\">10592235</a>; PMC: <a\nhref=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC102472/\" target=\"_blank\">PMC102472</a>\n</p>\n"
       },
       "description": "Protein Data Bank (PDB) Sequence Matches",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "H_61Total",
@@ -11979,7 +11979,7 @@
         "html": "<h2>Description</h2>\n\n<p> This track shows potential contact residues for ligands, inferred from\nstructures in the PDB database by Alastair Fyfe, UCSC.\n</p>\n\n<h2>Display Conventions and Configuration</h2>\n\n<p>\nGenomic locations of contact residues are highlighted with thick blocks, \nthat look identical to exons. Contact residues of the same PDB structure\nare connected by thin intron lines.\n</p>\n<p>\nTo display the 3D structure viewer with these contact residues highlighted,\nfollow the outlink at the top of the details page of any feature.\n</p>\n\n<h2>Methods</h2>\n<p>\nPDB SEQRES protein sequences were aligned to the genome with tblastn.\nLigands were determined manually, all amino\nacids closer than 3.5 Angstroms were obtained as described below.\nThe positions of these close amino acids on the genome were determined \nusing the tblastn alignment and are highlighted on the genome with exon blocks. \n</p>\n<p>\nThe find nearby amino acids, inter-atom distances were calculated with the libraries\n<a target=_blank href=\"https://gemmi.readthedocs.io/en/latest/\">GEMMI</a> and \n<a target=_blank href=\"http://www.ysbl.york.ac.uk/~cowtan/clipper/doc/\">Clipper</a> \nat a threshold of 3.5 <span>&#8491;</span>. Distances between atoms \nwhose proximity is due to crystal packing or symmetry are listed but cannot be\ninspected in the viewer. These contacts are flagged by a check in the \"Symm?\"\ncolumn. They include atoms in adjacent unit cells and atoms brought into\nproximity by application of a symmetry transformation to the asymmetric unit\n(ASU), but not atoms related by non-crystallographic symmetry (NCS).<br><br>For\neach amino acid in the contact table the \"Codon\" column gives the codon's\nnucleotide values and position in the \n<a target=_blank href=\"https://www.ncbi.nlm.nih.gov/nuccore/NC_045512\">NC_045512.2</a> reference\nsequence. Amino acids that could not be aligned to the reference, for example\ninsertions or deletions engineered to facilitate protein expression, are\nflagged  by \"-\".</p>\n\n<h2>Data Access</h2>\n<p>\nThe raw data can be explored interactively with the\n<a href=\"hgTables\">Table Browser</a> or combined with other datasets in the\n<a href=\"hgIntegrator\">Data Integrator</a> tool.\nFor automated analysis, the genome annotation is stored in\na bigBed file that can be downloaded from\n<a href=\"http://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/bbi/contacts.bb\">the download server</a>.</p>\n<p>\nAnnotations can\nbe converted from binary to ASCII text by our command-line tool bigBedToBed.\nInstructions for downloading this command can be found on our\n<a href=\"http://hgdownload.soe.ucsc.edu/downloads.html#utilities_downloads\">utilities page</a>.\nThe tool can also be used to obtain features within a given range without downloading the file,\nfor example:</p>\n<code>bigBedToBed http://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/bbi/contacts.bb -chrom=NC_045512v2 -start=0 -end=29902 stdout</code>\n<p>\nPlease refer to our\n<a href=\"https://groups.google.com/a/soe.ucsc.edu/forum/#!forum/genome\">mailing list archives</a>\nfor questions, or our\n<a href=\"https://genome.ucsc.edu/FAQ/FAQdownloads.html#download36\">Data Access FAQ</a>\nfor more information.</p>\n<h2>Credits</h2>\nTrack created by Alastair Fyfe, UCSC, mentored by David Haussler.\n"
       },
       "description": "Potential contact residues in PDB structures of viral proteins",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "H_152Total",
@@ -12056,7 +12056,7 @@
         "html": ""
       },
       "description": "Vero6 CHX 24hr 1",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "COV2-2082Max",
@@ -12540,7 +12540,7 @@
         "html": ""
       },
       "description": "Vero6 CHX 24hr 2",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "igg_COVID_409",
@@ -12728,7 +12728,7 @@
         "html": ""
       },
       "description": "Vero6 Harr 24hr 1",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "escape",
@@ -13029,7 +13029,7 @@
         "html": ""
       },
       "description": "Vero6 Harr 24hr 2",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "igg_COVID_429",
@@ -13217,7 +13217,7 @@
         "html": ""
       },
       "description": "Vero6 LTM 24hr 1",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "igm_COVID_18",
@@ -13405,7 +13405,7 @@
         "html": ""
       },
       "description": "Vero6 LTM 24hr 2",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "igg_COVID_18",
@@ -13593,7 +13593,7 @@
         "html": ""
       },
       "description": "Vero6 mRNA 24hr 1",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "igg_COVID_4021",
@@ -13745,7 +13745,7 @@
         "html": ""
       },
       "description": "Vero6 mRNA 24hr 2",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "igm_COVID_415",
@@ -18588,7 +18588,7 @@
         "html": "<h2>Description</h2>\n<p>\n<a href=\"https://nextstrain.org/ncov\" target=_blank>Nextstrain.org</a> displays\ndata about mutations that occur in the current 2019/2020 outbreak.\nNextstrain has a powerful user interface for viewing the evolutionary tree\nthat it infers from the patterns of mutations in sequences worldwide, but\ndoes not offer a detailed plot of mutations along the genome, so we have processed\ntheir genome annotations into genome browser tracks.\n</p>\n<p>\nUse this track in conjunction with the track\n<em>Nextstrain Mutations</em> (protein-coding mutations use gene names from this track).\n</p>\n\n<h2>Methods</h2>\n<p>Nextstrain downloads SARS-CoV-2 genomes from\n  <a href=\"https://gisaid.org/\" target=_blank>GISAID</a>\n  as they are submitted by labs worldwide.\n  The sequences are processed by an\n  <a href=\"https://github.com/nextstrain/ncov\" target=_blank>automated pipeline</a>\n  and annotations are written to a data file\n  that UCSC downloads and extracts annotations for display.</p>\n\n<h2>Data Access</h2>\n<p>\nYou can download the bigBed file underlying this track (nextstrainGene) from our \n<a href=\"https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/\" \ntarget=_blank>Download Server.</a> The data can be explored interactively with \nthe <a href=\"https://genome.ucsc.edu/cgi-bin/hgTables\">Table Browser</a>\nor the <a href=\"https://genome.ucsc.edu/cgi-bin/hgIntegrator\">Data Integrator</a>. The data can be\naccessed from scripts through our <a href=\"https://api.genome.ucsc.edu\">API</a>.</p>\n\n<h2>Credits</h2>\n<p>Thanks to\n  <a href=\"https://nextstrain.org/ncov\" target=_blank>nextstrain.org</a> for\n  sharing its analysis of genomes collected by\n  <a href=\"https://gisaid.org/\" target=_blank>GISAID</a>,\n  and to researchers worldwide for sharing their SARS-CoV-2 genome sequences.\n</p>\n\n<h2>References</h2>\n<p>\nHadfield J, Megill C, Bell SM, Huddleston J, Potter B, Callender C, Sagulenko P, Bedford T, Neher\nRA.\n<a href=\"https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/bty407\"\n    target=\"_blank\">\n    Nextstrain: real-time tracking of pathogen evolution</a>.\n<em>Bioinformatics</em>. 2018 Dec 1;34(23):4121-4123.\nPMID: <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/29790939\" target=\"_blank\">29790939</a>; PMC: <a\n    href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6247931/\" target=\"_blank\">PMC6247931</a>\n</p>\n"
       },
       "description": "Genes annotated by nextstrain.org/ncov",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "trackId": "nextstrainParsimony",
@@ -19555,7 +19555,7 @@
         "html": "<h2>Description</h2>\n\n<p>\n  This track shows <i>ab initio</i> predictions from the program\n  <a href=\"http://bioinf.uni-greifswald.de/augustus/\" target=\"_blank\">AUGUSTUS</a> (version 3.1).\n  The predictions are based on the genome sequence alone.\n</p>\n\n<p>\nFor more information on the different gene tracks, see our <a target=_blank \nhref=\"/FAQ/FAQgenes.html\">Genes FAQ</a>.</p>\n\n<h2>Methods</h2>\n\n<p>\nStatistical signal models were built for splice sites, branch-point\npatterns, translation start sites, and the poly-A signal.\nFurthermore, models were built for the sequence content of\nprotein-coding and non-coding regions as well as for the length distributions\nof different exon and intron types. Detailed descriptions of most of these different models\ncan be found in Mario Stanke's\n<a href=\"https://ediss.uni-goettingen.de/handle/11858/00-1735-0000-0006-B3F8-4\" target=\"_blank\">dissertation</a>.\nThis track shows the most likely gene structure according to a\nSemi-Markov Conditional Random Field model.\nAlternative splicing transcripts were obtained with\na sampling algorithm (<tt>--alternatives-from-sampling=true --sample=100 --minexonintronprob=0.2\n--minmeanexonintronprob=0.5 --maxtracks=3 --temperature=2</tt>).\n</p>\n\n<p>\nThe different models used by Augustus were trained on a number of different species-specific\ngene sets, which included 1000-2000 training gene structures. The <tt>--species</tt> option allows\none to choose the species used for training the models. Different training species were used\nfor the <tt>--species</tt> option when generating these predictions for different groups of\nassemblies.\n<table class=\"stdTbl\">\n <tr>\n  <td align=center><b>Assembly Group</b></td>\n  <td align=center><b>Training Species</b></td>\n </tr>\n <tr>\n  <td align=center>Fish</td>\n  <td align=center><tt>zebrafish</tt>\n </tr>\n <tr>\n  <td align=center>Birds</td>\n  <td align=center><tt>chicken</tt>\n </tr>\n <tr>\n  <td align=center>Human and all other vertebrates</td>\n  <td align=center><tt>human</tt>\n </tr>\n <tr>\n  <td align=center>Nematodes</td>\n  <td align=center><tt>caenorhabditis</tt></td>\n </tr>\n <tr>\n  <td align=center>Drosophila</td>\n  <td align=center><tt>fly</tt></td>\n </tr>\n <tr>\n  <td align=center><em>A. mellifera</em></td>\n  <td align=center><tt>honeybee1</tt></td>\n </tr>\n <tr>\n  <td align=center><em>A. gambiae</em></td>\n  <td align=center><tt>culex</tt></td>\n </tr>\n <tr>\n  <td align=center><em>S. cerevisiae</em></td>\n  <td align=center><tt>saccharomyces</tt></td>\n </tr>\n</table>\n<p>\nThis table describes which training species was used for a particular group of assemblies.\nWhen available, the closest related training species was used.\n</p>\n\n<h2>Credits</h2>\n\nThanks to the\n<a href=\"https://math-inf.uni-greifswald.de/en/department/about-us/employees/prof-dr-mario-stanke-english/\"\ntarget=\"_blank\">Stanke lab</a>\nfor providing the AUGUSTUS program.  The training for the <tt>chicken</tt> version was\ndone by Stefanie K&ouml;nig and the training for the\n<tt>human</tt> and <tt>zebrafish</tt> versions was done by Mario Stanke.\n\n<h2>References</h2>\n\n<p>\nStanke M, Diekhans M, Baertsch R, Haussler D.\n<a href=\"https://academic.oup.com/bioinformatics/article/24/5/637/202844/Using-native-and-syntenically-mapped-cDNA\"\ntarget=\"_blank\">\nUsing native and syntenically mapped cDNA alignments to improve de novo gene finding</a>.\n<em>Bioinformatics</em>. 2008 Mar 1;24(5):637-44.\nPMID: <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/18218656\" target=\"_blank\">18218656</a>\n</p>\n\n<p>\nStanke M, Waack S.\n<a href=\"https://academic.oup.com/bioinformatics/article/19/suppl_2/ii215/180603/Gene-prediction-with-a-hidden-Markov-model-and-a\"\ntarget=\"_blank\">\nGene prediction with a hidden Markov model and a new intron submodel</a>.\n<em>Bioinformatics</em>. 2003 Oct;19 Suppl 2:ii215-25.\nPMID: <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/14534192\" target=\"_blank\">14534192</a>\n</p>\n"
       },
       "description": "AUGUSTUS ab initio gene predictions v3.1",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     },
     {
       "type": "FeatureTrack",
@@ -19599,7 +19599,7 @@
         "html": "<h2>Description</h2>\n\n<p>\nThis track shows predictions from the\n<a href=\"http://hollywood.mit.edu/GENSCAN.html\" target=\"_blank\">Genscan</a> program\nwritten by <a href=\"https://www.genes.mit.edu/chris\" target=\"_blank\">Chris Burge</a>.\nThe predictions are based on transcriptional, translational and donor/acceptor\nsplicing signals as well as the length and compositional distributions of exons,\nintrons and intergenic regions.\n</p>\n\n<p>\nFor more information on the different gene tracks, see our <a target=_blank \nhref=\"/FAQ/FAQgenes.html\">Genes FAQ</a>.</p>\n\n<h2>Display Conventions and Configuration</h2>\n\n<p>\nThis track follows the display conventions for\n<a href=\"/goldenPath/help/hgTracksHelp.html#GeneDisplay\" target=\"_blank\">gene prediction\ntracks</a>.\n</p>\n\n<p>\nThe track description page offers the following filter and configuration\noptions:\n<ul>\n<li><b>Color track by codons:</b> Select the <em>genomic codons</em> option\nto color and label each codon in a zoomed-in display to facilitate validation\nand comparison of gene predictions. Go to the\n<a HREF=\"/goldenPath/help/hgCodonColoring.html\" target=\"_blank\">\nColoring Gene Predictions and Annotations by Codon</a> page for more\ninformation about this feature.</li>\n</ul>\n</p>\n\n<h2>Methods</h2>\n\n<p>\nFor a description of the Genscan program and the model that underlies it,\nrefer to Burge and Karlin (1997) in the References section below.\nThe splice site models used are described in more detail in Burge (1998)\nbelow.\n</p>\n\n<h2>Credits</h2>\n\nThanks to Chris Burge for providing the Genscan program.\n\n<h2>References</h2>\n\n<p>\nBurge C.\nModeling Dependencies in Pre-mRNA Splicing Signals.\nIn: Salzberg S, Searls D, Kasif S, editors.\n<a href=\"https://www.elsevier.com/books/computational-methods-in-molecular-biology/salzberg/978-0-444-82875-0\"\ntarget=\"_blank\">Computational Methods in Molecular Biology</a>.\nAmsterdam: Elsevier Science; 1998. p. 127-163.\n</p>\n\n<p>\nBurge C, Karlin S.\n<a href=\"https://www.sciencedirect.com/science/article/pii/S0022283697909517\" target=\"_blank\">\nPrediction of complete gene structures in human genomic DNA</a>.\n<em>J. Mol. Biol.</em> 1997 Apr 25;268(1):78-94.\nPMID: <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/9149143\" target=\"_blank\">9149143</a>\n</p>\n"
       },
       "description": "Genscan Gene Predictions",
-      "category": ["genes"]
+      "category": ["Genes and Gene Predictions"]
     }
   ]
 }

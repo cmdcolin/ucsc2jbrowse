@@ -12,8 +12,6 @@ process_assembly() {
   local OUTDIR=$OUT/$ASM
   local DB=$INDIR/$ASM/database
 
-  echo "Create tracks.json for $OUTDIR"
-
   ## make tracks.json file
   node src/tracksDbLike.ts $DB/trackDb.sql $DB/trackDb.txt.gz >$OUTDIR/tracks.json
 
@@ -26,4 +24,4 @@ export -f process_assembly
 export OUT
 
 # Run the process_assembly function in parallel for each input directory
-parallel --will-cite process_assembly ::: "$@"
+parallel --bar --will-cite process_assembly ::: "$@"
