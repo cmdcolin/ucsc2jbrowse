@@ -1,17 +1,6 @@
-import fs from 'fs'
+import { readConfig } from './util.ts'
 
-interface Track {
-  [key: string]: unknown
-}
-interface Config {
-  tracks: Track[]
-  assemblies: Record<string, unknown>[]
-  aggregateTextSearchAdapters: Record<string, unknown>[]
-}
-
-const configs = process.argv
-  .slice(2)
-  .map(s => JSON.parse(fs.readFileSync(s, 'utf8')) as Config)
+const configs = process.argv.slice(2).map(s => readConfig(s))
 
 function updateURL(config: Record<string, unknown>, add: string) {
   if (typeof config === 'object') {
@@ -42,7 +31,10 @@ console.log(
           config.tracks?.map(track => {
             const asm = asms2[idx].name
             updateURL(track, asm)
-            return { ...track, trackId: `${track.trackId}_${asm}` }
+            return {
+              ...track,
+              trackId: `${track.trackId}_${asm}`,
+            }
           }) || [],
       ),
 

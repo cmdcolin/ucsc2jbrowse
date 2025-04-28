@@ -1,5 +1,6 @@
 import fs from 'fs'
 import path from 'path'
+import { readConfig } from './util.ts'
 
 if (process.argv.length < 3) {
   throw new Error(
@@ -7,11 +8,7 @@ if (process.argv.length < 3) {
   )
 }
 
-const config = JSON.parse(fs.readFileSync(process.argv[2], 'utf8')) as {
-  tracks: { trackId: string }[]
-  assemblies: { name: string }[]
-}
-
+const config = readConfig(process.argv[2])
 const arg = path.basename(process.argv[3])
 const base = path.basename(arg, '.sorted.gff.gz')
 

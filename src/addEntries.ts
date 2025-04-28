@@ -1,9 +1,7 @@
+import { JBrowseConfig } from './types.ts'
 import { readJSON } from './util.ts'
 
-const config = readJSON(process.argv[2]) as {
-  tracks: { trackId: string }[]
-  plugins: unknown[]
-}
+const config = readJSON(process.argv[2]) as JBrowseConfig
 
 console.log(
   JSON.stringify(

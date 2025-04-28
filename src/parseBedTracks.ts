@@ -2,6 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import { exec } from 'child_process'
 import { promisify } from 'util'
+import { readJSON } from './util.ts'
 const pexec = promisify(exec)
 
 if (process.argv.length < 5) {
@@ -11,10 +12,7 @@ if (process.argv.length < 5) {
 }
 type Track = Record<string, string>
 
-const tracks = JSON.parse(fs.readFileSync(process.argv[2], 'utf8')) as Record<
-  string,
-  Track
->
+const tracks = readJSON(process.argv[2]) as Record<string, Track>
 
 // const types = ['bed', 'narrowPeak', 'broadPeak', 'pgSnp', 'peptideMapping']
 // many narrow/broad peak tracks

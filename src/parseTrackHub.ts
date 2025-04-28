@@ -3,6 +3,7 @@ import fs from 'fs'
 
 import type { RaStanza, TrackDbFile } from '@gmod/ucsc-hub'
 import { notEmpty } from './notEmpty.ts'
+import { categoryMap } from './const.ts'
 const { SingleFileHub } = pkg
 
 type Adapter = Record<string, unknown>
@@ -152,19 +153,6 @@ export function generateHubTracks({
     })
     .filter(f => notEmpty(f))
 }
-
-const categoryMap = {
-  map: 'Mapping and Sequencing',
-  gen: 'Genes and Gene Predictions',
-  phenDis: 'Phenotypes, Variants, and Literature',
-  rep: 'Repeats',
-  varRep: 'Variation and Repeats',
-  rna: 'mRNA and EST',
-  expression: 'Expression',
-  compGen: 'Comparative Genomics',
-  neanderthal: 'Neandertal Assembly and Analysis',
-  denisova: 'Denisova Assembly and Analysis',
-} as const
 
 function makeTrackConfig({
   track,

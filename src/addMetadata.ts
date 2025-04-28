@@ -1,45 +1,29 @@
-import fs from 'fs'
+import { categoryMap } from './const.ts'
+import { TrackDbEntry } from './types.ts'
+import { readConfig, readJSON, splitOnFirst } from './util.ts'
 
-interface TrackDbEntry {
-  settings: string
-  html: string
-  longLabel: string
-  grp: string
-  shortLabel: string
-}
-const config = JSON.parse(fs.readFileSync(process.argv[2], 'utf8'))
-const tracksDb = JSON.parse(fs.readFileSync(process.argv[3], 'utf8')) as Record<
-  string,
-  TrackDbEntry
->
-
-function splitOnFirst(str: string, sep: string) {
-  const index = str.indexOf(sep)
-  return index < 0
-    ? ([str, ''] as const)
-    : ([str.slice(0, index), str.slice(index + sep.length)] as const)
-}
+const config = readConfig(process.argv[2])
+const tracksDb = readJSON(process.argv[3]) as Record<string, TrackDbEntry>
 
 console.log(
   JSON.stringify(
     {
       ...config,
-      tracks: config.tracks.map((t: Record<string, string>) => {
+      tracks: config.tracks.map(t => {
         const r = tracksDb[t.trackId]
         if (r) {
           const { settings, html, longLabel, shortLabel, grp, ...rest } =
             tracksDb[t.trackId]
-          const settings2 = Object.fromEntries(
-            settings
-              .split('\n')
-              .map(r => splitOnFirst(r, ' '))
-              .filter(([key]) => !!key),
-          )
           return {
             ...t,
             metadata: {
               ...rest,
-              ...settings2,
+              ...Object.fromEntries(
+                settings
+                  .split('\n')
+                  .map(r => splitOnFirst(r, ' '))
+                  .filter(([key]) => !!key),
+              ),
               html: html
                 .replaceAll('\\', ' ')
                 .replaceAll('../../', 'https://genome.ucsc.edu/')
@@ -50,8 +34,17 @@ console.log(
             description: longLabel,
             category: [
               grp,
-              settings2.parent?.replace(' on', '')?.replace(' off', ''),
-            ].filter(f => !!f),
+              Object.fromEntries(
+                settings
+                  .split('\n')
+                  .map(r => splitOnFirst(r, ' '))
+                  .filter(([key]) => !!key),
+              )
+                .parent?.replace(' on', '')
+                ?.replace(' off', ''),
+            ]
+              .filter(f => !!f)
+              .map(r => categoryMap[r as keyof typeof categoryMap] ?? r),
           }
         } else {
           console.error('track not found in trackDb', t.trackId)

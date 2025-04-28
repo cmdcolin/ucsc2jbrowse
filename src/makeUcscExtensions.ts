@@ -2,16 +2,12 @@ import fs from 'node:fs'
 import path from 'node:path'
 
 import { dedupe } from './dedupe.ts'
-import { readJSON } from './util.ts'
+import { readConfig } from './util.ts'
 
-interface Config {
-  tracks: {
-    trackId: string
-  }[]
-}
 const base = 'ucscExtensions'
 const ret = fs.readdirSync(base)
 const target = process.argv[2]
+
 for (const item of ret) {
   const accession = item.replace('.json', '')
   const f = `${target}/${accession}/config.json`
@@ -24,8 +20,8 @@ for (const item of ret) {
     })
   }
 
-  const existingConfig = readJSON(f) as Config
-  const extensionConfig = readJSON(path.join(base, item)) as Config
+  const existingConfig = readConfig(f)
+  const extensionConfig = readConfig(path.join(base, item))
 
   fs.writeFileSync(
     f,

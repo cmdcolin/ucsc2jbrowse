@@ -1,19 +1,18 @@
 import fs from 'fs'
+import { readConfig, readJSON } from './util.ts'
 
-const tracks = JSON.parse(fs.readFileSync(process.argv[2], 'utf8')) as Record<
+const tracks = readJSON(process.argv[2]) as Record<
   string,
   { tableName: string; url?: string; html?: string }
 >
-const config = JSON.parse(fs.readFileSync(process.argv[3], 'utf8')) as {
-  tracks: { trackId: string }[]
-}
+const config = readConfig(process.argv[3])
 
 const a = new Set(
   Object.values(tracks)
     .filter(f => !f.url?.includes('fantom'))
     .map(t => t.tableName),
 )
-const b = new Set(config.tracks.map((t: any) => t.trackId))
+const b = new Set(config.tracks.map(t => t.trackId))
 
 console.log(
   JSON.stringify(
