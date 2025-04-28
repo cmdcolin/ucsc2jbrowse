@@ -1,0 +1,64 @@
+{
+  "assemblies": [
+    {
+      "name": "mpxvRivers",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "mpxvRivers-refseq",
+        "adapter": {
+          "type": "TwoBitAdapter",
+          "uri": "https://hgdownload.soe.ucsc.edu/goldenPath/mpxvRivers/bigZips/mpxvRivers.2bit",
+          "chromSizes": "https://hgdownload.soe.ucsc.edu/goldenPath/mpxvRivers/bigZips/mpxvRivers.chrom.sizes"
+        }
+      },
+      "refNameAliases": {
+        "adapter": {
+          "type": "RefNameAliasAdapter",
+          "uri": "https://hgdownload.soe.ucsc.edu/goldenPath/mpxvRivers/bigZips/mpxvRivers.chromAlias.txt"
+        }
+      }
+    }
+  ],
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "*",
+      "name": "*",
+      "assemblyNames": [
+        "mpxvRivers"
+      ],
+      "adapter": {
+        "type": "BedTabixAdapter",
+        "bedGzLocation": {
+          "uri": "*.bed.gz"
+        },
+        "index": {
+          "indexType": "CSI",
+          "location": {
+            "uri": "*.bed.gz.csi"
+          }
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "*.gff.gz",
+      "name": "*.gff.gz",
+      "assemblyNames": [
+        "mpxvRivers"
+      ],
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "*.gff.gz"
+        },
+        "index": {
+          "indexType": "CSI",
+          "location": {
+            "uri": "*.gff.gz.csi"
+          }
+        }
+      }
+    }
+  ]
+}
