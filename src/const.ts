@@ -6,7 +6,8 @@ export const categoryMap = {
   varRep: 'Variation and Repeats',
   rna: 'mRNA and EST',
   expression: 'Expression',
-  compGen: 'Comparative Genomics',
-  neanderthal: 'Neandertal Assembly and Analysis',
+  compGeno: 'Comparative Genomics',
+  neandertal: 'Neandertal Assembly and Analysis',
+  regulation: 'Regulation',
   denisova: 'Denisova Assembly and Analysis',
 } as const
