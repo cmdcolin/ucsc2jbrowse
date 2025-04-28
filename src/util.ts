@@ -28,3 +28,12 @@ export function replaceLink(s: string) {
 export function readConfig(s: string) {
   return readJSON(s) as JBrowseConfig
 }
+
+export function decodeURIComponentNoThrow(uri: string) {
+  try {
+    return decodeURIComponent(uri)
+  } catch (_e) {
+    // avoid throwing exception on a failure to decode URI component
+    return uri
+  }
+}

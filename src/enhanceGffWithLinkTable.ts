@@ -4,16 +4,7 @@ import zlib from 'zlib'
 
 import { getColNames } from './utils/getColNames.ts'
 
-export function decodeURIComponentNoThrow(uri: string) {
-  try {
-    return decodeURIComponent(uri)
-  } catch (e) {
-    // avoid throwing exception on a failure to decode URI component
-    return uri
-  }
-}
-
-export async function enanceGffWithLinkTable(
+export async function enhanceGffWithLinkTable(
   gffFile: string,
   linkFile: string,
   linkSqlFile: string,
@@ -47,15 +38,15 @@ export async function enanceGffWithLinkTable(
         line.split('\t')
 
       const col9attrs = Object.fromEntries(
-        col9
+        col9!
           .split(';')
           .map(f => f.trim())
           .filter(f => !!f)
-          .map(f => f.split('='))
+          .map(f => f.split('=') as [string, string])
           .map(([key, val]) => [key.trim(), val] as const),
       )
-      const ID = col9attrs.ID || ''
-      const newCol9 = `${col9};${Object.entries(data[ID] || {})
+      const ID = col9attrs.ID ?? ''
+      const newCol9 = `${col9};${Object.entries(data[ID] ?? {})
         .filter(([_key, val]) => !!val)
         .map(([key, val]) => `${key}=${encodeURIComponent(val)}`)
         .join(';')}`
@@ -69,4 +60,4 @@ export async function enanceGffWithLinkTable(
   }
 }
 
-enanceGffWithLinkTable(process.argv[2], process.argv[3], process.argv[4])
+await enhanceGffWithLinkTable(process.argv[2], process.argv[3], process.argv[4])

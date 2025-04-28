@@ -16,7 +16,7 @@ type Track = Record<string, string>
 
 const tracks = readJSON(process.argv[2]) as Record<string, Track>
 
-for (const [key, _val] of Object.entries(tracks).filter(([_key, val]) =>
+for (const [key] of Object.entries(tracks).filter(([_key, val]) =>
   val.type.startsWith('rmsk'),
 )) {
   const infile = path.join(process.argv[3], key)

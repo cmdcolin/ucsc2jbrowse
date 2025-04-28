@@ -13,7 +13,7 @@ try {
     throw new Error('Error fetching chromAlias')
   }
   hasAliases = true
-} catch (e) {}
+} catch (_e) {}
 
 let hasCyto = false
 try {
@@ -22,7 +22,7 @@ try {
     throw new Error('Error fetching cytobands')
   }
   hasCyto = true
-} catch (e) {}
+} catch (_e) {}
 
 console.log(
   JSON.stringify(

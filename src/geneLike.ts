@@ -36,7 +36,7 @@ export function parseLineByLine(
   }
 }
 
-export async function genBed12(sql: string, txtGz: string) {
+export function genBed12(sql: string, txtGz: string) {
   const cols = getColNames(fs.readFileSync(sql, 'utf8'))
   const ret = zlib.gunzipSync(fs.readFileSync(txtGz))
 
@@ -92,8 +92,4 @@ export async function genBed12(sql: string, txtGz: string) {
   })
 }
 
-try {
-  await genBed12(process.argv[2], process.argv[3])
-} catch (e) {
-  console.error(e, process.argv)
-}
+genBed12(process.argv[2], process.argv[3])

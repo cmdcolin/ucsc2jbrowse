@@ -116,7 +116,7 @@ export function generateHubTracks({
         const parentTracks = []
         let currentTrackName = trackName
         do {
-          currentTrackName = trackDb.data[currentTrackName].data.parent || ''
+          currentTrackName = trackDb.data[currentTrackName]?.data.parent ?? ''
           if (currentTrackName) {
             currentTrackName = currentTrackName.split(' ')[0]!
             parentTracks.push(trackDb.data[currentTrackName])
@@ -147,6 +147,7 @@ export function generateHubTracks({
                   .filter((f): f is string => !!f),
               ]
                 .filter(f => !!f)
+                // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
                 .map(r => categoryMap[r as keyof typeof categoryMap] ?? r),
               ...trackConfig,
             }
@@ -170,9 +171,9 @@ function makeTrackConfig({
   assemblyName: string
 }) {
   const { data } = track
-  const bigDataUrlPre = data.bigDataUrl || ''
+  const bigDataUrlPre = data.bigDataUrl ?? ''
   const name =
-    (data.shortLabel || '') + (bigDataUrlPre.includes('xeno') ? ' (xeno)' : '')
+    (data.shortLabel ?? '') + (bigDataUrlPre.includes('xeno') ? ' (xeno)' : '')
   const sub = makeTrackConfigSub({
     track,
     trackDbUrl,
@@ -204,14 +205,14 @@ function makeTrackConfigSub({
   name: string
 }) {
   const { data } = track
-  const parent = data.parent || ''
-  const bigDataUrlPre = data.bigDataUrl || ''
-  const bigDataIdx = data.bigDataIndex || ''
+  const parent = data.parent ?? ''
+  const bigDataUrlPre = data.bigDataUrl ?? ''
+  const bigDataIdx = data.bigDataIndex ?? ''
   if (bigDataIdx) {
     throw new Error("Don't yet support bigDataIdx")
   }
-  const trackType = data.type || trackDb.data[parent].data.type || ''
-  let baseTrackType = trackType.split(' ')[0] || ''
+  const trackType = data.type ?? trackDb.data[parent]?.data.type ?? ''
+  let baseTrackType = trackType.split(' ')[0] ?? ''
   if (baseTrackType === 'bam' && bigDataUrlPre.toLowerCase().endsWith('cram')) {
     baseTrackType = 'cram'
   }
