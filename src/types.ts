@@ -10,5 +10,5 @@ export interface JBrowseConfig {
   tracks: { trackId: string; adapter: { bedGzLocation?: { uri: string } } }[]
   assemblies: { name: string }[]
   plugins: unknown[]
-  aggregateTextSearchAdapters: Record<string, unknown>[]
+  aggregateTextSearchAdapters?: Record<string, unknown>[]
 }

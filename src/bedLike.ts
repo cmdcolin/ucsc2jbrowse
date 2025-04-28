@@ -2,7 +2,7 @@ import fs from 'fs'
 
 import { getColNames } from './utils/getColNames.ts'
 
-export async function genBed(sql: string) {
+export function genBed(sql: string) {
   const txt = fs.readFileSync(sql, 'utf8')
   const cols = getColNames(txt)
 
@@ -16,4 +16,4 @@ export async function genBed(sql: string) {
   }
 }
 
-genBed(process.argv[2])
+genBed(process.argv[2]!)

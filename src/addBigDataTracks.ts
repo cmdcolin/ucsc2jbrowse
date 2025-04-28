@@ -14,13 +14,13 @@ interface BigDataTrack {
 
 type BigDataTracksJson = Record<string, BigDataTrack>
 
-const bigDataEntries = readJSON(process.argv[2]) as BigDataTracksJson
-const config = readJSON(process.argv[3]) as JBrowseConfig
-const currTrackIds = new Set(config.tracks.map(t => t.trackId) || [])
+const bigDataEntries = readJSON(process.argv[2]!) as BigDataTracksJson
+const config = readJSON(process.argv[3]!) as JBrowseConfig
+const currTrackIds = new Set(config.tracks.map(t => t.trackId))
 const base = 'https://hgdownload.soe.ucsc.edu'
 
 fs.writeFileSync(
-  process.argv[3],
+  process.argv[3]!,
   JSON.stringify(
     {
       ...config,

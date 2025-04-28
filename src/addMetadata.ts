@@ -1,10 +1,10 @@
 import { categoryMap } from './const.ts'
-import { readConfig, readJSON, splitOnFirst } from './util.ts'
+import { readConfig, readJSON, replaceLink, splitOnFirst } from './util.ts'
 
 import type { TrackDbEntry } from './types.ts'
 
-const config = readConfig(process.argv[2])
-const tracksDb = readJSON(process.argv[3]) as Record<string, TrackDbEntry>
+const config = readConfig(process.argv[2]!)
+const tracksDb = readJSON(process.argv[3]!) as Record<string, TrackDbEntry>
 
 console.log(
   JSON.stringify(
@@ -14,36 +14,23 @@ console.log(
         const r = tracksDb[t.trackId]
         if (r) {
           const { settings, html, longLabel, shortLabel, grp, ...rest } =
-            tracksDb[t.trackId]
+            tracksDb[t.trackId]!
+          const s2 = Object.fromEntries(
+            settings
+              .split('\n')
+              .map(r => splitOnFirst(r, ' '))
+              .filter(([key]) => !!key),
+          )
           return {
             ...t,
             metadata: {
               ...rest,
-              ...Object.fromEntries(
-                settings
-                  .split('\n')
-                  .map(r => splitOnFirst(r, ' '))
-                  .filter(([key]) => !!key),
-              ),
-              html: html
-                .replaceAll('\\', ' ')
-                .replaceAll('../../', 'https://genome.ucsc.edu/')
-                .replaceAll('../', 'https://genome.ucsc.edu/')
-                .replaceAll('"/cgi-bin', '"https://genome.ucsc.edu/cgi-bin'),
+              ...s2,
+              html: replaceLink(html),
             },
             name: shortLabel,
             description: longLabel,
-            category: [
-              grp,
-              Object.fromEntries(
-                settings
-                  .split('\n')
-                  .map(r => splitOnFirst(r, ' '))
-                  .filter(([key]) => !!key),
-              )
-                .parent.replace(' on', '')
-                .replace(' off', ''),
-            ]
+            category: [grp, s2.parent?.replace(' on', '').replace(' off', '')]
               .filter(f => !!f)
               .map(r => categoryMap[r as keyof typeof categoryMap] ?? r),
           }

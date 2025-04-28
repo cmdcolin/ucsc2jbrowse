@@ -26,20 +26,19 @@ console.log(
         updateURL(assembly, assembly.name)
         return { ...assembly }
       }),
-      tracks: configs.flatMap(
-        (config, idx) =>
-          config.tracks.map(track => {
-            const asm = asms2[idx]!.name
-            updateURL(track, asm)
-            return {
-              ...track,
-              trackId: `${track.trackId}_${asm}`,
-            }
-          }) || [],
+      tracks: configs.flatMap((config, idx) =>
+        config.tracks.map(track => {
+          const asm = asms2[idx]!.name
+          updateURL(track, asm)
+          return {
+            ...track,
+            trackId: `${track.trackId}_${asm}`,
+          }
+        }),
       ),
 
       aggregateTextSearchAdapters: configs
-        .map(config => config.aggregateTextSearchAdapters || [])
+        .map(config => config.aggregateTextSearchAdapters ?? [])
         .flat(),
     },
     null,
