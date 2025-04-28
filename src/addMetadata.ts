@@ -1,6 +1,7 @@
 import { categoryMap } from './const.ts'
-import { TrackDbEntry } from './types.ts'
 import { readConfig, readJSON, splitOnFirst } from './util.ts'
+
+import type { TrackDbEntry } from './types.ts'
 
 const config = readConfig(process.argv[2])
 const tracksDb = readJSON(process.argv[3]) as Record<string, TrackDbEntry>
@@ -40,8 +41,8 @@ console.log(
                   .map(r => splitOnFirst(r, ' '))
                   .filter(([key]) => !!key),
               )
-                .parent?.replace(' on', '')
-                ?.replace(' off', ''),
+                .parent.replace(' on', '')
+                .replace(' off', ''),
             ]
               .filter(f => !!f)
               .map(r => categoryMap[r as keyof typeof categoryMap] ?? r),

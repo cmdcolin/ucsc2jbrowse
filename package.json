@@ -2,11 +2,15 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "lint": "eslint --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {
     "@gmod/ucsc-hub": "^1.0.1",
-    "node-sql-parser": "^5.2.0"
+    "eslint": "^9.25.1",
+    "eslint-plugin-import": "^2.31.0",
+    "node-sql-parser": "^5.2.0",
+    "typescript-eslint": "^8.31.0"
   },
   "devDependencies": {
     "@types/node": "^22.15.2",

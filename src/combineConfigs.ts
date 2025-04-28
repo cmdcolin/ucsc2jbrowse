@@ -28,7 +28,7 @@ console.log(
       }),
       tracks: configs.flatMap(
         (config, idx) =>
-          config.tracks?.map(track => {
+          config.tracks.map(track => {
             const asm = asms2[idx].name
             updateURL(track, asm)
             return {

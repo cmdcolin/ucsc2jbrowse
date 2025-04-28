@@ -1,9 +1,11 @@
-import pkg from '@gmod/ucsc-hub'
 import fs from 'fs'
 
-import type { RaStanza, TrackDbFile } from '@gmod/ucsc-hub'
-import { notEmpty } from './notEmpty.ts'
+import pkg from '@gmod/ucsc-hub'
+
 import { categoryMap } from './const.ts'
+import { notEmpty } from './notEmpty.ts'
+
+import type { RaStanza, TrackDbFile } from '@gmod/ucsc-hub'
 const { SingleFileHub } = pkg
 
 type Adapter = Record<string, unknown>

@@ -1,4 +1,5 @@
 import fs from 'fs'
+
 import { getColNames } from './utils/getColNames.ts'
 
 export async function genBed(sql: string) {

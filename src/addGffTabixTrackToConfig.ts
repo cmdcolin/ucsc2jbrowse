@@ -1,5 +1,6 @@
 import fs from 'fs'
 import path from 'path'
+
 import { readConfig } from './util.ts'
 
 if (process.argv.length < 3) {

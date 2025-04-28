@@ -1,6 +1,7 @@
 import fs from 'fs'
-import zlib from 'zlib'
 import readline from 'readline'
+import zlib from 'zlib'
+
 import { getColNames } from './utils/getColNames.ts'
 import { parseTableLine } from './utils/parseTableLine.ts'
 

@@ -1,7 +1,8 @@
-import { readJSON, replaceLink, splitOnFirst } from './util.ts'
-import { JBrowseConfig, TrackDbEntry } from './types.ts'
+import { readConfig, readJSON, replaceLink, splitOnFirst } from './util.ts'
 
-const config = readJSON(process.argv[2]) as JBrowseConfig
+import type { TrackDbEntry } from './types.ts'
+
+const config = readConfig(process.argv[2])
 const tracksDb = readJSON(process.argv[3]) as Record<string, TrackDbEntry>
 
 const cytobands = config.tracks.find(f => f.trackId === 'cytoBandIdeo')
@@ -47,7 +48,7 @@ console.log(
             description: longLabel,
             category: [
               grp,
-              s2.parent?.replace(' on', '')?.replace(' off', ''),
+              s2.parent.replace(' on', '').replace(' off', ''),
             ].filter(f => !!f),
           }
         } else {

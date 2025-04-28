@@ -1,7 +1,6 @@
-import { JBrowseConfig } from './types.ts'
-import { readJSON } from './util.ts'
+import { readConfig } from './util.ts'
 
-const config = readJSON(process.argv[2]) as JBrowseConfig
+const config = readConfig(process.argv[2])
 
 console.log(
   JSON.stringify(

@@ -12,7 +12,7 @@ function splitOnce(s: string, s2: string) {
   return [s.slice(0, i), s.slice(i + 1)]
 }
 
-let tracks2 = {} as Record<string, unknown>
+const tracks2 = {} as Record<string, unknown>
 for (const [key, val] of Object.entries(tracks).filter(
   ([_key, val]) => val.type.startsWith('big') || val.type.startsWith('bam'),
 )) {

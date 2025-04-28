@@ -1,6 +1,7 @@
 import fs from 'fs'
-import zlib from 'zlib'
 import readline from 'readline'
+import zlib from 'zlib'
+
 import { getColNames } from './utils/getColNames.ts'
 import { parseTableLine } from './utils/parseTableLine.ts'
 
@@ -15,7 +16,7 @@ const rl = readline.createInterface({
   input: fs.createReadStream(process.argv[3]).pipe(zlib.createGunzip()),
 })
 
-let ret = {} as Record<string, unknown>
+const ret = {} as Record<string, unknown>
 let l = ''
 for await (const line of rl) {
   if (line.endsWith('\\')) {

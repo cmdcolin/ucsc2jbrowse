@@ -1,4 +1,5 @@
 import fs from 'fs'
+
 import { readConfig, readJSON } from './util.ts'
 
 const tracks = readJSON(process.argv[2]) as Record<

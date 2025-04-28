@@ -7,7 +7,7 @@ const config = JSON.parse(fs.readFileSync(process.argv[2], 'utf8')) as {
   tracks: Track[]
 }
 
-let items = [
+const items = [
   'wgEncodeGencodePolyaV',
   'wgEncodeGencodePseudoGeneV',
   'wgEncodeGencodeCompV',

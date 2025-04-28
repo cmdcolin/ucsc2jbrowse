@@ -1,6 +1,7 @@
 import fs from 'fs'
 import readline from 'readline'
 import zlib from 'zlib'
+
 import { getColNames } from './utils/getColNames.ts'
 
 export function decodeURIComponentNoThrow(uri: string) {
@@ -32,7 +33,7 @@ export async function enanceGffWithLinkTable(
         return [
           ret[0],
           Object.fromEntries(
-            ret.map((col, idx) => [linkCols.colNames[idx]!, col] as const),
+            ret.map((col, idx) => [linkCols.colNames[idx], col] as const),
           ),
         ] as const
       }),
@@ -46,12 +47,12 @@ export async function enanceGffWithLinkTable(
         line.split('\t')
 
       const col9attrs = Object.fromEntries(
-        col9!
+        col9
           .split(';')
           .map(f => f.trim())
           .filter(f => !!f)
           .map(f => f.split('='))
-          .map(([key, val]) => [key!.trim(), val] as const),
+          .map(([key, val]) => [key.trim(), val] as const),
       )
       const ID = col9attrs.ID || ''
       const newCol9 = `${col9};${Object.entries(data[ID] || {})
