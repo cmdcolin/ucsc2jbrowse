@@ -18,9 +18,7 @@
       "type": "FeatureTrack",
       "trackId": "*",
       "name": "*",
-      "assemblyNames": [
-        "cb1"
-      ],
+      "assemblyNames": ["cb1"],
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
@@ -38,9 +36,7 @@
       "type": "FeatureTrack",
       "trackId": "*.gff.gz",
       "name": "*.gff.gz",
-      "assemblyNames": [
-        "cb1"
-      ],
+      "assemblyNames": ["cb1"],
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {

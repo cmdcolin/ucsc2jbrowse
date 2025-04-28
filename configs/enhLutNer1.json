@@ -24,9 +24,7 @@
       "type": "FeatureTrack",
       "trackId": "*",
       "name": "*",
-      "assemblyNames": [
-        "enhLutNer1"
-      ],
+      "assemblyNames": ["enhLutNer1"],
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
@@ -44,9 +42,7 @@
       "type": "FeatureTrack",
       "trackId": "*.gff.gz",
       "name": "*.gff.gz",
-      "assemblyNames": [
-        "enhLutNer1"
-      ],
+      "assemblyNames": ["enhLutNer1"],
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {

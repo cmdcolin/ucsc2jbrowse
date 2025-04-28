@@ -22,11 +22,9 @@
   "tracks": [
     {
       "trackId": "unipAliSwissprot",
-      "name": "SwissProt Aln.",
+      "name": "UniProt - SwissProt Aln.",
       "type": "FeatureTrack",
-      "assemblyNames": [
-        "eboVir3"
-      ],
+      "assemblyNames": ["eboVir3"],
       "adapter": {
         "type": "BigBedAdapter",
         "uri": "https://hgdownload.soe.ucsc.edu/gbdb/eboVir3/uniprot/unipAliSwissprot.bb"
@@ -68,18 +66,13 @@
         "html": ""
       },
       "description": "UCSC alignment of SwissProt proteins to genome (dark blue: main isoform, light blue: alternative isoforms)",
-      "category": [
-        "genes",
-        "uniprot"
-      ]
+      "category": ["genes"]
     },
     {
       "trackId": "unipAliTrembl",
-      "name": "TrEMBL Aln.",
+      "name": "UniProt - TrEMBL Aln.",
       "type": "FeatureTrack",
-      "assemblyNames": [
-        "eboVir3"
-      ],
+      "assemblyNames": ["eboVir3"],
       "adapter": {
         "type": "BigBedAdapter",
         "uri": "https://hgdownload.soe.ucsc.edu/gbdb/eboVir3/uniprot/unipAliTrembl.bb"
@@ -121,18 +114,13 @@
         "html": ""
       },
       "description": "UCSC alignment of TrEMBL proteins to genome",
-      "category": [
-        "genes",
-        "uniprot"
-      ]
+      "category": ["genes"]
     },
     {
       "trackId": "unipLocSignal",
-      "name": "Signal Peptide",
+      "name": "UniProt - Signal Peptide",
       "type": "FeatureTrack",
-      "assemblyNames": [
-        "eboVir3"
-      ],
+      "assemblyNames": ["eboVir3"],
       "adapter": {
         "type": "BigBedAdapter",
         "uri": "https://hgdownload.soe.ucsc.edu/gbdb/eboVir3/uniprot/unipLocSignal.bb"
@@ -165,18 +153,13 @@
         "html": ""
       },
       "description": "UniProt Signal Peptides",
-      "category": [
-        "genes",
-        "uniprot"
-      ]
+      "category": ["genes"]
     },
     {
       "trackId": "unipLocExtra",
-      "name": "Extracellular",
+      "name": "UniProt - Extracellular",
       "type": "FeatureTrack",
-      "assemblyNames": [
-        "eboVir3"
-      ],
+      "assemblyNames": ["eboVir3"],
       "adapter": {
         "type": "BigBedAdapter",
         "uri": "https://hgdownload.soe.ucsc.edu/gbdb/eboVir3/uniprot/unipLocExtra.bb"
@@ -209,18 +192,13 @@
         "html": ""
       },
       "description": "UniProt Extracellular Domain",
-      "category": [
-        "genes",
-        "uniprot"
-      ]
+      "category": ["genes"]
     },
     {
       "trackId": "unipInterest",
-      "name": "Interest",
+      "name": "UniProt - Interest",
       "type": "FeatureTrack",
-      "assemblyNames": [
-        "eboVir3"
-      ],
+      "assemblyNames": ["eboVir3"],
       "adapter": {
         "type": "BigBedAdapter",
         "uri": "https://hgdownload.soe.ucsc.edu/gbdb/eboVir3/uniprot/unipInterest.bb"
@@ -252,18 +230,13 @@
         "html": ""
       },
       "description": "UniProt Regions of Interest",
-      "category": [
-        "genes",
-        "uniprot"
-      ]
+      "category": ["genes"]
     },
     {
       "trackId": "unipLocTransMemb",
-      "name": "Transmembrane",
+      "name": "UniProt - Transmembrane",
       "type": "FeatureTrack",
-      "assemblyNames": [
-        "eboVir3"
-      ],
+      "assemblyNames": ["eboVir3"],
       "adapter": {
         "type": "BigBedAdapter",
         "uri": "https://hgdownload.soe.ucsc.edu/gbdb/eboVir3/uniprot/unipLocTransMemb.bb"
@@ -296,18 +269,13 @@
         "html": ""
       },
       "description": "UniProt Transmembrane Domains",
-      "category": [
-        "genes",
-        "uniprot"
-      ]
+      "category": ["genes"]
     },
     {
       "trackId": "unipLocCytopl",
-      "name": "Cytoplasmic",
+      "name": "UniProt - Cytoplasmic",
       "type": "FeatureTrack",
-      "assemblyNames": [
-        "eboVir3"
-      ],
+      "assemblyNames": ["eboVir3"],
       "adapter": {
         "type": "BigBedAdapter",
         "uri": "https://hgdownload.soe.ucsc.edu/gbdb/eboVir3/uniprot/unipLocCytopl.bb"
@@ -340,18 +308,13 @@
         "html": ""
       },
       "description": "UniProt Cytoplasmic Domains",
-      "category": [
-        "genes",
-        "uniprot"
-      ]
+      "category": ["genes"]
     },
     {
       "trackId": "unipChain",
-      "name": "Chains",
+      "name": "UniProt - Chains",
       "type": "FeatureTrack",
-      "assemblyNames": [
-        "eboVir3"
-      ],
+      "assemblyNames": ["eboVir3"],
       "adapter": {
         "type": "BigBedAdapter",
         "uri": "https://hgdownload.soe.ucsc.edu/gbdb/eboVir3/uniprot/unipChain.bb"
@@ -383,18 +346,13 @@
         "html": ""
       },
       "description": "UniProt Mature Protein Products (Polypeptide Chains)",
-      "category": [
-        "genes",
-        "uniprot"
-      ]
+      "category": ["genes"]
     },
     {
       "trackId": "unipDisulfBond",
-      "name": "Disulf. Bonds",
+      "name": "UniProt - Disulf. Bonds",
       "type": "FeatureTrack",
-      "assemblyNames": [
-        "eboVir3"
-      ],
+      "assemblyNames": ["eboVir3"],
       "adapter": {
         "type": "BigBedAdapter",
         "uri": "https://hgdownload.soe.ucsc.edu/gbdb/eboVir3/uniprot/unipDisulfBond.bb"
@@ -425,18 +383,13 @@
         "html": ""
       },
       "description": "UniProt Disulfide Bonds",
-      "category": [
-        "genes",
-        "uniprot"
-      ]
+      "category": ["genes"]
     },
     {
       "trackId": "unipDomain",
-      "name": "Domains",
+      "name": "UniProt - Domains",
       "type": "FeatureTrack",
-      "assemblyNames": [
-        "eboVir3"
-      ],
+      "assemblyNames": ["eboVir3"],
       "adapter": {
         "type": "BigBedAdapter",
         "uri": "https://hgdownload.soe.ucsc.edu/gbdb/eboVir3/uniprot/unipDomain.bb"
@@ -468,18 +421,13 @@
         "html": ""
       },
       "description": "UniProt Domains",
-      "category": [
-        "genes",
-        "uniprot"
-      ]
+      "category": ["genes"]
     },
     {
       "trackId": "unipModif",
-      "name": "AA Modifications",
+      "name": "UniProt - AA Modifications",
       "type": "FeatureTrack",
-      "assemblyNames": [
-        "eboVir3"
-      ],
+      "assemblyNames": ["eboVir3"],
       "adapter": {
         "type": "BigBedAdapter",
         "uri": "https://hgdownload.soe.ucsc.edu/gbdb/eboVir3/uniprot/unipModif.bb"
@@ -511,18 +459,13 @@
         "html": ""
       },
       "description": "UniProt Amino Acid Modifications",
-      "category": [
-        "genes",
-        "uniprot"
-      ]
+      "category": ["genes"]
     },
     {
       "trackId": "unipMut",
-      "name": "Mutations",
+      "name": "UniProt - Mutations",
       "type": "FeatureTrack",
-      "assemblyNames": [
-        "eboVir3"
-      ],
+      "assemblyNames": ["eboVir3"],
       "adapter": {
         "type": "BigBedAdapter",
         "uri": "https://hgdownload.soe.ucsc.edu/gbdb/eboVir3/uniprot/unipMut.bb"
@@ -553,18 +496,13 @@
         "html": ""
       },
       "description": "UniProt Amino Acid Mutations",
-      "category": [
-        "genes",
-        "uniprot"
-      ]
+      "category": ["genes"]
     },
     {
       "trackId": "unipOther",
-      "name": "Other Annot.",
+      "name": "UniProt - Other Annot.",
       "type": "FeatureTrack",
-      "assemblyNames": [
-        "eboVir3"
-      ],
+      "assemblyNames": ["eboVir3"],
       "adapter": {
         "type": "BigBedAdapter",
         "uri": "https://hgdownload.soe.ucsc.edu/gbdb/eboVir3/uniprot/unipOther.bb"
@@ -596,18 +534,13 @@
         "html": ""
       },
       "description": "UniProt Other Annotations",
-      "category": [
-        "genes",
-        "uniprot"
-      ]
+      "category": ["genes"]
     },
     {
       "trackId": "unipStruct",
-      "name": "Structure",
+      "name": "UniProt - Structure",
       "type": "FeatureTrack",
-      "assemblyNames": [
-        "eboVir3"
-      ],
+      "assemblyNames": ["eboVir3"],
       "adapter": {
         "type": "BigBedAdapter",
         "uri": "https://hgdownload.soe.ucsc.edu/gbdb/eboVir3/uniprot/unipStruct.bb"
@@ -640,18 +573,13 @@
         "html": ""
       },
       "description": "UniProt Protein Primary/Secondary Structure Annotations",
-      "category": [
-        "genes",
-        "uniprot"
-      ]
+      "category": ["genes"]
     },
     {
       "trackId": "unipRepeat",
-      "name": "Repeats",
+      "name": "UniProt - Repeats",
       "type": "FeatureTrack",
-      "assemblyNames": [
-        "eboVir3"
-      ],
+      "assemblyNames": ["eboVir3"],
       "adapter": {
         "type": "BigBedAdapter",
         "uri": "https://hgdownload.soe.ucsc.edu/gbdb/eboVir3/uniprot/unipRepeat.bb"
@@ -683,18 +611,13 @@
         "html": ""
       },
       "description": "UniProt Repeats",
-      "category": [
-        "genes",
-        "uniprot"
-      ]
+      "category": ["genes"]
     },
     {
       "trackId": "unipConflict",
-      "name": "Seq. Conflicts",
+      "name": "UniProt - Seq. Conflicts",
       "type": "FeatureTrack",
-      "assemblyNames": [
-        "eboVir3"
-      ],
+      "assemblyNames": ["eboVir3"],
       "adapter": {
         "type": "BigBedAdapter",
         "uri": "https://hgdownload.soe.ucsc.edu/gbdb/eboVir3/uniprot/unipConflict.bb"
@@ -726,18 +649,13 @@
         "html": ""
       },
       "description": "UniProt Sequence Conflicts",
-      "category": [
-        "genes",
-        "uniprot"
-      ]
+      "category": ["genes"]
     },
     {
       "type": "FeatureTrack",
       "trackId": "cytoBandIdeo",
       "name": "Chromosome Band (Ideogram)",
-      "assemblyNames": [
-        "eboVir3"
-      ],
+      "assemblyNames": ["eboVir3"],
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
@@ -774,17 +692,13 @@
         "html": ""
       },
       "description": "Ideogram for Orientation",
-      "category": [
-        "Mapping and Sequencing"
-      ]
+      "category": ["Mapping and Sequencing"]
     },
     {
       "type": "FeatureTrack",
       "trackId": "gap",
       "name": "Gap",
-      "assemblyNames": [
-        "eboVir3"
-      ],
+      "assemblyNames": ["eboVir3"],
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
@@ -821,17 +735,13 @@
         "track": "gap"
       },
       "description": "Gap Locations",
-      "category": [
-        "Mapping and Sequencing"
-      ]
+      "category": ["Mapping and Sequencing"]
     },
     {
       "type": "FeatureTrack",
       "trackId": "gold",
       "name": "Assembly",
-      "assemblyNames": [
-        "eboVir3"
-      ],
+      "assemblyNames": ["eboVir3"],
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
@@ -870,17 +780,13 @@
         "track": "gold"
       },
       "description": "Assembly from Fragments",
-      "category": [
-        "Mapping and Sequencing"
-      ]
+      "category": ["Mapping and Sequencing"]
     },
     {
       "type": "FeatureTrack",
       "trackId": "muPIT",
       "name": "muPIT protein map",
-      "assemblyNames": [
-        "eboVir3"
-      ],
+      "assemblyNames": ["eboVir3"],
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
@@ -918,17 +824,13 @@
         "html": "<h2>Description</h2>\n<p>\nThis track indicates the mapped locations viewable in the MuPIT\ninteractive system.  Use the URL link <em>MuPIT protein structures</em>\nto enter the viewing system.\n</p>\n<p>\nMuPIT interactive is a tool that allows you to map a sequence variant from\nits position in the human genome onto a protein structure. Viewing a variant\non a protein structure can be useful in interpreting its potential biological\nconsequences. After you have done the\nmapping, you can play with the protein structure by turning it around,\nzooming in and out, and turning color-coded annotations about the protein\non and off. \n</p>\n\n<h2>Credits</h2>\n<p>\nA data mapping pipeline was developed in the\n<a href=\"https://karchinlab.org/\" target=\"_blank\">Karchin lab</a>\nto map from any genomic location to position in PDB structure(s).\n</p>\n<ul>\n<li>Noushin Niknafs</li>\n<li>Rachel Karchin</li>\n<li>Dewey Kim</li>\n</ul>\n\n<p>\nIn collaboration with:\n</p>\n<ul>\n<li>Mark Diekhans (UCSC)</li>\n<li>Jing Zhu (UCSC)</li>\n<li>David Haussler (UCSC)</li>\n</ul>\n\n<p>\nThe web server and visualization scripting was developed by In Silico Solutions:\n</p>\n\n<ul>\n<li>Rick Kim</li>\n<li>Michael Ryan</li>\n<li>Sean Ryan</li>\n<li>Gabriel Ritter</li>\n</ul>\n\n<p>\nFunding:\n</p>\n\n<ul>\n<li>NIH 5U01CA180956-02</li>\n<li>NIH 3U24CA143858-2S1</li>\n<li>NIH 5R21CA152432-02</li>\n</ul>\n\n<h2>References</h2>\n<p>\nNiknafs N, Kim D, Kim R, Diekhans M, Ryan M, Stenson PD, Cooper DN, Karchin R.\n<a href=\"https://link.springer.com/article/10.1007%2Fs00439-013-1325-0\" target=\"_blank\">\nMuPIT interactive: webserver for mapping variant positions to annotated, interactive 3D\nstructures</a>.\n<em>Hum Genet</em>. 2013 Nov;132(11):1235-43.\nPMID: <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/23793516\" target=\"_blank\">23793516</a>; PMC: <a\nhref=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3797853/\" target=\"_blank\">PMC3797853</a>\n</p>\n"
       },
       "description": "muPIT - Mapping Genomic Positions on Protein Structures",
-      "category": [
-        "genes"
-      ]
+      "category": ["genes"]
     },
     {
       "type": "FeatureTrack",
       "trackId": "ncbiGenePfam",
       "name": "Pfam in NCBI Gene",
-      "assemblyNames": [
-        "eboVir3"
-      ],
+      "assemblyNames": ["eboVir3"],
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
@@ -966,17 +868,13 @@
         "html": "<h2>Description</h2>\n\n<p>\nMost proteins are composed of one or more conserved functional regions called\ndomains. This track shows the high-quality, manually curated\n<a href=\"http://pfam.xfam.org\" target=\"_blank\">Pfam-A</a>\ndomains found in transcripts from the NCBI Genes track.\n</p>\n\n<h2>Display Conventions and Configuration</h2>\n\n<p>\nThis track follows the display conventions for\n<a href=\"https://genome.ucsc.edu/goldenPath/help/hgTracksHelp.html#GeneDisplay\">gene tracks</a>.\n</p>\n\n<h2>Methods</h2>\n\n<p>\nThe amino acid sequences from the NCBI Genes \nare submitted to the set of Pfam-A HMMs, which annotate regions within the\npredicted peptide that are recognizable as Pfam protein domains. These regions\nare then mapped to the transcripts themselves using the\n<a href=\"http://hgdownload.soe.ucsc.edu/admin/exe/\" target=\"_blank\">pslMap utility</a>.\n</p>\n\n<h2>Credits</h2>\n\n<p>\npslMap was written by Mark Diekhans at UCSC.\n</p>\n\n<h2>References</h2>\n<p>\nFinn RD, Mistry J, Tate J, Coggill P, Heger A, Pollington JE, Gavin OL, Gunasekaran P, Ceric G,\nForslund K <em>et al</em>.\n<a href=\"https://academic.oup.com/nar/article/38/suppl_1/D211/3112325\" target=\"_blank\">\nThe Pfam protein families database</a>.\n<em>Nucleic Acids Res</em>. 2010 Jan;38(Database issue):D211-22.\nPMID: <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/19920124\" target=\"_blank\">19920124</a>; PMC: <a\nhref=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2808889/\" target=\"_blank\">PMC2808889</a>\n</p>\n"
       },
       "description": "Pfam Domains in NCBI Genes",
-      "category": [
-        "genes"
-      ]
+      "category": ["genes"]
     },
     {
       "type": "FeatureTrack",
       "trackId": "pdb",
       "name": "PDB",
-      "assemblyNames": [
-        "eboVir3"
-      ],
+      "assemblyNames": ["eboVir3"],
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
@@ -1015,17 +913,13 @@
         "html": "<h2>Description</h2>\n\n<p> This track shows alignments of sequences with known protein structures in the \n<a href=\"https://www.rcsb.org/\" target=\"_blank\">Protein Data Bank</a> (PDB).\n</p>\n\n<h2>Display Conventions and Configuration</h2>\n\n<p>\nGenomic locations of PDB matches are labeled with the accession number. \nA click on them shows a standard feature detail page with the PDB page integrated into it. \nThe protein structure is shown on the PDB page.\n</p>\n\n<h2>Methods</h2>\n\n<p>\nPDB sequences were downloaded from the \n<a href=\"https://www.rcsb.org/pdb/download/download.do\" target=\"_blank\">PDB website</a> and aligned \nwith BLAST (tblastn). Only alignments with a minimum identity of 80%\nthat span at least 80% of the query sequence were kept.\n</p>\n\n<h2>References</h2>\n<p>\nBerman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE.\n<a href=\"https://academic.oup.com/nar/article/28/1/235/2384399\" target=\"_blank\">\nThe Protein Data Bank</a>.\n<em>Nucleic Acids Res</em>. 2000 Jan 1;28(1):235-42.\nPMID: <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/10592235\" target=\"_blank\">10592235</a>; PMC: <a\nhref=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC102472/\" target=\"_blank\">PMC102472</a>\n</p>\n\n<p>\nYip YL, Scheib H, Diemand AV, Gattiker A, Famiglietti LM, Gasteiger E, Bairoch A.\n<a href=\"https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.20021\" target=\"_blank\">\nThe Swiss-Prot variant page and the ModSNP database: a resource for sequence and structure\ninformation on human protein variants</a>.\n<em>Hum Mutat</em>. 2004 May;23(5):464-70.\nPMID: <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/15108278\" target=\"_blank\">15108278</a>\n</p>\n"
       },
       "description": "Protein Data Bank (PDB) Sequence Matches",
-      "category": [
-        "genes"
-      ]
+      "category": ["genes"]
     },
     {
       "type": "FeatureTrack",
       "trackId": "phastConsElements160way",
-      "name": "Cons. Elements",
-      "assemblyNames": [
-        "eboVir3"
-      ],
+      "name": "Conserved Elements - Cons. Elements",
+      "assemblyNames": ["eboVir3"],
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
@@ -1065,18 +959,13 @@
         "html": ""
       },
       "description": "158 Ebola strains and 2 Marburg strains Conserved Elements",
-      "category": [
-        "compGeno",
-        "cons160wayViewelements"
-      ]
+      "category": ["Comparative Genomics"]
     },
     {
       "type": "FeatureTrack",
       "trackId": "strainPhastConsElements160way",
-      "name": "Cons. Elements",
-      "assemblyNames": [
-        "eboVir3"
-      ],
+      "name": "Conserved Elements - Cons. Elements",
+      "assemblyNames": ["eboVir3"],
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
@@ -1116,18 +1005,13 @@
         "html": ""
       },
       "description": "158 Ebola strains and 2 Marburg strains Conserved Elements",
-      "category": [
-        "compGeno",
-        "strainCons160wayViewelements"
-      ]
+      "category": ["Comparative Genomics"]
     },
     {
       "type": "FeatureTrack",
       "trackId": "ncbiGene",
       "name": "NCBI Genes",
-      "assemblyNames": [
-        "eboVir3"
-      ],
+      "assemblyNames": ["eboVir3"],
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
@@ -1168,9 +1052,7 @@
         "html": "<h2>Description</h2>\n<p>\nThis track contains genes extracted from the GenBank nuccore entry for\n<a href=\"https://www.ncbi.nlm.nih.gov/nuccore/KM034562\" target=\"_blank\">KM034562.1</a>.\n</p>\n\n<h2>Display Conventions</h2>\n<p>\nThis track follows the display conventions for\n<a href=\"/goldenPath/help/hgTracksHelp.html#GeneDisplay\" target=\"_blank\">\ngene prediction tracks</a>.\n</p>\n\n<h2>Methods</h2>\n<p>\nWe downloaded the GenBank record for\n<a href=\"https://www.ncbi.nlm.nih.gov/nuccore/KM034562\" target=\"_blank\">KM034562.1</a>,\nextracted the entries for each gene and then loaded them into the UCSC database. Additional\nentries were added for the various forms of the GP gene.\n</p>\n"
       },
       "description": "NCBI Genes from KM034562 GenBank Record",
-      "category": [
-        "genes"
-      ]
+      "category": ["genes"]
     }
   ]
 }
