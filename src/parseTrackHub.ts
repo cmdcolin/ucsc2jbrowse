@@ -142,7 +142,9 @@ export function generateHubTracks({
                 ...parentTracks
                   .map(p => p.name)
                   .filter((f): f is string => !!f),
-              ].filter(f => !!f),
+              ]
+                .filter(f => !!f)
+                .map(r => categoryMap[r as keyof typeof categoryMap] ?? r),
               ...trackConfig,
             }
           : undefined
@@ -150,6 +152,19 @@ export function generateHubTracks({
     })
     .filter(f => notEmpty(f))
 }
+
+const categoryMap = {
+  map: 'Mapping and Sequencing',
+  gen: 'Genes and Gene Predictions',
+  phenDis: 'Phenotypes, Variants, and Literature',
+  rep: 'Repeats',
+  varRep: 'Variation and Repeats',
+  rna: 'mRNA and EST',
+  expression: 'Expression',
+  compGen: 'Comparative Genomics',
+  neanderthal: 'Neandertal Assembly and Analysis',
+  denisova: 'Denisova Assembly and Analysis',
+} as const
 
 function makeTrackConfig({
   track,
@@ -212,91 +227,72 @@ function makeTrackConfigSub({
   }
   const bigDataUrl = new URL(bigDataUrlPre, trackDbUrl)
 
-  switch (baseTrackType) {
-    case 'bam': {
-      return {
-        type: 'AlignmentsTrack',
-        adapter: {
-          type: 'BamAdapter',
-          uri: bigDataUrl,
-        },
-      }
+  if (baseTrackType === 'bam') {
+    return {
+      type: 'AlignmentsTrack',
+      adapter: {
+        type: 'BamAdapter',
+        uri: bigDataUrl,
+      },
     }
-    case 'cram': {
-      return {
-        type: 'AlignmentsTrack',
-        adapter: {
-          type: 'CramAdapter',
-          uri: bigDataUrl,
-          sequenceAdapter,
-        },
-      }
+  } else if (baseTrackType === 'cram') {
+    return {
+      type: 'AlignmentsTrack',
+      adapter: {
+        type: 'CramAdapter',
+        uri: bigDataUrl,
+        sequenceAdapter,
+      },
     }
-    case 'bigWig': {
-      return {
-        type: 'QuantitativeTrack',
-        adapter: {
-          type: 'BigWigAdapter',
-          uri: bigDataUrl,
-        },
-      }
+  } else if (baseTrackType.startsWith('bigWig')) {
+    return {
+      type: 'QuantitativeTrack',
+      adapter: {
+        type: 'BigWigAdapter',
+        uri: bigDataUrl,
+      },
     }
-    default: {
-      if (baseTrackType.startsWith('big')) {
-        return {
-          type: 'FeatureTrack',
-          adapter: {
-            type: 'BigBedAdapter',
-            uri: bigDataUrl,
-            scoreColumn: name.endsWith('wssd CN') ? 'ID' : undefined,
-          },
-        }
-      } else if (baseTrackType === 'vcfTabix') {
-        return {
-          type: 'VariantTrack',
-          adapter: {
-            type: 'VcfTabixAdapter',
-            uri: bigDataUrl,
-          },
-        }
-      } else if (baseTrackType === 'hic') {
-        return {
-          type: 'HicTrack',
-          adapter: {
-            type: 'HicAdapter',
-            uri: bigDataUrl,
-          },
-        }
-      } else {
-        // unsupported types
-        //     case 'peptideMapping':
-        //     case 'gvf':
-        //     case 'ld2':
-        //     case 'narrowPeak':
-        //     case 'wig':
-        //     case 'wigMaf':
-        //     case 'halSnake':
-        //     case 'bed':
-        //     case 'bed5FloatScore':
-        //     case 'bedGraph':
-        //     case 'bedRnaElements':
-        //     case 'broadPeak':
-        //     case 'coloredExon':
-        console.error('Unknown track type: ', track.data)
-        return undefined
-      }
+  } else if (baseTrackType.startsWith('big')) {
+    return {
+      type: 'FeatureTrack',
+      adapter: {
+        type: 'BigBedAdapter',
+        uri: bigDataUrl,
+        scoreColumn: name.endsWith('wssd CN') ? 'ID' : undefined,
+      },
     }
-  }
-}
-export function generateUnknownTrackConf(
-  trackName: string,
-  trackUrl: string,
-  categories?: string[],
-) {
-  return {
-    type: 'FeatureTrack',
-    name: `${trackName} (Unknown)`,
-    description: `Could not determine track type for "${trackUrl}"`,
-    category: categories,
+  } else if (baseTrackType === 'vcfTabix') {
+    return {
+      type: 'VariantTrack',
+      adapter: {
+        type: 'VcfTabixAdapter',
+        uri: bigDataUrl,
+      },
+    }
+  } else if (baseTrackType === 'hic') {
+    return {
+      type: 'HicTrack',
+      adapter: {
+        type: 'HicAdapter',
+        uri: bigDataUrl,
+      },
+    }
+  } else {
+    // unsupported types
+    // 'peptideMapping':
+    // 'gvf':
+    // 'ld2':
+    // 'narrowPeak':
+    // 'wig':
+    // 'wigMaf':
+    // 'halSnake':
+    // 'bed':
+    // 'bed5FloatScore':
+    // 'bedGraph':
+    // 'bedRnaElements':
+    // 'broadPeak':
+    // 'coloredExon':
+    console.error('Unknown track type: ', track.data)
+    return undefined
   }
 }

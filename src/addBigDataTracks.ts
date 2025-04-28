@@ -1,42 +1,90 @@
 import fs from 'fs'
+import { readJSON } from './util.ts'
 
-const bigDataEntries = JSON.parse(
-  fs.readFileSync(process.argv[2], 'utf8'),
-) as Record<string, { tableName: string; settings: { bigDataUrl?: string } }>
-
-const config = JSON.parse(fs.readFileSync(process.argv[3], 'utf8')) as {
+interface JBrowseConfig {
   assemblies: { name: string }[]
-  tracks?: { trackId: string; [key: string]: unknown }[]
+  tracks: { trackId: string; [key: string]: unknown }[]
 }
 
-const s = new Set(config.tracks?.map(t => t.trackId) || [])
+interface BigDataTrack {
+  tableName: string
+  settings: { bigDataUrl?: string }
+}
 
-Object.values(bigDataEntries).map(val => {
-  const { settings, tableName } = val
-  const { bigDataUrl } = settings
-  if (bigDataUrl && !bigDataUrl.includes('fantom')) {
-    const uri = bigDataUrl.startsWith('https://hgdownload.soe.ucsc.edu')
-      ? bigDataUrl
-      : `https://hgdownload.soe.ucsc.edu${bigDataUrl}`
+type BigDataTracksJson = Record<string, BigDataTrack>
 
-    const bb = bigDataUrl.endsWith('.bb') || bigDataUrl.endsWith('.bigBed')
-    if (s.has(tableName)) {
-      throw new Error(`${tableName} already exists`)
-    }
+const bigDataEntries = readJSON(process.argv[2]) as BigDataTracksJson
+const config = readJSON(process.argv[3]) as JBrowseConfig
+const currTrackIds = new Set(config.tracks?.map(t => t.trackId) || [])
+const base = 'https://hgdownload.soe.ucsc.edu'
 
-    console.log(`adding ${tableName}`)
-    config.tracks?.push({
-      trackId: tableName,
-      name: tableName,
-      type: bb ? 'FeatureTrack' : 'QuantitativeTrack',
-      assemblyNames: [config.assemblies[0].name],
-      adapter:
-        bigDataUrl.endsWith('.bb') || bigDataUrl.endsWith('.bigBed')
-          ? { type: 'BigBedAdapter', uri }
-          : { type: 'BigWigAdapter', uri },
-    })
-  } else {
-  }
-})
+fs.writeFileSync(
+  process.argv[3],
+  JSON.stringify(
+    {
+      ...config,
+      tracks: [
+        ...config.tracks,
+        ...Object.values(bigDataEntries)
+          .map(val => {
+            const { settings, tableName } = val
+            const { bigDataUrl } = settings
+            if (bigDataUrl && !bigDataUrl.includes('fantom')) {
+              const uri = bigDataUrl.startsWith(base)
+                ? bigDataUrl
+                : `${base}${bigDataUrl}`
 
-fs.writeFileSync(process.argv[3], JSON.stringify(config, null, 2))
+              if (currTrackIds.has(tableName)) {
+                throw new Error(`${tableName} already exists`)
+              }
+
+              if (
+                bigDataUrl.endsWith('.bb') ||
+                bigDataUrl.endsWith('.bigBed')
+              ) {
+                return {
+                  trackId: tableName,
+                  name: tableName,
+                  type: 'FeatureTrack',
+                  assemblyNames: [config.assemblies[0].name],
+                  adapter: {
+                    type: 'BigBedAdapter',
+                    uri,
+                  },
+                }
+              } else if (bigDataUrl.endsWith('.bam')) {
+                return {
+                  trackId: tableName,
+                  name: tableName,
+                  type: 'AlignmentsTrack',
+                  assemblyNames: [config.assemblies[0].name],
+                  adapter: {
+                    type: 'BamAdapter',
+                    uri,
+                    // @ts-expect-error
+                    sequenceAdapter: config.assemblies[0].sequence.adapter,
+                  },
+                }
+              } else {
+                return {
+                  trackId: tableName,
+                  name: tableName,
+                  type: 'QuantitativeTrack',
+                  assemblyNames: [config.assemblies[0].name],
+                  adapter: {
+                    type: 'BigWigAdapter',
+                    uri,
+                  },
+                }
+              }
+            } else {
+              return undefined
+            }
+          })
+          .filter(f => !!f),
+      ],
+    },
+    null,
+    2,
+  ),
+)

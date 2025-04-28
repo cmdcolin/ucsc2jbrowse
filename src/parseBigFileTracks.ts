@@ -16,15 +16,17 @@ function splitOnce(s: string, s2: string) {
 }
 
 let tracks2 = {} as Record<string, unknown>
-for (const [key, val] of Object.entries(tracks).filter(([_key, val]) =>
-  val.type.startsWith('big'),
+for (const [key, val] of Object.entries(tracks).filter(
+  ([_key, val]) => val.type.startsWith('big') || val.type.startsWith('bam'),
 )) {
-  const settings = Object.fromEntries(
-    val.settings
-      .split('\n')
-      .map(s => splitOnce(s, ' '))
-      .filter(f => !!f[0]),
-  )
-  tracks2[key] = { ...val, settings }
+  tracks2[key] = {
+    ...val,
+    settings: Object.fromEntries(
+      val.settings
+        .split('\n')
+        .map(s => splitOnce(s, ' '))
+        .filter(f => !!f[0]),
+    ),
+  }
 }
 console.log(JSON.stringify(tracks2, null, 2))
