@@ -48,7 +48,7 @@ export async function enhanceGffWithLinkTable(
       const ID = col9attrs.ID ?? ''
       const newCol9 = `${col9};${Object.entries(data[ID] ?? {})
         .filter(([_key, val]) => !!val)
-        .map(([key, val]) => `${key}=${encodeURIComponent(val)}`)
+        .map(([key, val]) => `${key}=${encodeURIComponent(val as string)}`)
         .join(';')}`
 
       process.stdout.write(
@@ -60,4 +60,8 @@ export async function enhanceGffWithLinkTable(
   }
 }
 
-await enhanceGffWithLinkTable(process.argv[2], process.argv[3], process.argv[4])
+await enhanceGffWithLinkTable(
+  process.argv[2]!,
+  process.argv[3]!,
+  process.argv[4]!,
+)

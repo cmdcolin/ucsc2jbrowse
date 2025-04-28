@@ -13,7 +13,7 @@ const txt = fs.readFileSync(process.argv[2], 'utf8')
 const cols = getColNames(txt)
 
 const rl = readline.createInterface({
-  input: fs.createReadStream(process.argv[3]).pipe(zlib.createGunzip()),
+  input: fs.createReadStream(process.argv[3]!).pipe(zlib.createGunzip()),
 })
 
 const ret = {} as Record<string, unknown>
@@ -25,7 +25,7 @@ for await (const line of rl) {
     l += line.slice(0, -1) + '\n'
   } else if (l) {
     const r = parseTableLine(l, cols.colNames)
-    ret[r.tableName] = r
+    ret[r.tableName!] = r
     l = ''
   }
 }

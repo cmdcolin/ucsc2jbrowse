@@ -69,4 +69,4 @@ export async function genBed12(sql: string, txtGz: string) {
   }
 }
 
-await genBed12(process.argv[2], process.argv[3])
+await genBed12(process.argv[2]!, process.argv[3]!)

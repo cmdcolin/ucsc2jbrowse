@@ -13,7 +13,7 @@ const txt = fs.readFileSync(process.argv[2], 'utf8')
 const cols = getColNames(txt)
 
 const rl = readline.createInterface({
-  input: fs.createReadStream(process.argv[3]).pipe(zlib.createGunzip()),
+  input: fs.createReadStream(process.argv[3]!).pipe(zlib.createGunzip()),
 })
 
 for await (const line of rl) {
@@ -30,16 +30,16 @@ for await (const line of rl) {
     exonEnds,
   } = parseTableLine(line, cols.colNames)
   const sizes = [] as number[]
-  const s = exonStarts
+  const s = exonStarts!
     .split(',')
     .filter(f => !!f)
-    .map(r => +r - +txStart)
-  const e = exonEnds
+    .map(r => +r - +txStart!)
+  const e = exonEnds!
     .split(',')
     .filter(f => !!f)
-    .map(r => +r - +txStart)
+    .map(r => +r - +txStart!)
   for (let i = 0; i < s.length; i++) {
-    sizes.push(e[i] - s[i])
+    sizes.push(e[i]! - s[i]!)
   }
   console.log(
     [

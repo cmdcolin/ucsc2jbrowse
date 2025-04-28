@@ -12,6 +12,7 @@ export NODE_OPTIONS="--no-warnings=ExperimentalWarning"
 ./createConfigsForGoldenPath.sh ~/ucsc/*
 ./createTabixIndexes.sh ~/ucscResults/
 ./textIndexGoldenPath.sh ~/ucscResults/*
+./addMetadata.sh ~/ucscResults/*
 node src/makeUcscExtensions.ts ~/ucscResults
 ./getFileListing.sh ~/ucscResults/
 aws s3 sync ~/ucscResults s3://jbrowse.org/ucsc/ --size-only

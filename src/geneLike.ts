@@ -57,20 +57,20 @@ export function genBed12(sql: string, txtGz: string) {
     const sizes = []
     let s: any
     try {
-      s = exonStarts
+      s = exonStarts!
         .split(',')
         .filter(f => !!f)
-        .map(r => +r - +txStart)
+        .map(r => +r - +txStart!)
     } catch (e) {
       console.error({ line, exonStarts, p: process.argv })
       throw e
     }
-    const e = exonEnds
+    const e = exonEnds!
       .split(',')
       .filter(f => !!f)
-      .map(r => +r - +txStart)
+      .map(r => +r - +txStart!)
     for (let i = 0; i < s.length; i++) {
-      sizes.push(e[i] - s[i])
+      sizes.push(e[i]! - s[i]!)
     }
     process.stdout.write(
       [
@@ -92,4 +92,4 @@ export function genBed12(sql: string, txtGz: string) {
   })
 }
 
-genBed12(process.argv[2], process.argv[3])
+genBed12(process.argv[2]!, process.argv[3]!)

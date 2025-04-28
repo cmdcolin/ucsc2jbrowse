@@ -1,5 +1,6 @@
 import fs from 'fs'
 import path from 'path'
+import { readConfig } from './util.ts'
 
 if (process.argv.length < 3) {
   throw new Error(
@@ -7,20 +8,17 @@ if (process.argv.length < 3) {
   )
 }
 
-const config = JSON.parse(fs.readFileSync(process.argv[2], 'utf8')) as {
-  tracks: { trackId: string }[]
-  assemblies: { name: string }[]
-}
-
-const arg = path.basename(process.argv[3])
+const config = readConfig(process.argv[2]!)
+const arg = path.basename(process.argv[3]!)
 const base = path.basename(arg, '.bed.gz')
+const asm0 = config.assemblies[0]!
 
 // Create the new track configuration
 const newTrack = {
   type: 'FeatureTrack',
   trackId: base,
   name: base,
-  assemblyNames: [config.assemblies[0].name],
+  assemblyNames: [asm0.name],
   adapter: {
     type: 'BedTabixAdapter',
     bedGzLocation: { uri: arg },
@@ -49,7 +47,7 @@ if (existingTrackIndex >= 0) {
 
 // Write updated config
 fs.writeFileSync(
-  process.argv[2],
+  process.argv[2]!,
   JSON.stringify(
     {
       ...config,

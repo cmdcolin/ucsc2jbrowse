@@ -1,7 +1,7 @@
 import fs from 'fs'
-const r = fs.readFileSync(process.argv[2], 'utf8')
+const r = fs.readFileSync(process.argv[2]!, 'utf8')
 fs.writeFileSync(
-  process.argv[2],
+  process.argv[2]!,
   r
     .split('\n')
     .map(r => {

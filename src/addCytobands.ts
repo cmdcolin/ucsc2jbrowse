@@ -16,6 +16,7 @@ console.log(
                 cytobands: {
                   adapter: {
                     type: 'CytobandAdapter',
+                    // @ts-expect-error
                     uri: cytobands.adapter.bedGzLocation?.uri,
                   },
                 },

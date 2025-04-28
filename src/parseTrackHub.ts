@@ -10,10 +10,10 @@ const { SingleFileHub } = pkg
 
 type Adapter = Record<string, unknown>
 
-const hubFileText = fs.readFileSync(process.argv[2], 'utf8')
+const hubFileText = fs.readFileSync(process.argv[2]!, 'utf8')
 
 fs.writeFileSync(
-  process.argv[3],
+  process.argv[3]!,
   JSON.stringify(
     generateJBrowseConfigForAssemblyHub({
       hubFileText,
@@ -44,6 +44,12 @@ export function generateJBrowseConfigForAssemblyHub({
     const genomeName = genome.name!
     const shortLabel = data.description
 
+    if (!twoBitPath) {
+      throw new Error('No twoBitPath')
+    }
+    if (!chromSizes) {
+      throw new Error('No chromSizes')
+    }
     const sequenceAdapter = {
       type: 'TwoBitAdapter',
       uri: resolve(twoBitPath, trackDbUrl),
@@ -143,6 +149,7 @@ export function generateHubTracks({
               category: [
                 track.data.group,
                 ...parentTracks
+                  .filter(f => !!f)
                   .map(p => p.name)
                   .filter((f): f is string => !!f),
               ]

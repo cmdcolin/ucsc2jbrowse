@@ -1,11 +1,6 @@
 import fs from 'fs'
 
-import { readJSON } from './util.ts'
-
-interface JBrowseConfig {
-  assemblies: { name: string }[]
-  tracks: { trackId: string; [key: string]: unknown }[]
-}
+import { readConfig, readJSON } from './util.ts'
 
 interface BigDataTrack {
   tableName: string
@@ -15,10 +10,10 @@ interface BigDataTrack {
 type BigDataTracksJson = Record<string, BigDataTrack>
 
 const bigDataEntries = readJSON(process.argv[2]!) as BigDataTracksJson
-const config = readJSON(process.argv[3]!) as JBrowseConfig
+const config = readConfig(process.argv[3]!)
 const currTrackIds = new Set(config.tracks.map(t => t.trackId))
 const base = 'https://hgdownload.soe.ucsc.edu'
-
+const asm0 = config.assemblies[0]!
 fs.writeFileSync(
   process.argv[3]!,
   JSON.stringify(
@@ -47,7 +42,7 @@ fs.writeFileSync(
                   trackId: tableName,
                   name: tableName,
                   type: 'FeatureTrack',
-                  assemblyNames: [config.assemblies[0].name],
+                  assemblyNames: [asm0.name],
                   adapter: {
                     type: 'BigBedAdapter',
                     uri,
@@ -58,12 +53,12 @@ fs.writeFileSync(
                   trackId: tableName,
                   name: tableName,
                   type: 'AlignmentsTrack',
-                  assemblyNames: [config.assemblies[0].name],
+                  assemblyNames: [asm0.name],
                   adapter: {
                     type: 'BamAdapter',
                     uri,
                     // @ts-expect-error
-                    sequenceAdapter: config.assemblies[0].sequence.adapter,
+                    sequenceAdapter: asm0.sequence.adapter,
                   },
                 }
               } else {
@@ -71,7 +66,7 @@ fs.writeFileSync(
                   trackId: tableName,
                   name: tableName,
                   type: 'QuantitativeTrack',
-                  assemblyNames: [config.assemblies[0].name],
+                  assemblyNames: [asm0.name],
                   adapter: {
                     type: 'BigWigAdapter',
                     uri,

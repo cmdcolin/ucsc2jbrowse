@@ -1,11 +1,11 @@
+import { TrackDbEntry } from './types.ts'
 import { readJSON } from './util.ts'
 
 if (!process.argv[2]) {
   throw new Error(`usage: ${process.argv[0]} ${process.argv[1]} <tracks.json>`)
 }
-type Track = Record<string, string>
 
-const tracks = readJSON(process.argv[2]) as Record<string, Track>
+const tracks = readJSON(process.argv[2]) as Record<string, TrackDbEntry>
 
 function splitOnce(s: string, s2: string) {
   const i = s.indexOf(s2)
@@ -19,8 +19,8 @@ for (const [key, val] of Object.entries(tracks).filter(
   tracks2[key] = {
     ...val,
     settings: Object.fromEntries(
-      val.settings
-        .split('\n')
+      val
+        .settings!.split('\n')
         .map(s => splitOnce(s, ' '))
         .filter(f => !!f[0]),
     ),

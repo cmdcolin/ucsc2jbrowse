@@ -4,6 +4,7 @@ import path from 'path'
 import { promisify } from 'util'
 
 import { readJSON } from './util.ts'
+import { TrackDbEntry } from './types.ts'
 const pexec = promisify(exec)
 
 if (process.argv.length < 5) {
@@ -11,9 +12,8 @@ if (process.argv.length < 5) {
     `usage: ${process.argv[0]} ${process.argv[1]} <tracks.json> <dbdir> <outdir>`,
   )
 }
-type Track = Record<string, string>
 
-const tracks = readJSON(process.argv[2]) as Record<string, Track>
+const tracks = readJSON(process.argv[2]!) as Record<string, TrackDbEntry>
 
 // const types = ['bed', 'narrowPeak', 'broadPeak', 'pgSnp', 'peptideMapping']
 // many narrow/broad peak tracks
@@ -22,8 +22,8 @@ const types = ['bed', 'pgSnp', 'peptideMapping'] //less tracks
 for (const [key, val] of Object.entries(tracks).filter(([_key, val]) =>
   types.some(t => val.type.startsWith(t)),
 )) {
-  const infile = path.join(process.argv[3], key)
-  const outfile = path.join(process.argv[4], key)
+  const infile = path.join(process.argv[3]!, key)
+  const outfile = path.join(process.argv[4]!, key)
 
   // these are large (snp) and numerous (wgEncode)
   if (key.startsWith('snp') || key.startsWith('wgEncode')) {

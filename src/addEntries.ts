@@ -1,6 +1,6 @@
 import { readConfig } from './util.ts'
 
-const config = readConfig(process.argv[2])
+const config = readConfig(process.argv[2]!)
 
 console.log(
   JSON.stringify(

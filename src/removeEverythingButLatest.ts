@@ -3,7 +3,7 @@ import fs from 'fs'
 interface Track {
   trackId: string
 }
-const config = JSON.parse(fs.readFileSync(process.argv[2], 'utf8')) as {
+const config = JSON.parse(fs.readFileSync(process.argv[2]!, 'utf8')) as {
   tracks: Track[]
 }
 
@@ -21,7 +21,7 @@ for (const i of items) {
     .sort((a, b) => a.trackId.localeCompare(b.trackId))
   const s = new Set()
   for (let i = 0; i < ret.length - 1; i++) {
-    s.add(ret[i].trackId)
+    s.add(ret[i]!.trackId)
   }
   config.tracks = config.tracks.filter(f => !s.has(f.trackId))
 }

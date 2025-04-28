@@ -9,8 +9,8 @@ if (process.argv.length < 3) {
   )
 }
 
-const config = readConfig(process.argv[2])
-const arg = path.basename(process.argv[3])
+const config = readConfig(process.argv[2]!)
+const arg = path.basename(process.argv[3]!)
 const base = path.basename(arg, '.sorted.gff.gz')
 
 // Create the new track configuration
@@ -18,7 +18,7 @@ const newTrack = {
   type: 'FeatureTrack',
   trackId: base,
   name: base,
-  assemblyNames: [config.assemblies[0].name],
+  assemblyNames: [config.assemblies[0]!.name],
   adapter: {
     type: 'Gff3TabixAdapter',
     gffGzLocation: { uri: arg },
@@ -47,7 +47,7 @@ if (existingTrackIndex >= 0) {
 
 // Write updated config
 fs.writeFileSync(
-  process.argv[2],
+  process.argv[2]!,
   JSON.stringify(
     {
       ...config,

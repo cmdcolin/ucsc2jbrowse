@@ -21,6 +21,9 @@ console.log(
               .map(r => splitOnFirst(r, ' '))
               .filter(([key]) => !!key),
           )
+          const r0 = s2.parent ? splitOnFirst(s2.parent, ' ')[0] : undefined
+          const r1 = r0 ? tracksDb[r0] : undefined
+          const r2 = r1?.shortLabel
           return {
             ...t,
             metadata: {
@@ -28,9 +31,9 @@ console.log(
               ...s2,
               html: replaceLink(html),
             },
-            name: shortLabel,
+            name: [r2, shortLabel].filter(f => !!f).join(' - '),
             description: longLabel,
-            category: [grp, s2.parent?.replace(' on', '').replace(' off', '')]
+            category: [grp]
               .filter(f => !!f)
               .map(r => categoryMap[r as keyof typeof categoryMap] ?? r),
           }

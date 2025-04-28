@@ -14,13 +14,13 @@ if (process.argv.length < 5) {
 }
 type Track = Record<string, string>
 
-const tracks = readJSON(process.argv[2]) as Record<string, Track>
+const tracks = readJSON(process.argv[2]!) as Record<string, Track>
 
 for (const [key] of Object.entries(tracks).filter(([_key, val]) =>
-  val.type.startsWith('rmsk'),
+  val.type!.startsWith('rmsk'),
 )) {
-  const infile = path.join(process.argv[3], key)
-  const outfile = path.join(process.argv[4], key)
+  const infile = path.join(process.argv[3]!, key)
+  const outfile = path.join(process.argv[4]!, key)
   try {
     if (fs.existsSync(`${infile}.sql`)) {
       await pexec(
