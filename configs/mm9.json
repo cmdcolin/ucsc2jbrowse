@@ -160,7 +160,7 @@
       },
       "description": "Agilent SurePrint HD Mouse CGH Microarray 2x105K AMADID 014699",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "genotypeArrays"
       ]
     },
@@ -211,7 +211,7 @@
       },
       "description": "Agilent SurePrint G3 Mouse CGH Microarray 1x1M AMADID 027414",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "genotypeArrays"
       ]
     },
@@ -263,7 +263,7 @@
       },
       "description": "Agilent SurePrint HD Mouse CGH Microarray 1x244K AMADID 014695",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "genotypeArrays"
       ]
     },
@@ -314,7 +314,7 @@
       },
       "description": "Agilent SurePrint G3 Mouse CGH Microarray 4x180K AMADID 027411",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "genotypeArrays"
       ]
     },
@@ -363,7 +363,7 @@
       },
       "description": "BAC End Pairs",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -556,7 +556,7 @@
       },
       "description": "Chromosome Bands Based On Microscopy",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -604,7 +604,7 @@
       },
       "description": "Chromosome Bands Based on Microscopy (for Ideogram)",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -652,7 +652,7 @@
       },
       "description": "Duplications of >1000 Bases of Non-RepeatMasked Sequence",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -905,7 +905,7 @@
       },
       "description": "Quantitative Trait Loci From Jackson Laboratory / Mouse Genome Informatics",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -1051,7 +1051,7 @@
       },
       "description": "Microsatellites - Di-nucleotide and Tri-nucleotide Repeats",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -1099,7 +1099,7 @@
       },
       "description": "Mouse NumtS",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "numtSeq"
       ]
     },
@@ -1148,7 +1148,7 @@
       },
       "description": "Mouse NumtS assembled",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "numtSeq"
       ]
     },
@@ -1198,7 +1198,7 @@
       },
       "description": "Mouse NumtS on mitochondrion",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "numtSeq"
       ]
     },
@@ -1607,7 +1607,7 @@
       },
       "description": "Simple Tandem Repeats by TRF",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -1655,7 +1655,7 @@
       },
       "description": "STS Markers on Genetic and Radiation Hybrid Maps",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {

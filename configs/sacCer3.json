@@ -69,7 +69,7 @@
       },
       "description": "Short Genetic Variants from European Variant Archive Release 6",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "evaSnpContainer"
       ]
     },
@@ -1018,7 +1018,7 @@
       },
       "description": "Gap Locations",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -1067,7 +1067,7 @@
       },
       "description": "Assembly from Fragments",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -1114,7 +1114,7 @@
       },
       "description": "Microsatellites - Di-nucleotide and Tri-nucleotide Repeats",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -1262,7 +1262,7 @@
       },
       "description": "Washington University Clones",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -1359,7 +1359,7 @@
       },
       "description": "Simple Tandem Repeats by TRF",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -1762,6 +1762,27 @@
       "description": "Non-S. cerevisiae RefSeq Genes",
       "category": [
         "genes"
+      ]
+    }
+  ],
+  "aggregateTextSearchAdapters": [
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "sacCer3-index",
+      "ixFilePath": {
+        "uri": "trix/sacCer3.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/sacCer3.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/sacCer3_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "sacCer3"
       ]
     }
   ]

@@ -67,7 +67,7 @@
       },
       "description": "BAC End Pairs",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -115,7 +115,7 @@
       },
       "description": "Bactigs",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -212,7 +212,7 @@
       },
       "description": "Chromosome Bands Based On ISCN Lengths",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -260,7 +260,7 @@
       },
       "description": "Chromosome Bands Based On ISCN Lengths (for Ideogram)",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -406,7 +406,7 @@
       },
       "description": "Duplications of >1000 Bases of Non-RepeatMasked Sequence",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -502,7 +502,7 @@
       },
       "description": "Microsatellites - Di-nucleotide and Tri-nucleotide Repeats",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -549,7 +549,7 @@
       },
       "description": "Recombination Rate from SHRSPxBN and FHHxACI genetic maps (SHRSPxBN default)",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -597,7 +597,7 @@
       },
       "description": "Rat Quantitative Trait Locus from RGD",
       "category": [
-        "phenDis"
+        "Phenotypes, Variants, and Literature"
       ]
     },
     {
@@ -645,7 +645,7 @@
       },
       "description": "Rat Genome Database Simple Sequence Length Polymorphisms",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -692,7 +692,7 @@
       },
       "description": "Simple Tandem Repeats by TRF",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -740,7 +740,7 @@
       },
       "description": "STS Markers on Genetic and Radiation Hybrid Maps",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -1333,7 +1333,7 @@
       },
       "description": "Alignment of TIGR Gene Index TCs Against the Rat Genome",
       "category": [
-        "rna"
+        "mRNA and EST"
       ]
     },
     {

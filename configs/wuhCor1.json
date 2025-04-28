@@ -66,7 +66,7 @@
       },
       "description": "Nextstrain year-letter clade designations (19A, 19B, 20A, etc.)",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -189,7 +189,7 @@
       },
       "description": "Nextstrain, all samples: Alternate allele frequency",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "nextstrainFreqViewAll"
       ]
     },
@@ -233,7 +233,7 @@
       },
       "description": "Alpha VOC (B.1.1.7 UK Sep-2020) amino acid mutations in 9838 GISAID sequences (Feb 5, 2021)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -403,7 +403,7 @@
       },
       "description": "icSHAPE In-vitro",
       "category": [
-        "rna",
+        "mRNA and EST",
         "icshape"
       ]
     },
@@ -444,7 +444,7 @@
       },
       "description": "Intrahost SNP patient data from Todd Treangen's group",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -574,7 +574,7 @@
       },
       "description": "MGISEQ Leader-to-body 3' Breakpoints",
       "category": [
-        "expression",
+        "Expression",
         "kimNp"
       ]
     },
@@ -713,7 +713,7 @@
       },
       "description": "Sites of negative selection implicated in data from Sergei Pond's research group",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pond"
       ]
     },
@@ -1021,7 +1021,7 @@
       },
       "description": "SHAPE Reactivity (VeroE6 cells, virus isolate USA-WA1/2020)",
       "category": [
-        "rna",
+        "mRNA and EST",
         "pyle"
       ]
     },
@@ -1103,7 +1103,7 @@
       },
       "description": "NEB VarSkip V1a",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "varskip"
       ]
     },
@@ -1147,7 +1147,7 @@
       },
       "description": "Alpha VOC (B.1.1.7 UK Sep-2020) nucleotide mutations in 9838 GISAID sequences (Feb 5, 2021)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -1399,7 +1399,7 @@
       },
       "description": "icSHAPE In-vivo",
       "category": [
-        "rna",
+        "mRNA and EST",
         "icshape"
       ]
     },
@@ -1571,7 +1571,7 @@
       },
       "description": "Kim et al. MGISEQ Noncanonical 3' Breakpoints",
       "category": [
-        "expression",
+        "Expression",
         "kimNp"
       ]
     },
@@ -1736,7 +1736,7 @@
       },
       "description": "Sites of positive selection implicated in data from Sergei Pond's research group",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pond"
       ]
     },
@@ -1825,7 +1825,7 @@
       },
       "description": "Shannon Entropy derived from the in vivo SHAPE constrained Superfold structure prediction",
       "category": [
-        "rna",
+        "mRNA and EST",
         "pyle"
       ]
     },
@@ -1866,7 +1866,7 @@
       },
       "description": "NEB VarSkip Long V1a",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "varskip"
       ]
     },
@@ -1910,7 +1910,7 @@
       },
       "description": "Beta VOC (B.1.351 SA Dec-2020) amino acid mutations in 793 GISAID sequences (Feb 5, 2021)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -2462,7 +2462,7 @@
       },
       "description": "NEB VarSkip 2",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "varskip"
       ]
     },
@@ -2504,7 +2504,7 @@
       },
       "description": "Nanopore coverage of in-vitro-transcribed RNA seq + PCR, Kim et al 2020",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -2594,7 +2594,7 @@
       },
       "description": "Beta VOC (B.1.351 SA Dec-2020) nucleotide mutations in 793 GISAID sequences (Feb 5, 2021)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -3056,7 +3056,7 @@
       },
       "description": "NEB VarSkip 2b (2a + spike-ins)",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "varskip"
       ]
     },
@@ -3098,7 +3098,7 @@
       },
       "description": "ARTIC V3 Oxford Nanopore sequencing primers",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -3139,7 +3139,7 @@
       },
       "description": "ARTIC V4 Oxford Nanopore sequencing primers",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -3180,7 +3180,7 @@
       },
       "description": "ARTIC V4.1 Oxford Nanopore sequencing primers",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -3387,7 +3387,7 @@
       },
       "description": "Gamma VOC (P.1 Brazil Nov-2020) amino acid mutations in 78 GISAID sequences (Feb 5, 2021)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -3642,7 +3642,7 @@
       },
       "description": "RAPID/Midnight 1200bp amplicon Oxford Nanopore sequencing primers",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -3683,7 +3683,7 @@
       },
       "description": "Swift BioSciences sequencing primers",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -3812,7 +3812,7 @@
       },
       "description": "Crowd-sourced data: annotations contributed via bit.ly/cov2annots",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -4022,7 +4022,7 @@
       },
       "description": "Gamma VOC (P.1 Brazil Nov-2020) nucleotide mutations in 78 GISAID sequences (Feb 5, 2021)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -4405,7 +4405,7 @@
       },
       "description": "Delta VOC (B.1.617.2 India Oct-2020) amino acid mutations in 3000 GISAID sequences (Sep 10, 2021)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -4736,7 +4736,7 @@
       },
       "description": "Delta VOC (B.1.617.2 India Oct-2020) nucleotide mutations in 3000 GISAID sequences (Sep 10, 2021)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -5409,7 +5409,7 @@
       },
       "description": "Omicron (BA.1 SA Nov-2021) amino acid mutations from cov-lineages.org (Nov 2021)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -5533,7 +5533,7 @@
       },
       "description": "Nextstrain, 19A clade: Alternate allele frequency",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "nextstrainFreqViewNewClades"
       ]
     },
@@ -5577,7 +5577,7 @@
       },
       "description": "Mutations (amino acid level) in AY.4 between 2021-10-05 and 2022-01-05",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "Q1_tracks"
       ]
     },
@@ -5621,7 +5621,7 @@
       },
       "description": "Mutations (amino acid level) in AY.4 between 2021-04-05 and 2021-07-05",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "Q3_tracks"
       ]
     },
@@ -5665,7 +5665,7 @@
       },
       "description": "Mutations (amino acid level) in AY.4 between 2021-07-05 and 2021-10-05",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "Q2_tracks"
       ]
     },
@@ -5709,7 +5709,7 @@
       },
       "description": "Mutations (amino acid level) in BA.2 between 2022-01-05 and 2022-03-12",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "Q0_tracks"
       ]
     },
@@ -5956,7 +5956,7 @@
       },
       "description": "Problematic sites where masking is recommended for analysis",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "problematicSites"
       ]
     },
@@ -6042,7 +6042,7 @@
       },
       "description": "Omicron VOC (BA.1 SA Nov-2021) nucleotide mutations identifed from GISAID sequences (Nov 2021)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -6418,7 +6418,7 @@
       },
       "description": "Omicron BA.2 amino acid mutations from GISAID sequences (Sep 22, 2023)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -6799,7 +6799,7 @@
       },
       "description": "Omicron VOC (BA.2) nucleotide mutations identifed from GISAID sequences (Sep 2023)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -7055,7 +7055,7 @@
       },
       "description": "Omicron BA.2.75 amino acid mutations from 287 GISAID sequences (Sep 22, 2023)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -7350,7 +7350,7 @@
       },
       "description": "Omicron VOC (BA.2.75) nucleotide mutations identifed from GISAID sequences (Sep 2023)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -7604,7 +7604,7 @@
       },
       "description": "Lambda VOI (C.37 Peru Mar-2020) amino acid mutations in 3000 GISAID sequences (Sep 10, 2021)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -7899,7 +7899,7 @@
       },
       "description": "Lambda VOI (C.37 Peru Mar-2020) nucleotide mutations in 3000 GISAID sequences (Sep 10, 2021)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -8194,7 +8194,7 @@
       },
       "description": "Mu VOI (B.1.621 Columbia Jan-2021) amino acid mutations in 3000 GISAID sequences (Sep 10, 2021)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -8489,7 +8489,7 @@
       },
       "description": "Mu VOI (B.1.621 Columbia Jan-2021) nucleotide mutations in 3000 GISAID sequences (Sep 10, 2021)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -8784,7 +8784,7 @@
       },
       "description": "Omicron XBB.1.5 amino acid mutations from GISAID sequences (Sep 22, 2023)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -8949,7 +8949,7 @@
       },
       "description": "Nextstrain, 19B clade: Alternate allele frequency",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "nextstrainFreqViewNewClades"
       ]
     },
@@ -8993,7 +8993,7 @@
       },
       "description": "Mutations (amino acid level) in AY.4.2 between 2021-10-05 and 2022-01-05",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "Q1_tracks"
       ]
     },
@@ -9037,7 +9037,7 @@
       },
       "description": "Mutations (amino acid level) in AY.5 between 2021-07-05 and 2021-10-05",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "Q2_tracks"
       ]
     },
@@ -9081,7 +9081,7 @@
       },
       "description": "Mutations (amino acid level) in B.1.1.7 between 2021-04-05 and 2021-07-05",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "Q3_tracks"
       ]
     },
@@ -9125,7 +9125,7 @@
       },
       "description": "Mutations (amino acid level) in BA.1.1 between 2022-01-05 and 2022-03-06",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "Q0_tracks"
       ]
     },
@@ -9167,7 +9167,7 @@
       },
       "description": "Problematic sites where caution is recommended for analysis",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "problematicSites"
       ]
     },
@@ -9293,7 +9293,7 @@
       },
       "description": "Omicron VOC (XBB.1.5) nucleotide mutations identifed from GISAID sequences (Sep 2023)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -9895,7 +9895,7 @@
       },
       "description": "Omicron XBB.1.16 amino acid mutations from GISAID sequences (Sep 22, 2023)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -10108,7 +10108,7 @@
       },
       "description": "Omicron VOC (XBB.1.16) nucleotide mutations identifed from GISAID sequences (Sep 2023)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -10321,7 +10321,7 @@
       },
       "description": "Omicron EG.5.1 amino acid mutations from GISAID sequences (Sep 22, 2023)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -10534,7 +10534,7 @@
       },
       "description": "Omicron VOC (EG.5.1) nucleotide mutations identifed from GISAID sequences (Sep 2023)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -10747,7 +10747,7 @@
       },
       "description": "Omicron XBB.1.5.70 amino acid mutations from GISAID sequences (Jan 29, 2024)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -10960,7 +10960,7 @@
       },
       "description": "Omicron VOC (XBB.1.5.70) nucleotide mutations identifed from GISAID sequences (Jan 2024)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -11173,7 +11173,7 @@
       },
       "description": "Omicron HK.3 amino acid mutations from GISAID sequences (Jan 29, 2024)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -11386,7 +11386,7 @@
       },
       "description": "Omicron VOC (HK.3) nucleotide mutations identifed from GISAID sequences (Jan 2024)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -11553,7 +11553,7 @@
       },
       "description": "Omicron JN.1 amino acid mutations from GISAID sequences (Jan 29, 2024)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -11636,7 +11636,7 @@
       },
       "description": "Nextstrain, 20A clade: Alternate allele frequency",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "nextstrainFreqViewNewClades"
       ]
     },
@@ -11680,7 +11680,7 @@
       },
       "description": "Mutations (amino acid level) in AY.6 between 2021-07-05 and 2021-10-05",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "Q2_tracks"
       ]
     },
@@ -11724,7 +11724,7 @@
       },
       "description": "Mutations (amino acid level) in B.1.617.2 between 2021-04-05 and 2021-07-05",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "Q3_tracks"
       ]
     },
@@ -11768,7 +11768,7 @@
       },
       "description": "Mutations (amino acid level) in BA.1.17 between 2021-10-05 and 2022-01-05",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "Q1_tracks"
       ]
     },
@@ -11812,7 +11812,7 @@
       },
       "description": "Mutations (amino acid level) in BA.1.17 between 2022-01-05 and 2022-03-01",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "Q0_tracks"
       ]
     },
@@ -11938,7 +11938,7 @@
       },
       "description": "Omicron VOC (JN.1) nucleotide mutations identifed from GISAID sequences (Jan 2024)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -13500,7 +13500,7 @@
       },
       "description": "Omicron BA.2.86 amino acid mutations from GISAID sequences (Jan 29, 2024)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -14091,7 +14091,7 @@
       },
       "description": "Omicron VOC (BA.2.86) nucleotide mutations identifed from GISAID sequences (Jan 2024)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -14304,7 +14304,7 @@
       },
       "description": "Epsilon VUM (B.1.429 USA Mar-2020) amino acid mutations in 1360 GISAID sequences (Feb 5, 2021)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -14645,7 +14645,7 @@
       },
       "description": "Epsilon VUM (B.1.429 USA Mar-2020) nucleotide mutations in 1360 GISAID sequences (Feb 5, 2021)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -14858,7 +14858,7 @@
       },
       "description": "Eta VUM (B.1.525 Dec-2020) amino acid mutations in 3000 GISAID sequences (Sep 10, 2021)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -15071,7 +15071,7 @@
       },
       "description": "Eta VUM (B.1.525 Dec-2020) nucleotide mutations in 3000 GISAID sequences (Sep 10, 2021)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -15284,7 +15284,7 @@
       },
       "description": "Iota VUM (B.1.526 USA Nov-2020) amino acid mutations in 3000 GISAID sequences (Sep 10, 2021)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -15497,7 +15497,7 @@
       },
       "description": "Iota VUM (B.1.526 USA Nov-2020) nucleotide mutations in 3000 GISAID sequences (Sep 10, 2021)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -15669,7 +15669,7 @@
       },
       "description": "Kappa VUM (B.1.617.1 India Oct-2020) amino acid mutations in 3000 GISAID sequences (Sep 10, 2021)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -15711,7 +15711,7 @@
       },
       "description": "Nextstrain, 20B clade: Alternate allele frequency",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "nextstrainFreqViewNewClades"
       ]
     },
@@ -15755,7 +15755,7 @@
       },
       "description": "Mutations (amino acid level) in AY.120 between 2021-07-05 and 2021-10-05",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "Q2_tracks"
       ]
     },
@@ -15799,7 +15799,7 @@
       },
       "description": "Mutations (amino acid level) in AY.43 between 2021-10-05 and 2022-01-05",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "Q1_tracks"
       ]
     },
@@ -15843,7 +15843,7 @@
       },
       "description": "Mutations (amino acid level) in AY.5 between 2021-04-05 and 2021-07-05",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "Q3_tracks"
       ]
     },
@@ -15887,7 +15887,7 @@
       },
       "description": "Mutations (amino acid level) in BA.1 between 2022-01-05 and 2022-03-09",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "Q0_tracks"
       ]
     },
@@ -15933,7 +15933,7 @@
       },
       "description": "Cas13 CRISPR targets",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -16058,7 +16058,7 @@
       },
       "description": "Kappa VUM (B.1.617.1 India Oct-2020) nucleotide  mutations in 3000 GISAID sequences (Sep 10, 2021)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -16184,7 +16184,7 @@
       },
       "description": "Omicron BA.4 amino acid mutations from 573 GISAID sequences (May 4, 2022)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -16310,7 +16310,7 @@
       },
       "description": "Omicron VOC (BA.4) nucleotide mutations identifed from 573 GISAID sequences (May 2022)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -16436,7 +16436,7 @@
       },
       "description": "Omicron BA.5 amino acid mutations from 287 GISAID sequences (May 4, 2022)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -16562,7 +16562,7 @@
       },
       "description": "Omicron VOC (BA.5) nucleotide mutations identifed from 287 GISAID sequences (May 2022)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -16688,7 +16688,7 @@
       },
       "description": "Omicron BA.2.12.1 amino acid mutations from GISAID sequences (Sep 22, 2023)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -16814,7 +16814,7 @@
       },
       "description": "Omicron VOC (BA.2.12.1) nucleotide mutations identifed from GISAID sequences (Sep 2023)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -16940,7 +16940,7 @@
       },
       "description": "Omicron BQ.1 amino acid mutations from GISAID sequences (Sep 22, 2023)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -17066,7 +17066,7 @@
       },
       "description": "Omicron VOC (BQ.1) nucleotide mutations identifed from GISAID sequences (Sep 2023)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -17192,7 +17192,7 @@
       },
       "description": "Omicron XBB amino acid mutations from GISAID sequences (Sep 22, 2023)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -17234,7 +17234,7 @@
       },
       "description": "Nextstrain, 20C clade: Alternate allele frequency",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "nextstrainFreqViewNewClades"
       ]
     },
@@ -17276,7 +17276,7 @@
       },
       "description": "Nextstrain, 20D clade: Alternate allele frequency",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "nextstrainFreqViewNewClades"
       ]
     },
@@ -17318,7 +17318,7 @@
       },
       "description": "Nextstrain, 20E_EU1 clade: Alternate allele frequency",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "nextstrainFreqViewNewClades"
       ]
     },
@@ -17360,7 +17360,7 @@
       },
       "description": "Nextstrain, 20F clade: Alternate allele frequency",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "nextstrainFreqViewNewClades"
       ]
     },
@@ -17402,7 +17402,7 @@
       },
       "description": "Nextstrain, 20G clade: Alternate allele frequency",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "nextstrainFreqViewNewClades"
       ]
     },
@@ -17444,7 +17444,7 @@
       },
       "description": "Nextstrain, 20H/501Y.V2/Beta clade: Alternate allele frequency",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "nextstrainFreqViewNewClades"
       ]
     },
@@ -17486,7 +17486,7 @@
       },
       "description": "Nextstrain, 20I/501Y.V1/Alpha clade: Alternate allele frequency",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "nextstrainFreqViewNewClades"
       ]
     },
@@ -17528,7 +17528,7 @@
       },
       "description": "Nextstrain, 20J/501Y.V3/Gamma clade: Alternate allele frequency",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "nextstrainFreqViewNewClades"
       ]
     },
@@ -17570,7 +17570,7 @@
       },
       "description": "Nextstrain, 21A/Delta clade: Alternate allele frequency",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "nextstrainFreqViewNewClades"
       ]
     },
@@ -17612,7 +17612,7 @@
       },
       "description": "Nextstrain, 21B/Kappa clade: Alternate allele frequency",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "nextstrainFreqViewNewClades"
       ]
     },
@@ -17654,7 +17654,7 @@
       },
       "description": "Nextstrain, 21C/Epsilon clade: Alternate allele frequency",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "nextstrainFreqViewNewClades"
       ]
     },
@@ -17696,7 +17696,7 @@
       },
       "description": "Nextstrain, 21D/Eta clade: Alternate allele frequency",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "nextstrainFreqViewNewClades"
       ]
     },
@@ -17738,7 +17738,7 @@
       },
       "description": "Nextstrain, 21E/Theta clade: Alternate allele frequency",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "nextstrainFreqViewNewClades"
       ]
     },
@@ -17780,7 +17780,7 @@
       },
       "description": "Nextstrain, 21F/Iota clade: Alternate allele frequency",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "nextstrainFreqViewNewClades"
       ]
     },
@@ -17822,7 +17822,7 @@
       },
       "description": "Nextstrain, 21G/Lambda clade: Alternate allele frequency",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "nextstrainFreqViewNewClades"
       ]
     },
@@ -17864,7 +17864,7 @@
       },
       "description": "Nextstrain, 21H/Mu clade: Alternate allele frequency",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "nextstrainFreqViewNewClades"
       ]
     },
@@ -17906,7 +17906,7 @@
       },
       "description": "Nextstrain, 21I/Delta clade: Alternate allele frequency",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "nextstrainFreqViewNewClades"
       ]
     },
@@ -17948,7 +17948,7 @@
       },
       "description": "Nextstrain, 21J/Delta clade: Alternate allele frequency",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "nextstrainFreqViewNewClades"
       ]
     },
@@ -17990,7 +17990,7 @@
       },
       "description": "Nextstrain, 21K/Omicron/BA.1 clade: Alternate allele frequency",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "nextstrainFreqViewNewClades"
       ]
     },
@@ -18032,7 +18032,7 @@
       },
       "description": "Nextstrain, 21L/Omicron/BA.2 clade: Alternate allele frequency",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "nextstrainFreqViewNewClades"
       ]
     },
@@ -18074,7 +18074,7 @@
       },
       "description": "Nextstrain, 21M/Omicron/B.1.1.529 clade: Alternate allele frequency",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "nextstrainFreqViewNewClades"
       ]
     },
@@ -18116,7 +18116,7 @@
       },
       "description": "Nextstrain, 22A/Omicron/BA.4 clade: Alternate allele frequency",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "nextstrainFreqViewNewClades"
       ]
     },
@@ -18158,7 +18158,7 @@
       },
       "description": "Nextstrain, 22B/Omicron/BA.5 clade: Alternate allele frequency",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "nextstrainFreqViewNewClades"
       ]
     },
@@ -18200,7 +18200,7 @@
       },
       "description": "Nextstrain, 22C/Omicron/BA.2.12.1 clade: Alternate allele frequency",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "nextstrainFreqViewNewClades"
       ]
     },
@@ -18242,7 +18242,7 @@
       },
       "description": "Nextstrain, 22D/Omicron/BA.2.75 clade: Alternate allele frequency",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "nextstrainFreqViewNewClades"
       ]
     },
@@ -18284,7 +18284,7 @@
       },
       "description": "Nextstrain, 22E/Omicron/BQ.1 clade: Alternate allele frequency",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "nextstrainFreqViewNewClades"
       ]
     },
@@ -18326,7 +18326,7 @@
       },
       "description": "Nextstrain, 22F/Omicron/XBB clade: Alternate allele frequency",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "nextstrainFreqViewNewClades"
       ]
     },
@@ -18368,7 +18368,7 @@
       },
       "description": "Nextstrain, 23A/Omicron/XBB.1.5 clade: Alternate allele frequency",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "nextstrainFreqViewNewClades"
       ]
     },
@@ -18412,7 +18412,7 @@
       },
       "description": "Mutations (amino acid level) in AY.122 between 2021-07-05 and 2021-10-05",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "Q2_tracks"
       ]
     },
@@ -18456,7 +18456,7 @@
       },
       "description": "Mutations (amino acid level) in AY.4.2.2 between 2021-10-05 and 2022-01-05",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "Q1_tracks"
       ]
     },
@@ -18500,7 +18500,7 @@
       },
       "description": "Mutations (amino acid level) in AY.9 between 2021-04-05 and 2021-07-05",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "Q3_tracks"
       ]
     },
@@ -18544,7 +18544,7 @@
       },
       "description": "Mutations (amino acid level) in BA.1.1.11 between 2022-01-05 and 2022-03-09",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "Q0_tracks"
       ]
     },
@@ -18670,7 +18670,7 @@
       },
       "description": "Omicron VOC (XBB) nucleotide mutations identifed from GISAID sequences (Sep 2023)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -18796,7 +18796,7 @@
       },
       "description": "Omicron CH.1.1 amino acid mutations from GISAID sequences (Sep 22, 2023)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -18922,7 +18922,7 @@
       },
       "description": "Omicron VOC (CH.1.1) nucleotide mutations identifed from GISAID sequences (Sep 2023)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -19048,7 +19048,7 @@
       },
       "description": "Omicron XBB.1.9 amino acid mutations from GISAID sequences (Sep 22, 2023)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -19174,7 +19174,7 @@
       },
       "description": "Omicron VOC (XBB.1.9) nucleotide mutations identifed from GISAID sequences (Sep 2023)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -19300,7 +19300,7 @@
       },
       "description": "Omicron XBB.2.3 amino acid mutations from GISAID sequences (Sep 22, 2023)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -19426,7 +19426,7 @@
       },
       "description": "Omicron VOC (XBB.2.3) nucleotide mutations identifed from GISAID sequences (Sep 2023)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "variantMuts"
       ]
     },
@@ -20784,7 +20784,7 @@
       },
       "description": "Addgene Plasmid Sequences alignable to the Genome",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -20996,7 +20996,7 @@
       },
       "description": "Mutations that confer drug resistance (Anna Niewiadomska, BV-BRC)",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -21080,7 +21080,7 @@
       },
       "description": "Parsimony Scores for Nextstrain Mutations and Phylogenetic Tree",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -21204,7 +21204,7 @@
       },
       "description": "Potential pathogenic insertions and deletions from Gussow et al, PNAS 2020",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -21247,7 +21247,7 @@
       },
       "description": "Mutations that may confer drug resistance - from Coronavirus3d.org (label: count of GISAID sequences with mutation, Feb 2022)",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -21333,7 +21333,7 @@
       },
       "description": "Recombination Breakpoints from Thurakia et al 2022",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -21380,7 +21380,7 @@
       },
       "description": "Spike protein mutations from community annotation (Feb 2021)",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -21615,7 +21615,7 @@
       },
       "description": "Ideogram for Orientation",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -21662,7 +21662,7 @@
       },
       "description": "Gap Locations",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -21711,7 +21711,7 @@
       },
       "description": "Assembly from Fragments",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -21759,7 +21759,7 @@
       },
       "description": "Microdeletions in GISAID sequences",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -21807,7 +21807,7 @@
       },
       "description": "Rfam families",
       "category": [
-        "rna"
+        "mRNA and EST"
       ]
     },
     {
@@ -21857,7 +21857,7 @@
       },
       "description": "Rangan et al. RNA predictions",
       "category": [
-        "rna"
+        "mRNA and EST"
       ]
     },
     {
@@ -21904,7 +21904,7 @@
       },
       "description": "Simple Tandem Repeats by TRF",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -21952,7 +21952,7 @@
       },
       "description": "Accession at INSDC - International Nucleotide Sequence Database Collaboration",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -22000,7 +22000,7 @@
       },
       "description": "RefSeq Accession",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -22047,7 +22047,7 @@
       },
       "description": "Genomic Intervals Masked by WindowMasker + SDust",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {

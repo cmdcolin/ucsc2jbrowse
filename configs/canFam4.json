@@ -27,6 +27,81 @@
   ],
   "tracks": [
     {
+      "type": "VariantTrack",
+      "name": "Dog10k SNPs",
+      "trackId": "dog10k_snps",
+      "assemblyNames": [
+        "canFam4"
+      ],
+      "category": [
+        "Dog10k"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "samplesTsvLocation": {
+          "uri": "https://myloveydove.com/dog10k/info.tsv"
+        },
+        "uri": "https://myloveydove.com/dog10k/AutoAndXPAR.SNPs.vqsr99.vcf.gz"
+      }
+    },
+    {
+      "type": "VariantTrack",
+      "name": "Dog10k inversions",
+      "trackId": "dog10k_inversions",
+      "assemblyNames": [
+        "canFam4"
+      ],
+      "category": [
+        "Dog10k"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "samplesTsvLocation": {
+          "uri": "https://myloveydove.com/dog10k/info.tsv"
+        },
+        "uri": "https://myloveydove.com/dog10k/SV-genotype-v2.merge.INV.08042022.vcf.gz"
+      }
+    },
+    {
+      "type": "VariantTrack",
+      "trackId": "dog10k_sv",
+      "name": "Dog10k SVs (original Dog10k SVs, 2023)",
+      "assemblyNames": [
+        "canFam4"
+      ],
+      "category": [
+        "Dog10k"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "uri": "https://myloveydove.com/dog10k/SV-genotype-v2.merge.agg_only.08032022.vcf.gz",
+        "samplesTsvLocation": {
+          "uri": "https://myloveydove.com/dog10k/info.tsv"
+        }
+      }
+    },
+    {
+      "type": "VariantTrack",
+      "trackId": "dog10k_sv2",
+      "name": "Dog10k SVs (re-genotyped with Manta+Paragraph, 2025)",
+      "assemblyNames": [
+        "canFam4"
+      ],
+      "category": [
+        "Dog10k"
+      ],
+      "metadata": {
+        "source": "https://www.biorxiv.org/content/10.1101/2025.03.05.641690v1"
+      },
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "uri": "https://myloveydove.com/dog10k/Dog10k_manta_paragraph.vcf.gz",
+        "samplesTsvLocation": {
+          "uri": "https://myloveydove.com/dog10k/info.tsv"
+        }
+      }
+    },
+    {
       "trackId": "ncbiRefSeqOther",
       "name": "RefSeq Other",
       "type": "FeatureTrack",
@@ -299,7 +374,7 @@
       },
       "description": "Ideogram for Orientation",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -346,7 +421,7 @@
       },
       "description": "Gap Locations",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -395,7 +470,7 @@
       },
       "description": "Assembly from Fragments",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -443,7 +518,7 @@
       },
       "description": "miRNA GSD1.0 miRDeep2",
       "category": [
-        "rna"
+        "mRNA and EST"
       ]
     },
     {
@@ -490,7 +565,7 @@
       },
       "description": "Microsatellites - Di-nucleotide and Tri-nucleotide Repeats",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -538,7 +613,7 @@
       },
       "description": "Fragments of Interrupted Repeats Joined by RepeatMasker ID",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -587,7 +662,7 @@
       },
       "description": "Repeating Elements by RepeatMasker",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -634,7 +709,7 @@
       },
       "description": "Simple Tandem Repeats by TRF",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -682,7 +757,7 @@
       },
       "description": "Structural variations",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -730,7 +805,7 @@
       },
       "description": "Accession at INSDC - International Nucleotide Sequence Database Collaboration",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -825,7 +900,7 @@
       },
       "description": "Genomic Intervals Masked by WindowMasker + SDust",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -1182,6 +1257,27 @@
       "description": "Non-Dog RefSeq Genes",
       "category": [
         "genes"
+      ]
+    }
+  ],
+  "aggregateTextSearchAdapters": [
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "canFam4-index",
+      "ixFilePath": {
+        "uri": "trix/canFam4.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/canFam4.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/canFam4_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "canFam4"
       ]
     }
   ]

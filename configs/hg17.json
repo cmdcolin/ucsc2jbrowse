@@ -65,7 +65,7 @@
       },
       "description": "A375 Cytosolic polyA+, Affy Transfrags",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase2Frag"
       ]
     },
@@ -114,7 +114,7 @@
       },
       "description": "FHs738Lu Cytosolic polyA+, Affy Transfrags",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase2Frag"
       ]
     },
@@ -163,7 +163,7 @@
       },
       "description": "HepG2 Cytosolic polyA-, Affy Transfrags",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase2Frag"
       ]
     },
@@ -212,7 +212,7 @@
       },
       "description": "HepG2 Cytosolic polyA+, Affy Transfrags",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase2Frag"
       ]
     },
@@ -261,7 +261,7 @@
       },
       "description": "HepG2 Nuclear polyA-, Affy Transfrags",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase2Frag"
       ]
     },
@@ -310,7 +310,7 @@
       },
       "description": "HepG2 Nuclear polyA+, Affy Transfrags",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase2Frag"
       ]
     },
@@ -359,7 +359,7 @@
       },
       "description": "Jurkat Cytosolic polyA+, Affy Transfrags",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase2Frag"
       ]
     },
@@ -408,7 +408,7 @@
       },
       "description": "NCCIT Cytosolic polyA+, Affy Transfrags",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase2Frag"
       ]
     },
@@ -457,7 +457,7 @@
       },
       "description": "PC3 Cytosolic polyA+, Affy Transfrags",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase2Frag"
       ]
     },
@@ -506,7 +506,7 @@
       },
       "description": "SK-N-AS Cytosolic polyA+, Affy Transfrags",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase2Frag"
       ]
     },
@@ -555,7 +555,7 @@
       },
       "description": "U87 Cytosolic polyA+, Affy Transfrags",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase2Frag"
       ]
     },
@@ -604,7 +604,7 @@
       },
       "description": "Affymetrix Human Exon 1.0 Probe Sets",
       "category": [
-        "expression"
+        "Expression"
       ]
     },
     {
@@ -651,7 +651,7 @@
       },
       "description": "Affymetrix HDF Long RNA (Cytosolic) Fragments",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase3FragsL"
       ]
     },
@@ -699,7 +699,7 @@
       },
       "description": "Affymetrix HeLa Minus Strand Short RNA (Whole Cell) Fragments",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase3FragsS"
       ]
     },
@@ -747,7 +747,7 @@
       },
       "description": "Affymetrix HeLa Long RNA (Cytosolic) Fragments",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase3FragsL"
       ]
     },
@@ -795,7 +795,7 @@
       },
       "description": "Affymetrix HeLa Long RNA (Nuclear) Fragments",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase3FragsL"
       ]
     },
@@ -843,7 +843,7 @@
       },
       "description": "Affymetrix HeLa Plus Strand Short RNA (Whole Cell) Fragments",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase3FragsS"
       ]
     },
@@ -891,7 +891,7 @@
       },
       "description": "Affymetrix HepG2 Minus Strand Short RNA (Whole Cell) Fragments",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase3FragsS"
       ]
     },
@@ -939,7 +939,7 @@
       },
       "description": "Affymetrix HepG2 Long RNA (Cytosolic) Fragments",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase3FragsL"
       ]
     },
@@ -987,7 +987,7 @@
       },
       "description": "Affymetrix HepG2 Long RNA (Nuclear) Fragments",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase3FragsL"
       ]
     },
@@ -1035,7 +1035,7 @@
       },
       "description": "Affymetrix HepG2 Plus Strand Short RNA (Whole Cell) Fragments",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase3FragsS"
       ]
     },
@@ -1083,7 +1083,7 @@
       },
       "description": "Affymetrix Jurkat Long RNA (Cytosolic) Fragments",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase3FragsL"
       ]
     },
@@ -1131,7 +1131,7 @@
       },
       "description": "Affymetrix NCCIT Long RNA (Cytosolic) Fragments",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase3FragsL"
       ]
     },
@@ -1179,7 +1179,7 @@
       },
       "description": "Affymetrix PC3 Long RNA (Cytosolic) Fragments",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase3FragsL"
       ]
     },
@@ -1227,7 +1227,7 @@
       },
       "description": "Affymetrix SK-N-AS Long RNA (Cytosolic) Fragments",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase3FragsL"
       ]
     },
@@ -1275,7 +1275,7 @@
       },
       "description": "Affymetrix U87MG Long RNA (Cytosolic) Fragments",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase3FragsL"
       ]
     },
@@ -1325,7 +1325,7 @@
       },
       "description": "Alternate Haplotypes to Reference Sequence Correspondence",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -1375,7 +1375,7 @@
       },
       "description": "BAC End Pairs",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -1472,7 +1472,7 @@
       },
       "description": "Sequence Identified as Duplicate by High-Depth Celera Reads",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -1520,7 +1520,7 @@
       },
       "description": "Structural Variation identified by Fosmids (Tuzun)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "cnp"
       ]
     },
@@ -1569,7 +1569,7 @@
       },
       "description": "Copy Number Polymorphisms from BAC Microarray Analysis (Iafrate)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "cnp"
       ]
     },
@@ -1618,7 +1618,7 @@
       },
       "description": "Copy Number Polymorphisms from SNP and BAC microarrays (Redon)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "cnp"
       ]
     },
@@ -1667,7 +1667,7 @@
       },
       "description": "Copy Number Polymorphisms from ROMA (Sebat)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "cnp"
       ]
     },
@@ -1716,7 +1716,7 @@
       },
       "description": "Copy Number Polymorphisms from BAC Microarray Analysis (Sharp)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "cnp"
       ]
     },
@@ -1908,7 +1908,7 @@
       },
       "description": "Chromosome Bands Localized by FISH Mapping Clones",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -1955,7 +1955,7 @@
       },
       "description": "Chromosome Bands Localized by FISH Mapping Clones (for Ideogram)",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -2004,7 +2004,7 @@
       },
       "description": "Alu Retrotransposon Insertion Polymorphisms in Humans",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "retroposons"
       ]
     },
@@ -2054,7 +2054,7 @@
       },
       "description": "L1 Retrotransposon Insertion Polymorphisms in Humans",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "retroposons"
       ]
     },
@@ -2104,7 +2104,7 @@
       },
       "description": "SVA Retrotransposon Insertion Polymorphisms in Humans",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "retroposons"
       ]
     },
@@ -2153,7 +2153,7 @@
       },
       "description": "Deletions from Genotype Analysis (Conrad)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "cnp"
       ]
     },
@@ -2202,7 +2202,7 @@
       },
       "description": "Deletions from Haploid Hybridization Analysis (Hinds)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "cnp"
       ]
     },
@@ -2251,7 +2251,7 @@
       },
       "description": "Deletions from Genotype Analysis (McCarroll)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "cnp"
       ]
     },
@@ -2303,7 +2303,7 @@
       },
       "description": "Database of Genomic Variants: Structural Variation (CNV, Inversion, In/del)",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -25668,7 +25668,7 @@
       },
       "description": "Clones Placed on Cytogenetic Map Using FISH",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -25718,7 +25718,7 @@
       },
       "description": "Fosmid End Pairs",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -25818,7 +25818,7 @@
       },
       "description": "Duplications of >1000 Bases of Non-RepeatMasked Sequence",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -25865,7 +25865,7 @@
       },
       "description": "Orthologous Alleles from Chimp (panTro2)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hapmapSnps"
       ]
     },
@@ -25913,7 +25913,7 @@
       },
       "description": "Orthologous Alleles from Macaque (rheMac2)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hapmapSnps"
       ]
     },
@@ -25961,7 +25961,7 @@
       },
       "description": "Linkage Disequilibrium for the CEPH (CEU)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hapmapLd"
       ]
     },
@@ -26009,7 +26009,7 @@
       },
       "description": "Linkage Disequilibrium for the Han Chinese and Japanese from Tokyo (JPT+CHB)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hapmapLd"
       ]
     },
@@ -26057,7 +26057,7 @@
       },
       "description": "Linkage Disequilibrium for the Yoruba (YRI)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hapmapLd"
       ]
     },
@@ -26105,7 +26105,7 @@
       },
       "description": "SNPs from the CEU Population",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hapmapSnps"
       ]
     },
@@ -26153,7 +26153,7 @@
       },
       "description": "SNPs from the CHB Population",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hapmapSnps"
       ]
     },
@@ -26201,7 +26201,7 @@
       },
       "description": "SNPs from the JPT Population",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hapmapSnps"
       ]
     },
@@ -26249,7 +26249,7 @@
       },
       "description": "SNPs from the YRI Population",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hapmapSnps"
       ]
     },
@@ -26297,7 +26297,7 @@
       },
       "description": "HGSV Individual ABC10 (Yoruba) Discordant Clone End Alignments",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "kiddEichlerDisc"
       ]
     },
@@ -26345,7 +26345,7 @@
       },
       "description": "HGSV Individual ABC11 (China) Discordant Clone End Alignments",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "kiddEichlerDisc"
       ]
     },
@@ -26393,7 +26393,7 @@
       },
       "description": "HGSV Individual ABC12 (CEPH) Discordant Clone End Alignments",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "kiddEichlerDisc"
       ]
     },
@@ -26441,7 +26441,7 @@
       },
       "description": "HGSV Individual ABC13 (Yoruba) Discordant Clone End Alignments",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "kiddEichlerDisc"
       ]
     },
@@ -26489,7 +26489,7 @@
       },
       "description": "HGSV Individual ABC14 (CEPH) Discordant Clone End Alignments",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "kiddEichlerDisc"
       ]
     },
@@ -26537,7 +26537,7 @@
       },
       "description": "HGSV Individual ABC7 (Yoruba) Discordant Clone End Alignments",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "kiddEichlerDisc"
       ]
     },
@@ -26585,7 +26585,7 @@
       },
       "description": "HGSV Individual ABC8 (Yoruba) Discordant Clone End Alignments",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "kiddEichlerDisc"
       ]
     },
@@ -26633,7 +26633,7 @@
       },
       "description": "HGSV Individual ABC9 (Japan) Discordant Clone End Alignments",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "kiddEichlerDisc"
       ]
     },
@@ -26681,7 +26681,7 @@
       },
       "description": "HGSV Individual G248 Discordant Clone End Alignments",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "kiddEichlerDisc"
       ]
     },
@@ -26729,7 +26729,7 @@
       },
       "description": "HGSV Individual ABC10 (Yoruba) Validated Sites of Structural Variation",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "kiddEichlerValid"
       ]
     },
@@ -26777,7 +26777,7 @@
       },
       "description": "HGSV Individual ABC11 (China) Validated Sites of Structural Variation",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "kiddEichlerValid"
       ]
     },
@@ -26825,7 +26825,7 @@
       },
       "description": "HGSV Individual ABC12 (CEPH) Validated Sites of Structural Variation",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "kiddEichlerValid"
       ]
     },
@@ -26873,7 +26873,7 @@
       },
       "description": "HGSV Individual ABC13 (Yoruba) Validated Sites of Structural Variation",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "kiddEichlerValid"
       ]
     },
@@ -26921,7 +26921,7 @@
       },
       "description": "HGSV Individual ABC14 (CEPH) Validated Sites of Structural Variation",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "kiddEichlerValid"
       ]
     },
@@ -26969,7 +26969,7 @@
       },
       "description": "HGSV Individual ABC7 (Yoruba) Validated Sites of Structural Variation",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "kiddEichlerValid"
       ]
     },
@@ -27017,7 +27017,7 @@
       },
       "description": "HGSV Individual ABC8 (Yoruba) Validated Sites of Structural Variation",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "kiddEichlerValid"
       ]
     },
@@ -27065,7 +27065,7 @@
       },
       "description": "HGSV Individual ABC9 (Japan) Validated Sites of Structural Variation",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "kiddEichlerValid"
       ]
     },
@@ -27113,7 +27113,7 @@
       },
       "description": "HGSV Individual G248 Validated Sites of Structural Variation",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "kiddEichlerValid"
       ]
     },
@@ -27161,7 +27161,7 @@
       },
       "description": "Microsatellites - Di-nucleotide and Tri-nucleotide Repeats",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -27358,7 +27358,7 @@
       },
       "description": "Recombination Rate from deCODE, Marshfield, or Genethon Maps (deCODE default)",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -27406,7 +27406,7 @@
       },
       "description": "Quantitative Trait Locus (from RGD)",
       "category": [
-        "phenDis"
+        "Phenotypes, Variants, and Literature"
       ]
     },
     {
@@ -27455,7 +27455,7 @@
       },
       "description": "Gene Boundaries as Defined by RNA and Spliced EST Clusters",
       "category": [
-        "rna"
+        "mRNA and EST"
       ]
     },
     {
@@ -27550,7 +27550,7 @@
       },
       "description": "Simple Tandem Repeats by TRF",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -27598,7 +27598,7 @@
       },
       "description": "STS Markers on Genetic (blue) and Radiation Hybrid (black) Maps",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -27744,7 +27744,7 @@
       },
       "description": "Tajima's D from African Descent",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "tajD"
       ]
     },
@@ -27794,7 +27794,7 @@
       },
       "description": "Tajima's D from European Descent",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "tajD"
       ]
     },
@@ -27844,7 +27844,7 @@
       },
       "description": "SNPs from African Descent",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "tajdSnp"
       ]
     },
@@ -27894,7 +27894,7 @@
       },
       "description": "SNPs from European Descent",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "tajdSnp"
       ]
     },
@@ -27944,7 +27944,7 @@
       },
       "description": "SNPs from Chinese Descent",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "tajdSnp"
       ]
     },
@@ -27994,7 +27994,7 @@
       },
       "description": "Tajima's D from Chinese Descent",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "tajD"
       ]
     },
@@ -28142,7 +28142,7 @@
       },
       "description": "UniGene Alignments and SAGE Info",
       "category": [
-        "rna"
+        "mRNA and EST"
       ]
     },
     {
@@ -32474,7 +32474,7 @@
       },
       "description": "Alignment of TIGR Gene Index TCs Against the Human Genome",
       "category": [
-        "rna"
+        "mRNA and EST"
       ]
     },
     {

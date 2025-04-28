@@ -60,7 +60,7 @@
       },
       "description": "GeneReviews",
       "category": [
-        "phenDis"
+        "Phenotypes, Variants, and Literature"
       ]
     },
     {
@@ -110,7 +110,7 @@
       },
       "description": "Affymetrix Exon Array 1.0: Probesets",
       "category": [
-        "expression"
+        "Expression"
       ]
     },
     {
@@ -157,7 +157,7 @@
       },
       "description": "Affymetrix HDF Long RNA (Cytosolic) Fragments",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase3FragsL"
       ]
     },
@@ -205,7 +205,7 @@
       },
       "description": "Affymetrix HeLa Minus Strand Short RNA (Whole Cell) Fragments",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase3FragsS"
       ]
     },
@@ -253,7 +253,7 @@
       },
       "description": "Affymetrix HeLa Long RNA (Cytosolic) Fragments",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase3FragsL"
       ]
     },
@@ -301,7 +301,7 @@
       },
       "description": "Affymetrix HeLa Long RNA (Nuclear) Fragments",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase3FragsL"
       ]
     },
@@ -349,7 +349,7 @@
       },
       "description": "Affymetrix HeLa Plus Strand Short RNA (Whole Cell) Fragments",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase3FragsS"
       ]
     },
@@ -397,7 +397,7 @@
       },
       "description": "Affymetrix HepG2 Minus Strand Short RNA (Whole Cell) Fragments",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase3FragsS"
       ]
     },
@@ -445,7 +445,7 @@
       },
       "description": "Affymetrix HepG2 Long RNA (Cytosolic) Fragments",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase3FragsL"
       ]
     },
@@ -493,7 +493,7 @@
       },
       "description": "Affymetrix HepG2 Long RNA (Nuclear) Fragments",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase3FragsL"
       ]
     },
@@ -541,7 +541,7 @@
       },
       "description": "Affymetrix HepG2 Plus Strand Short RNA (Whole Cell) Fragments",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase3FragsS"
       ]
     },
@@ -589,7 +589,7 @@
       },
       "description": "Affymetrix Jurkat Long RNA (Cytosolic) Fragments",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase3FragsL"
       ]
     },
@@ -637,7 +637,7 @@
       },
       "description": "Affymetrix NCCIT Long RNA (Cytosolic) Fragments",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase3FragsL"
       ]
     },
@@ -685,7 +685,7 @@
       },
       "description": "Affymetrix PC3 Long RNA (Cytosolic) Fragments",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase3FragsL"
       ]
     },
@@ -733,7 +733,7 @@
       },
       "description": "Affymetrix SK-N-AS Long RNA (Cytosolic) Fragments",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase3FragsL"
       ]
     },
@@ -781,7 +781,7 @@
       },
       "description": "Affymetrix U87MG Long RNA (Cytosolic) Fragments",
       "category": [
-        "expression",
+        "Expression",
         "affyTxnPhase3FragsL"
       ]
     },
@@ -830,7 +830,7 @@
       },
       "description": "Agilent SurePrint HD Human CGH Microarray 2x105K AMADID 014698",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "genotypeArrays"
       ]
     },
@@ -879,7 +879,7 @@
       },
       "description": "Agilent SurePrint G3 Human CGH Microarray 1x1M AMADID 021529",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "genotypeArrays"
       ]
     },
@@ -928,7 +928,7 @@
       },
       "description": "Agilent SurePrint HD Human CGH Microarray 1x244K AMADID 014693",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "genotypeArrays"
       ]
     },
@@ -977,7 +977,7 @@
       },
       "description": "Agilent SurePrint G3 Human CGH Microarray 2x400K AMADID 021850",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "genotypeArrays"
       ]
     },
@@ -1026,7 +1026,7 @@
       },
       "description": "Agilent SurePrint HD Human CGH Microarray 4x44K AMADID 014950",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "genotypeArrays"
       ]
     },
@@ -1075,7 +1075,7 @@
       },
       "description": "Agilent SurePrint G3 Human CGH Microarray 4x180K AMADID 022060",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "genotypeArrays"
       ]
     },
@@ -1124,7 +1124,7 @@
       },
       "description": "Agilent SurePrint G3 Human CGH Microarray 8x60K AMADID 021924",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "genotypeArrays"
       ]
     },
@@ -1173,7 +1173,7 @@
       },
       "description": "Agilent SurePrint G3 Human High-Resolution Microarray 1x1M AMADID 023642",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "genotypeArrays"
       ]
     },
@@ -1223,7 +1223,7 @@
       },
       "description": "Alternate Haplotypes to Reference Sequence Correspondence",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -1273,7 +1273,7 @@
       },
       "description": "BAC End Pairs",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -1321,7 +1321,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from Adipose",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewAlignments"
       ]
     },
@@ -1370,7 +1370,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from Adipose, Raw Signal",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewRawSignal"
       ]
     },
@@ -1419,7 +1419,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from BT474 Breast Tumor Cell Line",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewAlignments"
       ]
     },
@@ -1468,7 +1468,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from BT474 Breast Tumour Cell Line, Raw Signal",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewRawSignal"
       ]
     },
@@ -1517,7 +1517,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from Brain",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewAlignments"
       ]
     },
@@ -1566,7 +1566,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from Brain, Raw Signal",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewRawSignal"
       ]
     },
@@ -1615,7 +1615,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from Breast",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewAlignments"
       ]
     },
@@ -1664,7 +1664,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from Breast, Raw Signal",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewRawSignal"
       ]
     },
@@ -1713,7 +1713,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from Colon",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewAlignments"
       ]
     },
@@ -1762,7 +1762,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from Colon, Raw Signal",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewRawSignal"
       ]
     },
@@ -1811,7 +1811,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from HME (Human Mammary Epithelial) Cell Line",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewAlignments"
       ]
     },
@@ -1860,7 +1860,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from HME (Human Mammary Epithelial) Cell Line, Raw Signal",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewRawSignal"
       ]
     },
@@ -1909,7 +1909,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from Heart",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewAlignments"
       ]
     },
@@ -1958,7 +1958,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from Heart, Raw Signal",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewRawSignal"
       ]
     },
@@ -2007,7 +2007,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from Liver",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewAlignments"
       ]
     },
@@ -2056,7 +2056,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from Liver, Raw Signal",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewRawSignal"
       ]
     },
@@ -2105,7 +2105,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from Lymph Node",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewAlignments"
       ]
     },
@@ -2154,7 +2154,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from Lymph Node, Raw Signal",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewRawSignal"
       ]
     },
@@ -2203,7 +2203,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from MB-435 Cell Line",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewAlignments"
       ]
     },
@@ -2252,7 +2252,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from MB-435 Cell Line, Raw Signal",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewRawSignal"
       ]
     },
@@ -2301,7 +2301,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from MCF-7 Breast Adenocarcinoma Cell Line",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewAlignments"
       ]
     },
@@ -2350,7 +2350,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from MCF-7 Breast Adenocarcinoma Cell Line, Raw Signal",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewRawSignal"
       ]
     },
@@ -2399,7 +2399,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from Skeletal Muscle",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewAlignments"
       ]
     },
@@ -2448,7 +2448,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from Skeletal Muscle, Raw Signal",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewRawSignal"
       ]
     },
@@ -2497,7 +2497,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from T-47D Breast Ductal Carcinoma Cell Line",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewAlignments"
       ]
     },
@@ -2546,7 +2546,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from T-47D Breast Ductal Carcinoma Cell Line, Raw Signal",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewRawSignal"
       ]
     },
@@ -2595,7 +2595,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from Testes",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewAlignments"
       ]
     },
@@ -2644,7 +2644,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from Testes, Raw Signal",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewRawSignal"
       ]
     },
@@ -2693,7 +2693,7 @@
       },
       "description": "B-Cell RNA-Seq Junctions",
       "category": [
-        "expression",
+        "Expression",
         "ceuBcellComposite"
       ]
     },
@@ -2741,7 +2741,7 @@
       },
       "description": "CGAP Long SAGE",
       "category": [
-        "rna"
+        "mRNA and EST"
       ]
     },
     {
@@ -2789,7 +2789,7 @@
       },
       "description": "Copy Number Polymorphisms from BAC Microarray Analysis (Iafrate)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "cnp"
       ]
     },
@@ -2838,7 +2838,7 @@
       },
       "description": "Copy Number Polymorphisms from BAC Microarray Analysis (Locke)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "cnp"
       ]
     },
@@ -2887,7 +2887,7 @@
       },
       "description": "Copy Number Polymorphisms from SNP and BAC microarrays (Redon)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "cnp"
       ]
     },
@@ -2936,7 +2936,7 @@
       },
       "description": "Copy Number Polymorphisms from ROMA (Sebat)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "cnp"
       ]
     },
@@ -2985,7 +2985,7 @@
       },
       "description": "Copy Number Polymorphisms from BAC Microarray Analysis (Sharp)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "cnp"
       ]
     },
@@ -3034,7 +3034,7 @@
       },
       "description": "Structural Variation identified by Fosmids (Tuzun)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "cnp"
       ]
     },
@@ -3226,7 +3226,7 @@
       },
       "description": "Chromosome Bands Localized by FISH Mapping Clones",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -3273,7 +3273,7 @@
       },
       "description": "Chromosome Bands Localized by FISH Mapping Clones (for Ideogram)",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -3322,7 +3322,7 @@
       },
       "description": "Human RNA Editing from the DAtabase of RNa EDiting",
       "category": [
-        "rna"
+        "mRNA and EST"
       ]
     },
     {
@@ -3372,7 +3372,7 @@
       },
       "description": "deCODE recombination map, female >= 10.0",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "hotView"
       ]
     },
@@ -3423,7 +3423,7 @@
       },
       "description": "deCODE recombination map, male >= 10.0",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "hotView"
       ]
     },
@@ -3472,7 +3472,7 @@
       },
       "description": "Deletions from Genotype Analysis (Conrad)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "cnp"
       ]
     },
@@ -3521,7 +3521,7 @@
       },
       "description": "Deletions from Haploid Hybridization Analysis (Hinds)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "cnp"
       ]
     },
@@ -3570,7 +3570,7 @@
       },
       "description": "Deletions from Genotype Analysis (McCarroll)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "cnp"
       ]
     },
@@ -3618,7 +3618,7 @@
       },
       "description": "Database of Genomic Variants: Structural Var Regions (CNV, Inversion, In/del)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dgvPlus"
       ]
     },
@@ -3666,7 +3666,7 @@
       },
       "description": "Database of Genomic Variants: Supporting Structural Var (CNV, Inversion, In/del)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dgvPlus"
       ]
     },
@@ -24867,7 +24867,7 @@
       },
       "description": "Repeats Exapted as Conserved Non-Exonic Elements",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -24965,7 +24965,7 @@
       },
       "description": "Clones Placed on Cytogenetic Map Using FISH",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -25015,7 +25015,7 @@
       },
       "description": "Fosmid End Pairs",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -25166,7 +25166,7 @@
       },
       "description": "Genetic Association Studies of Complex Diseases and Disorders",
       "category": [
-        "phenDis"
+        "Phenotypes, Variants, and Literature"
       ]
     },
     {
@@ -25214,7 +25214,7 @@
       },
       "description": "Duplications of >1000 Bases of Non-RepeatMasked Sequence",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -25265,7 +25265,7 @@
       },
       "description": "NHGRI-EBI Catalog of Published Genome-Wide Association Studies",
       "category": [
-        "phenDis"
+        "Phenotypes, Variants, and Literature"
       ]
     },
     {
@@ -25312,7 +25312,7 @@
       },
       "description": "Orthologous Alleles from Chimp (panTro2)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hapmapSnps"
       ]
     },
@@ -25360,7 +25360,7 @@
       },
       "description": "Orthologous Alleles from Macaque (rheMac2)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hapmapSnps"
       ]
     },
@@ -25408,7 +25408,7 @@
       },
       "description": "HapMap SNPs from the CEU Population (Northern and Western European Ancestry in Utah, US - CEPH)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hapmapSnps"
       ]
     },
@@ -25456,7 +25456,7 @@
       },
       "description": "HapMap SNPs from the CHB Population (Han Chinese in Beijing, China)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hapmapSnps"
       ]
     },
@@ -25504,7 +25504,7 @@
       },
       "description": "HapMap SNPs from the JPT Population (Japanese in Tokyo, Japan)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hapmapSnps"
       ]
     },
@@ -25552,7 +25552,7 @@
       },
       "description": "HapMap SNPs from the YRI Population (Yoruba in Ibadan, Nigeria)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hapmapSnps"
       ]
     },
@@ -25604,7 +25604,7 @@
       },
       "description": "Contigs dropped or changed from NCBI build 36(hg18) to GRCh37(hg19)",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -25657,7 +25657,7 @@
       },
       "description": "Human Genome Diversity Project Smoothed Relative FST (Fixation Index)",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -25705,7 +25705,7 @@
       },
       "description": "Human Genome Diversity Project SNP Population Allele Frequencies",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -25753,7 +25753,7 @@
       },
       "description": "Human Genome Diversity Proj Smoothd Expec Heterozygosity (Africa)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hgdpHzy"
       ]
     },
@@ -25802,7 +25802,7 @@
       },
       "description": "Human Genome Diversity Proj Smoothd Expec Heterozygosity (Americas)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hgdpHzy"
       ]
     },
@@ -25851,7 +25851,7 @@
       },
       "description": "Human Genome Diversity Proj Smoothd Expec Heterozygosity (Bantu pops. in Africa)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hgdpHzy"
       ]
     },
@@ -25900,7 +25900,7 @@
       },
       "description": "Human Genome Diversity Proj Smoothd Expec Heterozygosity (E. Asia)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hgdpHzy"
       ]
     },
@@ -25949,7 +25949,7 @@
       },
       "description": "Human Genome Diversity Proj Smoothd Expec Heterozygosity (Europe)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hgdpHzy"
       ]
     },
@@ -25998,7 +25998,7 @@
       },
       "description": "Human Genome Diversity Proj Smoothd Expec Heterozygosity (Mideast)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hgdpHzy"
       ]
     },
@@ -26047,7 +26047,7 @@
       },
       "description": "Human Genome Diversity Proj Smoothd Expec Heterozygosity (Oceania)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hgdpHzy"
       ]
     },
@@ -26096,7 +26096,7 @@
       },
       "description": "Human Genome Diversity Proj Smoothd Expec Heterozygosity (S. Asia)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hgdpHzy"
       ]
     },
@@ -26145,7 +26145,7 @@
       },
       "description": "Human Genome Diversity Project iHS (Americas)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hgdpIhs"
       ]
     },
@@ -26194,7 +26194,7 @@
       },
       "description": "Human Genome Diversity Project iHS (Bantu populations in Africa)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hgdpIhs"
       ]
     },
@@ -26243,7 +26243,7 @@
       },
       "description": "Human Genome Diversity Project iHS (East Asia)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hgdpIhs"
       ]
     },
@@ -26292,7 +26292,7 @@
       },
       "description": "Human Genome Diversity Project iHS (Europe)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hgdpIhs"
       ]
     },
@@ -26341,7 +26341,7 @@
       },
       "description": "Human Genome Diversity Project iHS (Mideast)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hgdpIhs"
       ]
     },
@@ -26390,7 +26390,7 @@
       },
       "description": "Human Genome Diversity Project iHS (Oceania)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hgdpIhs"
       ]
     },
@@ -26439,7 +26439,7 @@
       },
       "description": "Human Genome Diversity Project iHS (South Asia)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hgdpIhs"
       ]
     },
@@ -26488,7 +26488,7 @@
       },
       "description": "Human Genome Diversity Project XP-EHH (Americas)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hgdpXpehh"
       ]
     },
@@ -26537,7 +26537,7 @@
       },
       "description": "Human Genome Diversity Project XP-EHH (Bantu populations in Africa)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hgdpXpehh"
       ]
     },
@@ -26586,7 +26586,7 @@
       },
       "description": "Human Genome Diversity Project XP-EHH (East Asia)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hgdpXpehh"
       ]
     },
@@ -26635,7 +26635,7 @@
       },
       "description": "Human Genome Diversity Project XP-EHH (Europe)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hgdpXpehh"
       ]
     },
@@ -26684,7 +26684,7 @@
       },
       "description": "Human Genome Diversity Project XP-EHH (Mideast)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hgdpXpehh"
       ]
     },
@@ -26733,7 +26733,7 @@
       },
       "description": "Human Genome Diversity Project XP-EHH (Oceania)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hgdpXpehh"
       ]
     },
@@ -26782,7 +26782,7 @@
       },
       "description": "Human Genome Diversity Project XP-EHH (South Asia)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hgdpXpehh"
       ]
     },
@@ -26830,7 +26830,7 @@
       },
       "description": "Top 0.10 of Read Depth Distribution",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "hiSeqDepth"
       ]
     },
@@ -26878,7 +26878,7 @@
       },
       "description": "Top 0.01 of Read Depth Distribution",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "hiSeqDepth"
       ]
     },
@@ -26926,7 +26926,7 @@
       },
       "description": "Top 0.05 of Read Depth Distribution",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "hiSeqDepth"
       ]
     },
@@ -26974,7 +26974,7 @@
       },
       "description": "Top 0.001 of Read Depth Distribution",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "hiSeqDepth"
       ]
     },
@@ -27022,7 +27022,7 @@
       },
       "description": "Top 0.005 of Read Depth Distribution",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "hiSeqDepth"
       ]
     },
@@ -27072,7 +27072,7 @@
       },
       "description": "Alignments of Illumina WG-6 3.0 Probe Set",
       "category": [
-        "expression"
+        "Expression"
       ]
     },
     {
@@ -27120,7 +27120,7 @@
       },
       "description": "MGI Mouse QTLs Coarsely Mapped to Human",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "jaxQtlMapped"
       ]
     },
@@ -27169,7 +27169,7 @@
       },
       "description": "MGI Mouse QTL Peak-Score Markers Padded to 100k and Coarsely Mapped to Human",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "jaxQtlMapped"
       ]
     },
@@ -27217,7 +27217,7 @@
       },
       "description": "HGSV Individual ABC10 (Yoruba) Discordant Clone End Alignments",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "kiddEichlerDisc"
       ]
     },
@@ -27265,7 +27265,7 @@
       },
       "description": "HGSV Individual ABC11 (China) Discordant Clone End Alignments",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "kiddEichlerDisc"
       ]
     },
@@ -27313,7 +27313,7 @@
       },
       "description": "HGSV Individual ABC12 (CEPH) Discordant Clone End Alignments",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "kiddEichlerDisc"
       ]
     },
@@ -27361,7 +27361,7 @@
       },
       "description": "HGSV Individual ABC13 (Yoruba) Discordant Clone End Alignments",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "kiddEichlerDisc"
       ]
     },
@@ -27409,7 +27409,7 @@
       },
       "description": "HGSV Individual ABC14 (CEPH) Discordant Clone End Alignments",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "kiddEichlerDisc"
       ]
     },
@@ -27457,7 +27457,7 @@
       },
       "description": "HGSV Individual ABC7 (Yoruba) Discordant Clone End Alignments",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "kiddEichlerDisc"
       ]
     },
@@ -27505,7 +27505,7 @@
       },
       "description": "HGSV Individual ABC8 (Yoruba) Discordant Clone End Alignments",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "kiddEichlerDisc"
       ]
     },
@@ -27553,7 +27553,7 @@
       },
       "description": "HGSV Individual ABC9 (Japan) Discordant Clone End Alignments",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "kiddEichlerDisc"
       ]
     },
@@ -27601,7 +27601,7 @@
       },
       "description": "HGSV Individual G248 Discordant Clone End Alignments",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "kiddEichlerDisc"
       ]
     },
@@ -27795,7 +27795,7 @@
       },
       "description": "Microsatellites - Di-nucleotide and Tri-nucleotide Repeats",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -27843,7 +27843,7 @@
       },
       "description": "Fragments of Interrupted Repeats Joined by RepeatMasker ID",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -27890,7 +27890,7 @@
       },
       "description": "Fragments of Interrupted Repeats Joined by RepeatMasker ID (RM version 3.2.7)",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -28140,7 +28140,7 @@
       },
       "description": "Human NumtS",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "numtSeq"
       ]
     },
@@ -28189,7 +28189,7 @@
       },
       "description": "Human NumtS Assembled",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "numtSeq"
       ]
     },
@@ -28238,7 +28238,7 @@
       },
       "description": "Human NumtS on Mitochondrion",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "numtSeq"
       ]
     },
@@ -28287,7 +28287,7 @@
       },
       "description": "Human NumtS on Mitochondrion with Chromosome Placement",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "numtSeq"
       ]
     },
@@ -28384,7 +28384,7 @@
       },
       "description": "ABTutu Genome Variants, 454 exome",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpPSU"
       ]
     },
@@ -28433,7 +28433,7 @@
       },
       "description": "ABTutu Genome Variants, 454 exome indels",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpPSU"
       ]
     },
@@ -28482,7 +28482,7 @@
       },
       "description": "ABTutu Genome Variants, Illumina 7.2X",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpPSU"
       ]
     },
@@ -28533,7 +28533,7 @@
       },
       "description": "ABTutu Genome Variants, SOLiD",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpPSU"
       ]
     },
@@ -28583,7 +28583,7 @@
       },
       "description": "Anonymous Korean individual, AK1 (Genomic Medicine Institute)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnp1off"
       ]
     },
@@ -28633,7 +28633,7 @@
       },
       "description": "Anonymous Irish Male",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnp1off"
       ]
     },
@@ -28682,7 +28682,7 @@
       },
       "description": "KB1 Genome Variants, 454",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpPSU"
       ]
     },
@@ -28733,7 +28733,7 @@
       },
       "description": "KB1 Genome Variants, combination of 454, Illumina, and genotyping",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpPSU"
       ]
     },
@@ -28782,7 +28782,7 @@
       },
       "description": "KB1 Genome Variants, Illumina 23.2X",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpPSU"
       ]
     },
@@ -28831,7 +28831,7 @@
       },
       "description": "KB1 indels from 454 and Illumina",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpPSU"
       ]
     },
@@ -28880,7 +28880,7 @@
       },
       "description": "Gregory Lucier (Life Technologies)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnp1off"
       ]
     },
@@ -28931,7 +28931,7 @@
       },
       "description": "MD8 Genome Variants (all SNPs, 16x exome)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpPSU"
       ]
     },
@@ -28980,7 +28980,7 @@
       },
       "description": "MD8 Genome Variants indels",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpPSU"
       ]
     },
@@ -29030,7 +29030,7 @@
       },
       "description": "CEU Trio Daughter NA12878 (1000 Genomes Project)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnp1kG"
       ]
     },
@@ -29080,7 +29080,7 @@
       },
       "description": "CEU Trio Father NA12891 (1000 Genomes Project)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnp1kG"
       ]
     },
@@ -29130,7 +29130,7 @@
       },
       "description": "CEU Trio Mother NA12892 (1000 Genomes Project)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnp1kG"
       ]
     },
@@ -29180,7 +29180,7 @@
       },
       "description": "YRI Trio Mother NA19238 (1000 Genomes Project)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnp1kG"
       ]
     },
@@ -29230,7 +29230,7 @@
       },
       "description": "YRI Trio Father NA19239 (1000 Genomes Project)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnp1kG"
       ]
     },
@@ -29280,7 +29280,7 @@
       },
       "description": "YRI Trio Daughter NA19240 (1000 Genomes Project)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnp1kG"
       ]
     },
@@ -29331,7 +29331,7 @@
       },
       "description": "NB1 Genome Variants (all SNPs, 2X genome plus 16x exome)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpPSU"
       ]
     },
@@ -29380,7 +29380,7 @@
       },
       "description": "NB1 Genome Variants indels",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpPSU"
       ]
     },
@@ -29429,7 +29429,7 @@
       },
       "description": "Stephen Quake (Stanford)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnp1off"
       ]
     },
@@ -29478,7 +29478,7 @@
       },
       "description": "Individual from the Extinct Palaeo-Eskimo Saqqaq (Saqqaq Genome Project)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnp1off"
       ]
     },
@@ -29527,7 +29527,7 @@
       },
       "description": "Individual from the Extinct Palaeo-Eskimo Saqqaq, high confidence SNPs",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnp1off"
       ]
     },
@@ -29577,7 +29577,7 @@
       },
       "description": "Seong-Jin Kim (SJK, GUMS/KOBIC)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnp1off"
       ]
     },
@@ -29628,7 +29628,7 @@
       },
       "description": "TK1 Genome Variants (all SNPs, 16x exome)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpPSU"
       ]
     },
@@ -29677,7 +29677,7 @@
       },
       "description": "TK1 Genome Variants indels",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpPSU"
       ]
     },
@@ -29727,7 +29727,7 @@
       },
       "description": "J. Craig Venter - Published Method 1, Variant in Original Form (JCVI)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnp1off"
       ]
     },
@@ -29777,7 +29777,7 @@
       },
       "description": "J. Craig Venter - Published Method 1, Indels in Original Form (JCVI)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnp1off"
       ]
     },
@@ -29827,7 +29827,7 @@
       },
       "description": "J. Craig Venter - Published Method 1, Variant in Original Form (JCVI)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnp1off"
       ]
     },
@@ -29877,7 +29877,7 @@
       },
       "description": "James Watson (CSHL)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnp1off"
       ]
     },
@@ -29927,7 +29927,7 @@
       },
       "description": "Han Chinese Individual (YanHuang Project)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnp1off"
       ]
     },
@@ -29976,7 +29976,7 @@
       },
       "description": "YRI NA18507 Sequenced on the SOLiD Platform (PSU)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpPSU"
       ]
     },
@@ -30026,7 +30026,7 @@
       },
       "description": "YRI NA18507 (Illumina Cambridge/Solexa, SNPs called by PSU)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnp1off"
       ]
     },
@@ -30473,7 +30473,7 @@
       },
       "description": "Reported Poly(A) Sites from PolyA_DB",
       "category": [
-        "rna",
+        "mRNA and EST",
         "polyA"
       ]
     },
@@ -30522,7 +30522,7 @@
       },
       "description": "Predicted Poly(A) Sites Using an SVM",
       "category": [
-        "rna",
+        "mRNA and EST",
         "polyA"
       ]
     },
@@ -30571,7 +30571,7 @@
       },
       "description": "Reprogrammed Differentially Methylated Regions",
       "category": [
-        "phenDis"
+        "Phenotypes, Variants, and Literature"
       ]
     },
     {
@@ -30619,7 +30619,7 @@
       },
       "description": "Recombination Rate from deCODE, Marshfield, or Genethon Maps (deCODE default)",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -30667,7 +30667,7 @@
       },
       "description": "Human Quantitative Trait Locus from RGD",
       "category": [
-        "phenDis"
+        "Phenotypes, Variants, and Literature"
       ]
     },
     {
@@ -30716,7 +30716,7 @@
       },
       "description": "Rat Quantitative Trait Locus from RGD Coarsely Mapped to Human",
       "category": [
-        "phenDis"
+        "Phenotypes, Variants, and Literature"
       ]
     },
     {
@@ -30765,7 +30765,7 @@
       },
       "description": "Gene Boundaries as Defined by RNA and Spliced EST Clusters",
       "category": [
-        "rna"
+        "mRNA and EST"
       ]
     },
     {
@@ -30861,7 +30861,7 @@
       },
       "description": "Simple Tandem Repeats by TRF",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -30909,7 +30909,7 @@
       },
       "description": "STS Markers on Genetic (blue) and Radiation Hybrid (black) Maps",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -31056,7 +31056,7 @@
       },
       "description": "Tajima's D from African Descent (from Human May 2004 assembly)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "tajD"
       ]
     },
@@ -31106,7 +31106,7 @@
       },
       "description": "Tajima's D from European Descent (from Human May 2004 assembly)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "tajD"
       ]
     },
@@ -31156,7 +31156,7 @@
       },
       "description": "SNPs from African Descent used for Tajima's D (from Human May 2004 assembly)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "tajdSnp"
       ]
     },
@@ -31206,7 +31206,7 @@
       },
       "description": "SNPs from European Descent used for Tajima's D (from Human May 2004 assembly)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "tajdSnp"
       ]
     },
@@ -31256,7 +31256,7 @@
       },
       "description": "SNPs from Chinese Descent used for Tajima's D (from Human May 2004 assembly)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "tajdSnp"
       ]
     },
@@ -31306,7 +31306,7 @@
       },
       "description": "Tajima's D from Chinese Descent (from Human May 2004 assembly)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "tajD"
       ]
     },
@@ -31841,7 +31841,7 @@
       },
       "description": "Mappability - Rosetta Uniqueness 35-mer Alignment (BWA/MAQ, unique alignment=37)",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "wgEncodeMapabilityViewRUNIQ"
       ]
     },

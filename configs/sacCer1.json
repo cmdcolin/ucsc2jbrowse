@@ -109,7 +109,7 @@
       },
       "description": "Percentage GC in 20,000-Base Windows",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -254,7 +254,7 @@
       },
       "description": "Washington University Clones",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -350,7 +350,7 @@
       },
       "description": "Simple Tandem Repeats by TRF",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {

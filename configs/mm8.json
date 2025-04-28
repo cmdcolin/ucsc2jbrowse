@@ -115,7 +115,7 @@
       },
       "description": "BAC End Pairs",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -1249,7 +1249,7 @@
       },
       "description": "CGAP Long SAGE",
       "category": [
-        "rna"
+        "mRNA and EST"
       ]
     },
     {
@@ -1393,7 +1393,7 @@
       },
       "description": "Chromosome Bands Based On Microscopy",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -1441,7 +1441,7 @@
       },
       "description": "Chromosome Bands Based on Microscopy (for Ideogram)",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -1489,7 +1489,7 @@
       },
       "description": "Duplications of >1000 Bases of Non-RepeatMasked Sequence",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -1640,7 +1640,7 @@
       },
       "description": "Quantitative Trait Loci From Jackson Laboratory / Mouse Genome Informatics",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -1736,7 +1736,7 @@
       },
       "description": "Microsatellites - Di-nucleotide and Tri-nucleotide Repeats",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -1834,7 +1834,7 @@
       },
       "description": "Simple Tandem Repeats by TRF",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -1882,7 +1882,7 @@
       },
       "description": "STS Markers on Genetic and Radiation Hybrid Maps",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -1929,7 +1929,7 @@
       },
       "description": "Regions Assayed for SDD",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {

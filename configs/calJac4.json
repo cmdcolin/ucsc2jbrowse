@@ -114,7 +114,7 @@
       },
       "description": "UW Iso-Seq Cerebellum SRR11734396 (SMRTCell 2)",
       "category": [
-        "rna",
+        "mRNA and EST",
         "uwIsoSeq"
       ]
     },
@@ -214,7 +214,7 @@
       },
       "description": "UW Iso-Seq Cerebellum SRR11734396 (SMRTCell 3)",
       "category": [
-        "rna",
+        "mRNA and EST",
         "uwIsoSeq"
       ]
     },
@@ -314,7 +314,7 @@
       },
       "description": "UW Iso-Seq Hippocampus SRR11734177 (SMRTCell 1)",
       "category": [
-        "rna",
+        "mRNA and EST",
         "uwIsoSeq"
       ]
     },
@@ -492,7 +492,7 @@
       },
       "description": "UW Iso-Seq Hippocampus SRR11734177 (SMRTCell 3)",
       "category": [
-        "rna",
+        "mRNA and EST",
         "uwIsoSeq"
       ]
     },
@@ -586,7 +586,7 @@
       },
       "description": "UW Iso-Seq Prefrontalcortex SRR11734138 (SMRTCell 1)",
       "category": [
-        "rna",
+        "mRNA and EST",
         "uwIsoSeq"
       ]
     },
@@ -721,7 +721,7 @@
       },
       "description": "UW Iso-Seq Prefrontalcortex SRR11734138 (SMRTCell 3)",
       "category": [
-        "rna",
+        "mRNA and EST",
         "uwIsoSeq"
       ]
     },
@@ -811,7 +811,7 @@
       },
       "description": "UW Iso-Seq Striatum SRR11735653 (SMRTCell 1)",
       "category": [
-        "rna",
+        "mRNA and EST",
         "uwIsoSeq"
       ]
     },
@@ -943,7 +943,7 @@
       },
       "description": "UW Iso-Seq Striatum SRR11735653 (SMRTCell 3)",
       "category": [
-        "rna",
+        "mRNA and EST",
         "uwIsoSeq"
       ]
     },
@@ -1033,7 +1033,7 @@
       },
       "description": "UW Iso-Seq Thalamus SRR11734242 (SMRTCell 2)",
       "category": [
-        "rna",
+        "mRNA and EST",
         "uwIsoSeq"
       ]
     },
@@ -1080,7 +1080,7 @@
       },
       "description": "UW Iso-Seq Thalamus SRR11734242 (SMRTCell 3)",
       "category": [
-        "rna",
+        "mRNA and EST",
         "uwIsoSeq"
       ]
     },
@@ -1169,7 +1169,7 @@
       },
       "description": "UW Iso-Seq Visualcortex SRR11734146 (SMRTCell 1)",
       "category": [
-        "rna",
+        "mRNA and EST",
         "uwIsoSeq"
       ]
     },
@@ -1303,7 +1303,7 @@
       },
       "description": "UW Iso-Seq Visualcortex SRR11734146 (SMRTCell 3)",
       "category": [
-        "rna",
+        "mRNA and EST",
         "uwIsoSeq"
       ]
     },
@@ -1393,7 +1393,7 @@
       },
       "description": "UW Iso-Seq Heart SRR11734243 (SMRTCell 2)",
       "category": [
-        "rna",
+        "mRNA and EST",
         "uwIsoSeq"
       ]
     },
@@ -1483,7 +1483,7 @@
       },
       "description": "UW Iso-Seq Heart SRR11734243 (SMRTCell 3)",
       "category": [
-        "rna",
+        "mRNA and EST",
         "uwIsoSeq"
       ]
     },
@@ -1530,7 +1530,7 @@
       },
       "description": "UW Iso-Seq Kidney SRR11734145 (SMRTCell 2)",
       "category": [
-        "rna",
+        "mRNA and EST",
         "uwIsoSeq"
       ]
     },
@@ -1577,7 +1577,7 @@
       },
       "description": "UW Iso-Seq Kidney SRR11734145 (SMRTCell 3)",
       "category": [
-        "rna",
+        "mRNA and EST",
         "uwIsoSeq"
       ]
     },
@@ -1624,7 +1624,7 @@
       },
       "description": "UW Iso-Seq Liver SRR11734136 (SMRTCell 1)",
       "category": [
-        "rna",
+        "mRNA and EST",
         "uwIsoSeq"
       ]
     },
@@ -1671,7 +1671,7 @@
       },
       "description": "UW Iso-Seq Liver SRR11734136 (SMRTCell 3)",
       "category": [
-        "rna",
+        "mRNA and EST",
         "uwIsoSeq"
       ]
     },
@@ -1718,7 +1718,7 @@
       },
       "description": "UW Iso-Seq Muscle SRR11734395 (SMRTCell 2)",
       "category": [
-        "rna",
+        "mRNA and EST",
         "uwIsoSeq"
       ]
     },
@@ -1765,7 +1765,7 @@
       },
       "description": "UW Iso-Seq Muscle SRR11734395 (SMRTCell 3)",
       "category": [
-        "rna",
+        "mRNA and EST",
         "uwIsoSeq"
       ]
     },
@@ -1909,7 +1909,7 @@
       },
       "description": "Ideogram for Orientation",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -1956,7 +1956,7 @@
       },
       "description": "Gap Locations",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -2005,7 +2005,7 @@
       },
       "description": "Assembly from Fragments",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -2052,7 +2052,7 @@
       },
       "description": "Microsatellites - Di-nucleotide and Tri-nucleotide Repeats",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -2100,7 +2100,7 @@
       },
       "description": "Fragments of Interrupted Repeats Joined by RepeatMasker ID",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -2149,7 +2149,7 @@
       },
       "description": "Repeating Elements by RepeatMasker",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -2196,7 +2196,7 @@
       },
       "description": "Simple Tandem Repeats by TRF",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -2244,7 +2244,7 @@
       },
       "description": "Accession at INSDC - International Nucleotide Sequence Database Collaboration",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -2292,7 +2292,7 @@
       },
       "description": "RefSeq Accession",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -2339,7 +2339,7 @@
       },
       "description": "Genomic Intervals Masked by WindowMasker + SDust",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -2696,6 +2696,27 @@
       "description": "Non-Marmoset RefSeq Genes",
       "category": [
         "genes"
+      ]
+    }
+  ],
+  "aggregateTextSearchAdapters": [
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "calJac4-index",
+      "ixFilePath": {
+        "uri": "trix/calJac4.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/calJac4.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/calJac4_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "calJac4"
       ]
     }
   ]

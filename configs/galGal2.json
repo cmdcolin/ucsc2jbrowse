@@ -61,7 +61,7 @@
       },
       "description": "BAC End Pairs",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -109,7 +109,7 @@
       },
       "description": "Regions Covered by Beijing Genomics Institute SNP Reads",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -157,7 +157,7 @@
       },
       "description": "SNPs from Beijing Genomics Institute",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -205,7 +205,7 @@
       },
       "description": "Locations of Maize/E.coli/vector contamination",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -352,7 +352,7 @@
       },
       "description": "Duplications of >1000 Bases of Non-RepeatMasked Sequence",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -400,7 +400,7 @@
       },
       "description": "Isochores from PSU",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -447,7 +447,7 @@
       },
       "description": "Microsatellites - Di-nucleotide and Tri-nucleotide Repeats",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -594,7 +594,7 @@
       },
       "description": "Simple Tandem Repeats by TRF",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -642,7 +642,7 @@
       },
       "description": "Supercontigs from Whole Genome Shotgun Assembly",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {

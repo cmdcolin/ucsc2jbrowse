@@ -74,7 +74,7 @@
       },
       "description": "Short Genetic Variants from European Variant Archive Release 3",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "evaSnpContainer"
       ]
     },
@@ -1230,7 +1230,7 @@
       },
       "description": "UniProt/SwissProt Amino Acid Substitutions",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -1279,7 +1279,7 @@
       },
       "description": "CHORI BACPAC Resources Center (BPRC) CHORI-230",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "cloneEndSuper"
       ]
     },
@@ -1329,7 +1329,7 @@
       },
       "description": "Riken Bioresource Center DNA Bank RNB1",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "cloneEndSuper"
       ]
     },
@@ -1379,7 +1379,7 @@
       },
       "description": "Riken Bioresource Center DNA Bank RNB2",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "cloneEndSuper"
       ]
     },
@@ -1429,7 +1429,7 @@
       },
       "description": "CHORI BACPAC Resources Center (BPRC) RPCI-32",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "cloneEndSuper"
       ]
     },
@@ -1479,7 +1479,7 @@
       },
       "description": "Clone end placements dropped at UCSC, map distance 3X median library size",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "cloneEndSuper"
       ]
     },
@@ -1529,7 +1529,7 @@
       },
       "description": "Clone end placements that map to multiple locations in the genome",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "cloneEndSuper"
       ]
     },
@@ -1674,7 +1674,7 @@
       },
       "description": "Chromosome Bands Based On ISCN Lengths",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -1722,7 +1722,7 @@
       },
       "description": "Chromosome Bands Based On ISCN Lengths (for Ideogram)",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -1769,7 +1769,7 @@
       },
       "description": "Gap Locations",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -1818,7 +1818,7 @@
       },
       "description": "Assembly from Fragments",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -1865,7 +1865,7 @@
       },
       "description": "Microsatellites - Di-nucleotide and Tri-nucleotide Repeats",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -1913,7 +1913,7 @@
       },
       "description": "Fragments of Interrupted Repeats Joined by RepeatMasker ID",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -2013,7 +2013,7 @@
       },
       "description": "Repeating Elements by RepeatMasker",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -2060,7 +2060,7 @@
       },
       "description": "Simple Tandem Repeats by TRF",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -2108,7 +2108,7 @@
       },
       "description": "Accession at INSDC - International Nucleotide Sequence Database Collaboration",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -2156,7 +2156,7 @@
       },
       "description": "RefSeq Accession",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -2203,7 +2203,7 @@
       },
       "description": "Genomic Intervals Masked by WindowMasker + SDust",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -2704,6 +2704,27 @@
       "description": "Non-Rat RefSeq Genes",
       "category": [
         "genes"
+      ]
+    }
+  ],
+  "aggregateTextSearchAdapters": [
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "rn6-index",
+      "ixFilePath": {
+        "uri": "trix/rn6.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/rn6.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/rn6_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "rn6"
       ]
     }
   ]

@@ -865,7 +865,7 @@
       },
       "description": "Gap Locations",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -914,7 +914,7 @@
       },
       "description": "Assembly from Fragments",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -961,7 +961,7 @@
       },
       "description": "Microsatellites - Di-nucleotide and Tri-nucleotide Repeats",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -1009,7 +1009,7 @@
       },
       "description": "Repeating Elements by RepeatMasker",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -1056,7 +1056,7 @@
       },
       "description": "Simple Tandem Repeats by TRF",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -1104,7 +1104,7 @@
       },
       "description": "RefSeq Accession",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -1355,6 +1355,27 @@
       "description": "Non-D. persimilis RefSeq Genes",
       "category": [
         "genes"
+      ]
+    }
+  ],
+  "aggregateTextSearchAdapters": [
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "droPer1-index",
+      "ixFilePath": {
+        "uri": "trix/droPer1.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/droPer1.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/droPer1_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "droPer1"
       ]
     }
   ]

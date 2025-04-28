@@ -775,7 +775,7 @@
       },
       "description": "Ideogram for Orientation",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -822,7 +822,7 @@
       },
       "description": "Gap Locations",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -871,7 +871,7 @@
       },
       "description": "Assembly from Fragments",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {

@@ -166,7 +166,7 @@
       },
       "description": "Ideogram for Orientation",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -214,7 +214,7 @@
       },
       "description": "Ensembl Gene Scaffold Assembly",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -261,7 +261,7 @@
       },
       "description": "Gap Locations",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -310,7 +310,7 @@
       },
       "description": "Assembly from Fragments",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -357,7 +357,7 @@
       },
       "description": "Microsatellites - Di-nucleotide and Tri-nucleotide Repeats",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -405,7 +405,7 @@
       },
       "description": "Fragments of Interrupted Repeats Joined by RepeatMasker ID",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -454,7 +454,7 @@
       },
       "description": "Repeating Elements by RepeatMasker",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -501,7 +501,7 @@
       },
       "description": "Simple Tandem Repeats by TRF",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -548,7 +548,7 @@
       },
       "description": "Genomic Intervals Masked by WindowMasker + SDust",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {

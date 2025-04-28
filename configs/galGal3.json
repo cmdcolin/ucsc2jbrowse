@@ -61,7 +61,7 @@
       },
       "description": "BAC End Pairs",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -109,7 +109,7 @@
       },
       "description": "Regions Covered by Beijing Genomics Institute SNP Reads",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -157,7 +157,7 @@
       },
       "description": "SNPs from Beijing Genomics Institute",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -349,7 +349,7 @@
       },
       "description": "Microsatellites - Di-nucleotide and Tri-nucleotide Repeats",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -447,7 +447,7 @@
       },
       "description": "Simple Tandem Repeats by TRF",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {

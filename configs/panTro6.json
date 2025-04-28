@@ -1275,7 +1275,7 @@
       },
       "description": "Ideogram for Orientation",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -1322,7 +1322,7 @@
       },
       "description": "Gap Locations",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -1371,7 +1371,7 @@
       },
       "description": "Assembly from Fragments",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -1418,7 +1418,7 @@
       },
       "description": "Microsatellites - Di-nucleotide and Tri-nucleotide Repeats",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -1466,7 +1466,7 @@
       },
       "description": "Fragments of Interrupted Repeats Joined by RepeatMasker ID",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -1515,7 +1515,7 @@
       },
       "description": "Repeating Elements by RepeatMasker",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -1562,7 +1562,7 @@
       },
       "description": "Simple Tandem Repeats by TRF",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -1610,7 +1610,7 @@
       },
       "description": "Accession at INSDC - International Nucleotide Sequence Database Collaboration",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -1658,7 +1658,7 @@
       },
       "description": "RefSeq Accession",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -1705,7 +1705,7 @@
       },
       "description": "Genomic Intervals Masked by WindowMasker + SDust",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -2062,6 +2062,27 @@
       "description": "Non-Chimp RefSeq Genes",
       "category": [
         "genes"
+      ]
+    }
+  ],
+  "aggregateTextSearchAdapters": [
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "panTro6-index",
+      "ixFilePath": {
+        "uri": "trix/panTro6.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/panTro6.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/panTro6_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "panTro6"
       ]
     }
   ]

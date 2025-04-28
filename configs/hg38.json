@@ -115,7 +115,7 @@
       },
       "description": "Adipose Subcutaneous",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -156,7 +156,7 @@
       },
       "description": "Agilent GenetiSure Cyto CGH+SNP 4x180K 085591 20200302",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "genotypeArrays"
       ]
     },
@@ -202,7 +202,7 @@
       },
       "description": "All TCGA Pan-Cancer mutations: 33 TCGA Cancer Projects Summary (Pan-Can 33)",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "gdcCancer"
       ]
     },
@@ -243,7 +243,7 @@
       },
       "description": "Genome In a Bottle: all difficult regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "problematicGIAB"
       ]
     },
@@ -286,7 +286,7 @@
       },
       "description": "Single-read mappability with 24-mers after bisulfite conversion (forward strand)",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "bismapBigBed"
       ]
     },
@@ -332,7 +332,7 @@
       },
       "description": "ClinGen Dosage Sensitivity Map - Haploinsufficiency",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "clinGenComp"
       ]
     },
@@ -393,7 +393,7 @@
       },
       "description": "ClinVar Short Variants < 50bp",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "clinvar"
       ]
     },
@@ -436,7 +436,7 @@
       },
       "description": "Common (1000 Genomes Phase 3 MAF >= 1%) Short Genetic Variants from dbSNP Release 153",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dbSnp153ViewVariants"
       ]
     },
@@ -480,7 +480,7 @@
       },
       "description": "Common (1000 Genomes Phase 3 MAF >= 1%) Short Genetic Variants from dbSNP Release 155",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dbSnp155ViewVariants"
       ]
     },
@@ -521,7 +521,7 @@
       },
       "description": "COVID GWAS from the COVID-19 Host Genetics Initiative (6696 cases, 18 studies)",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "covidHgiGwas"
       ]
     },
@@ -614,7 +614,7 @@
       },
       "description": "NCBI dbVar Curated Common SVs: all populations from 1000 Genomes",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dbVar_common"
       ]
     },
@@ -656,7 +656,7 @@
       },
       "description": "NCBI dbVar Curated Common SVs: Conflicts with Pathogenic",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dbVar_conflict"
       ]
     },
@@ -709,7 +709,7 @@
       },
       "description": "DECIPHER CNVs",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "decipherContainer"
       ]
     },
@@ -757,7 +757,7 @@
       },
       "description": "Database of Genomic Variants: Structural Var Regions (CNV, Inversion, In/del)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dgvPlus"
       ]
     },
@@ -850,7 +850,7 @@
       },
       "description": "Promoters from EPDnew human version 006",
       "category": [
-        "expression",
+        "Expression",
         "epdNew"
       ]
     },
@@ -958,7 +958,7 @@
       },
       "description": "gnomAD Predicted Loss of Function Constraint Metrics By Gene (LOEUF and pLI) v2.1.1",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "constraintV2"
       ]
     },
@@ -1061,7 +1061,7 @@
       },
       "description": "Genome Aggregation Database (gnomAD) Genome Variants v4.1",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadVariantsV4.1"
       ]
     },
@@ -1157,7 +1157,7 @@
       },
       "description": "IDT - xGen Exome Research Panel V1 Probes",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -1206,7 +1206,7 @@
       },
       "description": "JARVIS: score to prioritize non-coding regions for disease relevance",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "constraintSuper"
       ]
     },
@@ -1297,7 +1297,7 @@
       },
       "description": "LOVD: Leiden Open Variation Database, short < 50 bp variants and insertions of any length",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "lovdComp"
       ]
     },
@@ -1342,7 +1342,7 @@
       },
       "description": "MITOMAP Control and Coding Variants",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "mitoMap"
       ]
     },
@@ -1386,7 +1386,7 @@
       },
       "description": "AlphaMissense Score: Mutation is A",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "alphaMissense"
       ]
     },
@@ -1431,7 +1431,7 @@
       },
       "description": "CADD 1.7 Score: Mutation is A",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "cadd1_7"
       ]
     },
@@ -1479,7 +1479,7 @@
       },
       "description": "REVEL: Mutation is A",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "revel"
       ]
     },
@@ -1523,7 +1523,7 @@
       },
       "description": "CADD 1.6 Score: Mutation is A",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "cadd"
       ]
     },
@@ -1570,7 +1570,7 @@
       },
       "description": "Genomics England PanelApp CNV Regions",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "panelApp"
       ]
     },
@@ -1618,7 +1618,7 @@
       },
       "description": "Probability of haploinsufficiency",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "dosageSensitivity"
       ]
     },
@@ -1710,7 +1710,7 @@
       },
       "description": "Recombination rate: deCODE Genetics, average from paternal and maternal (mat for chrX)",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "recombRate2"
       ]
     },
@@ -1806,7 +1806,7 @@
       },
       "description": "miRNA Tissue Atlas microRna Expression",
       "category": [
-        "expression",
+        "Expression",
         "miRnaAtlasSample1"
       ]
     },
@@ -1847,7 +1847,7 @@
       },
       "description": "Severe respiratory COVID risk variants from the COVID-19 HGI GWAS Analysis A2 (4336 cases, 12 studies, Rel 4: Oct 2020)",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "covidHgiGwasR4Pval"
       ]
     },
@@ -1894,7 +1894,7 @@
       },
       "description": "SNPedia all SNPs (including empty pages)",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "snpedia"
       ]
     },
@@ -1943,7 +1943,7 @@
       },
       "description": "SpliceAI SNVs (unmasked)",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "spliceAI"
       ]
     },
@@ -2093,7 +2093,7 @@
       },
       "description": "UCSC unusual regions on assembly structure (manually annotated)",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "problematic"
       ]
     },
@@ -2136,7 +2136,7 @@
       },
       "description": "Single-read mappability with 24-mers",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "umapBigBed"
       ]
     },
@@ -2185,7 +2185,7 @@
       },
       "description": "SpliceAI Indels (unmasked)",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "spliceAI"
       ]
     },
@@ -2234,7 +2234,7 @@
       },
       "description": "SpliceAI SNVs (masked)",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "spliceAI"
       ]
     },
@@ -2283,7 +2283,7 @@
       },
       "description": "SpliceAI Indels (masked)",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "spliceAI"
       ]
     },
@@ -2329,7 +2329,7 @@
       },
       "description": "Adrenocortical carcinoma",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "gdcCancer"
       ]
     },
@@ -2371,7 +2371,7 @@
       },
       "description": "Adipose Visceral Omentum - GTEX-14BMU-0626-SM-73KZ6",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -2412,7 +2412,7 @@
       },
       "description": "Agilent GenetiSure Cyto CGH 4x180K 085589 20200302",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "genotypeArrays"
       ]
     },
@@ -2455,7 +2455,7 @@
       },
       "description": "Single-read mappability with 36-mers after bisulfite conversion (forward strand)",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "bismapBigBed"
       ]
     },
@@ -2500,7 +2500,7 @@
       },
       "description": "ClinGen Dosage Sensitivity Map - Triplosensitivity",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "clinGenComp"
       ]
     },
@@ -2559,7 +2559,7 @@
       },
       "description": "ClinVar Copy Number Variants >= 50bp",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "clinvar"
       ]
     },
@@ -2602,7 +2602,7 @@
       },
       "description": "Short Genetic Variants from dbSNP Release 155 Included in ClinVar",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dbSnp155ViewVariants"
       ]
     },
@@ -2697,7 +2697,7 @@
       },
       "description": "Short Genetic Variants from dbSNP Release 153 Included in ClinVar",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dbSnp153ViewVariants"
       ]
     },
@@ -2739,7 +2739,7 @@
       },
       "description": "NCBI dbVar Curated Common SVs: African",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dbVar_common"
       ]
     },
@@ -2787,7 +2787,7 @@
       },
       "description": "Database of Genomic Variants: Supporting Structural Var (CNV, Inversion, In/del)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dgvPlus"
       ]
     },
@@ -2828,7 +2828,7 @@
       },
       "description": "ENCODE Blacklist V2",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "problematic"
       ]
     },
@@ -2871,7 +2871,7 @@
       },
       "description": "ncRNA promoters from EPDnewNC human version 001",
       "category": [
-        "expression",
+        "Expression",
         "epdNew"
       ]
     },
@@ -2978,7 +2978,7 @@
       },
       "description": "gnomAD Predicted Missense Constraint Metrics By Gene (Z-scores) v2.1.1",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "constraintV2"
       ]
     },
@@ -3081,7 +3081,7 @@
       },
       "description": "Genome Aggregation Database (gnomAD) Exomes Variants v4.1",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadVariantsV4.1"
       ]
     },
@@ -3185,7 +3185,7 @@
       },
       "description": "HMC - Homologous Missense Constraint Score on PFAM domains",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "constraintSuper"
       ]
     },
@@ -3226,7 +3226,7 @@
       },
       "description": "Hospitalized COVID GWAS from the COVID-19 Host Genetics Initiative (3199 cases, 8 studies)",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "covidHgiGwas"
       ]
     },
@@ -3267,7 +3267,7 @@
       },
       "description": "Hospitalized COVID risk variants from the COVID-19 HGI GWAS Analysis B2 (7885 cases, 21 studies, Rel 4: Oct 2020)",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "covidHgiGwasR4Pval"
       ]
     },
@@ -3309,7 +3309,7 @@
       },
       "description": "IDT - xGen Exome Research Panel V1 Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -3398,7 +3398,7 @@
       },
       "description": "LOVD: Leiden Open Variation Database Public Variants, long >= 50 bp variants",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "lovdComp"
       ]
     },
@@ -3439,7 +3439,7 @@
       },
       "description": "Genome In a Bottle: lowMap+SegDup regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "problematicGIAB"
       ]
     },
@@ -3484,7 +3484,7 @@
       },
       "description": "MITOMAP Disease Mutations",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "mitoMap"
       ]
     },
@@ -3528,7 +3528,7 @@
       },
       "description": "AlphaMissense Score: Mutation is C",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "alphaMissense"
       ]
     },
@@ -3573,7 +3573,7 @@
       },
       "description": "CADD 1.7 Score: Mutation is C",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "cadd1_7"
       ]
     },
@@ -3621,7 +3621,7 @@
       },
       "description": "REVEL: Mutation is C",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "revel"
       ]
     },
@@ -3665,7 +3665,7 @@
       },
       "description": "CADD 1.6 Score: Mutation is C",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "cadd"
       ]
     },
@@ -3714,7 +3714,7 @@
       },
       "description": "Genomics England PanelApp Genes",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "panelApp"
       ]
     },
@@ -3810,7 +3810,7 @@
       },
       "description": "Probability of triplosensitivity",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "dosageSensitivity"
       ]
     },
@@ -3854,7 +3854,7 @@
       },
       "description": "Recombination rate: deCODE Genetics, paternal",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "recombRate2"
       ]
     },
@@ -3964,7 +3964,7 @@
       },
       "description": "miRNA Tissue Atlas microRna Expression",
       "category": [
-        "expression",
+        "Expression",
         "miRnaAtlasSample2"
       ]
     },
@@ -4014,7 +4014,7 @@
       },
       "description": "gnomAD Predicted Loss of Function Constraint Metrics By Transcript (LOEUF and pLI) v2.1.1",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "constraintV2"
       ]
     },
@@ -4064,7 +4064,7 @@
       },
       "description": "gnomAD Predicted Loss of Function Constraint Metrics By Transcript (LOEUF and pLI) v4",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "constraintV4"
       ]
     },
@@ -4115,7 +4115,7 @@
       },
       "description": "gnomAD Predicted Loss of Function Constraint Metrics By Transcript (LOEUF and pLI) v4.1",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "constraintV4_1"
       ]
     },
@@ -4164,7 +4164,7 @@
       },
       "description": "gnomAD Predicted Missense Constraint Metrics By Transcript (Z-scores) v2.1.1",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "constraintV2"
       ]
     },
@@ -4213,7 +4213,7 @@
       },
       "description": "gnomAD Predicted Missense Constraint Metrics By Transcript (Z-scores) v4",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "constraintV4"
       ]
     },
@@ -4263,7 +4263,7 @@
       },
       "description": "gnomAD Predicted Missense Constraint Metrics By Transcript (Z-scores) v4.1",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "constraintV4_1"
       ]
     },
@@ -4359,7 +4359,7 @@
       },
       "description": "Single-read mappability with 36-mers",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "umapBigBed"
       ]
     },
@@ -4406,7 +4406,7 @@
       },
       "description": "Rare variants underlying COVID-19 severity and susceptibility from the COVID Human Genetics Effort",
       "category": [
-        "phenDis"
+        "Phenotypes, Variants, and Literature"
       ]
     },
     {
@@ -4447,7 +4447,7 @@
       },
       "description": "Adrenal Gland",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -4488,7 +4488,7 @@
       },
       "description": "Agilent GenetiSure Cyto CGH 8x60K 085590 20200302",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "genotypeArrays"
       ]
     },
@@ -4531,7 +4531,7 @@
       },
       "description": "Single-read mappability with 50-mers after bisulfite conversion (forward strand)",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "bismapBigBed"
       ]
     },
@@ -4577,7 +4577,7 @@
       },
       "description": "Bladder Urothelial Carcinoma",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "gdcCancer"
       ]
     },
@@ -4632,7 +4632,7 @@
       },
       "description": "ClinGen Gene-Disease Validity Classification",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "clinGenComp"
       ]
     },
@@ -4675,7 +4675,7 @@
       },
       "description": "Short Genetic Variants from dbSNP Release 153 that Map to Multiple Genomic Loci",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dbSnp153ViewVariants"
       ]
     },
@@ -4717,7 +4717,7 @@
       },
       "description": "NCBI dbVar Curated Common SVs: all populations",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dbVar_common"
       ]
     },
@@ -4764,7 +4764,7 @@
       },
       "description": "DECIPHER: Population CNVs",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "decipherContainer"
       ]
     },
@@ -4905,7 +4905,7 @@
       },
       "description": "GRC Exclusion list: contaminations or false duplications",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "problematic"
       ]
     },
@@ -4998,7 +4998,7 @@
       },
       "description": "IDT - xGen Exome Research Panel V2 Probes",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -5084,7 +5084,7 @@
       },
       "description": "Short Genetic Variants from dbSNP Release 155 that Map to Multiple Genomic Loci",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dbSnp155ViewVariants"
       ]
     },
@@ -5128,7 +5128,7 @@
       },
       "description": "AlphaMissense Score: Mutation is G",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "alphaMissense"
       ]
     },
@@ -5173,7 +5173,7 @@
       },
       "description": "CADD 1.7 Score: Mutation is G",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "cadd1_7"
       ]
     },
@@ -5221,7 +5221,7 @@
       },
       "description": "REVEL: Mutation is G",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "revel"
       ]
     },
@@ -5265,7 +5265,7 @@
       },
       "description": "CADD 1.6 Score: Mutation is G",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "cadd"
       ]
     },
@@ -5306,7 +5306,7 @@
       },
       "description": "Genome In a Bottle: not difficult regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "problematicGIAB"
       ]
     },
@@ -5349,7 +5349,7 @@
       },
       "description": "Nuclear mitochondrial DNA segments",
       "category": [
-        "rep"
+        "Repeats"
       ]
     },
     {
@@ -5396,7 +5396,7 @@
       },
       "description": "Genomics England PanelApp Short Tandem Repeats",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "panelApp"
       ]
     },
@@ -5440,7 +5440,7 @@
       },
       "description": "Recombination rate: deCODE Genetics, maternal",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "recombRate2"
       ]
     },
@@ -5530,7 +5530,7 @@
       },
       "description": "Genome in a Bottle Structural Variants (dbVar nstd175)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "svView"
       ]
     },
@@ -5571,7 +5571,7 @@
       },
       "description": "Tested COVID risk variants from the COVID-19 HGI GWAS Analyis C1 (11085 cases, 20 studies, Rel 4: Oct 2020)",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "covidHgiGwasR4Pval"
       ]
     },
@@ -5614,7 +5614,7 @@
       },
       "description": "Single-read mappability with 50-mers",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "umapBigBed"
       ]
     },
@@ -5679,7 +5679,7 @@
       },
       "description": "Genome Aggregation Database (gnomAD) Genome Variants v3.1.1",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadVariants"
       ]
     },
@@ -5738,7 +5738,7 @@
       },
       "description": "Genome Aggregation Database (gnomAD) Genome Variants v3.1",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadVariants"
       ]
     },
@@ -5881,7 +5881,7 @@
       },
       "description": "COVID risk variants from the COVID-19 HGI GWAS Analysis C2 (17965 cases, 33 studies, Rel 4: Oct 2020)",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "covidHgiGwasR4Pval"
       ]
     },
@@ -5926,7 +5926,7 @@
       },
       "description": "All Short Genetic Variants from dbSNP Release 153",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dbSnp153ViewVariants"
       ]
     },
@@ -5971,7 +5971,7 @@
       },
       "description": "All Short Genetic Variants from dbSNP Release 155",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dbSnp155ViewVariants"
       ]
     },
@@ -6013,7 +6013,7 @@
       },
       "description": "Artery Aorta",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -6107,7 +6107,7 @@
       },
       "description": "Single-read mappability with 100-mers after bisulfite conversion (forward strand)",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "bismapBigBed"
       ]
     },
@@ -6153,7 +6153,7 @@
       },
       "description": "Breast invasive carcinoma",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "gdcCancer"
       ]
     },
@@ -6195,7 +6195,7 @@
       },
       "description": "NCBI dbVar Curated Common SVs: all populations from DECIPHER",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dbVar_common"
       ]
     },
@@ -6383,7 +6383,7 @@
       },
       "description": "Highly Reproducible Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "highReproBeds"
       ]
     },
@@ -6425,7 +6425,7 @@
       },
       "description": "IDT - xGen Exome Research Panel V2 Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -6469,7 +6469,7 @@
       },
       "description": "Illumina 450k Methylation Array",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "genotypeArrays"
       ]
     },
@@ -6598,7 +6598,7 @@
       },
       "description": "AlphaMissense Score: Mutation is T",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "alphaMissense"
       ]
     },
@@ -6643,7 +6643,7 @@
       },
       "description": "CADD 1.7 Score: Mutation is T",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "cadd1_7"
       ]
     },
@@ -6691,7 +6691,7 @@
       },
       "description": "REVEL: Mutation is T",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "revel"
       ]
     },
@@ -6735,7 +6735,7 @@
       },
       "description": "CADD 1.6 Score: Mutation is T",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "cadd"
       ]
     },
@@ -6776,7 +6776,7 @@
       },
       "description": "Genome In a Bottle: not lowMap+SegDup mapping regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "problematicGIAB"
       ]
     },
@@ -6817,7 +6817,7 @@
       },
       "description": "Recombination events in deCODE Genetic Map (zoom to < 10kbp to see the events)",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "recombRate2"
       ]
     },
@@ -6907,7 +6907,7 @@
       },
       "description": "Single-read mappability with 100-mers",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "umapBigBed"
       ]
     },
@@ -6949,7 +6949,7 @@
       },
       "description": "Artery Coronary",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -6992,7 +6992,7 @@
       },
       "description": "Single-read mappability with 24-mers after bisulfite conversion (reverse strand)",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "bismapBigBed"
       ]
     },
@@ -7038,7 +7038,7 @@
       },
       "description": "Cervical squamous cell carcinoma and endocervical adenocarcinoma",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "gdcCancer"
       ]
     },
@@ -7080,7 +7080,7 @@
       },
       "description": "NCBI dbVar Curated Common SVs: European",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dbVar_common"
       ]
     },
@@ -7222,7 +7222,7 @@
       },
       "description": "Illumina 850k EPIC Methylation Array",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "genotypeArrays"
       ]
     },
@@ -7264,7 +7264,7 @@
       },
       "description": "Roche - KAPA HyperExome Capture Probe Footprint",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -7307,7 +7307,7 @@
       },
       "description": "Mappings with Inconsistent Coordinates from dbSNP 153",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dbSnp153ViewErrs"
       ]
     },
@@ -7350,7 +7350,7 @@
       },
       "description": "Mappings with Inconsistent Coordinates from dbSNP 155",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dbSnp155ViewErrs"
       ]
     },
@@ -7460,7 +7460,7 @@
       },
       "description": "Recombination rate: De-novo mutations found in deCODE samples",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "recombRate2"
       ]
     },
@@ -7503,7 +7503,7 @@
       },
       "description": "REVEL: Positions with >1 score due to overlapping transcripts (mouseover for details)",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "revel"
       ]
     },
@@ -7590,7 +7590,7 @@
       },
       "description": "Multi-read mappability with 24-mers",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "umapBigWig"
       ]
     },
@@ -7632,7 +7632,7 @@
       },
       "description": "Artery Tibial",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -7675,7 +7675,7 @@
       },
       "description": "Single-read mappability with 36-mers after bisulfite conversion (reverse strand)",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "bismapBigBed"
       ]
     },
@@ -7721,7 +7721,7 @@
       },
       "description": "Cholangiocarcinoma",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "gdcCancer"
       ]
     },
@@ -7809,7 +7809,7 @@
       },
       "description": "Illumina 850k CytoSNP Array",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "genotypeArrays"
       ]
     },
@@ -7851,7 +7851,7 @@
       },
       "description": "NCBI dbVar Curated Common SVs: all populations from gnomAD",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dbVar_common"
       ]
     },
@@ -7990,7 +7990,7 @@
       },
       "description": "Roche - KAPA HyperExome Primary Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -8034,7 +8034,7 @@
       },
       "description": "Recombination rate: 1000 Genomes, lifted from hg19 (PR Loh)",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "recombRate2"
       ]
     },
@@ -8120,7 +8120,7 @@
       },
       "description": "Multi-read mappability with 36-mers",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "umapBigWig"
       ]
     },
@@ -8162,7 +8162,7 @@
       },
       "description": "Affymetrix Cytoscan HD GeneChip Array",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "genotypeArrays"
       ]
     },
@@ -8205,7 +8205,7 @@
       },
       "description": "Single-read mappability with 100-mers after bisulfite conversion (reverse strand)",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "bismapBigBed"
       ]
     },
@@ -8248,7 +8248,7 @@
       },
       "description": "Single-read mappability with 50-mers after bisulfite conversion (reverse strand)",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "bismapBigBed"
       ]
     },
@@ -8290,7 +8290,7 @@
       },
       "description": "Bladder",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -8379,7 +8379,7 @@
       },
       "description": "Colon adenocarcinoma",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "gdcCancer"
       ]
     },
@@ -8518,7 +8518,7 @@
       },
       "description": "Roche - SeqCap EZ MedExome Capture Probe Footprint",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -8561,7 +8561,7 @@
       },
       "description": "Multi-read mappability with 50-mers",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "umapBigWig"
       ]
     },
@@ -8603,7 +8603,7 @@
       },
       "description": "Brain Amygdala",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -8741,7 +8741,7 @@
       },
       "description": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "gdcCancer"
       ]
     },
@@ -8923,7 +8923,7 @@
       },
       "description": "Roche - SeqCap EZ MedExome Empirical Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -8966,7 +8966,7 @@
       },
       "description": "Multi-read mappability with 100-mers",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "umapBigWig"
       ]
     },
@@ -9096,7 +9096,7 @@
       },
       "description": "Multi-read mappability with 24-mers after bisulfite conversion",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "bismapBigWig"
       ]
     },
@@ -9138,7 +9138,7 @@
       },
       "description": "Brain Anterior cingulate cortex BA24",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -9184,7 +9184,7 @@
       },
       "description": "Esophageal carcinoma",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "gdcCancer"
       ]
     },
@@ -9226,7 +9226,7 @@
       },
       "description": "Roche - SeqCap EZ MedExome + Mito Capture Probe Footprint",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -9269,7 +9269,7 @@
       },
       "description": "Multi-read mappability with 36-mers after bisulfite conversion",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "bismapBigWig"
       ]
     },
@@ -9311,7 +9311,7 @@
       },
       "description": "Brain Caudate basal ganglia",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -9357,7 +9357,7 @@
       },
       "description": "Glioblastoma multiforme",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "gdcCancer"
       ]
     },
@@ -9404,7 +9404,7 @@
       },
       "description": "Gnocchi: Genome Aggregation Database (gnomAD) non-coding constraint of haploinsufficient variation, includes chrX",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadVariants"
       ]
     },
@@ -9535,7 +9535,7 @@
       },
       "description": "Roche - SeqCap EZ MedExome + Mito Empirical Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -9800,7 +9800,7 @@
       },
       "description": "UK Biobank / deCODE Genetics Depletion Rank Score",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "constraintSuper"
       ]
     },
@@ -9843,7 +9843,7 @@
       },
       "description": "Multi-read mappability with 50-mers after bisulfite conversion",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "bismapBigWig"
       ]
     },
@@ -9885,7 +9885,7 @@
       },
       "description": "Brain Cerebellum",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -9931,7 +9931,7 @@
       },
       "description": "Head and Neck squamous cell carcinoma",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "gdcCancer"
       ]
     },
@@ -10060,7 +10060,7 @@
       },
       "description": "Agilent - SureSelect Clinical Research Exome V2 Covered by Probes",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -10103,7 +10103,7 @@
       },
       "description": "Multi-read mappability with 100-mers after bisulfite conversion",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "bismapBigWig"
       ]
     },
@@ -10145,7 +10145,7 @@
       },
       "description": "Brain Cerebellar Hemisphere",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -10230,7 +10230,7 @@
       },
       "description": "Agilent - SureSelect Clinical Research Exome V2 Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -10272,7 +10272,7 @@
       },
       "description": "Brain Cortex",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -10318,7 +10318,7 @@
       },
       "description": "Kidney renal clear cell carcinoma",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "gdcCancer"
       ]
     },
@@ -10403,7 +10403,7 @@
       },
       "description": "Agilent - SureSelect Focused Exome Covered by Probes",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -10445,7 +10445,7 @@
       },
       "description": "Brain Frontal Cortex BA9",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -10491,7 +10491,7 @@
       },
       "description": "Kidney renal papillary cell carcinoma",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "gdcCancer"
       ]
     },
@@ -10533,7 +10533,7 @@
       },
       "description": "Agilent - SureSelect Focused Exome Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -10575,7 +10575,7 @@
       },
       "description": "Brain Hippocampus",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -10621,7 +10621,7 @@
       },
       "description": "Acute Myeloid Leukemia",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "gdcCancer"
       ]
     },
@@ -10663,7 +10663,7 @@
       },
       "description": "Agilent - SureSelect All Exon V4 + UTRs Covered by Probes",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -10705,7 +10705,7 @@
       },
       "description": "Brain Hypothalamus",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -10751,7 +10751,7 @@
       },
       "description": "Brain Lower Grade Glioma",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "gdcCancer"
       ]
     },
@@ -10793,7 +10793,7 @@
       },
       "description": "Agilent - SureSelect All Exon V4 + UTRs Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -10835,7 +10835,7 @@
       },
       "description": "Brain Nucleus accumbens basal ganglia",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -10881,7 +10881,7 @@
       },
       "description": "Liver hepatocellular carcinoma",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "gdcCancer"
       ]
     },
@@ -10923,7 +10923,7 @@
       },
       "description": "Agilent - SureSelect All Exon V5 + UTRs Covered by Probes",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -10965,7 +10965,7 @@
       },
       "description": "Brain Putamen basal ganglia",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -11011,7 +11011,7 @@
       },
       "description": "Lung adenocarcinoma",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "gdcCancer"
       ]
     },
@@ -11053,7 +11053,7 @@
       },
       "description": "Agilent - SureSelect All Exon V5 + UTRs Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -11095,7 +11095,7 @@
       },
       "description": "Brain Spinal cord cervical c-1",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -11141,7 +11141,7 @@
       },
       "description": "Lung squamous cell carcinoma",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "gdcCancer"
       ]
     },
@@ -11183,7 +11183,7 @@
       },
       "description": "Agilent - SureSelect All Exon V6 + UTR r2 Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -11225,7 +11225,7 @@
       },
       "description": "Brain Substantia nigra",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -11271,7 +11271,7 @@
       },
       "description": "Mesothelioma",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "gdcCancer"
       ]
     },
@@ -11313,7 +11313,7 @@
       },
       "description": "Agilent - SureSelect All Exon V6 r2 Covered by Probes",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -11355,7 +11355,7 @@
       },
       "description": "Breast Mammary Tissue",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -11401,7 +11401,7 @@
       },
       "description": "Ovarian serous cystadenocarcinoma",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "gdcCancer"
       ]
     },
@@ -11443,7 +11443,7 @@
       },
       "description": "Agilent - SureSelect All Exon V6 r2 Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -11485,7 +11485,7 @@
       },
       "description": "Cells EBV-transformed lymphocytes",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -11531,7 +11531,7 @@
       },
       "description": "Pancreatic adenocarcinoma",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "gdcCancer"
       ]
     },
@@ -11573,7 +11573,7 @@
       },
       "description": "Agilent - SureSelect All Exon V6 + COSMIC r2 Covered by Probes",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -11615,7 +11615,7 @@
       },
       "description": "Cells Cultured fibroblasts",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -11661,7 +11661,7 @@
       },
       "description": "Pheochromocytoma and Paraganglioma",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "gdcCancer"
       ]
     },
@@ -11703,7 +11703,7 @@
       },
       "description": "Agilent - SureSelect All Exon V6 + COSMIC r2 Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -11745,7 +11745,7 @@
       },
       "description": "Cervix Ectocervix",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -11791,7 +11791,7 @@
       },
       "description": "Prostate adenocarcinoma",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "gdcCancer"
       ]
     },
@@ -11833,7 +11833,7 @@
       },
       "description": "Agilent - SureSelect All Exon V6 + UTR r2 Covered by Probes",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -11875,7 +11875,7 @@
       },
       "description": "Cervix Endocervix",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -11921,7 +11921,7 @@
       },
       "description": "Rectum adenocarcinoma",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "gdcCancer"
       ]
     },
@@ -11963,7 +11963,7 @@
       },
       "description": "Agilent - SureSelect All Exon V7 Covered by Probes",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -12005,7 +12005,7 @@
       },
       "description": "Colon Sigmoid",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -12051,7 +12051,7 @@
       },
       "description": "Sarcoma",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "gdcCancer"
       ]
     },
@@ -12093,7 +12093,7 @@
       },
       "description": "Agilent - SureSelect All Exon V7 Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -12135,7 +12135,7 @@
       },
       "description": "Colon Transverse",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -12181,7 +12181,7 @@
       },
       "description": "Skin Cutaneous Melanoma",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "gdcCancer"
       ]
     },
@@ -12223,7 +12223,7 @@
       },
       "description": "Twist - Comprehensive Exome Panel Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -12265,7 +12265,7 @@
       },
       "description": "Esophagus Gastroesophageal Junction",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -12311,7 +12311,7 @@
       },
       "description": "Stomach adenocarcinoma",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "gdcCancer"
       ]
     },
@@ -12353,7 +12353,7 @@
       },
       "description": "Twist - Bioscience - Core Exome Panel Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -12395,7 +12395,7 @@
       },
       "description": "Esophagus Mucosa",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -12441,7 +12441,7 @@
       },
       "description": "Testicular Germ Cell Tumors",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "gdcCancer"
       ]
     },
@@ -12483,7 +12483,7 @@
       },
       "description": "Twist - Exome 2.0 Panel Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -12525,7 +12525,7 @@
       },
       "description": "Esophagus Muscularis",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -12571,7 +12571,7 @@
       },
       "description": "Thyroid carcinoma",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "gdcCancer"
       ]
     },
@@ -12613,7 +12613,7 @@
       },
       "description": "Twist - RefSeq Exome Panel Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -12655,7 +12655,7 @@
       },
       "description": "Fallopian Tube",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -12701,7 +12701,7 @@
       },
       "description": "Thymoma",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "gdcCancer"
       ]
     },
@@ -12743,7 +12743,7 @@
       },
       "description": "Heart Atrial Appendage",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -12789,7 +12789,7 @@
       },
       "description": "Uterine Corpus Endometrial Carcinoma",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "gdcCancer"
       ]
     },
@@ -12831,7 +12831,7 @@
       },
       "description": "Heart Left Ventricle",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -12877,7 +12877,7 @@
       },
       "description": "Uterine Carcinosarcoma",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "gdcCancer"
       ]
     },
@@ -12919,7 +12919,7 @@
       },
       "description": "Kidney Cortex",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -12965,7 +12965,7 @@
       },
       "description": "Uveal Melanoma",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "gdcCancer"
       ]
     },
@@ -13007,7 +13007,7 @@
       },
       "description": "Kidney Medulla",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -13049,7 +13049,7 @@
       },
       "description": "Liver",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -13091,7 +13091,7 @@
       },
       "description": "Lung",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -13133,7 +13133,7 @@
       },
       "description": "Minor Salivary Gland",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -13175,7 +13175,7 @@
       },
       "description": "Muscle Skeletal",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -13217,7 +13217,7 @@
       },
       "description": "Nerve Tibial",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -13259,7 +13259,7 @@
       },
       "description": "Ovary",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -13301,7 +13301,7 @@
       },
       "description": "Pancreas",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -13343,7 +13343,7 @@
       },
       "description": "Pituitary",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -13385,7 +13385,7 @@
       },
       "description": "Prostate",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -13427,7 +13427,7 @@
       },
       "description": "Skin Not Sun Exposed Suprapubic",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -13469,7 +13469,7 @@
       },
       "description": "Skin Sun Exposed Lower leg",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -13511,7 +13511,7 @@
       },
       "description": "Small Intestine Terminal Ileum",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -13553,7 +13553,7 @@
       },
       "description": "Spleen",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -13595,7 +13595,7 @@
       },
       "description": "Stomach",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -13637,7 +13637,7 @@
       },
       "description": "Testis",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -13679,7 +13679,7 @@
       },
       "description": "Thyroid",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -13721,7 +13721,7 @@
       },
       "description": "Uterus",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -13763,7 +13763,7 @@
       },
       "description": "Vagina",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -13805,7 +13805,7 @@
       },
       "description": "Whole Blood",
       "category": [
-        "expression",
+        "Expression",
         "gtexCov"
       ]
     },
@@ -13855,7 +13855,7 @@
       },
       "description": "Aberrant Splicing Prediction Scores",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "spliceImpactSuper"
       ]
     },
@@ -13901,7 +13901,7 @@
       },
       "description": "Avada Variants extracted from full text publications",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "varsInPubs pack"
       ]
     },
@@ -14320,7 +14320,7 @@
       },
       "description": "CADD 1.6 Score: Deletions - label is length of deletion",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "caddSuper"
       ]
     },
@@ -14366,7 +14366,7 @@
       },
       "description": "CADD 1.6 Score: Insertions - label is length of insertion",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "caddSuper"
       ]
     },
@@ -14413,7 +14413,7 @@
       },
       "description": "CADD 1.7 Score: Deletions - label is length of deletion",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "caddSuper1_7"
       ]
     },
@@ -14460,7 +14460,7 @@
       },
       "description": "CADD 1.7 Score: Insertions - label is length of insertion",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "caddSuper1_7"
       ]
     },
@@ -14512,7 +14512,7 @@
       },
       "description": "Gene Expression in 33 TCGA Cancer Tissues (GENCODE v23)",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "cancerExpr"
       ]
     },
@@ -14564,7 +14564,7 @@
       },
       "description": "Transcript-level Expression in 33 TCGA Cancer Tissues (GENCODE v23)",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "cancerExpr"
       ]
     },
@@ -14650,7 +14650,7 @@
       },
       "description": "CIViC - Expert & crowd-sourced cancer variant interpretation",
       "category": [
-        "phenDis"
+        "Phenotypes, Variants, and Literature"
       ]
     },
     {
@@ -14693,7 +14693,7 @@
       },
       "description": "Clingen CSpec Variant Interpretation VCEP Specifications",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "clinGenComp"
       ]
     },
@@ -14751,7 +14751,7 @@
       },
       "description": "ClinVar SNVs submitted interpretations and evidence",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "clinvar"
       ]
     },
@@ -15152,7 +15152,7 @@
       },
       "description": "Catalogue of Somatic Mutations in Cancer V101",
       "category": [
-        "phenDis"
+        "Phenotypes, Variants, and Literature"
       ]
     },
     {
@@ -15200,7 +15200,7 @@
       },
       "description": "Catalogue of Somatic Mutations in Cancer V82",
       "category": [
-        "phenDis"
+        "Phenotypes, Variants, and Literature"
       ]
     },
     {
@@ -15291,7 +15291,7 @@
       },
       "description": "Database of Genomic Variants: Gold Standard Variants",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dgvPlus"
       ]
     },
@@ -15343,7 +15343,7 @@
       },
       "description": "enGenome VarChat: Literature match and variant's summary",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "varsInPubs pack"
       ]
     },
@@ -15799,7 +15799,7 @@
       },
       "description": "GenCC: The Gene Curation Coalition Annotations",
       "category": [
-        "phenDis"
+        "Phenotypes, Variants, and Literature"
       ]
     },
     {
@@ -15846,7 +15846,7 @@
       },
       "description": "Protein Interactions from Curated Databases and Text-Mining",
       "category": [
-        "phenDis"
+        "Phenotypes, Variants, and Literature"
       ]
     },
     {
@@ -15889,7 +15889,7 @@
       },
       "description": "GeneReviews",
       "category": [
-        "phenDis"
+        "Phenotypes, Variants, and Literature"
       ]
     },
     {
@@ -15937,7 +15937,7 @@
       },
       "description": "Genome Aggregation Database (gnomAD) - Rare CNV variants (<1% overall site frequency) v4.1",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadVariants"
       ]
     },
@@ -15999,7 +15999,7 @@
       },
       "description": "Genome Aggregation Database (gnomAD) - Structural Variants v4.1",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadVariants"
       ]
     },
@@ -16051,7 +16051,7 @@
       },
       "description": "Transcript Expression in 53 tissues from GTEx RNA-seq of 8555 samples/570 donors",
       "category": [
-        "expression"
+        "Expression"
       ]
     },
     {
@@ -16557,7 +16557,7 @@
       },
       "description": "Human Gene Mutation Database - Public Version Dec 2024",
       "category": [
-        "phenDis"
+        "Phenotypes, Variants, and Literature"
       ]
     },
     {
@@ -16752,7 +16752,7 @@
       },
       "description": "Kidney Chromophobe",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "gdcCancer"
       ]
     },
@@ -18340,7 +18340,7 @@
       },
       "description": "Genomenon Mastermind Variants extracted from full text publications",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "varsInPubs pack"
       ]
     },
@@ -18493,7 +18493,7 @@
       },
       "description": "Orphadata: Aggregated Data From Orphanet",
       "category": [
-        "phenDis"
+        "Phenotypes, Variants, and Literature"
       ]
     },
     {
@@ -19354,7 +19354,7 @@
       },
       "description": "Single cell RNA expression levels cell types from many organs",
       "category": [
-        "expression"
+        "Expression"
       ]
     },
     {
@@ -19613,7 +19613,7 @@
       },
       "description": "SpliceVarDB: Experimentally validated splicing variants",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "spliceImpactSuper"
       ]
     },
@@ -19762,7 +19762,7 @@
       },
       "description": "UniProt/SwissProt Amino Acid Substitutions",
       "category": [
-        "phenDis"
+        "Phenotypes, Variants, and Literature"
       ]
     },
     {
@@ -20151,7 +20151,7 @@
       },
       "description": "Centromere Locations",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -20200,7 +20200,7 @@
       },
       "description": "Agencourt fosmid library 9",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "cloneEndSuper"
       ]
     },
@@ -20250,7 +20250,7 @@
       },
       "description": "CHORI BAC hydatidiform mole",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "cloneEndSuper"
       ]
     },
@@ -20300,7 +20300,7 @@
       },
       "description": "NHGRI-CORIELLE CORIELL-02-F-39-40KB",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "cloneEndSuper"
       ]
     },
@@ -20350,7 +20350,7 @@
       },
       "description": "NHGRI-CORIELLE CORIELL-02A-F-39-40KB",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "cloneEndSuper"
       ]
     },
@@ -20400,7 +20400,7 @@
       },
       "description": "CalTech BAC library D",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "cloneEndSuper"
       ]
     },
@@ -20450,7 +20450,7 @@
       },
       "description": "RPCI BAC library 11",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "cloneEndSuper"
       ]
     },
@@ -20500,7 +20500,7 @@
       },
       "description": "WIBR-2 Fosmid library",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "cloneEndSuper"
       ]
     },
@@ -20550,7 +20550,7 @@
       },
       "description": "Clone end placements dropped at UCSC, map distance 3X median library size",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "cloneEndSuper"
       ]
     },
@@ -20600,7 +20600,7 @@
       },
       "description": "Clone end placements that map to multiple locations in the genome",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "cloneEndSuper"
       ]
     },
@@ -20654,7 +20654,7 @@
       },
       "description": "Coriell Cell Line Copy Number Variants",
       "category": [
-        "phenDis"
+        "Phenotypes, Variants, and Literature"
       ]
     },
     {
@@ -20797,7 +20797,7 @@
       },
       "description": "Chromosome Bands Localized by FISH Mapping Clones",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -20844,7 +20844,7 @@
       },
       "description": "Chromosome Bands Localized by FISH Mapping Clones (for Ideogram)",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -20895,7 +20895,7 @@
       },
       "description": "Clones Placed on Cytogenetic Map Using FISH",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -20942,7 +20942,7 @@
       },
       "description": "Gap Locations",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -20990,7 +20990,7 @@
       },
       "description": "Duplications of >1000 Bases of Non-RepeatMasked Sequence",
       "category": [
-        "rep"
+        "Repeats"
       ]
     },
     {
@@ -21039,7 +21039,7 @@
       },
       "description": "Assembly from Fragments",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -21089,7 +21089,7 @@
       },
       "description": "Gene Expression in 53 tissues from GTEx RNA-seq of 8555 samples (570 donors)",
       "category": [
-        "expression"
+        "Expression"
       ]
     },
     {
@@ -21138,7 +21138,7 @@
       },
       "description": "Gene Expression in 54 tissues from GTEx RNA-seq of 17382 samples, 948 donors (V8, Aug 2019)",
       "category": [
-        "expression"
+        "Expression"
       ]
     },
     {
@@ -21189,7 +21189,7 @@
       },
       "description": "NHGRI-EBI Catalog of Published Genome-Wide Association Studies",
       "category": [
-        "phenDis"
+        "Phenotypes, Variants, and Literature"
       ]
     },
     {
@@ -21240,7 +21240,7 @@
       },
       "description": "Contigs New to GRCh38/(hg38), Not Carried Forward from GRCh37/(hg19)",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -21344,7 +21344,7 @@
       },
       "description": "ClinGen CNVs: Benign Gain Coverage",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "iscaViewTotal"
       ]
     },
@@ -21394,7 +21394,7 @@
       },
       "description": "ClinGen CNVs: Benign Loss Coverage",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "iscaViewTotal"
       ]
     },
@@ -21444,7 +21444,7 @@
       },
       "description": "ClinGen CNVs: Pathogenic Gain Coverage",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "iscaViewTotal"
       ]
     },
@@ -21494,7 +21494,7 @@
       },
       "description": "ClinGen CNVs: Pathogenic Loss Coverage",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "iscaViewTotal"
       ]
     },
@@ -22713,7 +22713,7 @@
       },
       "description": "Microsatellites - Di-nucleotide and Tri-nucleotide Repeats",
       "category": [
-        "rep"
+        "Repeats"
       ]
     },
     {
@@ -22761,7 +22761,7 @@
       },
       "description": "Fragments of Interrupted Repeats Joined by RepeatMasker ID",
       "category": [
-        "rep"
+        "Repeats"
       ]
     },
     {
@@ -22960,7 +22960,7 @@
       },
       "description": "Repeating Elements by RepeatMasker",
       "category": [
-        "rep"
+        "Repeats"
       ]
     },
     {
@@ -23008,7 +23008,7 @@
       },
       "description": "RepeatMasker v3.0.1 db20100302 : Browser Baseline Dataset",
       "category": [
-        "rep",
+        "Repeats",
         "joinedRmsk"
       ]
     },
@@ -23056,7 +23056,7 @@
       },
       "description": "RepeatMasker v4.0.7 Dfam_2.0 : Current Dataset",
       "category": [
-        "rep",
+        "Repeats",
         "joinedRmsk"
       ]
     },
@@ -23105,7 +23105,7 @@
       },
       "description": "GRCh38 Defined Scaffold Identifiers",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -23152,7 +23152,7 @@
       },
       "description": "Simple Tandem Repeats by TRF",
       "category": [
-        "rep"
+        "Repeats"
       ]
     },
     {
@@ -23201,7 +23201,7 @@
       },
       "description": "STS Markers on Genetic (blue) and Radiation Hybrid (black) Maps",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -23348,7 +23348,7 @@
       },
       "description": "Accession at INSDC - International Nucleotide Sequence Database Collaboration",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -23396,7 +23396,7 @@
       },
       "description": "RefSeq Accession",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -23497,7 +23497,7 @@
       },
       "description": "Genomic Intervals Masked by WindowMasker + SDust",
       "category": [
-        "rep"
+        "Repeats"
       ]
     },
     {
@@ -24320,6 +24320,27 @@
       "description": "Non-Human RefSeq Genes",
       "category": [
         "genes"
+      ]
+    }
+  ],
+  "aggregateTextSearchAdapters": [
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "hg38-index",
+      "ixFilePath": {
+        "uri": "trix/hg38.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/hg38.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/hg38_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "hg38"
       ]
     }
   ]

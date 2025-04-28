@@ -654,7 +654,7 @@
       },
       "description": "BAC End Pairs",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -952,7 +952,7 @@
       },
       "description": "Chromosome Bands",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -1000,7 +1000,7 @@
       },
       "description": "Chromosome Bands (Low-resolution for Chromosome Ideogram)",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -1148,7 +1148,7 @@
       },
       "description": "Microsatellites - Di-nucleotide and Tri-nucleotide Repeats",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -1297,7 +1297,7 @@
       },
       "description": "Gene Disruption Project P-element and Minos Insertion Locations",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -1449,7 +1449,7 @@
       },
       "description": "Simple Tandem Repeats by TRF",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {

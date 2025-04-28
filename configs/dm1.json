@@ -115,7 +115,7 @@
       },
       "description": "Chromosome Bands",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -163,7 +163,7 @@
       },
       "description": "Chromosome Bands (Low-resolution for Chromosome Ideogram)",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -259,7 +259,7 @@
       },
       "description": "Percentage GC in 20,000-Base Windows",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -307,7 +307,7 @@
       },
       "description": "Duplications of >1000 Bases of Non-RepeatMasked Sequence",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -403,7 +403,7 @@
       },
       "description": "Microsatellites - Di-nucleotide and Tri-nucleotide Repeats",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -453,7 +453,7 @@
       },
       "description": "BDGP Gene Disruption Project P-element Insertion Locations",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -500,7 +500,7 @@
       },
       "description": "Simple Tandem Repeats by TRF",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {

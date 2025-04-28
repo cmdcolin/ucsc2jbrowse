@@ -107,7 +107,7 @@
       },
       "description": "Microsatellites - Di-nucleotide and Tri-nucleotide Repeats",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -253,7 +253,7 @@
       },
       "description": "Gene Boundaries as Defined by RNA and Spliced EST Clusters",
       "category": [
-        "rna"
+        "mRNA and EST"
       ]
     },
     {
@@ -300,7 +300,7 @@
       },
       "description": "Simple Tandem Repeats by TRF",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {

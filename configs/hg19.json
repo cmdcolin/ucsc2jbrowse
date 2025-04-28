@@ -64,7 +64,7 @@
       },
       "description": "1000 Genomes Project Phase 3 Paired-end Accessible Regions - Pilot Criteria",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "tgpPhase3Accessibility"
       ]
     },
@@ -106,7 +106,7 @@
       },
       "description": "Illumina - AmpliSeq Exome Panel Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -152,7 +152,7 @@
       },
       "description": "ClinGen Dosage Sensitivity Map - Haploinsufficiency",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "clinGenComp"
       ]
     },
@@ -213,7 +213,7 @@
       },
       "description": "ClinVar Short Variants < 50bp",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "clinvar"
       ]
     },
@@ -256,7 +256,7 @@
       },
       "description": "Common (1000 Genomes Phase 3 MAF >= 1%) Short Genetic Variants from dbSNP Release 153",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dbSnp153ViewVariants"
       ]
     },
@@ -300,7 +300,7 @@
       },
       "description": "Common (1000 Genomes Phase 3 MAF >= 1%) Short Genetic Variants from dbSNP Release 155",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dbSnp155ViewVariants"
       ]
     },
@@ -341,7 +341,7 @@
       },
       "description": "COVID GWAS from the COVID-19 Host Genetics Initiative (6696 cases, 18 studies)",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "covidHgiGwas"
       ]
     },
@@ -383,7 +383,7 @@
       },
       "description": "NCBI dbVar Curated Common SVs: all populations from 1000 Genomes",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dbVar_common"
       ]
     },
@@ -425,7 +425,7 @@
       },
       "description": "NCBI dbVar Curated Common SVs: Conflicts with Pathogenic",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dbVar_conflict"
       ]
     },
@@ -479,7 +479,7 @@
       },
       "description": "DECIPHER CNVs (not updated anymore - use the hg38 track)",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "decipherContainer"
       ]
     },
@@ -527,7 +527,7 @@
       },
       "description": "Database of Genomic Variants: Structural Var Regions (CNV, Inversion, In/del)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dgvPlus"
       ]
     },
@@ -569,7 +569,7 @@
       },
       "description": "ExAC Calling Regions",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "exac"
       ]
     },
@@ -717,7 +717,7 @@
       },
       "description": "gnomAD Structural Variants All",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadStructuralVariants"
       ]
     },
@@ -767,7 +767,7 @@
       },
       "description": "gnomAD Predicted Loss of Function Constraint Metrics By Gene (pLI) v2.1.1",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPLI"
       ]
     },
@@ -816,7 +816,7 @@
       },
       "description": "JARVIS: score to prioritize non-coding regions for disease relevance",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "constraintSuper"
       ]
     },
@@ -907,7 +907,7 @@
       },
       "description": "LOVD: Leiden Open Variation Database, short < 50 bp variants and insertions of any length",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "lovdComp"
       ]
     },
@@ -951,7 +951,7 @@
       },
       "description": "BayesDel v1 Score (MaxAF): Mutation is A",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "bayesDel"
       ]
     },
@@ -993,7 +993,7 @@
       },
       "description": "gnomAD pext Mean Proportion",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -1038,7 +1038,7 @@
       },
       "description": "MITOMAP Control and Coding Variants",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "mitoMap"
       ]
     },
@@ -1080,7 +1080,7 @@
       },
       "description": "MTR Score: Mutation is A",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "mtrScores"
       ]
     },
@@ -1128,7 +1128,7 @@
       },
       "description": "REVEL: Mutation is A",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "revel"
       ]
     },
@@ -1172,7 +1172,7 @@
       },
       "description": "CADD 1.6 Score: Mutation is A",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "cadd"
       ]
     },
@@ -1216,7 +1216,7 @@
       },
       "description": "AlphaMissense Score: Mutation is A",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "alphaMissense"
       ]
     },
@@ -1261,7 +1261,7 @@
       },
       "description": "CADD 1.7 Score: Mutation is A",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "cadd1_7"
       ]
     },
@@ -1305,7 +1305,7 @@
       },
       "description": "Non-Simons Simplex Collection samples from denovo-db",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "denovoDbComposite"
       ]
     },
@@ -1354,7 +1354,7 @@
       },
       "description": "Genomics England PanelApp Genes",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "panelApp"
       ]
     },
@@ -1402,7 +1402,7 @@
       },
       "description": "Probability of haploinsufficiency",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "dosageSensitivity"
       ]
     },
@@ -1443,7 +1443,7 @@
       },
       "description": "Polygenic Risk Scores eMERGE: Asthma",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "prsEmerge pack"
       ]
     },
@@ -1528,7 +1528,7 @@
       },
       "description": "gnomAD Percentage of Genome Samples with at least 1X Coverage",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadGenomesReadDepthPct"
       ]
     },
@@ -1571,7 +1571,7 @@
       },
       "description": "gnomAD Percentage of Exome Samples with at least 1X Coverage",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadExomesReadDepthPct"
       ]
     },
@@ -1612,7 +1612,7 @@
       },
       "description": "Severe respiratory COVID risk variants from the COVID-19 HGI GWAS Analysis A2 (4336 cases, 12 studies, Rel 4: Oct 2020)",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "covidHgiGwasR4Pval"
       ]
     },
@@ -1659,7 +1659,7 @@
       },
       "description": "SNPedia all SNPs (including empty pages)",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "snpedia"
       ]
     },
@@ -1708,7 +1708,7 @@
       },
       "description": "SpliceAI SNVs (unmasked)",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "spliceAI"
       ]
     },
@@ -1805,7 +1805,7 @@
       },
       "description": "UCSC unusual regions on assembly structure (manually annotated)",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "problematic"
       ]
     },
@@ -1854,7 +1854,7 @@
       },
       "description": "SpliceAI Indels (unmasked)",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "spliceAI"
       ]
     },
@@ -1903,7 +1903,7 @@
       },
       "description": "SpliceAI SNVs (masked)",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "spliceAI"
       ]
     },
@@ -1952,7 +1952,7 @@
       },
       "description": "SpliceAI Indels (masked)",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "spliceAI"
       ]
     },
@@ -1994,7 +1994,7 @@
       },
       "description": "1000 Genomes Project Phase 3 Paired-end Accessible Regions - Strict Criteria",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "tgpPhase3Accessibility"
       ]
     },
@@ -2039,7 +2039,7 @@
       },
       "description": "ClinGen Dosage Sensitivity Map - Triplosensitivity",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "clinGenComp"
       ]
     },
@@ -2098,7 +2098,7 @@
       },
       "description": "ClinVar Copy Number Variants >= 50bp",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "clinvar"
       ]
     },
@@ -2141,7 +2141,7 @@
       },
       "description": "Short Genetic Variants from dbSNP Release 155 Included in ClinVar",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dbSnp155ViewVariants"
       ]
     },
@@ -2184,7 +2184,7 @@
       },
       "description": "Short Genetic Variants from dbSNP Release 153 Included in ClinVar",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dbSnp153ViewVariants"
       ]
     },
@@ -2226,7 +2226,7 @@
       },
       "description": "NCBI dbVar Curated Common SVs: African",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dbVar_common"
       ]
     },
@@ -2274,7 +2274,7 @@
       },
       "description": "Database of Genomic Variants: Supporting Structural Var (CNV, Inversion, In/del)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dgvPlus"
       ]
     },
@@ -2315,7 +2315,7 @@
       },
       "description": "ENCODE Blacklist V2",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "problematic"
       ]
     },
@@ -2407,7 +2407,7 @@
       },
       "description": "gnomAD Structural Variants Controls Only",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadStructuralVariants"
       ]
     },
@@ -2456,7 +2456,7 @@
       },
       "description": "gnomAD Predicted Missense Constraint Metrics By Gene (Z-scores) v2.1.1",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPLI"
       ]
     },
@@ -2505,7 +2505,7 @@
       },
       "description": "gnomAD Predicted Loss of Function Constraint Metrics By Transcript (pLI) v2.1.1",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPLI"
       ]
     },
@@ -2554,7 +2554,7 @@
       },
       "description": "gnomAD Predicted Missense Constraint Metrics By Transcript (Z-scores) v2.1.1",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPLI"
       ]
     },
@@ -2603,7 +2603,7 @@
       },
       "description": "HMC - Homologous Missense Constraint Score on PFAM domains",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "constraintSuper"
       ]
     },
@@ -2644,7 +2644,7 @@
       },
       "description": "Hospitalized COVID GWAS from the COVID-19 Host Genetics Initiative (3199 cases, 8 studies)",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "covidHgiGwas"
       ]
     },
@@ -2685,7 +2685,7 @@
       },
       "description": "Hospitalized COVID risk variants from the COVID-19 HGI GWAS Analysis B2 (7885 cases, 21 studies, Rel 4: Oct 2020)",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "covidHgiGwasR4Pval"
       ]
     },
@@ -2727,7 +2727,7 @@
       },
       "description": "IDT -  xGen Exome Research Panel V1.0 Probes",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -2816,7 +2816,7 @@
       },
       "description": "LOVD: Leiden Open Variation Database Public Variants, long >= 50 bp variants",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "lovdComp"
       ]
     },
@@ -2860,7 +2860,7 @@
       },
       "description": "BayesDel v1 Score (MaxAF): Mutation is C",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "bayesDel"
       ]
     },
@@ -2905,7 +2905,7 @@
       },
       "description": "MITOMAP Disease Mutations",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "mitoMap"
       ]
     },
@@ -2947,7 +2947,7 @@
       },
       "description": "MTR Score: Mutation is C",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "mtrScores"
       ]
     },
@@ -2995,7 +2995,7 @@
       },
       "description": "REVEL: Mutation is C",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "revel"
       ]
     },
@@ -3039,7 +3039,7 @@
       },
       "description": "CADD 1.6 Score: Mutation is C",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "cadd"
       ]
     },
@@ -3083,7 +3083,7 @@
       },
       "description": "AlphaMissense Score: Mutation is C",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "alphaMissense"
       ]
     },
@@ -3128,7 +3128,7 @@
       },
       "description": "CADD 1.7 Score: Mutation is C",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "cadd1_7"
       ]
     },
@@ -3176,7 +3176,7 @@
       },
       "description": "Genomics England PanelApp Short Tandem Repeats",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "panelApp"
       ]
     },
@@ -3217,7 +3217,7 @@
       },
       "description": "Polygenic Risk Scores eMERGE: Atrial Fibrillation",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "prsEmerge pack"
       ]
     },
@@ -3265,7 +3265,7 @@
       },
       "description": "Probability of triplosensitivity",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "dosageSensitivity"
       ]
     },
@@ -3364,7 +3364,7 @@
       },
       "description": "gnomAD Percentage of Genome Samples with at least 5X Coverage",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadGenomesReadDepthPct"
       ]
     },
@@ -3407,7 +3407,7 @@
       },
       "description": "gnomAD Percentage of Exome Samples with at least 5X Coverage",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadExomesReadDepthPct"
       ]
     },
@@ -3451,7 +3451,7 @@
       },
       "description": "Simons Simplex Collection samples from denovo-db",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "denovoDbComposite"
       ]
     },
@@ -3551,7 +3551,7 @@
       },
       "description": "Rare variants underlying COVID-19 severity and susceptibility from the COVID Human Genetics Effort",
       "category": [
-        "phenDis"
+        "Phenotypes, Variants, and Literature"
       ]
     },
     {
@@ -3599,7 +3599,7 @@
       },
       "description": "MetaDome - Tolerance Landscape score",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "constraintSuper"
       ]
     },
@@ -3640,7 +3640,7 @@
       },
       "description": "MetaDome - Tolerance Landscape score all annotations",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "constraintSuper"
       ]
     },
@@ -3695,7 +3695,7 @@
       },
       "description": "ClinGen Gene-Disease Validity Classification",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "clinGenComp"
       ]
     },
@@ -3738,7 +3738,7 @@
       },
       "description": "Short Genetic Variants from dbSNP Release 153 that Map to Multiple Genomic Loci",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dbSnp153ViewVariants"
       ]
     },
@@ -3780,7 +3780,7 @@
       },
       "description": "NCBI dbVar Curated Common SVs: all populations",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dbVar_common"
       ]
     },
@@ -3827,7 +3827,7 @@
       },
       "description": "DECIPHER: Population CNVs",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "decipherContainer"
       ]
     },
@@ -3920,7 +3920,7 @@
       },
       "description": "gnomAD Structural Variants Non-neuro Only",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadStructuralVariants"
       ]
     },
@@ -3969,7 +3969,7 @@
       },
       "description": "gnomAD Predicted Regional Missense Constraint Metrics (O/E scores from ExAc Dataset) v2.1.1",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPLI"
       ]
     },
@@ -4011,7 +4011,7 @@
       },
       "description": "IDT - xGen Exome Research Panel V1.0 Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -4098,7 +4098,7 @@
       },
       "description": "BayesDel v1 Score (MaxAF): Mutation is G",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "bayesDel"
       ]
     },
@@ -4141,7 +4141,7 @@
       },
       "description": "Short Genetic Variants from dbSNP Release 155 that Map to Multiple Genomic Loci",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dbSnp155ViewVariants"
       ]
     },
@@ -4183,7 +4183,7 @@
       },
       "description": "MTR Score: Mutation is G",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "mtrScores"
       ]
     },
@@ -4231,7 +4231,7 @@
       },
       "description": "REVEL: Mutation is G",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "revel"
       ]
     },
@@ -4275,7 +4275,7 @@
       },
       "description": "CADD 1.6 Score: Mutation is G",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "cadd"
       ]
     },
@@ -4319,7 +4319,7 @@
       },
       "description": "AlphaMissense Score: Mutation is G",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "alphaMissense"
       ]
     },
@@ -4364,7 +4364,7 @@
       },
       "description": "CADD 1.7 Score: Mutation is G",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "cadd1_7"
       ]
     },
@@ -4405,7 +4405,7 @@
       },
       "description": "NCBI GeT-RM NGS Dead Zone",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "problematic"
       ]
     },
@@ -4446,7 +4446,7 @@
       },
       "description": "Polygenic Risk Scores eMERGE: Breast Cancer",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "prsEmerge pack"
       ]
     },
@@ -4489,7 +4489,7 @@
       },
       "description": "gnomAD Percentage of Genome Samples with at least 10X Coverage",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadGenomesReadDepthPct"
       ]
     },
@@ -4532,7 +4532,7 @@
       },
       "description": "gnomAD Percentage of Exome Samples with at least 10X Coverage",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadExomesReadDepthPct"
       ]
     },
@@ -4622,7 +4622,7 @@
       },
       "description": "Genome in a Bottle Structural Variants (dbVar nstd175)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "svView"
       ]
     },
@@ -4663,7 +4663,7 @@
       },
       "description": "Tested COVID risk variants from the COVID-19 HGI GWAS Analyis C1 (11085 cases, 20 studies, Rel 4: Oct 2020)",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "covidHgiGwasR4Pval"
       ]
     },
@@ -4704,7 +4704,7 @@
       },
       "description": "COVID risk variants from the COVID-19 HGI GWAS Analysis C2 (17965 cases, 33 studies, Rel 4: Oct 2020)",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "covidHgiGwasR4Pval"
       ]
     },
@@ -4749,7 +4749,7 @@
       },
       "description": "All Short Genetic Variants from dbSNP Release 153",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dbSnp153ViewVariants"
       ]
     },
@@ -4794,7 +4794,7 @@
       },
       "description": "All Short Genetic Variants from dbSNP Release 155",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dbSnp155ViewVariants"
       ]
     },
@@ -4836,7 +4836,7 @@
       },
       "description": "NCBI dbVar Curated Common SVs: all populations from DECIPHER",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dbVar_common"
       ]
     },
@@ -4965,7 +4965,7 @@
       },
       "description": "IDT -  xGen Exome Research Panel V2.0 Probes",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -5094,7 +5094,7 @@
       },
       "description": "BayesDel v1 Score (MaxAF): Mutation is T",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "bayesDel"
       ]
     },
@@ -5136,7 +5136,7 @@
       },
       "description": "MTR Score: Mutation is T",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "mtrScores"
       ]
     },
@@ -5184,7 +5184,7 @@
       },
       "description": "REVEL: Mutation is T",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "revel"
       ]
     },
@@ -5228,7 +5228,7 @@
       },
       "description": "CADD 1.6 Score: Mutation is T",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "cadd"
       ]
     },
@@ -5272,7 +5272,7 @@
       },
       "description": "AlphaMissense Score: Mutation is T",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "alphaMissense"
       ]
     },
@@ -5317,7 +5317,7 @@
       },
       "description": "CADD 1.7 Score: Mutation is T",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "cadd1_7"
       ]
     },
@@ -5358,7 +5358,7 @@
       },
       "description": "NCBI GeT-RM Sanger Dead Zone",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "problematic"
       ]
     },
@@ -5399,7 +5399,7 @@
       },
       "description": "Polygenic Risk Scores eMERGE: Chronic Kidney Disease",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "prsEmerge pack"
       ]
     },
@@ -5489,7 +5489,7 @@
       },
       "description": "gnomAD Percentage of Genome Samples with at least 15X Coverage",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadGenomesReadDepthPct"
       ]
     },
@@ -5532,7 +5532,7 @@
       },
       "description": "gnomAD Percentage of Exome Samples with at least 15X Coverage",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadExomesReadDepthPct"
       ]
     },
@@ -5574,7 +5574,7 @@
       },
       "description": "NCBI dbVar Curated Common SVs: European",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dbVar_common"
       ]
     },
@@ -5715,7 +5715,7 @@
       },
       "description": "IDT - xGen Exome Research Panel V2.0 Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -5758,7 +5758,7 @@
       },
       "description": "Mappings with Inconsistent Coordinates from dbSNP 153",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dbSnp153ViewErrs"
       ]
     },
@@ -5801,7 +5801,7 @@
       },
       "description": "Mappings with Inconsistent Coordinates from dbSNP 155",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dbSnp155ViewErrs"
       ]
     },
@@ -5842,7 +5842,7 @@
       },
       "description": "NCBI GeT-RM NGS Problem List, Low Stringency",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "problematic"
       ]
     },
@@ -5886,7 +5886,7 @@
       },
       "description": "BayesDel v1 Score (without MaxAF): Mutation is A",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "bayesDel"
       ]
     },
@@ -5927,7 +5927,7 @@
       },
       "description": "Polygenic Risk Scores eMERGE: Coronary Heart Disease",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "prsEmerge pack"
       ]
     },
@@ -5970,7 +5970,7 @@
       },
       "description": "REVEL: Positions with >1 score due to overlapping transcripts (mouseover for details)",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "revel"
       ]
     },
@@ -6013,7 +6013,7 @@
       },
       "description": "gnomAD Percentage of Genome Samples with at least 20X Coverage",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadGenomesReadDepthPct"
       ]
     },
@@ -6056,7 +6056,7 @@
       },
       "description": "gnomAD Percentage of Exome Samples with at least 20X Coverage",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadExomesReadDepthPct"
       ]
     },
@@ -6239,7 +6239,7 @@
       },
       "description": "NCBI dbVar Curated Common SVs: all populations from gnomAD",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dbVar_common"
       ]
     },
@@ -6324,7 +6324,7 @@
       },
       "description": "Roche - KAPA HyperExome Capture Probe Footprint",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -6365,7 +6365,7 @@
       },
       "description": "NCBI GeT-RM NGS Problem List, High Stringency",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "problematic"
       ]
     },
@@ -6409,7 +6409,7 @@
       },
       "description": "BayesDel v1 Score (without MaxAF): Mutation is C",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "bayesDel"
       ]
     },
@@ -6450,7 +6450,7 @@
       },
       "description": "Polygenic Risk Scores eMERGE: Hypercholesterolemia",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "prsEmerge pack"
       ]
     },
@@ -6536,7 +6536,7 @@
       },
       "description": "gnomAD Percentage of Genome Samples with at least 25X Coverage",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadGenomesReadDepthPct"
       ]
     },
@@ -6579,7 +6579,7 @@
       },
       "description": "gnomAD Percentage of Exome Samples with at least 25X Coverage",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadExomesReadDepthPct"
       ]
     },
@@ -6706,7 +6706,7 @@
       },
       "description": "NIST Genome-in-a-bottle: calls with evidence of systematic sequencing errors",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "problematic"
       ]
     },
@@ -6748,7 +6748,7 @@
       },
       "description": "Roche - KAPA HyperExome Primary Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -6792,7 +6792,7 @@
       },
       "description": "BayesDel v1 Score (without MaxAF): Mutation is G",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "bayesDel"
       ]
     },
@@ -6833,7 +6833,7 @@
       },
       "description": "Polygenic Risk Scores eMERGE: Prostate Cancer",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "prsEmerge pack"
       ]
     },
@@ -6876,7 +6876,7 @@
       },
       "description": "gnomAD Percentage of Genome Samples with at least 30X Coverage",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadGenomesReadDepthPct"
       ]
     },
@@ -6919,7 +6919,7 @@
       },
       "description": "gnomAD Percentage of Exome Samples with at least 30X Coverage",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadExomesReadDepthPct"
       ]
     },
@@ -7089,7 +7089,7 @@
       },
       "description": "MGI - Easy Exome Capture V4 Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -7133,7 +7133,7 @@
       },
       "description": "BayesDel v1 Score (without MaxAF): Mutation is T",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "bayesDel"
       ]
     },
@@ -7174,7 +7174,7 @@
       },
       "description": "Polygenic Risk Scores eMERGE: T1 Diabetes",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "prsEmerge pack"
       ]
     },
@@ -7217,7 +7217,7 @@
       },
       "description": "gnomAD Percentage of Genome Samples with at least 50X Coverage",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadGenomesReadDepthPct"
       ]
     },
@@ -7260,7 +7260,7 @@
       },
       "description": "gnomAD Percentage of Exome Samples with at least 50X Coverage",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadExomesReadDepthPct"
       ]
     },
@@ -7344,7 +7344,7 @@
       },
       "description": "NIST Genome-in-a-bottle: HaplotypeCaller makes no call and UnifiedGenotyper makes a variant call",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "problematic"
       ]
     },
@@ -7386,7 +7386,7 @@
       },
       "description": "MGI - Easy Exome Capture V5 Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -7427,7 +7427,7 @@
       },
       "description": "Polygenic Risk Scores eMERGE: T2 Diabetes",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "prsEmerge pack"
       ]
     },
@@ -7470,7 +7470,7 @@
       },
       "description": "gnomAD Percentage of Genome Samples with at least 100X Coverage",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadGenomesReadDepthPct"
       ]
     },
@@ -7513,7 +7513,7 @@
       },
       "description": "gnomAD Percentage of Exome Samples with at least 100X Coverage",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadExomesReadDepthPct"
       ]
     },
@@ -7566,7 +7566,7 @@
       },
       "description": "MTR -  Missense Tolerance Ratio Scores all annotations",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "constraintSuper"
       ]
     },
@@ -7607,7 +7607,7 @@
       },
       "description": "NIST Genome-in-a-bottle: calls with low mapping quality or high coverage",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "problematic"
       ]
     },
@@ -7691,7 +7691,7 @@
       },
       "description": "Illumina - Nextera DNA Exome V1.2 Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -7953,7 +7953,7 @@
       },
       "description": "NIST Genome-in-a-bottle: calls with abnormal allele balance",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "problematic"
       ]
     },
@@ -7995,7 +7995,7 @@
       },
       "description": "Illumina - Nextera Rapid Capture Expanded Exome Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -8123,7 +8123,7 @@
       },
       "description": "NIST Genome-in-a-bottle: calls with evidence of local alignment problems like clipped reads",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "problematic"
       ]
     },
@@ -8165,7 +8165,7 @@
       },
       "description": "Illumina - Nextera Rapid Capture Exome Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -8249,7 +8249,7 @@
       },
       "description": "NIST Genome-in-a-bottle: calls with unresolved conflicting genotypes after arbitration",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "problematic"
       ]
     },
@@ -8291,7 +8291,7 @@
       },
       "description": "Illumina - Nextera Rapid Capture Exome V1.2 Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -8376,7 +8376,7 @@
       },
       "description": "Roche - SeqCap EZ MedExome Capture Probe Footprint",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -8422,7 +8422,7 @@
       },
       "description": "Promoters from EPDnew human version 006",
       "category": [
-        "expression"
+        "Expression"
       ]
     },
     {
@@ -8463,7 +8463,7 @@
       },
       "description": "Roche - SeqCap EZ MedExome Empirical Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -8505,7 +8505,7 @@
       },
       "description": "Roche - SeqCap EZ MedExome + Mito Capture Probe Footprint",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -8547,7 +8547,7 @@
       },
       "description": "Roche - SeqCap EZ MedExome + Mito Empirical Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -8589,7 +8589,7 @@
       },
       "description": "Roche - SeqCap EZ Exome V3 Capture Probe Footprint",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -8631,7 +8631,7 @@
       },
       "description": "Roche - SeqCap EZ Exome V3 Primary Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -8673,7 +8673,7 @@
       },
       "description": "Roche - SeqCap EZ Exome V3 + UTR Capture Probe Footprint",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -8715,7 +8715,7 @@
       },
       "description": "Roche - SeqCap EZ Exome V3 + UTR Primary Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -8757,7 +8757,7 @@
       },
       "description": "Agilent - SureSelect Clinical Research Exome Covered by Probes",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -8799,7 +8799,7 @@
       },
       "description": "Agilent - SureSelect Clinical Research Exome Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -8840,7 +8840,7 @@
       },
       "description": "Illumina 450k Methylation Array",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "genotypeArrays"
       ]
     },
@@ -8882,7 +8882,7 @@
       },
       "description": "Agilent - SureSelect Clinical Research Exome V2 Covered by Probes",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -8923,7 +8923,7 @@
       },
       "description": "Illumina 850k EPIC Methylation Array",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "genotypeArrays"
       ]
     },
@@ -8965,7 +8965,7 @@
       },
       "description": "Agilent - SureSelect Clinical Research Exome V2 Target",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -9008,7 +9008,7 @@
       },
       "description": "Illumina 850k CytoSNP Array",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "genotypeArrays"
       ]
     },
@@ -9050,7 +9050,7 @@
       },
       "description": "Agilent - SureSelect Focused Exome Covered by Probes",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -9092,7 +9092,7 @@
       },
       "description": "Agilent - SureSelect Focused Exome Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -9134,7 +9134,7 @@
       },
       "description": "Agilent - SureSelect All Exon V4 Covered by Probes",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -9176,7 +9176,7 @@
       },
       "description": "Agilent - SureSelect All Exon V4 Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -9218,7 +9218,7 @@
       },
       "description": "Agilent - SureSelect All Exon V4 + UTRs Covered by Probe",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -9260,7 +9260,7 @@
       },
       "description": "Agilent - SureSelect All Exon V4 + UTRs Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -9302,7 +9302,7 @@
       },
       "description": "Agilent - SureSelect All Exon V5 Covered by Probes",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -9344,7 +9344,7 @@
       },
       "description": "Agilent - SureSelect All Exon V5 Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -9386,7 +9386,7 @@
       },
       "description": "Agilent - SureSelect All Exon V5 + UTRs Covered by Probes",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -9428,7 +9428,7 @@
       },
       "description": "Agilent - SureSelect All Exon V5 + UTRs Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -9470,7 +9470,7 @@
       },
       "description": "Agilent - SureSelect All Exon V6 r2 Covered by Probes",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -9512,7 +9512,7 @@
       },
       "description": "Agilent - SureSelect All Exon V6 r2 Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -9554,7 +9554,7 @@
       },
       "description": "Agilent - SureSelect All Exon V6 + COSMIC r2 Covered by Probes",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -9596,7 +9596,7 @@
       },
       "description": "Agilent - SureSelect All Exon V6 + COSMIC r2 Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -9638,7 +9638,7 @@
       },
       "description": "Agilent - SureSelect All Exon V6 + UTR r2 Covered by Probes",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -9680,7 +9680,7 @@
       },
       "description": "Agilent - SureSelect All Exon V7 Covered by Probes",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -9722,7 +9722,7 @@
       },
       "description": "Agilent - SureSelect All Exon V7 Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -9764,7 +9764,7 @@
       },
       "description": "Agilent - SureSelect All Exon V6 + UTR r2 Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -9806,7 +9806,7 @@
       },
       "description": "Illumina - TruSeq DNA Exome V1.2 Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -9848,7 +9848,7 @@
       },
       "description": "Illumina - TruSeq Rapid Exome V1.2 Target Regions Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -9890,7 +9890,7 @@
       },
       "description": "Illumina - TruSight ONE Expanded V2.0 Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -9932,7 +9932,7 @@
       },
       "description": "Illumina - TruSight ONE V1.1 Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -9974,7 +9974,7 @@
       },
       "description": "Illumina - TruSight Exome Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -10016,7 +10016,7 @@
       },
       "description": "Twist - Comprehensive Exome Panel Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -10058,7 +10058,7 @@
       },
       "description": "Twist - Core Exome Panel Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -10100,7 +10100,7 @@
       },
       "description": "Twist - Exome 2.0 Panel Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -10142,7 +10142,7 @@
       },
       "description": "Twist - RefSeq Exome Panel Target Regions",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "exomeProbesets"
       ]
     },
@@ -10192,7 +10192,7 @@
       },
       "description": "Aberrant Splicing Prediction Scores",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "spliceImpactSuper"
       ]
     },
@@ -10234,7 +10234,7 @@
       },
       "description": "gnomAD pext Adipose-Subcutaneous",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -10276,7 +10276,7 @@
       },
       "description": "gnomAD pext Adipose-Visceral (Omentum)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -10318,7 +10318,7 @@
       },
       "description": "gnomAD pext Adrenal Gland",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -10360,7 +10360,7 @@
       },
       "description": "gnomAD pext Artery-Aorta",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -10402,7 +10402,7 @@
       },
       "description": "gnomAD pext Artery-Coronary",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -10444,7 +10444,7 @@
       },
       "description": "gnomAD pext Artery-Tibial",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -10490,7 +10490,7 @@
       },
       "description": "Avada Variants extracted from full text publications",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "varsInPubs pack"
       ]
     },
@@ -10532,7 +10532,7 @@
       },
       "description": "gnomAD pext Bladder",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -10574,7 +10574,7 @@
       },
       "description": "gnomAD pext Brain-Amygdala",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -10616,7 +10616,7 @@
       },
       "description": "gnomAD pext Brain-Anterior Cingulate Cortex (BA24)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -10658,7 +10658,7 @@
       },
       "description": "gnomAD pext Brain-Caudate (basal ganglia)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -10700,7 +10700,7 @@
       },
       "description": "gnomAD pext Brain-Cerebellar Hemisphere",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -10742,7 +10742,7 @@
       },
       "description": "gnomAD pext Brain-Cerebellum",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -10784,7 +10784,7 @@
       },
       "description": "gnomAD pext Brain-Cortex",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -10826,7 +10826,7 @@
       },
       "description": "gnomAD pext Brain-Frontal Cortex (BA9)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -10868,7 +10868,7 @@
       },
       "description": "gnomAD pext Brain-Hippocampus",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -10910,7 +10910,7 @@
       },
       "description": "gnomAD pext Brain-Hypothalamus",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -10952,7 +10952,7 @@
       },
       "description": "gnomAD pext Brain-Nucleus Accumbens (basal ganglia)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -10994,7 +10994,7 @@
       },
       "description": "gnomAD pext Brain-Putamen (basal ganglia)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -11036,7 +11036,7 @@
       },
       "description": "gnomAD pext Brain-Spinal Cord (cervicalc 1)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -11078,7 +11078,7 @@
       },
       "description": "gnomAD pext Brain-Substantia Nigra",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -11120,7 +11120,7 @@
       },
       "description": "gnomAD pext Breast-Mammary Tissue",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -11166,7 +11166,7 @@
       },
       "description": "CADD 1.6 Score: Deletions - label is length of deletion",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "caddSuper"
       ]
     },
@@ -11212,7 +11212,7 @@
       },
       "description": "CADD 1.6 Score: Insertions - label is length of insertion",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "caddSuper"
       ]
     },
@@ -11259,7 +11259,7 @@
       },
       "description": "CADD 1.7 Score: Deletions - label is length of deletion",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "caddSuper1_7"
       ]
     },
@@ -11306,7 +11306,7 @@
       },
       "description": "CADD 1.7 Score: Insertions - label is length of insertion",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "caddSuper1_7"
       ]
     },
@@ -11348,7 +11348,7 @@
       },
       "description": "gnomAD pext Cells-EBV-transformed Lymphocytes",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -11390,7 +11390,7 @@
       },
       "description": "gnomAD pext Cells-Transformed Fibroblasts",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -11432,7 +11432,7 @@
       },
       "description": "gnomAD pext Cervix-Ectocervix",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -11474,7 +11474,7 @@
       },
       "description": "gnomAD pext Cervix-Endocervix",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -11560,7 +11560,7 @@
       },
       "description": "CIViC - Expert & crowd-sourced cancer variant interpretation",
       "category": [
-        "phenDis"
+        "Phenotypes, Variants, and Literature"
       ]
     },
     {
@@ -11603,7 +11603,7 @@
       },
       "description": "Clingen CSpec Variant Interpretation VCEP Specifications",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "clinGenComp"
       ]
     },
@@ -11661,7 +11661,7 @@
       },
       "description": "ClinVar SNVs submitted interpretations and evidence",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "clinvar"
       ]
     },
@@ -11703,7 +11703,7 @@
       },
       "description": "gnomAD pext Colon-Sigmoid",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -11745,7 +11745,7 @@
       },
       "description": "gnomAD pext Colon-Transverse",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -11790,7 +11790,7 @@
       },
       "description": "Catalogue of Somatic Mutations in Cancer V101",
       "category": [
-        "phenDis"
+        "Phenotypes, Variants, and Literature"
       ]
     },
     {
@@ -11838,7 +11838,7 @@
       },
       "description": "Catalogue of Somatic Mutations in Cancer V82",
       "category": [
-        "phenDis"
+        "Phenotypes, Variants, and Literature"
       ]
     },
     {
@@ -11929,7 +11929,7 @@
       },
       "description": "Database of Genomic Variants: Gold Standard Variants",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "dgvPlus"
       ]
     },
@@ -11981,7 +11981,7 @@
       },
       "description": "enGenome VarChat: Literature match and variant's summary",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "varsInPubs pack"
       ]
     },
@@ -12023,7 +12023,7 @@
       },
       "description": "gnomAD pext Esophagus-Gastroesophageal Junction",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -12065,7 +12065,7 @@
       },
       "description": "gnomAD pext Esophagus-Mucosa",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -12107,7 +12107,7 @@
       },
       "description": "gnomAD pext Esophagus-Muscularis",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -12149,7 +12149,7 @@
       },
       "description": "gnomAD pext Fallopian Tube",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -12196,7 +12196,7 @@
       },
       "description": "GenCC: The Gene Curation Coalition Annotations",
       "category": [
-        "phenDis"
+        "Phenotypes, Variants, and Literature"
       ]
     },
     {
@@ -12243,7 +12243,7 @@
       },
       "description": "Protein Interactions from Curated Databases and Text-Mining",
       "category": [
-        "phenDis"
+        "Phenotypes, Variants, and Literature"
       ]
     },
     {
@@ -12286,7 +12286,7 @@
       },
       "description": "GeneReviews",
       "category": [
-        "phenDis"
+        "Phenotypes, Variants, and Literature"
       ]
     },
     {
@@ -12347,7 +12347,7 @@
       },
       "description": "Genome Aggregation Database (gnomAD) Exome Variants v2.1.1",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadSuper"
       ]
     },
@@ -12406,7 +12406,7 @@
       },
       "description": "Genome Aggregation Database (gnomAD) Genome Variants v2.1.1",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadSuper"
       ]
     },
@@ -12459,7 +12459,7 @@
       },
       "description": "Transcript Expression in 53 tissues from GTEx RNA-seq of 8555 samples/570 donors",
       "category": [
-        "expression"
+        "Expression"
       ]
     },
     {
@@ -12503,7 +12503,7 @@
       },
       "description": "Haploinsufficiency predictions for genes from DECIPHER",
       "category": [
-        "phenDis"
+        "Phenotypes, Variants, and Literature"
       ]
     },
     {
@@ -12544,7 +12544,7 @@
       },
       "description": "gnomAD pext Heart-Atrial Appendage",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -12586,7 +12586,7 @@
       },
       "description": "gnomAD pext Heart-Left Ventricle",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -12634,7 +12634,7 @@
       },
       "description": "Human Gene Mutation Database - Public Version Dec 2024",
       "category": [
-        "phenDis"
+        "Phenotypes, Variants, and Literature"
       ]
     },
     {
@@ -12724,7 +12724,7 @@
       },
       "description": "gnomAD pext Kidney-Cortex",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -12766,7 +12766,7 @@
       },
       "description": "gnomAD pext Liver",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -12865,7 +12865,7 @@
       },
       "description": "gnomAD pext Lung",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -12917,7 +12917,7 @@
       },
       "description": "Genomenon Mastermind Variants extracted from full text publications",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "varsInPubs pack"
       ]
     },
@@ -12960,7 +12960,7 @@
       },
       "description": "gnomAD Mean Exome Sample Coverage",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadExomesAvgCoverage"
       ]
     },
@@ -13003,7 +13003,7 @@
       },
       "description": "gnomAD Mean Genome Sample Coverage",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadGenomesAvgCoverage"
       ]
     },
@@ -13046,7 +13046,7 @@
       },
       "description": "gnomAD Median Exome Sample Coverage",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadExomesAvgCoverage"
       ]
     },
@@ -13089,7 +13089,7 @@
       },
       "description": "gnomAD Median Genome Sample Coverage",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadGenomesAvgCoverage"
       ]
     },
@@ -13131,7 +13131,7 @@
       },
       "description": "gnomAD pext Minor Salivary Gland",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -13173,7 +13173,7 @@
       },
       "description": "gnomAD pext Muscle-Skeletal",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -13215,7 +13215,7 @@
       },
       "description": "gnomAD pext Nerve-Tibial",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -13266,7 +13266,7 @@
       },
       "description": "Orphadata: Aggregated Data From Orphanet",
       "category": [
-        "phenDis"
+        "Phenotypes, Variants, and Literature"
       ]
     },
     {
@@ -13307,7 +13307,7 @@
       },
       "description": "gnomAD pext Ovary",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -13349,7 +13349,7 @@
       },
       "description": "gnomAD pext Pancreas",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -13391,7 +13391,7 @@
       },
       "description": "gnomAD pext Pituitary",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -13433,7 +13433,7 @@
       },
       "description": "gnomAD pext Prostate",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -13475,7 +13475,7 @@
       },
       "description": "gnomAD pext Skin-Not Sun Exposed (Suprapubic)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -13517,7 +13517,7 @@
       },
       "description": "gnomAD pext Skin-Sun Exposed (Lowerleg)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -13559,7 +13559,7 @@
       },
       "description": "gnomAD pext Small Intestine-Terminal Ileum",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -13601,7 +13601,7 @@
       },
       "description": "gnomAD pext Spleen",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -13643,7 +13643,7 @@
       },
       "description": "gnomAD pext Stomach",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -13685,7 +13685,7 @@
       },
       "description": "gnomAD pext Testis",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -13727,7 +13727,7 @@
       },
       "description": "gnomAD pext Thyroid",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -13819,7 +13819,7 @@
       },
       "description": "UniProt/SwissProt Amino Acid Substitutions",
       "category": [
-        "phenDis"
+        "Phenotypes, Variants, and Literature"
       ]
     },
     {
@@ -13860,7 +13860,7 @@
       },
       "description": "gnomAD pext Uterus",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -13902,7 +13902,7 @@
       },
       "description": "gnomAD pext Vagina",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -13986,7 +13986,7 @@
       },
       "description": "gnomAD pext Whole Blood",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "gnomadPext"
       ]
     },
@@ -14035,7 +14035,7 @@
       },
       "description": "Affymetrix Cytoscan CNV and SNP Array Probeset",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "genotypeArrays"
       ]
     },
@@ -14085,7 +14085,7 @@
       },
       "description": "Affymetrix Human Exon Array Ambiguous Probes",
       "category": [
-        "expression",
+        "Expression",
         "affyExonProbe"
       ]
     },
@@ -14135,7 +14135,7 @@
       },
       "description": "Affymetrix Human Exon Array Core Probes",
       "category": [
-        "expression",
+        "Expression",
         "affyExonProbe"
       ]
     },
@@ -14185,7 +14185,7 @@
       },
       "description": "Affymetrix Human Exon Array Extended Probes",
       "category": [
-        "expression",
+        "Expression",
         "affyExonProbe"
       ]
     },
@@ -14235,7 +14235,7 @@
       },
       "description": "Affymetrix Human Exon Array Free Probes",
       "category": [
-        "expression",
+        "Expression",
         "affyExonProbe"
       ]
     },
@@ -14285,7 +14285,7 @@
       },
       "description": "Affymetrix Human Exon Array Full Probes",
       "category": [
-        "expression",
+        "Expression",
         "affyExonProbe"
       ]
     },
@@ -14335,7 +14335,7 @@
       },
       "description": "Affymetrix Human Exon Array Ambiguous Probesets",
       "category": [
-        "expression",
+        "Expression",
         "affyExonProbeset"
       ]
     },
@@ -14385,7 +14385,7 @@
       },
       "description": "Affymetrix Human Exon Array Core Probesets",
       "category": [
-        "expression",
+        "Expression",
         "affyExonProbeset"
       ]
     },
@@ -14435,7 +14435,7 @@
       },
       "description": "Affymetrix Human Exon Array Extended Probesets",
       "category": [
-        "expression",
+        "Expression",
         "affyExonProbeset"
       ]
     },
@@ -14485,7 +14485,7 @@
       },
       "description": "Affymetrix Human Exon Array Free Probesets",
       "category": [
-        "expression",
+        "Expression",
         "affyExonProbeset"
       ]
     },
@@ -14535,7 +14535,7 @@
       },
       "description": "Affymetrix Human Exon Array Full Probesets",
       "category": [
-        "expression",
+        "Expression",
         "affyExonProbeset"
       ]
     },
@@ -14584,7 +14584,7 @@
       },
       "description": "Agilent SurePrint G3 Human CGH Microarray 1x1M AMADID 021529",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "genotypeArrays"
       ]
     },
@@ -14633,7 +14633,7 @@
       },
       "description": "Agilent SurePrint HD Human CGH Microarray 1x244K AMADID 014693",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "genotypeArrays"
       ]
     },
@@ -14682,7 +14682,7 @@
       },
       "description": "Agilent SurePrint HD Human CGH Microarray 2x105K AMADID 014698",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "genotypeArrays"
       ]
     },
@@ -14731,7 +14731,7 @@
       },
       "description": "Agilent SurePrint G3 Human CGH Microarray 2x400K AMADID 021850",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "genotypeArrays"
       ]
     },
@@ -14780,7 +14780,7 @@
       },
       "description": "Agilent SurePrint G3 Human CGH Microarray 4x180K AMADID 022060",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "genotypeArrays"
       ]
     },
@@ -14829,7 +14829,7 @@
       },
       "description": "Agilent SurePrint HD Human CGH Microarray 4x44K AMADID 014950",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "genotypeArrays"
       ]
     },
@@ -14878,7 +14878,7 @@
       },
       "description": "Agilent SurePrint G3 Human CGH Microarray 8x60K AMADID 021924",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "genotypeArrays"
       ]
     },
@@ -14928,7 +14928,7 @@
       },
       "description": "Agilent SurePrint G3 Human CGH+SNP Microarray 2x400K AMADID 028081",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "genotypeArrays"
       ]
     },
@@ -14978,7 +14978,7 @@
       },
       "description": "Agilent SurePrint G3 Human CGH+SNP Microarray 4x180K AMADID 029830",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "genotypeArrays"
       ]
     },
@@ -15028,7 +15028,7 @@
       },
       "description": "Agilent SurePrint G3 Human CGH+SNP Cancer Microarray 4x180K AMADID 030587",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "genotypeArrays"
       ]
     },
@@ -15077,7 +15077,7 @@
       },
       "description": "Agilent SurePrint G3 Human High-Resolution Microarray 1x1M AMADID 023642",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "genotypeArrays"
       ]
     },
@@ -15128,7 +15128,7 @@
       },
       "description": "BAC End Pairs",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -15176,7 +15176,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from Adipose",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewAlignments"
       ]
     },
@@ -15225,7 +15225,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from Adipose, Raw Signal",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewRawSignal"
       ]
     },
@@ -15274,7 +15274,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from BT474 Breast Tumor Cell Line",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewAlignments"
       ]
     },
@@ -15323,7 +15323,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from BT474 Breast Tumour Cell Line, Raw Signal",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewRawSignal"
       ]
     },
@@ -15372,7 +15372,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from Brain",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewAlignments"
       ]
     },
@@ -15421,7 +15421,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from Brain, Raw Signal",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewRawSignal"
       ]
     },
@@ -15470,7 +15470,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from Breast",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewAlignments"
       ]
     },
@@ -15519,7 +15519,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from Breast, Raw Signal",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewRawSignal"
       ]
     },
@@ -15568,7 +15568,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from Colon",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewAlignments"
       ]
     },
@@ -15617,7 +15617,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from Colon, Raw Signal",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewRawSignal"
       ]
     },
@@ -15666,7 +15666,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from HME (Human Mammary Epithelial) Cell Line",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewAlignments"
       ]
     },
@@ -15715,7 +15715,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from HME (Human Mammary Epithelial) Cell Line, Raw Signal",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewRawSignal"
       ]
     },
@@ -15764,7 +15764,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from Heart",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewAlignments"
       ]
     },
@@ -15813,7 +15813,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from Heart, Raw Signal",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewRawSignal"
       ]
     },
@@ -15862,7 +15862,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from Liver",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewAlignments"
       ]
     },
@@ -15911,7 +15911,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from Liver, Raw Signal",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewRawSignal"
       ]
     },
@@ -15960,7 +15960,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from Lymph Node",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewAlignments"
       ]
     },
@@ -16009,7 +16009,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from Lymph Node, Raw Signal",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewRawSignal"
       ]
     },
@@ -16058,7 +16058,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from MB-435 Cell Line",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewAlignments"
       ]
     },
@@ -16107,7 +16107,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from MB-435 Cell Line, Raw Signal",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewRawSignal"
       ]
     },
@@ -16156,7 +16156,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from MCF-7 Breast Adenocarcinoma Cell Line",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewAlignments"
       ]
     },
@@ -16205,7 +16205,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from MCF-7 Breast Adenocarcinoma Cell Line, Raw Signal",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewRawSignal"
       ]
     },
@@ -16254,7 +16254,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from Skeletal Muscle",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewAlignments"
       ]
     },
@@ -16303,7 +16303,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from Skeletal Muscle, Raw Signal",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewRawSignal"
       ]
     },
@@ -16352,7 +16352,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from T-47D Breast Ductal Carcinoma Cell Line",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewAlignments"
       ]
     },
@@ -16401,7 +16401,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from T-47D Breast Ductal Carcinoma Cell Line, Raw Signal",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewRawSignal"
       ]
     },
@@ -16450,7 +16450,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from Testes",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewAlignments"
       ]
     },
@@ -16499,7 +16499,7 @@
       },
       "description": "Burge Lab RNA-seq 32mer Reads from Testes, Raw Signal",
       "category": [
-        "expression",
+        "Expression",
         "burgeRnaSeqGemMapperAlignViewRawSignal"
       ]
     },
@@ -16549,7 +16549,7 @@
       },
       "description": "CGAP Long SAGE",
       "category": [
-        "rna"
+        "mRNA and EST"
       ]
     },
     {
@@ -16650,7 +16650,7 @@
       },
       "description": "Coriell Cell Line Copy Number Variants",
       "category": [
-        "phenDis"
+        "Phenotypes, Variants, and Literature"
       ]
     },
     {
@@ -16793,7 +16793,7 @@
       },
       "description": "Chromosome Bands Localized by FISH Mapping Clones",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -16840,7 +16840,7 @@
       },
       "description": "Chromosome Bands Localized by FISH Mapping Clones (for Ideogram)",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -16889,7 +16889,7 @@
       },
       "description": "Human RNA Editing from the DAtabase of RNa EDiting",
       "category": [
-        "rna"
+        "mRNA and EST"
       ]
     },
     {
@@ -16939,7 +16939,7 @@
       },
       "description": "deCODE recombination map, female >= 10.0",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "hotView"
       ]
     },
@@ -16990,7 +16990,7 @@
       },
       "description": "deCODE recombination map, male >= 10.0",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "hotView"
       ]
     },
@@ -17039,7 +17039,7 @@
       },
       "description": "Denisova Reconstructed DNA Methylation Map",
       "category": [
-        "denisova"
+        "Denisova Assembly and Analysis"
       ]
     },
     {
@@ -17188,7 +17188,7 @@
       },
       "description": "Regions Used for ENCODE Pilot Project (1%)",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -17341,7 +17341,7 @@
       },
       "description": "Clones Placed on Cytogenetic Map Using FISH",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -17393,7 +17393,7 @@
       },
       "description": "Fosmid End Pairs",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -17441,7 +17441,7 @@
       },
       "description": "Genetic Association Studies of Complex Diseases and Disorders",
       "category": [
-        "phenDis"
+        "Phenotypes, Variants, and Literature"
       ]
     },
     {
@@ -17488,7 +17488,7 @@
       },
       "description": "Gap Locations",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -17536,7 +17536,7 @@
       },
       "description": "Duplications of >1000 Bases of Non-RepeatMasked Sequence",
       "category": [
-        "rep"
+        "Repeats"
       ]
     },
     {
@@ -17585,7 +17585,7 @@
       },
       "description": "Assembly from Fragments",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -19883,7 +19883,7 @@
       },
       "description": "Gene Expression in 53 tissues from GTEx RNA-seq of 8555 samples (570 donors)",
       "category": [
-        "expression"
+        "Expression"
       ]
     },
     {
@@ -19932,7 +19932,7 @@
       },
       "description": "Gene Expression in 54 tissues from GTEx RNA-seq of 17382 samples, 948 donors (V8, Aug 2019)",
       "category": [
-        "expression"
+        "Expression"
       ]
     },
     {
@@ -19983,7 +19983,7 @@
       },
       "description": "NHGRI-EBI Catalog of Published Genome-Wide Association Studies",
       "category": [
-        "phenDis"
+        "Phenotypes, Variants, and Literature"
       ]
     },
     {
@@ -20030,7 +20030,7 @@
       },
       "description": "Orthologous Alleles from Chimp (panTro2)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hapmapSnps"
       ]
     },
@@ -20078,7 +20078,7 @@
       },
       "description": "Orthologous Alleles from Macaque (rheMac2)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hapmapSnps"
       ]
     },
@@ -20126,7 +20126,7 @@
       },
       "description": "HapMap SNPs from the ASW Population (African Ancestry in SouthWestern United States)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hapmapSnps"
       ]
     },
@@ -20174,7 +20174,7 @@
       },
       "description": "HapMap SNPs from the CEU Population (Northern and Western European Ancestry in Utah, US - CEPH)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hapmapSnps"
       ]
     },
@@ -20222,7 +20222,7 @@
       },
       "description": "HapMap SNPs from the CHB Population (Han Chinese in Beijing, China)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hapmapSnps"
       ]
     },
@@ -20270,7 +20270,7 @@
       },
       "description": "HapMap SNPs from the CHD Population (Chinese Ancestry in Metropolitan Denver, CO, US)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hapmapSnps"
       ]
     },
@@ -20318,7 +20318,7 @@
       },
       "description": "HapMap SNPs from the GIH Population (Gujarati Indians in Houston, TX, US)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hapmapSnps"
       ]
     },
@@ -20366,7 +20366,7 @@
       },
       "description": "HapMap SNPs from the JPT Population (Japanese in Tokyo, Japan)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hapmapSnps"
       ]
     },
@@ -20414,7 +20414,7 @@
       },
       "description": "HapMap SNPs from the LWK Population (Luhya in Webuye, Kenya)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hapmapSnps"
       ]
     },
@@ -20462,7 +20462,7 @@
       },
       "description": "HapMap SNPs from the MEX Population (Mexican Ancestry in Los Angeles, CA, US)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hapmapSnps"
       ]
     },
@@ -20510,7 +20510,7 @@
       },
       "description": "HapMap SNPs from the MKK Population (Masai in Kinyawa, Kenya)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hapmapSnps"
       ]
     },
@@ -20558,7 +20558,7 @@
       },
       "description": "HapMap SNPs from the TSI Population (Toscani in Italia)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hapmapSnps"
       ]
     },
@@ -20606,7 +20606,7 @@
       },
       "description": "HapMap SNPs from the YRI Population (Yoruba in Ibadan, Nigeria)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "hapmapSnps"
       ]
     },
@@ -20658,7 +20658,7 @@
       },
       "description": "Contigs New to GRCh37/(hg19), Not Carried Forward from NCBI Build 36(hg18)",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -20709,7 +20709,7 @@
       },
       "description": "Contigs Dropped or Changed from GRCh37(hg19) to GRCh38(hg38)",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -20810,7 +20810,7 @@
       },
       "description": "Human Genome Diversity Project SNP Population Allele Frequencies",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -20857,7 +20857,7 @@
       },
       "description": "Top 0.10 of Read Depth Distribution",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "hiSeqDepth"
       ]
     },
@@ -20905,7 +20905,7 @@
       },
       "description": "Top 0.01 of Read Depth Distribution",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "hiSeqDepth"
       ]
     },
@@ -20953,7 +20953,7 @@
       },
       "description": "Top 0.05 of Read Depth Distribution",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "hiSeqDepth"
       ]
     },
@@ -21001,7 +21001,7 @@
       },
       "description": "Top 0.001 of Read Depth Distribution",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "hiSeqDepth"
       ]
     },
@@ -21049,7 +21049,7 @@
       },
       "description": "Top 0.005 of Read Depth Distribution",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "hiSeqDepth"
       ]
     },
@@ -21248,7 +21248,7 @@
       },
       "description": "Alignments of Illumina WG-6 3.0 Probe Set",
       "category": [
-        "expression"
+        "Expression"
       ]
     },
     {
@@ -21297,7 +21297,7 @@
       },
       "description": "ClinGen CNVs: Benign Gain Coverage",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "iscaViewTotal"
       ]
     },
@@ -21347,7 +21347,7 @@
       },
       "description": "ClinGen CNVs: Benign Loss Coverage",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "iscaViewTotal"
       ]
     },
@@ -21397,7 +21397,7 @@
       },
       "description": "ClinGen CNVs: Pathogenic Gain Coverage",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "iscaViewTotal"
       ]
     },
@@ -21447,7 +21447,7 @@
       },
       "description": "ClinGen CNVs: Pathogenic Loss Coverage",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "iscaViewTotal"
       ]
     },
@@ -21496,7 +21496,7 @@
       },
       "description": "MGI Mouse QTLs Coarsely Mapped to Human",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "jaxQtlMapped"
       ]
     },
@@ -21545,7 +21545,7 @@
       },
       "description": "MGI Mouse QTL Peak-Score Markers Padded to 100k and Coarsely Mapped to Human",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "jaxQtlMapped"
       ]
     },
@@ -22769,7 +22769,7 @@
       },
       "description": "Microsatellites - Di-nucleotide and Tri-nucleotide Repeats",
       "category": [
-        "rep"
+        "Repeats"
       ]
     },
     {
@@ -22865,7 +22865,7 @@
       },
       "description": "Fragments of Interrupted Repeats Joined by RepeatMasker ID",
       "category": [
-        "rep"
+        "Repeats"
       ]
     },
     {
@@ -23123,7 +23123,7 @@
       },
       "description": "Human NumtS",
       "category": [
-        "rep",
+        "Repeats",
         "numtSeq"
       ]
     },
@@ -23172,7 +23172,7 @@
       },
       "description": "Human NumtS Assembled",
       "category": [
-        "rep",
+        "Repeats",
         "numtSeq"
       ]
     },
@@ -23221,7 +23221,7 @@
       },
       "description": "Human NumtS on Mitochondrion",
       "category": [
-        "rep",
+        "Repeats",
         "numtSeq"
       ]
     },
@@ -23323,7 +23323,7 @@
       },
       "description": "Peptide sequences identified from MS spectra of 971 samples by PeptideAtlas",
       "category": [
-        "expression"
+        "Expression"
       ]
     },
     {
@@ -23373,7 +23373,7 @@
       },
       "description": "ABTutu Genome Variants, 454 exome",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpPSU"
       ]
     },
@@ -23424,7 +23424,7 @@
       },
       "description": "ABTutu Genome Variants, 454 exome indels",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpPSU"
       ]
     },
@@ -23475,7 +23475,7 @@
       },
       "description": "ABTutu Genome Variants, Illumina 7.2X",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpPSU"
       ]
     },
@@ -23526,7 +23526,7 @@
       },
       "description": "ABTutu Genome Variants, SOLiD",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpPSU"
       ]
     },
@@ -23578,7 +23578,7 @@
       },
       "description": "Anonymous Korean individual, AK1 (Genomic Medicine Institute)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnp1off"
       ]
     },
@@ -23629,7 +23629,7 @@
       },
       "description": "Misha Angrist (Personal Genome Project)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpPGP"
       ]
     },
@@ -23680,7 +23680,7 @@
       },
       "description": "George Church (Personal Genome Project)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpPGP"
       ]
     },
@@ -23731,7 +23731,7 @@
       },
       "description": "Henry Louis Gates Jr (Personal Genome Project)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpPGP"
       ]
     },
@@ -23782,7 +23782,7 @@
       },
       "description": "Henry Louis Gates Sr (Personal Genome Project)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpPGP"
       ]
     },
@@ -23833,7 +23833,7 @@
       },
       "description": "Rosalynn Gill (Personal Genome Project)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpPGP"
       ]
     },
@@ -23883,7 +23883,7 @@
       },
       "description": "PUR Trio Father HG00731 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -23932,7 +23932,7 @@
       },
       "description": "PUR HG00731 (Father) indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -23982,7 +23982,7 @@
       },
       "description": "PUR Trio Mother HG00732 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -24031,7 +24031,7 @@
       },
       "description": "PUR HG00732 (Mother) indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -24081,7 +24081,7 @@
       },
       "description": "PUR Trio Daughter HG00733 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -24130,7 +24130,7 @@
       },
       "description": "PUR HG00733 (Daughter) indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -24182,7 +24182,7 @@
       },
       "description": "Anonymous Irish Male",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnp1off"
       ]
     },
@@ -24233,7 +24233,7 @@
       },
       "description": "KB1 Genome Variants, 454",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpPSU"
       ]
     },
@@ -24284,7 +24284,7 @@
       },
       "description": "KB1 Genome Variants, combination of 454, Illumina, and genotyping",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpPSU"
       ]
     },
@@ -24335,7 +24335,7 @@
       },
       "description": "KB1 Genome Variants, Illumina 23.2X",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpPSU"
       ]
     },
@@ -24386,7 +24386,7 @@
       },
       "description": "KB1 indels from 454 and Illumina",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpPSU"
       ]
     },
@@ -24435,7 +24435,7 @@
       },
       "description": "Marjolein Kriek (Leiden University Medical Centre)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnp1off"
       ]
     },
@@ -24486,7 +24486,7 @@
       },
       "description": "Gregory Lucier (Life Technologies)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnp1off"
       ]
     },
@@ -24537,7 +24537,7 @@
       },
       "description": "MD8 Genome Variants (all SNPs, 16x exome)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpPSU"
       ]
     },
@@ -24588,7 +24588,7 @@
       },
       "description": "MD8 Genome Variants indels",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpPSU"
       ]
     },
@@ -24637,7 +24637,7 @@
       },
       "description": "CEU NA06985 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -24686,7 +24686,7 @@
       },
       "description": "CEU NA06985 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -24735,7 +24735,7 @@
       },
       "description": "CEU NA06994 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -24784,7 +24784,7 @@
       },
       "description": "CEU NA06994 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -24833,7 +24833,7 @@
       },
       "description": "CEU NA07357 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -24882,7 +24882,7 @@
       },
       "description": "CEU NA07357 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -24931,7 +24931,7 @@
       },
       "description": "CEU NA10851 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -24980,7 +24980,7 @@
       },
       "description": "CEU NA10851 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -25029,7 +25029,7 @@
       },
       "description": "CEU NA12004 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -25078,7 +25078,7 @@
       },
       "description": "CEU NA12004 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -25127,7 +25127,7 @@
       },
       "description": "CEU pedigree 1463, NA12877 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -25176,7 +25176,7 @@
       },
       "description": "CEU NA12877 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -25228,7 +25228,7 @@
       },
       "description": "CEU Trio Daughter NA12878 (1000 Genomes Project)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnp1kG"
       ]
     },
@@ -25277,7 +25277,7 @@
       },
       "description": "CEU pedigree 1463, NA12878 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -25326,7 +25326,7 @@
       },
       "description": "CEU NA12878 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -25375,7 +25375,7 @@
       },
       "description": "CEU pedigree 1463, NA12879 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -25424,7 +25424,7 @@
       },
       "description": "CEU NA12879 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -25473,7 +25473,7 @@
       },
       "description": "CEU pedigree 1463, NA12880 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -25522,7 +25522,7 @@
       },
       "description": "CEU NA12880 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -25571,7 +25571,7 @@
       },
       "description": "CEU pedigree 1463, NA12881 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -25620,7 +25620,7 @@
       },
       "description": "CEU NA12881 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -25669,7 +25669,7 @@
       },
       "description": "CEU pedigree 1463, NA12882 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -25718,7 +25718,7 @@
       },
       "description": "CEU NA12882 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -25767,7 +25767,7 @@
       },
       "description": "CEU pedigree 1463, NA12883 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -25816,7 +25816,7 @@
       },
       "description": "CEU NA12883 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -25865,7 +25865,7 @@
       },
       "description": "CEU pedigree 1463, NA12884 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -25914,7 +25914,7 @@
       },
       "description": "CEU NA12884 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -25963,7 +25963,7 @@
       },
       "description": "CEU pedigree 1463, NA12885 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -26012,7 +26012,7 @@
       },
       "description": "CEU NA12885 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -26061,7 +26061,7 @@
       },
       "description": "CEU pedigree 1463, NA12886 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -26110,7 +26110,7 @@
       },
       "description": "CEU NA12886 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -26159,7 +26159,7 @@
       },
       "description": "CEU pedigree 1463, NA12887 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -26208,7 +26208,7 @@
       },
       "description": "CEU NA12887 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -26257,7 +26257,7 @@
       },
       "description": "CEU pedigree 1463, NA12888 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -26306,7 +26306,7 @@
       },
       "description": "CEU NA12888 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -26355,7 +26355,7 @@
       },
       "description": "CEU pedigree 1463, NA12889 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -26404,7 +26404,7 @@
       },
       "description": "CEU NA12889 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -26453,7 +26453,7 @@
       },
       "description": "CEU pedigree 1463, NA12890 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -26502,7 +26502,7 @@
       },
       "description": "CEU NA12890 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -26554,7 +26554,7 @@
       },
       "description": "CEU Trio Father NA12891 (1000 Genomes Project)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnp1kG"
       ]
     },
@@ -26603,7 +26603,7 @@
       },
       "description": "CEU pedigree 1463, NA12891 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -26652,7 +26652,7 @@
       },
       "description": "CEU NA12891 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -26704,7 +26704,7 @@
       },
       "description": "CEU Trio Mother NA12892 (1000 Genomes Project)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnp1kG"
       ]
     },
@@ -26753,7 +26753,7 @@
       },
       "description": "CEU pedigree 1463, NA12892 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -26802,7 +26802,7 @@
       },
       "description": "CEU NA12892 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -26851,7 +26851,7 @@
       },
       "description": "CEU pedigree 1463, NA12893 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -26900,7 +26900,7 @@
       },
       "description": "CEU NA12893 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -26949,7 +26949,7 @@
       },
       "description": "YRI NA18501 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -26998,7 +26998,7 @@
       },
       "description": "YRI NA18501 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -27047,7 +27047,7 @@
       },
       "description": "YRI NA18502 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -27096,7 +27096,7 @@
       },
       "description": "YRI NA18502 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -27145,7 +27145,7 @@
       },
       "description": "YRI NA18504 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -27194,7 +27194,7 @@
       },
       "description": "YRI NA18504 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -27243,7 +27243,7 @@
       },
       "description": "YRI NA18505 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -27292,7 +27292,7 @@
       },
       "description": "YRI NA18505 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -27341,7 +27341,7 @@
       },
       "description": "YRI NA18508 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -27390,7 +27390,7 @@
       },
       "description": "YRI NA18508 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -27439,7 +27439,7 @@
       },
       "description": "YRI NA18517 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -27488,7 +27488,7 @@
       },
       "description": "YRI NA18517 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -27537,7 +27537,7 @@
       },
       "description": "CHB NA18526 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -27586,7 +27586,7 @@
       },
       "description": "CHB NA18526 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -27635,7 +27635,7 @@
       },
       "description": "CHB NA18537 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -27684,7 +27684,7 @@
       },
       "description": "CHB NA18537 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -27733,7 +27733,7 @@
       },
       "description": "CHB NA18555 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -27782,7 +27782,7 @@
       },
       "description": "CHB NA18555 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -27831,7 +27831,7 @@
       },
       "description": "CHB NA18558 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -27880,7 +27880,7 @@
       },
       "description": "CHB NA18558 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -27929,7 +27929,7 @@
       },
       "description": "JPT NA18940 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -27978,7 +27978,7 @@
       },
       "description": "JPT NA18940 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -28027,7 +28027,7 @@
       },
       "description": "JPT NA18942 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -28076,7 +28076,7 @@
       },
       "description": "JPT NA18942 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -28125,7 +28125,7 @@
       },
       "description": "JPT NA18947 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -28174,7 +28174,7 @@
       },
       "description": "JPT NA18947 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -28223,7 +28223,7 @@
       },
       "description": "JPT NA18956 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -28272,7 +28272,7 @@
       },
       "description": "JPT NA18956 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -28321,7 +28321,7 @@
       },
       "description": "LWK NA19017 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -28370,7 +28370,7 @@
       },
       "description": "LWK NA19017 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -28419,7 +28419,7 @@
       },
       "description": "LWK NA19020 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -28468,7 +28468,7 @@
       },
       "description": "LWK NA19020 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -28517,7 +28517,7 @@
       },
       "description": "LWK NA19025 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -28566,7 +28566,7 @@
       },
       "description": "LWK NA19025 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -28615,7 +28615,7 @@
       },
       "description": "LWK NA19026 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -28664,7 +28664,7 @@
       },
       "description": "LWK NA19026 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -28713,7 +28713,7 @@
       },
       "description": "YRI NA19129 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -28762,7 +28762,7 @@
       },
       "description": "YRI NA19129 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -28814,7 +28814,7 @@
       },
       "description": "YRI Trio Mother NA19238 (1000 Genomes Project)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnp1kG"
       ]
     },
@@ -28863,7 +28863,7 @@
       },
       "description": "YRI NA19238 (Mother) (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -28912,7 +28912,7 @@
       },
       "description": "YRI NA19238 (Mother) indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -28964,7 +28964,7 @@
       },
       "description": "YRI Trio Father NA19239 (1000 Genomes Project)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnp1kG"
       ]
     },
@@ -29013,7 +29013,7 @@
       },
       "description": "YRI NA19239 (Father) (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -29062,7 +29062,7 @@
       },
       "description": "YRI NA19239 (Father) indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -29114,7 +29114,7 @@
       },
       "description": "YRI Trio Daughter NA19240 (1000 Genomes Project)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnp1kG"
       ]
     },
@@ -29163,7 +29163,7 @@
       },
       "description": "YRI NA19240 (Daughter) (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -29212,7 +29212,7 @@
       },
       "description": "YRI NA19240 (Daughter) indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -29261,7 +29261,7 @@
       },
       "description": "MXL NA19648 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -29310,7 +29310,7 @@
       },
       "description": "MXL NA19648 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -29359,7 +29359,7 @@
       },
       "description": "MXL NA19649 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -29408,7 +29408,7 @@
       },
       "description": "MXL NA19649 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -29457,7 +29457,7 @@
       },
       "description": "MXL NA19669 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -29506,7 +29506,7 @@
       },
       "description": "MXL NA19669 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -29555,7 +29555,7 @@
       },
       "description": "MXL NA19670 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -29604,7 +29604,7 @@
       },
       "description": "MXL NA19670 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -29653,7 +29653,7 @@
       },
       "description": "ASW NA19700 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -29702,7 +29702,7 @@
       },
       "description": "ASW NA19700 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -29751,7 +29751,7 @@
       },
       "description": "ASW NA19701 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -29800,7 +29800,7 @@
       },
       "description": "ASW NA19701 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -29849,7 +29849,7 @@
       },
       "description": "ASW NA19703 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -29898,7 +29898,7 @@
       },
       "description": "ASW NA19703 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -29947,7 +29947,7 @@
       },
       "description": "ASW NA19704 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -29996,7 +29996,7 @@
       },
       "description": "ASW NA19704 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -30045,7 +30045,7 @@
       },
       "description": "MXL NA19735 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -30094,7 +30094,7 @@
       },
       "description": "MXL NA19735 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -30143,7 +30143,7 @@
       },
       "description": "ASW NA19834 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -30192,7 +30192,7 @@
       },
       "description": "ASW NA19834 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -30241,7 +30241,7 @@
       },
       "description": "TSI NA20502 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -30290,7 +30290,7 @@
       },
       "description": "TSI NA20502 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -30339,7 +30339,7 @@
       },
       "description": "TSI NA20509 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -30388,7 +30388,7 @@
       },
       "description": "TSI NA20509 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -30437,7 +30437,7 @@
       },
       "description": "TSI NA20510 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -30486,7 +30486,7 @@
       },
       "description": "TSI NA20510 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -30535,7 +30535,7 @@
       },
       "description": "TSI NA20511 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -30584,7 +30584,7 @@
       },
       "description": "TSI NA20511 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -30633,7 +30633,7 @@
       },
       "description": "GIH NA20845 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -30682,7 +30682,7 @@
       },
       "description": "GIH NA20845 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -30731,7 +30731,7 @@
       },
       "description": "GIH NA20846 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -30780,7 +30780,7 @@
       },
       "description": "GIH NA20846 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -30829,7 +30829,7 @@
       },
       "description": "GIH NA20847 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -30878,7 +30878,7 @@
       },
       "description": "GIH NA20847 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -30927,7 +30927,7 @@
       },
       "description": "GIH NA20850 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -30976,7 +30976,7 @@
       },
       "description": "GIH NA20850 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -31025,7 +31025,7 @@
       },
       "description": "MKK NA21732 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -31074,7 +31074,7 @@
       },
       "description": "MKK NA21732 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -31123,7 +31123,7 @@
       },
       "description": "MKK NA21733 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -31172,7 +31172,7 @@
       },
       "description": "MKK NA21733 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -31221,7 +31221,7 @@
       },
       "description": "MKK NA21737 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -31270,7 +31270,7 @@
       },
       "description": "MKK NA21737 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -31319,7 +31319,7 @@
       },
       "description": "MKK NA21767 (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -31368,7 +31368,7 @@
       },
       "description": "MKK NA21767 indel (Complete Genomics)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpCg"
       ]
     },
@@ -31419,7 +31419,7 @@
       },
       "description": "NB1 Genome Variants (all SNPs, 2X genome plus 16x exome)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpPSU"
       ]
     },
@@ -31470,7 +31470,7 @@
       },
       "description": "NB1 Genome Variants indels",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpPSU"
       ]
     },
@@ -31521,7 +31521,7 @@
       },
       "description": "Stephen Quake (Stanford)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnp1off"
       ]
     },
@@ -31572,7 +31572,7 @@
       },
       "description": "Individual from the Extinct Palaeo-Eskimo Saqqaq (Saqqaq Genome Project)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnp1off"
       ]
     },
@@ -31623,7 +31623,7 @@
       },
       "description": "Individual from the Extinct Palaeo-Eskimo Saqqaq, high confidence SNPs",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnp1off"
       ]
     },
@@ -31675,7 +31675,7 @@
       },
       "description": "Seong-Jin Kim (SJK, GUMS/KOBIC)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnp1off"
       ]
     },
@@ -31726,7 +31726,7 @@
       },
       "description": "TK1 Genome Variants (all SNPs, 16x exome)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpPSU"
       ]
     },
@@ -31777,7 +31777,7 @@
       },
       "description": "TK1 Genome Variants indels",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnpPSU"
       ]
     },
@@ -31829,7 +31829,7 @@
       },
       "description": "J. Craig Venter - Published Method 1, Variant in Original Form (JCVI)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnp1off"
       ]
     },
@@ -31881,7 +31881,7 @@
       },
       "description": "James Watson (CSHL)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnp1off"
       ]
     },
@@ -31933,7 +31933,7 @@
       },
       "description": "Han Chinese Individual (YanHuang Project)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnp1off"
       ]
     },
@@ -31985,7 +31985,7 @@
       },
       "description": "YRI NA18507 (Illumina Cambridge/Solexa, SNPs called by PSU)",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "pgSnp1off"
       ]
     },
@@ -32289,7 +32289,7 @@
       },
       "description": "Reported Poly(A) Sites from PolyA_DB",
       "category": [
-        "rna",
+        "mRNA and EST",
         "polyA"
       ]
     },
@@ -32341,7 +32341,7 @@
       },
       "description": "Predicted Poly(A) Sites Using an SVM",
       "category": [
-        "rna",
+        "mRNA and EST",
         "polyA"
       ]
     },
@@ -32397,7 +32397,7 @@
       },
       "description": "DNA Sequences in Web Pages Indexed by Bing.com / Microsoft Research",
       "category": [
-        "phenDis"
+        "Phenotypes, Variants, and Literature"
       ]
     },
     {
@@ -32446,7 +32446,7 @@
       },
       "description": "Sequences in Articles: PubmedCentral and Elsevier",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "pubs"
       ]
     },
@@ -32494,7 +32494,7 @@
       },
       "description": "Cytogenetic Bands in Publications",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "pubs"
       ]
     },
@@ -32542,7 +32542,7 @@
       },
       "description": "Gene Symbols in Publications",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "pubs"
       ]
     },
@@ -32590,7 +32590,7 @@
       },
       "description": "SNPs in Publications",
       "category": [
-        "phenDis",
+        "Phenotypes, Variants, and Literature",
         "pubs"
       ]
     },
@@ -32641,7 +32641,7 @@
       },
       "description": "Human (hg19) Whole Transcriptome qPCR Primers",
       "category": [
-        "expression"
+        "Expression"
       ]
     },
     {
@@ -32689,7 +32689,7 @@
       },
       "description": "Recombination Rate from deCODE, Marshfield, or Genethon Maps (deCODE default)",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -32739,7 +32739,7 @@
       },
       "description": "Human Quantitative Trait Locus from RGD",
       "category": [
-        "phenDis"
+        "Phenotypes, Variants, and Literature"
       ]
     },
     {
@@ -32790,7 +32790,7 @@
       },
       "description": "Rat Quantitative Trait Locus from RGD Coarsely Mapped to Human",
       "category": [
-        "phenDis"
+        "Phenotypes, Variants, and Literature"
       ]
     },
     {
@@ -32839,7 +32839,7 @@
       },
       "description": "Repeating Elements by RepeatMasker",
       "category": [
-        "rep"
+        "Repeats"
       ]
     },
     {
@@ -32888,7 +32888,7 @@
       },
       "description": "Gene Boundaries as Defined by RNA and Spliced EST Clusters",
       "category": [
-        "rna"
+        "mRNA and EST"
       ]
     },
     {
@@ -32935,7 +32935,7 @@
       },
       "description": "Simple Tandem Repeats by TRF",
       "category": [
-        "rep"
+        "Repeats"
       ]
     },
     {
@@ -32983,7 +32983,7 @@
       },
       "description": "STS Markers on Genetic (blue) and Radiation Hybrid (black) Maps",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -33430,7 +33430,7 @@
       },
       "description": "Accession at INSDC - International Nucleotide Sequence Database Collaboration",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -33478,7 +33478,7 @@
       },
       "description": "RefSeq Accession",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -33578,7 +33578,7 @@
       },
       "description": "Genomic Intervals Masked by WindowMasker + SDust",
       "category": [
-        "rep"
+        "Repeats"
       ]
     },
     {
@@ -34657,6 +34657,27 @@
       "description": "Non-Human RefSeq Genes",
       "category": [
         "genes"
+      ]
+    }
+  ],
+  "aggregateTextSearchAdapters": [
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "hg19-index",
+      "ixFilePath": {
+        "uri": "trix/hg19.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/hg19.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/hg19_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "hg19"
       ]
     }
   ]

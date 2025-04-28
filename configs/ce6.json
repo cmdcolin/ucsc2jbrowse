@@ -60,7 +60,7 @@
       },
       "description": "25mers repeat annotation",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -206,7 +206,7 @@
       },
       "description": "Microsatellites - Di-nucleotide and Tri-nucleotide Repeats",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -254,7 +254,7 @@
       },
       "description": "Fragments of Interrupted Repeats Joined by RepeatMasker ID",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -301,7 +301,7 @@
       },
       "description": "mononucleosome control",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "nucleosome"
       ]
     },
@@ -349,7 +349,7 @@
       },
       "description": "mononucleosomal fragments, antisense strand reads",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "nucleosome"
       ]
     },
@@ -397,7 +397,7 @@
       },
       "description": "mononucleosomal fragments, sense strand reads",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "nucleosome"
       ]
     },
@@ -546,7 +546,7 @@
       },
       "description": "Simple Tandem Repeats by TRF",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {

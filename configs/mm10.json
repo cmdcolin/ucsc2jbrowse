@@ -430,7 +430,7 @@
       },
       "description": "Short Genetic Variants from European Variant Archive Release 3",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "evaSnpContainer"
       ]
     },
@@ -880,7 +880,7 @@
       },
       "description": "Short Genetic Variants from European Variant Archive Release 4",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "evaSnpContainer"
       ]
     },
@@ -1381,7 +1381,7 @@
       },
       "description": "Short Genetic Variants from European Variant Archive Release 5",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "evaSnpContainer"
       ]
     },
@@ -1775,7 +1775,7 @@
       },
       "description": "Short Genetic Variants from European Variant Archive Release 6",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "evaSnpContainer"
       ]
     },
@@ -20200,7 +20200,7 @@
       },
       "description": "All gaps of unknown nucleotides (N's), including AGP annotated gaps",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -66064,7 +66064,7 @@
       },
       "description": "Contig fragments used in the assembly",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -66113,7 +66113,7 @@
       },
       "description": "C57BL/6N mouse BAC clone set",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "cloneEndSuper"
       ]
     },
@@ -66163,7 +66163,7 @@
       },
       "description": "C3H iBAC library",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "cloneEndSuper"
       ]
     },
@@ -66213,7 +66213,7 @@
       },
       "description": "CHORI-29 NOD/LtJ BAC library",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "cloneEndSuper"
       ]
     },
@@ -66263,7 +66263,7 @@
       },
       "description": "DIL (Diabetes and Inflammation Laboratory) NOD BAC library",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "cloneEndSuper"
       ]
     },
@@ -66313,7 +66313,7 @@
       },
       "description": "MICER 5'Hprt library",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "cloneEndSuper"
       ]
     },
@@ -66363,7 +66363,7 @@
       },
       "description": "MICER 3'Hprt library",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "cloneEndSuper"
       ]
     },
@@ -66413,7 +66413,7 @@
       },
       "description": "Mus musculus molossinus male BAC library 1",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "cloneEndSuper"
       ]
     },
@@ -66463,7 +66463,7 @@
       },
       "description": "RPCI-23 C57BL/6J female BAC library",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "cloneEndSuper"
       ]
     },
@@ -66513,7 +66513,7 @@
       },
       "description": "RPCI-24 C57BL/6J male BAC library",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "cloneEndSuper"
       ]
     },
@@ -66563,7 +66563,7 @@
       },
       "description": "WIBR-1 fosmid library",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "cloneEndSuper"
       ]
     },
@@ -66613,7 +66613,7 @@
       },
       "description": "B94_mq1 129S7/SvEv ES cell BAC library",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "cloneEndSuper"
       ]
     },
@@ -66663,7 +66663,7 @@
       },
       "description": "Clone end placements dropped at UCSC, map distance 3X median library size",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "cloneEndSuper"
       ]
     },
@@ -66713,7 +66713,7 @@
       },
       "description": "Clone end placements that map to multiple locations in the genome",
       "category": [
-        "map",
+        "Mapping and Sequencing",
         "cloneEndSuper"
       ]
     },
@@ -66907,7 +66907,7 @@
       },
       "description": "Chromosome Bands Based On Microscopy",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -66955,7 +66955,7 @@
       },
       "description": "Chromosome Bands Based on Microscopy (for Ideogram)",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -67002,7 +67002,7 @@
       },
       "description": "Gap Locations",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -67050,7 +67050,7 @@
       },
       "description": "Duplications of >1000 Bases of Non-RepeatMasked Sequence",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -67099,7 +67099,7 @@
       },
       "description": "Assembly from Fragments",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -67151,7 +67151,7 @@
       },
       "description": "Mouse Genome Informatics Quantitative Trait Loci ***Lifted from NCBI 37 (mm9)***",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -67247,7 +67247,7 @@
       },
       "description": "Microsatellites - Di-nucleotide and Tri-nucleotide Repeats",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -67297,7 +67297,7 @@
       },
       "description": "Alternate mouse strains, mapped to their corresponding reference genome location",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "mm10Strains1"
       ]
     },
@@ -67346,7 +67346,7 @@
       },
       "description": "Fragments of Interrupted Repeats Joined by RepeatMasker ID",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -67646,7 +67646,7 @@
       },
       "description": "Repeating Elements by RepeatMasker",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -67694,7 +67694,7 @@
       },
       "description": "RepeatMasker v3.0.1 db20100302 : Browser Baseline Dataset",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "joinedRmsk"
       ]
     },
@@ -67742,7 +67742,7 @@
       },
       "description": "RepeatMasker v4.0.7 Dfam_2.0 : Current Dataset",
       "category": [
-        "varRep",
+        "Variation and Repeats",
         "joinedRmsk"
       ]
     },
@@ -67790,7 +67790,7 @@
       },
       "description": "Simple Tandem Repeats by TRF",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -67936,7 +67936,7 @@
       },
       "description": "Accession at INSDC - International Nucleotide Sequence Database Collaboration",
       "category": [
-        "map"
+        "Mapping and Sequencing"
       ]
     },
     {
@@ -67983,7 +67983,7 @@
       },
       "description": "Genomic Intervals Masked by WindowMasker + SDust",
       "category": [
-        "varRep"
+        "Variation and Repeats"
       ]
     },
     {
@@ -68649,6 +68649,27 @@
       "description": "Non-Mouse RefSeq Genes",
       "category": [
         "genes"
+      ]
+    }
+  ],
+  "aggregateTextSearchAdapters": [
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "mm10-index",
+      "ixFilePath": {
+        "uri": "trix/mm10.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/mm10.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/mm10_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "mm10"
       ]
     }
   ]
